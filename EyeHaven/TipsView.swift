@@ -647,8 +647,8 @@ private struct CatalogStoryBrowser: View {
                         pageCount: pageCount
                     )
 
-                    if onComicPage {
-                        MiniPlayerDock()
+                    if onComicPage, let story = previewStory {
+                        MiniPlayerDock(boundStory: story, queue: stories)
                             .padding(.top, 4)
                     }
 
@@ -926,17 +926,24 @@ struct BedtimeStoryPage: View {
     @Environment(MembershipStore.self) private var membership
     @State private var audio = BedtimeAudioPlayer.shared
     @State private var comicPage = 0
+    /// 点下一首/上一首后，页面跟着换成那一篇内容
+    @State private var displayedStory: BedtimeStory
+
+    init(story: BedtimeStory) {
+        self.story = story
+        _displayedStory = State(initialValue: story)
+    }
 
     private var isThisPlaying: Bool {
-        audio.playingId == story.id && audio.isPlaying
+        audio.playingId == displayedStory.id && audio.isPlaying
     }
 
     private var hasAudio: Bool {
-        audio.hasAudio(for: story.id)
+        audio.hasAudio(for: displayedStory.id)
     }
 
     private var comicURLs: [URL] {
-        BedtimeComics.panelURLs(for: story.id)
+        BedtimeComics.panelURLs(for: displayedStory.id)
     }
 
     static func playQueue(for story: BedtimeStory) -> [BedtimeStory] {
@@ -955,10 +962,10 @@ struct BedtimeStoryPage: View {
                     .frame(maxWidth: .infinity)
                 }
 
-                Text("\(story.shelfTitle) · \(story.ageTitle)")
+                Text("\(displayedStory.shelfTitle) · \(displayedStory.ageTitle)")
                     .font(.caption.weight(.semibold))
                     .foregroundStyle(Palette.gold)
-                Text(story.title)
+                Text(displayedStory.title)
                     .font(HavenLayout.isPad ? .largeTitle.weight(.bold) : .title.weight(.bold))
                     .foregroundStyle(Palette.pine)
 
@@ -971,13 +978,13 @@ struct BedtimeStoryPage: View {
                         audio.togglePauseResume()
                         return
                     }
-                    guard membership.requestPlay(story) else { return }
-                    let queue = Self.playQueue(for: story)
-                    audio.toggle(story, queue: queue)
+                    guard membership.requestPlay(displayedStory) else { return }
+                    let queue = Self.playQueue(for: displayedStory)
+                    audio.toggle(displayedStory, queue: queue)
                 } label: {
                     Label(
-                        isThisPlaying ? "Pause" : (membership.showsLock(for: story) ? "Pass required" : "Listen"),
-                        systemImage: isThisPlaying ? "pause.fill" : (membership.showsLock(for: story) ? "lock.fill" : "play.fill")
+                        isThisPlaying ? "Pause" : (membership.showsLock(for: displayedStory) ? "Pass required" : "Listen"),
+                        systemImage: isThisPlaying ? "pause.fill" : (membership.showsLock(for: displayedStory) ? "lock.fill" : "play.fill")
                     )
                     .font(.headline.weight(.semibold))
                     .frame(maxWidth: .infinity)
@@ -985,7 +992,7 @@ struct BedtimeStoryPage: View {
                 }
                 .buttonStyle(.borderedProminent)
                 .tint(Palette.moss)
-                .disabled(!hasAudio && !membership.showsLock(for: story))
+                .disabled(!hasAudio && !membership.showsLock(for: displayedStory))
                 .accessibilityLabel(isThisPlaying ? "Pause" : "Listen")
 
                 if !hasAudio {
@@ -994,7 +1001,7 @@ struct BedtimeStoryPage: View {
                         .foregroundStyle(Palette.dusk.opacity(0.75))
                 }
 
-                Text(story.text)
+                Text(displayedStory.text)
                     .font(HavenLayout.isPad ? .title3 : .body)
                     .foregroundStyle(Palette.dusk)
                     .lineSpacing(8)
@@ -1006,6 +1013,20 @@ struct BedtimeStoryPage: View {
         }
         .background(Palette.foam.ignoresSafeArea())
         .navigationBarTitleDisplayMode(.inline)
+        .id(displayedStory.id)
+        .onChange(of: story.id) { _, _ in
+            displayedStory = story
+            comicPage = 0
+        }
+        .onChange(of: audio.playingId) { _, newId in
+            guard let newId,
+                  let next = Self.playQueue(for: displayedStory).first(where: { $0.id == newId })
+                    ?? BedtimeCatalogStore.shared.story(id: newId)
+            else { return }
+            guard next.id != displayedStory.id else { return }
+            displayedStory = next
+            comicPage = 0
+        }
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
                 BedtimeNowPlayingButton()
@@ -1040,8 +1061,8 @@ struct BedtimeStoryPage: View {
                     .fill(Palette.mist)
             )
 
-            // 进书后：控制框在插图正下方居中
-            MiniPlayerDock()
+            // 进书后：控制框在插图正下方居中，只控本篇；听完不自动下一篇
+            MiniPlayerDock(boundStory: displayedStory, queue: Self.playQueue(for: displayedStory))
 
             Text("Panel \(comicPage + 1) / \(comicURLs.count) · double-tap full screen")
                 .font(.caption2.weight(.semibold))
@@ -1328,9 +1349,33 @@ private struct GuangguangBanner: View {
     }
 }
 
-/// 迷你播放台：上一篇 / 播放 / 下一篇 / 语速。进书后放在插图下方居中。
+/// 迷你播放台：上一篇 / 播放 / 下一篇 / 语速。绑定当前书时只控本篇；听完不自动跳，点下一首才换。
 private struct MiniPlayerDock: View {
+    var boundStory: BedtimeStory? = nil
+    var queue: [BedtimeStory] = []
+
+    @Environment(MembershipStore.self) private var membership
     @State private var audio = BedtimeAudioPlayer.shared
+
+    private var isBoundPlaying: Bool {
+        guard let id = boundStory?.id else { return audio.isPlaying }
+        return audio.playingId == id && audio.isPlaying
+    }
+
+    private var canToggleBound: Bool {
+        if let story = boundStory {
+            return audio.hasAudio(for: story.id) || membership.showsLock(for: story)
+        }
+        return audio.canControlPlayback || audio.nowPlayingStory != nil
+    }
+
+    private var playQueue: [BedtimeStory] {
+        if !queue.isEmpty { return queue }
+        if let story = boundStory {
+            return BedtimeStoryPage.playQueue(for: story)
+        }
+        return []
+    }
 
     var body: some View {
         HStack {
@@ -1338,27 +1383,27 @@ private struct MiniPlayerDock: View {
             HStack(spacing: 10) {
                 dockIconButton(
                     systemName: "backward.end.fill",
-                    enabled: audio.canPlayPrevious,
+                    enabled: canStepPrevious,
                     label: "Previous"
                 ) {
-                    audio.playPrevious()
+                    stepPrevious()
                 }
 
                 dockIconButton(
-                    systemName: audio.isPlaying ? "pause.fill" : "play.fill",
-                    enabled: audio.canControlPlayback || audio.nowPlayingStory != nil,
-                    label: audio.isPlaying ? "Pause" : "Play",
+                    systemName: isBoundPlaying ? "pause.fill" : "play.fill",
+                    enabled: canToggleBound,
+                    label: isBoundPlaying ? "Pause" : "Play",
                     prominent: true
                 ) {
-                    audio.togglePauseResume()
+                    toggleBoundOrGlobal()
                 }
 
                 dockIconButton(
                     systemName: "forward.end.fill",
-                    enabled: audio.canPlayNext,
+                    enabled: canStepNext,
                     label: "Next"
                 ) {
-                    audio.playNext()
+                    stepNext()
                 }
 
                 Button {
@@ -1388,6 +1433,62 @@ private struct MiniPlayerDock: View {
             )
             Spacer(minLength: 0)
         }
+    }
+
+    private var shelfQueue: [BedtimeStory] {
+        playQueue.filter { audio.hasAudio(for: $0.id) }
+    }
+
+    private var canStepPrevious: Bool {
+        if let story = boundStory, let idx = shelfQueue.firstIndex(where: { $0.id == story.id }) {
+            return idx > 0
+        }
+        return audio.canPlayPrevious
+    }
+
+    private var canStepNext: Bool {
+        if let story = boundStory, let idx = shelfQueue.firstIndex(where: { $0.id == story.id }) {
+            return idx + 1 < shelfQueue.count
+        }
+        return audio.canPlayNext
+    }
+
+    private func toggleBoundOrGlobal() {
+        guard let story = boundStory else {
+            audio.togglePauseResume()
+            return
+        }
+        if audio.playingId == story.id {
+            audio.togglePauseResume()
+            return
+        }
+        guard membership.requestPlay(story) else { return }
+        audio.play(story, queue: playQueue, autoAdvance: false)
+    }
+
+    private func stepPrevious() {
+        guard let story = boundStory else {
+            audio.playPrevious()
+            return
+        }
+        let q = shelfQueue
+        guard let idx = q.firstIndex(where: { $0.id == story.id }), idx > 0 else { return }
+        let prev = q[idx - 1]
+        guard membership.requestPlay(prev) else { return }
+        audio.play(prev, queue: q, autoAdvance: false)
+    }
+
+    private func stepNext() {
+        guard let story = boundStory else {
+            audio.playNext()
+            return
+        }
+        let q = shelfQueue
+        guard let idx = q.firstIndex(where: { $0.id == story.id }), idx + 1 < q.count else { return }
+        let next = q[idx + 1]
+        guard membership.requestPlay(next) else { return }
+        // 只有点下一首才换篇内容
+        audio.play(next, queue: q, autoAdvance: false)
     }
 
     private func dockIconButton(

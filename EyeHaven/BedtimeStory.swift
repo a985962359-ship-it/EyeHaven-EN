@@ -50,6 +50,8 @@ final class BedtimeAudioPlayer {
     private var didSetupRemote = false
     /// 当前书架队列；播完自动找下一篇有声音的
     private var queue: [BedtimeStory] = []
+    /// 听完一篇是否自动下一篇。书架/进书默认 false，只点「下一首」才换；休息页连播为 true。
+    private var autoAdvanceWhenFinished = false
     /// 开篇先播火山「请听+标题」，再播正文
     private let titleSynth = AVSpeechSynthesizer()
     private let titleBridge = TitleSpeechBridge()
@@ -139,12 +141,13 @@ final class BedtimeAudioPlayer {
         }
     }
 
-    func play(_ story: BedtimeStory, queue: [BedtimeStory]? = nil) {
+    func play(_ story: BedtimeStory, queue: [BedtimeStory]? = nil, autoAdvance: Bool = false) {
         // 会员未开通且超出免费试听时不播（商店商品未上架则不拦截）
         guard MembershipStore.shared.canPlay(story) else {
             MembershipStore.shared.showPaywall = true
             return
         }
+        autoAdvanceWhenFinished = autoAdvance
         if let queue {
             self.queue = queue.filter { hasAudio(for: $0.id) && MembershipStore.shared.canPlay($0) }
         } else if self.queue.isEmpty || !self.queue.contains(where: { $0.id == story.id }) {
@@ -310,7 +313,7 @@ final class BedtimeAudioPlayer {
         } else {
             start = q[0]
         }
-        play(start, queue: q)
+        play(start, queue: q, autoAdvance: true)
     }
 
     func toggleRestListening() {
@@ -327,9 +330,9 @@ final class BedtimeAudioPlayer {
         queue = q
         if let id = playingId ?? lastStoryId, let idx = q.firstIndex(where: { $0.id == id }) {
             let next = idx + 1 < q.count ? q[idx + 1] : q[0]
-            play(next, queue: q)
+            play(next, queue: q, autoAdvance: true)
         } else {
-            play(q[0], queue: q)
+            play(q[0], queue: q, autoAdvance: true)
         }
     }
 
@@ -372,14 +375,16 @@ final class BedtimeAudioPlayer {
         ensureQueueForCurrentIfNeeded()
         let id = playingId ?? lastStoryId
         guard let id, let idx = queue.firstIndex(where: { $0.id == id }), idx > 0 else { return }
-        play(queue[idx - 1])
+        // 手动上一篇：不自动连播
+        play(queue[idx - 1], queue: queue, autoAdvance: false)
     }
 
     func playNext() {
         ensureQueueForCurrentIfNeeded()
         let id = playingId ?? lastStoryId
         guard let id, let idx = queue.firstIndex(where: { $0.id == id }), idx + 1 < queue.count else { return }
-        play(queue[idx + 1])
+        // 只有点「下一首」才换篇；听完不自动跳
+        play(queue[idx + 1], queue: queue, autoAdvance: false)
     }
 
     /// 只有 lastStoryId、队列空时，补上同书架可听队列。
@@ -431,6 +436,11 @@ final class BedtimeAudioPlayer {
     }
 
     private func playNextAfterEnd() {
+        // 书架/进书：听完停在本篇，不自动下一篇（点控制器下一首才换）
+        guard autoAdvanceWhenFinished else {
+            finishCurrentStoryStayOnPage()
+            return
+        }
         guard let id = playingId,
               let idx = queue.firstIndex(where: { $0.id == id })
         else {
@@ -444,13 +454,30 @@ final class BedtimeAudioPlayer {
         }
         let next = queue[nextIndex]
         cancelGapTask()
-        // 一篇听完，停 3 秒再念下一篇标题
+        // 休息连播：一篇听完，停 3 秒再念下一篇标题
         gapTask = Task { @MainActor in
             try? await Task.sleep(for: .seconds(Self.betweenStoriesGapSeconds))
             guard !Task.isCancelled else { return }
             guard self.playingId == id, self.isPlaying else { return }
-            self.play(next)
+            self.play(next, queue: self.queue, autoAdvance: true)
         }
+    }
+
+    /// 本篇播完：停止播放，仍停在当前篇，方便点播放重听或点下一首。
+    private func finishCurrentStoryStayOnPage() {
+        cancelGapTask()
+        stopTitleSpeech()
+        waitingToStartBody = false
+        isAnnouncingTitle = false
+        isPlaying = false
+        if let player {
+            player.pause()
+            player.seek(to: .zero)
+        }
+        if let story = nowPlayingStory {
+            updateNowPlaying(for: story)
+        }
+        releaseSessionIfIdle()
     }
 
     private func tearDownPlayer() {
