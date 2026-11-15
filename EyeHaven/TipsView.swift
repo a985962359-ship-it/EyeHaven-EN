@@ -1235,9 +1235,7 @@ private struct GuangguangBanner: View {
     }
 
     private func fullComicPage(url: URL, index: Int) -> some View {
-        ZStack(alignment: .bottom) {
-            bannerBackground
-
+        VStack(spacing: 8) {
             ComicZoomableImage(
                 urls: comicURLs,
                 displayIndex: index,
@@ -1250,18 +1248,20 @@ private struct GuangguangBanner: View {
                 )
             )
             .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .padding(.horizontal, 4)
-            .padding(.top, 4)
-            .padding(.bottom, 22)
+            .padding(.horizontal, 6)
+            .padding(.top, 6)
+
+            // 控制框：插图正下方居中（上一篇 / 播放 / 下一篇 / 语速）
+            MiniPlayerDock()
+                .frame(maxWidth: .infinity)
 
             Text("Comic \(index + 1)/\(comicURLs.count) · swipe · double-tap full screen")
                 .font(.caption2.weight(.semibold))
                 .foregroundStyle(Palette.pine)
-                .padding(.horizontal, 10)
-                .padding(.vertical, 3)
-                .background(Capsule().fill(Palette.foam.opacity(0.92)))
-                .padding(.bottom, 4)
+                .padding(.bottom, 6)
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(bannerBackground)
         .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
         .accessibilityLabel("Comic panel \(index + 1) of \(comicURLs.count). Swipe panels. Double tap for full screen.")
     }
@@ -1317,63 +1317,66 @@ private struct GuangguangBanner: View {
     }
 }
 
-/// 左下迷你台：上一篇 / 播放 / 下一篇 / 语速。
+/// 迷你播放台：上一篇 / 播放 / 下一篇 / 语速。插图页放在图下方居中。
 private struct MiniPlayerDock: View {
     @State private var audio = BedtimeAudioPlayer.shared
 
     var body: some View {
-        HStack(spacing: 10) {
-            dockIconButton(
-                systemName: "backward.end.fill",
-                enabled: audio.canPlayPrevious,
-                label: "Previous"
-            ) {
-                audio.playPrevious()
-            }
+        HStack {
+            Spacer(minLength: 0)
+            HStack(spacing: 10) {
+                dockIconButton(
+                    systemName: "backward.end.fill",
+                    enabled: audio.canPlayPrevious,
+                    label: "Previous"
+                ) {
+                    audio.playPrevious()
+                }
 
-            dockIconButton(
-                systemName: audio.isPlaying ? "pause.fill" : "play.fill",
-                enabled: audio.canControlPlayback || audio.nowPlayingStory != nil,
-                label: audio.isPlaying ? "Pause" : "Play",
-                prominent: true
-            ) {
-                audio.togglePauseResume()
-            }
+                dockIconButton(
+                    systemName: audio.isPlaying ? "pause.fill" : "play.fill",
+                    enabled: audio.canControlPlayback || audio.nowPlayingStory != nil,
+                    label: audio.isPlaying ? "Pause" : "Play",
+                    prominent: true
+                ) {
+                    audio.togglePauseResume()
+                }
 
-            dockIconButton(
-                systemName: "forward.end.fill",
-                enabled: audio.canPlayNext,
-                label: "Next"
-            ) {
-                audio.playNext()
-            }
+                dockIconButton(
+                    systemName: "forward.end.fill",
+                    enabled: audio.canPlayNext,
+                    label: "Next"
+                ) {
+                    audio.playNext()
+                }
 
-            Button {
-                audio.cyclePlaybackRate()
-            } label: {
-                Text(audio.rateLabel)
-                    .font(.caption.weight(.bold))
-                    .foregroundStyle(Palette.pine)
-                    .lineLimit(1)
-                    .fixedSize(horizontal: true, vertical: false)
-                    .padding(.horizontal, 10)
-                    .padding(.vertical, 7)
-                    .background(
-                        Capsule(style: .continuous)
-                            .fill(Palette.sage.opacity(0.55))
-                    )
+                Button {
+                    audio.cyclePlaybackRate()
+                } label: {
+                    Text(audio.rateLabel)
+                        .font(.caption.weight(.bold))
+                        .foregroundStyle(Palette.pine)
+                        .lineLimit(1)
+                        .fixedSize(horizontal: true, vertical: false)
+                        .padding(.horizontal, 10)
+                        .padding(.vertical, 7)
+                        .background(
+                            Capsule(style: .continuous)
+                                .fill(Palette.sage.opacity(0.55))
+                        )
+                }
+                .buttonStyle(.plain)
+                .layoutPriority(1)
+                .accessibilityLabel("Speed \(audio.rateLabel)")
             }
-            .buttonStyle(.plain)
-            .layoutPriority(1)
-            .accessibilityLabel("Speed \(audio.rateLabel)")
+            .padding(.horizontal, 8)
+            .padding(.vertical, 8)
+            .background(
+                RoundedRectangle(cornerRadius: 14, style: .continuous)
+                    .fill(Palette.foam.opacity(0.95))
+            )
+            Spacer(minLength: 0)
         }
-        .padding(.horizontal, 8)
-        .padding(.vertical, 8)
-        .fixedSize(horizontal: true, vertical: false)
-        .background(
-            RoundedRectangle(cornerRadius: 14, style: .continuous)
-                .fill(Palette.foam.opacity(0.95))
-        )
     }
 
     private func dockIconButton(
