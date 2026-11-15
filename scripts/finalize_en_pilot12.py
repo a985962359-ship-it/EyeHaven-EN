@@ -14,9 +14,15 @@ sys.path.insert(0, "/Users/song/qwen3-tts/comic_batch")
 from stable_caption import fill_bubbles  # noqa: E402
 
 PLAN = Path("/Users/song/qwen3-tts/comic_batch/comics_plan_en_pilot12.json")
+PLAN_B2 = Path("/Users/song/qwen3-tts/comic_batch/comics_plan_en_pilot12_b2.json")
 ASSETS = Path(
     "/Users/song/Library/Application Support/Cursor/AgentStores/"
     "cursor_agent_stores/bc-6341924c-d627-5e70-8277-ff97645af6c8/files/artifacts/assets"
+)
+# Parent store artifacts (coordinator) also hold generated panels sometimes
+ASSETS_PARENT = Path(
+    "/Users/song/Library/Application Support/Cursor/AgentStores/"
+    "cursor_agent_stores/bc-b474c295-0680-491b-a693-72941041732d/files/artifacts/assets"
 )
 RAW = Path("/Users/song/qwen3-tts/comic_batch/en_work/_raw_pilot")
 WORK = Path("/Users/song/qwen3-tts/comic_batch/en_work")
@@ -31,12 +37,15 @@ if Path(EN_FONT).exists():
 
 def find_asset(story_id: str, i: int) -> Path | None:
     stem = f"c-{story_id}-{i:02d}"
-    for base in (RAW, ASSETS):
+    bases = [RAW, ASSETS, ASSETS_PARENT]
+    for base in bases:
+        if not base.exists():
+            continue
         for ext in (".jpg", ".png", ".jpeg"):
             p = base / f"{stem}{ext}"
             if p.exists():
                 return p
-    for base in (RAW, ASSETS):
+    for base in bases:
         if not base.exists():
             continue
         for p in base.rglob(f"{stem}.*"):
@@ -45,11 +54,23 @@ def find_asset(story_id: str, i: int) -> Path | None:
     return None
 
 
+def load_plan(story_id: str | None = None) -> list:
+    plans: list = []
+    for path in (PLAN, PLAN_B2):
+        if path.exists():
+            plans.extend(json.loads(path.read_text(encoding="utf-8")))
+    # de-dupe by id keeping last (b2 overrides)
+    by_id = {}
+    for ep in plans:
+        by_id[ep["id"]] = ep
+    eps = list(by_id.values())
+    if story_id:
+        eps = [ep for ep in eps if ep["id"] == story_id]
+    return eps
+
+
 def process(story_id: str | None = None) -> None:
-    plan = json.loads(PLAN.read_text(encoding="utf-8"))
-    for ep in plan:
-        if story_id and ep["id"] != story_id:
-            continue
+    for ep in load_plan(story_id):
         sid = ep["id"]
         work = WORK / f"{sid}-12"
         work.mkdir(parents=True, exist_ok=True)

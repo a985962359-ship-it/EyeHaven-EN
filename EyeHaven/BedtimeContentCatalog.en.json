@@ -1,6 +1,6 @@
 {
   "version": 20261114,
-  "updatedAt": "2026-11-15",
+  "updatedAt": "2026-11-16",
   "ages": [
     {
       "id": "child",
@@ -632,7 +632,7 @@
       "age": "child",
       "shelf": "body",
       "title": "Why Do We Blink?",
-      "text": "Guangguang tries not to blink. Impossible!\n\nBlinking spreads tears like a thin cleaning wipe across your eyes. It washes dust and keeps the surface moist so seeing stays clear and comfortable. Most blinks happen without thinking.\n\nScreens can make us blink less, so eyes feel dry. Soft blinks and looking far away help. Your eyelids are tiny windshield wipers.",
+      "text": "Guangguang tries not to blink. Impossible!\n\nYour eyelids close and open—blink, blink.\n\nEach blink spreads tears like a tiny wipe.\n\nTears wash away dust so eyes stay clear.\n\nMoist eyes feel soft and comfortable.\n\nMost blinks happen without you thinking.\n\nScreens can make us blink less often.\n\nFewer blinks mean eyes feel dry and tired.\n\nSoft, slow blinks help the surface shine.\n\nLook far away for a gentle eye break.\n\nYour eyelids are tiny windshield wipers.\n\nBlink kindly—then your eyes say thank you.",
       "group": null
     },
     {
@@ -808,7 +808,7 @@
       "age": "child",
       "shelf": "space",
       "title": "Why Does the Moon Follow Us?",
-      "text": "On a car ride, the Moon seems to tag along. “Is it chasing us?” asks Guangguang.\n\nThe Moon is very far away. Nearby trees zoom past because we’re close to them. Far things seem to move slowly—or look like they follow you—even though the Moon is orbiting Earth on its own path.\n\nIt’s a trick of distance and perspective, not a friendly Moon jog. Still, it’s a cozy feeling: the same Moon watching over many towns at once.",
+      "text": "On a car ride, the Moon seems to tag along.\n\nGuangguang asks, \"Is the Moon chasing us?\"\n\nNearby trees zoom past the window fast.\n\nThe Moon is very, very far away.\n\nFar things seem to move slowly beside you.\n\nSo the Moon looks like a friendly follower.\n\nIt isn't jogging after the car at all.\n\nThe Moon orbits Earth on its own path.\n\nDistance and perspective play this cozy trick.\n\nMany towns see the same bright Moon tonight.\n\nNot a chase—just space looking close.\n\nWave hello. The Moon keeps its quiet watch.",
       "group": null
     },
     {
@@ -1000,7 +1000,7 @@
       "age": "child",
       "shelf": "how",
       "title": "Why Do Shadows Follow Us?",
-      "text": "Guangguang spins; the shadow spins too.\n\nA shadow appears when something blocks light. The dark shape falls on the ground or wall behind you. As you move, the blocked area moves—so the shadow seems to follow.\n\nMove the lamp, and shadows stretch or shrink. At noon the Sun is high and shadows are short; later they grow long. Shadows are light’s quiet footprints.",
+      "text": "Guangguang spins. The shadow spins too!\n\nA shadow appears when something blocks light.\n\nLight hits you; a dark shape falls behind.\n\nMove left—the blocked spot moves left.\n\nThat's why the shadow seems to follow.\n\nMove the lamp, and shadows stretch or shrink.\n\nAt noon the Sun is high; shadows stay short.\n\nLater, long shadows walk across the ground.\n\nSoft light makes fuzzy edges; hard light looks sharp.\n\nShadows are light's quiet footprints.\n\nNo feet of their own—just blocked brightness.\n\nDance once. Your shadow dances with you.",
       "group": null
     },
     {
@@ -1232,7 +1232,7 @@
       "age": "child",
       "shelf": "weather",
       "title": "Why Do Rainbows Appear?",
-      "text": "Colors arc after a shower.\n\nSunlight enters raindrops, bends, reflects inside, and bends again. Different colors bend by different amounts, so we see a spread—red to violet. You need sun behind you and drops in front.\n\nRainbows aren’t a place you can walk to; they’re light’s geometry in water drops.",
+      "text": "After a shower, colors arc across the sky.\n\nGuangguang points. \"Where did that bow come from?\"\n\nSunlight slips into tiny raindrops.\n\nInside each drop, light bends and reflects.\n\nDifferent colors bend by different amounts.\n\nRed, orange, yellow—then green to violet.\n\nYou need sun behind you and drops ahead.\n\nThe bow isn't a road you can walk on.\n\nIt's light's geometry painted in water.\n\nMove a little; the rainbow seems to move too.\n\nSame sunshine, same drops—new place to stand.\n\nAfter rain, look opposite the Sun and smile.",
       "group": null
     },
     {
@@ -1576,7 +1576,7 @@
       "age": "child",
       "shelf": "safety",
       "title": "Eyes Get Tired—Time to Rest",
-      "text": "Please listen. Guangguang Safety Theater. Episode 1. Eyes Get Tired—Time to Rest.\n\nGuangguang: Max, you're staring at that screen like a statue.\nMax: One more minute! Just one!\nGuangguang: One minute often turns into eleven. Sore eyes and fewer blinks? That's the alarm.\nMax: How do I turn the alarm off?\nGuangguang: Stop. Look far away. Blink. Stand up and walk a little. Eye care isn't winning or losing—it's taking care of you.\nMax: So after this episode I stop?\nGuangguang: After this episode—you stop. Say it, do it. Then you pass Safety Theater.",
+      "text": "Please listen. Guangguang Safety Theater. Eyes Get Tired—Time to Rest.\n\nGuangguang: Max, you're staring at that screen like a statue.\n\nMax: One more minute! Just one!\n\nGuangguang: One minute often turns into eleven.\n\nGuangguang: Sore eyes and fewer blinks? That's the alarm.\n\nMax: How do I turn the alarm off?\n\nGuangguang: Stop. Look far away. Soft blink.\n\nGuangguang: Stand up and walk a little bit.\n\nMax: So after this episode I stop?\n\nGuangguang: After this episode—you stop. Say it.\n\nMax: I stop. Then I pass Safety Theater!\n\nGuangguang: Eye care isn't winning or losing—it's care. Rest now.",
       "group": null
     },
     {
