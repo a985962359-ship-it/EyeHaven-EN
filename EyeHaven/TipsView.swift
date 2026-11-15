@@ -649,7 +649,7 @@ private struct CatalogStoryBrowser: View {
 
                     Text(
                         onComicPage
-                            ? "Swipe panels · \(comicPage + 1)/\(urls.count)"
+                            ? "Swipe · double-tap full screen · \(comicPage + 1)/\(urls.count)"
                             : "Text · scroll full story · swipe back to comics"
                     )
                     .font(.caption.weight(.semibold))
@@ -684,11 +684,7 @@ private struct CatalogStoryBrowser: View {
             if urls.indices.contains(index) {
                 Group {
                     if let uiImage = ComicImageCache.image(at: urls[index]) {
-                        Image(uiImage: uiImage)
-                            .resizable()
-                            .interpolation(.medium)
-                            .scaledToFit()
-                            .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+                        ComicZoomableImage(uiImage: uiImage, cornerRadius: 16)
                             .padding(8)
                     }
                 }
@@ -1025,11 +1021,7 @@ struct BedtimeStoryPage: View {
                     if index < comicURLs.count,
                        let uiImage = ComicImageCache.image(at: comicURLs[index])
                     {
-                        Image(uiImage: uiImage)
-                            .resizable()
-                            .interpolation(.medium)
-                            .scaledToFit()
-                            .clipShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
+                        ComicZoomableImage(uiImage: uiImage, cornerRadius: 14)
                     }
                 }
             }
@@ -1039,7 +1031,7 @@ struct BedtimeStoryPage: View {
                     .fill(Palette.mist)
             )
 
-            Text("Panel \(comicPage + 1) / \(comicURLs.count) · loops back to 1")
+            Text("Panel \(comicPage + 1) / \(comicURLs.count) · double-tap full screen")
                 .font(.caption2.weight(.semibold))
                 .foregroundStyle(Palette.gold)
         }
@@ -1245,17 +1237,14 @@ private struct GuangguangBanner: View {
             bannerBackground
 
             if let uiImage = ComicImageCache.image(at: url) {
-                Image(uiImage: uiImage)
-                    .resizable()
-                    .interpolation(.medium)
-                    .scaledToFit()
+                ComicZoomableImage(uiImage: uiImage)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
                     .padding(.horizontal, 4)
                     .padding(.top, 4)
                     .padding(.bottom, 22)
             }
 
-            Text("Comic \(index + 1)/\(comicURLs.count) · swipe panels")
+            Text("Comic \(index + 1)/\(comicURLs.count) · swipe · double-tap full screen")
                 .font(.caption2.weight(.semibold))
                 .foregroundStyle(Palette.pine)
                 .padding(.horizontal, 10)
@@ -1264,7 +1253,7 @@ private struct GuangguangBanner: View {
                 .padding(.bottom, 4)
         }
         .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
-        .accessibilityLabel("Comic panel \(index + 1) of \(comicURLs.count), swipe left or right")
+        .accessibilityLabel("Comic panel \(index + 1) of \(comicURLs.count). Swipe panels. Double tap for full screen.")
     }
 
     private var bannerBackground: some View {
@@ -1419,6 +1408,68 @@ private struct GuangguangTalking: View {
         guard talking else { return "Guangguang" }
         let open = Int(date.timeIntervalSinceReferenceDate / interval) % 2 == 0
         return open ? "GuangguangTalkA" : "GuangguangTalkB"
+    }
+}
+
+/// 插画双点全屏看；全屏里再双点恢复。用 simultaneousGesture，不挡左右滑翻页。
+private struct ComicZoomableImage: View {
+    let uiImage: UIImage
+    var cornerRadius: CGFloat? = nil
+
+    @State private var showFullscreen = false
+
+    var body: some View {
+        Group {
+            if let cornerRadius {
+                baseImage
+                    .clipShape(RoundedRectangle(cornerRadius: cornerRadius, style: .continuous))
+            } else {
+                baseImage
+            }
+        }
+        .contentShape(Rectangle())
+        .simultaneousGesture(
+            TapGesture(count: 2).onEnded {
+                showFullscreen = true
+            }
+        )
+        .accessibilityHint("Double tap for full screen")
+        .fullScreenCover(isPresented: $showFullscreen) {
+            ComicFullscreenViewer(uiImage: uiImage, isPresented: $showFullscreen)
+        }
+    }
+
+    private var baseImage: some View {
+        Image(uiImage: uiImage)
+            .resizable()
+            .interpolation(.medium)
+            .scaledToFit()
+    }
+}
+
+private struct ComicFullscreenViewer: View {
+    let uiImage: UIImage
+    @Binding var isPresented: Bool
+
+    var body: some View {
+        ZStack {
+            Color.black.ignoresSafeArea()
+
+            Image(uiImage: uiImage)
+                .resizable()
+                .interpolation(.high)
+                .scaledToFit()
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .contentShape(Rectangle())
+                .simultaneousGesture(
+                    TapGesture(count: 2).onEnded {
+                        isPresented = false
+                    }
+                )
+                .accessibilityLabel("Full screen comic")
+                .accessibilityHint("Double tap to close")
+        }
+        .statusBarHidden(true)
     }
 }
 
