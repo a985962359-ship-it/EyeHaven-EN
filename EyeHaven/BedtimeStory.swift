@@ -102,17 +102,24 @@ final class BedtimeAudioPlayer {
         observeAppLifecycle()
     }
 
-    /// 打开/关闭锁屏连播；打开时可顺带开始播当前篇（熄屏也能听，听完自动下一篇）。
+    /// 打开/关闭锁屏连播。打开时立刻开始播当前篇：熄屏可听，听完自动下一篇。
     func setLockScreenContinuousPlay(_ on: Bool, startStory: BedtimeStory? = nil, queue: [BedtimeStory]? = nil) {
         lockScreenContinuousPlay = on
+        // 允许系统自动熄屏；后台 audio 模式继续播
+        UIApplication.shared.isIdleTimerDisabled = false
         guard on else { return }
+        activatePlaybackSession()
+        setupRemoteCommandsIfNeeded()
         if let story = startStory {
             guard MembershipStore.shared.canPlay(story) else {
                 MembershipStore.shared.showPaywall = true
                 return
             }
-            if playingId == story.id {
-                if !isPlaying { resume() }
+            // 一点 Lock：马上播这篇（已在播也再确保会话/后台）
+            if playingId == story.id, isPlaying {
+                keepPlayingInBackgroundIfNeeded()
+            } else if playingId == story.id {
+                resume()
             } else {
                 play(story, queue: queue, autoAdvance: true)
             }

@@ -1350,13 +1350,14 @@ private struct GuangguangBanner: View {
 }
 
 /// 迷你播放台：锁屏连播 · 语速 · 上一首 · 播放 · 下一首。
-/// 默认听完不自动跳；打开锁屏连播后熄屏可听，并自动下一篇。
+/// 点 Lock：立刻开播并进入锁屏听模式（熄屏可听、自动下一篇）。
 private struct MiniPlayerDock: View {
     var boundStory: BedtimeStory? = nil
     var queue: [BedtimeStory] = []
 
     @Environment(MembershipStore.self) private var membership
     @State private var audio = BedtimeAudioPlayer.shared
+    @State private var showLockListenCover = false
 
     private var isBoundPlaying: Bool {
         guard let id = boundStory?.id else { return audio.isPlaying }
@@ -1382,9 +1383,9 @@ private struct MiniPlayerDock: View {
         HStack {
             Spacer(minLength: 0)
             HStack(spacing: 8) {
-                // 最左：锁屏连播（熄屏继续听 + 自动下一篇）
+                // 最左：一点就锁屏听（开播 + 自动下一篇）
                 Button {
-                    toggleLockScreenPlay()
+                    startLockScreenListen()
                 } label: {
                     HStack(spacing: 4) {
                         Image(systemName: audio.lockScreenContinuousPlay ? "lock.iphone.fill" : "lock.iphone")
@@ -1407,11 +1408,7 @@ private struct MiniPlayerDock: View {
                     )
                 }
                 .buttonStyle(.plain)
-                .accessibilityLabel(
-                    audio.lockScreenContinuousPlay
-                        ? "Lock screen autoplay on"
-                        : "Lock screen autoplay off"
-                )
+                .accessibilityLabel("Lock screen listen")
 
                 // 语速：在上一首左边
                 Button {
@@ -1466,15 +1463,28 @@ private struct MiniPlayerDock: View {
             )
             Spacer(minLength: 0)
         }
+        .fullScreenCover(isPresented: $showLockListenCover) {
+            LockScreenListenOverlay(
+                title: audio.nowPlayingStory?.title ?? boundStory?.title ?? "Story",
+                onExit: {
+                    audio.setLockScreenContinuousPlay(false)
+                    showLockListenCover = false
+                }
+            )
+        }
     }
 
-    private func toggleLockScreenPlay() {
-        let turnOn = !audio.lockScreenContinuousPlay
+    /// 一点 Lock：马上播当前书 + 进锁屏听界面（可熄屏，自动下一篇）
+    private func startLockScreenListen() {
+        if let story = boundStory {
+            guard membership.requestPlay(story) else { return }
+        }
         audio.setLockScreenContinuousPlay(
-            turnOn,
+            true,
             startStory: boundStory,
             queue: playQueue
         )
+        showLockListenCover = true
     }
 
     private var shelfQueue: [BedtimeStory] {
@@ -1549,6 +1559,64 @@ private struct MiniPlayerDock: View {
         .buttonStyle(.plain)
         .disabled(!enabled)
         .accessibilityLabel(label)
+    }
+}
+
+/// 锁屏听：黑屏听故事；可按电源键锁屏，声音继续，听完自动下一篇。双点退出。
+private struct LockScreenListenOverlay: View {
+    var title: String
+    var onExit: () -> Void
+
+    @State private var audio = BedtimeAudioPlayer.shared
+
+    var body: some View {
+        ZStack {
+            Color.black.ignoresSafeArea()
+
+            VStack(spacing: 18) {
+                Image(systemName: "lock.iphone.fill")
+                    .font(.system(size: 44, weight: .semibold))
+                    .foregroundStyle(Palette.sage)
+
+                Text("Listening…")
+                    .font(.title2.weight(.bold))
+                    .foregroundStyle(.white)
+
+                Text(audio.nowPlayingStory?.title ?? title)
+                    .font(.headline.weight(.semibold))
+                    .foregroundStyle(.white.opacity(0.9))
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 28)
+
+                Text("You can lock the iPad.\nAudio keeps going · next story plays automatically.\nDouble-tap to exit.")
+                    .font(.subheadline.weight(.medium))
+                    .foregroundStyle(.white.opacity(0.7))
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 28)
+
+                Button {
+                    onExit()
+                } label: {
+                    Text("Exit Lock Listen")
+                        .font(.headline.weight(.semibold))
+                        .foregroundStyle(Palette.pine)
+                        .padding(.horizontal, 22)
+                        .padding(.vertical, 12)
+                        .background(Capsule().fill(Palette.foam))
+                }
+                .buttonStyle(.plain)
+                .padding(.top, 8)
+            }
+        }
+        .statusBarHidden(true)
+        .simultaneousGesture(
+            TapGesture(count: 2).onEnded { onExit() }
+        )
+        .onAppear {
+            UIApplication.shared.isIdleTimerDisabled = false
+        }
+        .accessibilityLabel("Lock screen listening")
+        .accessibilityHint("Double tap to exit")
     }
 }
 
