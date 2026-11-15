@@ -24,6 +24,7 @@ final class BedtimeAudioPlayer {
     private static let lastIdKey = "bedtime.audio.lastStoryId"
     /// 每个年龄×书架各自记住最后一篇：key = "ageId|shelfId"
     private static let lastByShelfKey = "bedtime.audio.lastByShelf"
+    private static let lockScreenPlayKey = "bedtime.audio.lockScreenContinuousPlay"
 
     private(set) var playingId: String?
     private(set) var isPlaying = false
@@ -31,6 +32,20 @@ final class BedtimeAudioPlayer {
     private(set) var lastStoryId: String?
     /// 各类别独立进度（供书架「继续播放」）
     private(set) var lastStoryIdByShelf: [String: String] = [:]
+
+    /// 锁屏连播：熄屏继续听，本篇结束后自动下一篇。
+    var lockScreenContinuousPlay: Bool {
+        didSet {
+            guard lockScreenContinuousPlay != oldValue else { return }
+            UserDefaults.standard.set(lockScreenContinuousPlay, forKey: Self.lockScreenPlayKey)
+            autoAdvanceWhenFinished = lockScreenContinuousPlay
+            if lockScreenContinuousPlay {
+                activatePlaybackSession()
+                setupRemoteCommandsIfNeeded()
+                keepPlayingInBackgroundIfNeeded()
+            }
+        }
+    }
 
     /// 播放倍速，写入本地，下次打开还在。
     var playbackRate: Float {
@@ -50,7 +65,7 @@ final class BedtimeAudioPlayer {
     private var didSetupRemote = false
     /// 当前书架队列；播完自动找下一篇有声音的
     private var queue: [BedtimeStory] = []
-    /// 听完一篇是否自动下一篇。书架/进书默认 false，只点「下一首」才换；休息页连播为 true。
+    /// 听完一篇是否自动下一篇。默认 false；锁屏连播 / 休息页连播为 true。
     private var autoAdvanceWhenFinished = false
     /// 开篇先播火山「请听+标题」，再播正文
     private let titleSynth = AVSpeechSynthesizer()
@@ -71,6 +86,9 @@ final class BedtimeAudioPlayer {
         let saved = UserDefaults.standard.object(forKey: Self.rateKey) as? Float
         // 没设过时用稍慢，睡前更好听
         playbackRate = saved ?? 0.85
+        let lockOn = UserDefaults.standard.bool(forKey: Self.lockScreenPlayKey)
+        lockScreenContinuousPlay = lockOn
+        autoAdvanceWhenFinished = lockOn
         lastStoryId = UserDefaults.standard.string(forKey: Self.lastIdKey)
         if let data = UserDefaults.standard.data(forKey: Self.lastByShelfKey),
            let map = try? JSONDecoder().decode([String: String].self, from: data)
@@ -82,6 +100,31 @@ final class BedtimeAudioPlayer {
         titleSynth.delegate = titleBridge
         observeInterruptions()
         observeAppLifecycle()
+    }
+
+    /// 打开/关闭锁屏连播；打开时可顺带开始播当前篇（熄屏也能听，听完自动下一篇）。
+    func setLockScreenContinuousPlay(_ on: Bool, startStory: BedtimeStory? = nil, queue: [BedtimeStory]? = nil) {
+        lockScreenContinuousPlay = on
+        guard on else { return }
+        if let story = startStory {
+            guard MembershipStore.shared.canPlay(story) else {
+                MembershipStore.shared.showPaywall = true
+                return
+            }
+            if playingId == story.id {
+                if !isPlaying { resume() }
+            } else {
+                play(story, queue: queue, autoAdvance: true)
+            }
+            return
+        }
+        if isPlaying {
+            keepPlayingInBackgroundIfNeeded()
+        } else if player != nil || isAnnouncingTitle {
+            resume()
+        } else {
+            resumeLastStory()
+        }
     }
 
     /// 目录加载后再调一次：把旧的全局「上次听」写进对应书架
@@ -147,7 +190,8 @@ final class BedtimeAudioPlayer {
             MembershipStore.shared.showPaywall = true
             return
         }
-        autoAdvanceWhenFinished = autoAdvance
+        // 锁屏连播开启时，始终听完自动下一篇
+        autoAdvanceWhenFinished = autoAdvance || lockScreenContinuousPlay
         if let queue {
             self.queue = queue.filter { hasAudio(for: $0.id) && MembershipStore.shared.canPlay($0) }
         } else if self.queue.isEmpty || !self.queue.contains(where: { $0.id == story.id }) {
@@ -342,7 +386,11 @@ final class BedtimeAudioPlayer {
               let story = BedtimeCatalogStore.shared.story(id: id),
               hasAudio(for: id)
         else { return }
-        play(story, queue: BedtimeCatalogStore.shared.playQueue(for: story))
+        play(
+            story,
+            queue: BedtimeCatalogStore.shared.playQueue(for: story),
+            autoAdvance: lockScreenContinuousPlay
+        )
     }
 
     /// 当前语速按钮上的中文名。

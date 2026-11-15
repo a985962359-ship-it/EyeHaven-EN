@@ -1349,7 +1349,8 @@ private struct GuangguangBanner: View {
     }
 }
 
-/// 迷你播放台：上一篇 / 播放 / 下一篇 / 语速。绑定当前书时只控本篇；听完不自动跳，点下一首才换。
+/// 迷你播放台：锁屏连播 · 语速 · 上一首 · 播放 · 下一首。
+/// 默认听完不自动跳；打开锁屏连播后熄屏可听，并自动下一篇。
 private struct MiniPlayerDock: View {
     var boundStory: BedtimeStory? = nil
     var queue: [BedtimeStory] = []
@@ -1380,7 +1381,58 @@ private struct MiniPlayerDock: View {
     var body: some View {
         HStack {
             Spacer(minLength: 0)
-            HStack(spacing: 10) {
+            HStack(spacing: 8) {
+                // 最左：锁屏连播（熄屏继续听 + 自动下一篇）
+                Button {
+                    toggleLockScreenPlay()
+                } label: {
+                    HStack(spacing: 4) {
+                        Image(systemName: audio.lockScreenContinuousPlay ? "lock.iphone.fill" : "lock.iphone")
+                            .font(.caption.weight(.bold))
+                        Text(audio.lockScreenContinuousPlay ? "On" : "Lock")
+                            .font(.caption.weight(.bold))
+                            .lineLimit(1)
+                            .fixedSize(horizontal: true, vertical: false)
+                    }
+                    .foregroundStyle(Palette.pine)
+                    .padding(.horizontal, 10)
+                    .padding(.vertical, 7)
+                    .background(
+                        Capsule(style: .continuous)
+                            .fill(
+                                audio.lockScreenContinuousPlay
+                                    ? Palette.moss.opacity(0.45)
+                                    : Palette.sage.opacity(0.55)
+                            )
+                    )
+                }
+                .buttonStyle(.plain)
+                .accessibilityLabel(
+                    audio.lockScreenContinuousPlay
+                        ? "Lock screen autoplay on"
+                        : "Lock screen autoplay off"
+                )
+
+                // 语速：在上一首左边
+                Button {
+                    audio.cyclePlaybackRate()
+                } label: {
+                    Text(audio.rateLabel)
+                        .font(.caption.weight(.bold))
+                        .foregroundStyle(Palette.pine)
+                        .lineLimit(1)
+                        .fixedSize(horizontal: true, vertical: false)
+                        .padding(.horizontal, 10)
+                        .padding(.vertical, 7)
+                        .background(
+                            Capsule(style: .continuous)
+                                .fill(Palette.sage.opacity(0.55))
+                        )
+                }
+                .buttonStyle(.plain)
+                .layoutPriority(1)
+                .accessibilityLabel("Speed \(audio.rateLabel)")
+
                 dockIconButton(
                     systemName: "backward.end.fill",
                     enabled: canStepPrevious,
@@ -1405,25 +1457,6 @@ private struct MiniPlayerDock: View {
                 ) {
                     stepNext()
                 }
-
-                Button {
-                    audio.cyclePlaybackRate()
-                } label: {
-                    Text(audio.rateLabel)
-                        .font(.caption.weight(.bold))
-                        .foregroundStyle(Palette.pine)
-                        .lineLimit(1)
-                        .fixedSize(horizontal: true, vertical: false)
-                        .padding(.horizontal, 10)
-                        .padding(.vertical, 7)
-                        .background(
-                            Capsule(style: .continuous)
-                                .fill(Palette.sage.opacity(0.55))
-                        )
-                }
-                .buttonStyle(.plain)
-                .layoutPriority(1)
-                .accessibilityLabel("Speed \(audio.rateLabel)")
             }
             .padding(.horizontal, 8)
             .padding(.vertical, 8)
@@ -1433,6 +1466,15 @@ private struct MiniPlayerDock: View {
             )
             Spacer(minLength: 0)
         }
+    }
+
+    private func toggleLockScreenPlay() {
+        let turnOn = !audio.lockScreenContinuousPlay
+        audio.setLockScreenContinuousPlay(
+            turnOn,
+            startStory: boundStory,
+            queue: playQueue
+        )
     }
 
     private var shelfQueue: [BedtimeStory] {
