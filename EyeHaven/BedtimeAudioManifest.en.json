@@ -189,5 +189,25 @@
     "E-Z23",
     "E-Z24"
   ],
-  "notes": "English-only audio manifest. Do not mix with Chinese bedtime-audio."
+  "notes": "English-only audio manifest. Do not mix with Chinese bedtime-audio.",
+  "E-W01": {
+    "body": "E-W01.mp3",
+    "title": "Titles/E-W01.mp3"
+  },
+  "E-W02": {
+    "body": "E-W02.mp3",
+    "title": "Titles/E-W02.mp3"
+  },
+  "E-W03": {
+    "body": "E-W03.mp3",
+    "title": "Titles/E-W03.mp3"
+  },
+  "E-W04": {
+    "body": "E-W04.mp3",
+    "title": "Titles/E-W04.mp3"
+  },
+  "E-W05": {
+    "body": "E-W05.mp3",
+    "title": "Titles/E-W05.mp3"
+  }
 }
