@@ -647,6 +647,11 @@ private struct CatalogStoryBrowser: View {
                         pageCount: pageCount
                     )
 
+                    if onComicPage {
+                        MiniPlayerDock()
+                            .padding(.top, 4)
+                    }
+
                     Text(
                         onComicPage
                             ? "Swipe · double-tap full screen · \(comicPage + 1)/\(urls.count)"
@@ -749,6 +754,7 @@ private struct ShelfCardButtonStyle: ButtonStyle {
 private struct LoopingPageTabView<Page: View>: View {
     let pageCount: Int
     @Binding var selection: Int
+    var showsPageIndex: Bool = true
     @ViewBuilder var page: (Int) -> Page
 
     @State private var internalPage = 1
@@ -770,7 +776,7 @@ private struct LoopingPageTabView<Page: View>: View {
                     safePage(0)
                         .tag(pageCount + 1)
                 }
-                .tabViewStyle(.page(indexDisplayMode: .automatic))
+                .tabViewStyle(.page(indexDisplayMode: showsPageIndex ? .automatic : .never))
                 .onAppear { syncInternal(from: selection) }
                 .onChange(of: selection) { _, newValue in
                     let clamped = min(max(newValue, 0), pageCount - 1)
@@ -1012,10 +1018,11 @@ struct BedtimeStoryPage: View {
     }
 
     private var comicPager: some View {
-        VStack(alignment: .leading, spacing: 8) {
+        VStack(alignment: .center, spacing: 10) {
             Text("Comics · swipe in a loop")
                 .font(.caption.weight(.semibold))
                 .foregroundStyle(Palette.pine.opacity(0.65))
+                .frame(maxWidth: .infinity, alignment: .leading)
 
             LoopingPageTabView(pageCount: comicURLs.count, selection: $comicPage) { index in
                 if comicURLs.indices.contains(index) {
@@ -1033,9 +1040,13 @@ struct BedtimeStoryPage: View {
                     .fill(Palette.mist)
             )
 
+            // 进书后：控制框在插图正下方居中
+            MiniPlayerDock()
+
             Text("Panel \(comicPage + 1) / \(comicURLs.count) · double-tap full screen")
                 .font(.caption2.weight(.semibold))
                 .foregroundStyle(Palette.gold)
+                .frame(maxWidth: .infinity, alignment: .leading)
         }
     }
 }
@@ -1235,7 +1246,9 @@ private struct GuangguangBanner: View {
     }
 
     private func fullComicPage(url: URL, index: Int) -> some View {
-        VStack(spacing: 8) {
+        ZStack(alignment: .bottom) {
+            bannerBackground
+
             ComicZoomableImage(
                 urls: comicURLs,
                 displayIndex: index,
@@ -1248,20 +1261,18 @@ private struct GuangguangBanner: View {
                 )
             )
             .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .padding(.horizontal, 6)
-            .padding(.top, 6)
-
-            // 控制框：插图正下方居中（上一篇 / 播放 / 下一篇 / 语速）
-            MiniPlayerDock()
-                .frame(maxWidth: .infinity)
+            .padding(.horizontal, 4)
+            .padding(.top, 4)
+            .padding(.bottom, 22)
 
             Text("Comic \(index + 1)/\(comicURLs.count) · swipe · double-tap full screen")
                 .font(.caption2.weight(.semibold))
                 .foregroundStyle(Palette.pine)
-                .padding(.bottom, 6)
+                .padding(.horizontal, 10)
+                .padding(.vertical, 3)
+                .background(Capsule().fill(Palette.foam.opacity(0.92)))
+                .padding(.bottom, 4)
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(bannerBackground)
         .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
         .accessibilityLabel("Comic panel \(index + 1) of \(comicURLs.count). Swipe panels. Double tap for full screen.")
     }
@@ -1317,7 +1328,7 @@ private struct GuangguangBanner: View {
     }
 }
 
-/// 迷你播放台：上一篇 / 播放 / 下一篇 / 语速。插图页放在图下方居中。
+/// 迷你播放台：上一篇 / 播放 / 下一篇 / 语速。进书后放在插图下方居中。
 private struct MiniPlayerDock: View {
     @State private var audio = BedtimeAudioPlayer.shared
 
@@ -1484,34 +1495,33 @@ private struct ComicFullscreenViewer: View {
         ZStack(alignment: .bottom) {
             Color.black.ignoresSafeArea()
 
-            TabView(selection: $pageIndex) {
-                ForEach(Array(urls.enumerated()), id: \.offset) { index, url in
-                    Group {
-                        if let uiImage = ComicImageCache.image(at: url) {
-                            Image(uiImage: uiImage)
-                                .resizable()
-                                .interpolation(.high)
-                                .scaledToFit()
-                                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                                .contentShape(Rectangle())
-                                .simultaneousGesture(
-                                    TapGesture(count: 2).onEnded {
-                                        isPresented = false
-                                    }
-                                )
-                        } else {
-                            Color.black
-                        }
+            // 循环翻页：最后一页再滑 → 第一页；第一页反滑 → 最后一页
+            LoopingPageTabView(pageCount: urls.count, selection: $pageIndex, showsPageIndex: false) { index in
+                Group {
+                    if urls.indices.contains(index),
+                       let uiImage = ComicImageCache.image(at: urls[index])
+                    {
+                        Image(uiImage: uiImage)
+                            .resizable()
+                            .interpolation(.high)
+                            .scaledToFit()
+                            .frame(maxWidth: .infinity, maxHeight: .infinity)
+                            .contentShape(Rectangle())
+                            .simultaneousGesture(
+                                TapGesture(count: 2).onEnded {
+                                    isPresented = false
+                                }
+                            )
+                    } else {
+                        Color.black
                     }
-                    .tag(index)
-                    .accessibilityLabel("Full screen comic \(index + 1) of \(urls.count)")
-                    .accessibilityHint("Swipe for other panels. Double tap to close.")
                 }
+                .accessibilityLabel("Full screen comic \(index + 1) of \(urls.count)")
+                .accessibilityHint("Swipe loops. Double tap to close.")
             }
-            .tabViewStyle(.page(indexDisplayMode: .never))
             .ignoresSafeArea()
 
-            Text("\(min(max(pageIndex, 0), max(urls.count - 1, 0)) + 1) / \(urls.count) · swipe · double-tap to close")
+            Text("\(min(max(pageIndex, 0), max(urls.count - 1, 0)) + 1) / \(urls.count) · swipe loops · double-tap to close")
                 .font(.caption.weight(.semibold))
                 .foregroundStyle(.white.opacity(0.9))
                 .padding(.horizontal, 12)
