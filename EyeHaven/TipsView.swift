@@ -682,12 +682,13 @@ private struct CatalogStoryBrowser: View {
     ) -> some View {
         LoopingPageTabView(pageCount: pageCount, selection: $comicPage) { index in
             if urls.indices.contains(index) {
-                Group {
-                    if let uiImage = ComicImageCache.image(at: urls[index]) {
-                        ComicZoomableImage(uiImage: uiImage, cornerRadius: 16)
-                            .padding(8)
-                    }
-                }
+                ComicZoomableImage(
+                    urls: urls,
+                    displayIndex: index,
+                    pageIndex: $comicPage,
+                    cornerRadius: 16
+                )
+                .padding(8)
             } else {
                 ScrollView {
                     Text(story.text)
@@ -1017,12 +1018,13 @@ struct BedtimeStoryPage: View {
                 .foregroundStyle(Palette.pine.opacity(0.65))
 
             LoopingPageTabView(pageCount: comicURLs.count, selection: $comicPage) { index in
-                Group {
-                    if index < comicURLs.count,
-                       let uiImage = ComicImageCache.image(at: comicURLs[index])
-                    {
-                        ComicZoomableImage(uiImage: uiImage, cornerRadius: 14)
-                    }
+                if comicURLs.indices.contains(index) {
+                    ComicZoomableImage(
+                        urls: comicURLs,
+                        displayIndex: index,
+                        pageIndex: $comicPage,
+                        cornerRadius: 14
+                    )
                 }
             }
             .frame(height: HavenLayout.isPad ? 420 : 280)
@@ -1236,13 +1238,21 @@ private struct GuangguangBanner: View {
         ZStack(alignment: .bottom) {
             bannerBackground
 
-            if let uiImage = ComicImageCache.image(at: url) {
-                ComicZoomableImage(uiImage: uiImage)
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    .padding(.horizontal, 4)
-                    .padding(.top, 4)
-                    .padding(.bottom, 22)
-            }
+            ComicZoomableImage(
+                urls: comicURLs,
+                displayIndex: index,
+                pageIndex: Binding(
+                    get: { max(0, bannerPage - 1) },
+                    set: { newIndex in
+                        bannerPage = 1 + newIndex
+                        userPickedPage = true
+                    }
+                )
+            )
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .padding(.horizontal, 4)
+            .padding(.top, 4)
+            .padding(.bottom, 22)
 
             Text("Comic \(index + 1)/\(comicURLs.count) · swipe · double-tap full screen")
                 .font(.caption2.weight(.semibold))
@@ -1411,65 +1421,107 @@ private struct GuangguangTalking: View {
     }
 }
 
-/// 插画双点全屏看；全屏里再双点恢复。用 simultaneousGesture，不挡左右滑翻页。
+/// 插画双点全屏；全屏可左右滑上下页，再双点恢复。simultaneousGesture 不挡外层翻页。
 private struct ComicZoomableImage: View {
-    let uiImage: UIImage
+    let urls: [URL]
+    /// 卡片上固定显示这一格（外层 Tab 页码）
+    let displayIndex: Int
+    /// 全屏滑动时写回父级页码
+    @Binding var pageIndex: Int
     var cornerRadius: CGFloat? = nil
 
     @State private var showFullscreen = false
 
+    private var cardIndex: Int {
+        guard !urls.isEmpty else { return 0 }
+        return min(max(displayIndex, 0), urls.count - 1)
+    }
+
     var body: some View {
         Group {
-            if let cornerRadius {
-                baseImage
-                    .clipShape(RoundedRectangle(cornerRadius: cornerRadius, style: .continuous))
-            } else {
-                baseImage
+            if urls.indices.contains(cardIndex),
+               let uiImage = ComicImageCache.image(at: urls[cardIndex])
+            {
+                let image = Image(uiImage: uiImage)
+                    .resizable()
+                    .interpolation(.medium)
+                    .scaledToFit()
+                if let cornerRadius {
+                    image.clipShape(RoundedRectangle(cornerRadius: cornerRadius, style: .continuous))
+                } else {
+                    image
+                }
             }
         }
         .contentShape(Rectangle())
         .simultaneousGesture(
             TapGesture(count: 2).onEnded {
+                guard !urls.isEmpty else { return }
+                pageIndex = cardIndex
                 showFullscreen = true
             }
         )
         .accessibilityHint("Double tap for full screen")
         .fullScreenCover(isPresented: $showFullscreen) {
-            ComicFullscreenViewer(uiImage: uiImage, isPresented: $showFullscreen)
+            ComicFullscreenViewer(
+                urls: urls,
+                pageIndex: $pageIndex,
+                isPresented: $showFullscreen
+            )
         }
-    }
-
-    private var baseImage: some View {
-        Image(uiImage: uiImage)
-            .resizable()
-            .interpolation(.medium)
-            .scaledToFit()
     }
 }
 
 private struct ComicFullscreenViewer: View {
-    let uiImage: UIImage
+    let urls: [URL]
+    @Binding var pageIndex: Int
     @Binding var isPresented: Bool
 
     var body: some View {
-        ZStack {
+        ZStack(alignment: .bottom) {
             Color.black.ignoresSafeArea()
 
-            Image(uiImage: uiImage)
-                .resizable()
-                .interpolation(.high)
-                .scaledToFit()
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .contentShape(Rectangle())
-                .simultaneousGesture(
-                    TapGesture(count: 2).onEnded {
-                        isPresented = false
+            TabView(selection: $pageIndex) {
+                ForEach(Array(urls.enumerated()), id: \.offset) { index, url in
+                    Group {
+                        if let uiImage = ComicImageCache.image(at: url) {
+                            Image(uiImage: uiImage)
+                                .resizable()
+                                .interpolation(.high)
+                                .scaledToFit()
+                                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                                .contentShape(Rectangle())
+                                .simultaneousGesture(
+                                    TapGesture(count: 2).onEnded {
+                                        isPresented = false
+                                    }
+                                )
+                        } else {
+                            Color.black
+                        }
                     }
-                )
-                .accessibilityLabel("Full screen comic")
-                .accessibilityHint("Double tap to close")
+                    .tag(index)
+                    .accessibilityLabel("Full screen comic \(index + 1) of \(urls.count)")
+                    .accessibilityHint("Swipe for other panels. Double tap to close.")
+                }
+            }
+            .tabViewStyle(.page(indexDisplayMode: .never))
+            .ignoresSafeArea()
+
+            Text("\(min(max(pageIndex, 0), max(urls.count - 1, 0)) + 1) / \(urls.count) · swipe · double-tap to close")
+                .font(.caption.weight(.semibold))
+                .foregroundStyle(.white.opacity(0.9))
+                .padding(.horizontal, 12)
+                .padding(.vertical, 6)
+                .background(Capsule().fill(Color.white.opacity(0.18)))
+                .padding(.bottom, 28)
+                .allowsHitTesting(false)
         }
         .statusBarHidden(true)
+        .onAppear {
+            guard !urls.isEmpty else { return }
+            pageIndex = min(max(pageIndex, 0), urls.count - 1)
+        }
     }
 }
 
