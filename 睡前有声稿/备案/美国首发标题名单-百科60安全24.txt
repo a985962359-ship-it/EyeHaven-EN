@@ -1,0 +1,141 @@
+美国版首发标题名单 · 百科 60（按销量加权）+ 安全 24
+日期：2026-11-13（按销量改版）
+依据：美国百科按销量选题说明.txt
+说明：中文方便你点名；英文是 App 标题。事实公开科普，句子新写。
+
+==================================================
+篇数分配（跟畅销榜，不是平均分）
+==================================================
+Animals 18 · Space 10 · My Body 10 · How Things Work 8
+Sky & Weather 7 · Earth & Nature 7  → 百科 60
+安全 24 不变（单独书架）
+
+==================================================
+C. Animals · 动物（含恐龙 / 昆虫 / 海洋）· 18 篇 ★销量最大
+==================================================
+ 1. Why Can Birds Fly?                鸟为什么会飞
+ 2. Why Do Cats Purr?                 猫为什么会呼噜
+ 3. Why Do Dogs Wag Their Tails?      狗为什么摇尾巴
+ 4. How Do Fish Breathe Underwater?   鱼在水里怎么呼吸
+ 5. Why Do Dogs Pant?                 狗为什么吐舌头喘气
+ 6. Why Do Bees Make Honey?           蜜蜂为什么酿蜜
+ 7. Why Are Some Animals Striped?     有的动物为什么有条纹
+ 8. Why Did Dinosaurs Get So Big?     恐龙为什么那么大
+ 9. What Did T. rex Eat?              霸王龙吃什么
+10. Why Do Whales Spout Water?        鲸鱼为什么喷水
+11. Why Do Sharks Have So Many Teeth? 鲨鱼为什么牙那么多
+12. Why Do Camels Have Humps?         骆驼为什么有驼峰
+13. Why Do Owls Stay Up at Night?     猫头鹰为什么夜里醒着
+14. Why Do Butterflies Start as Caterpillars? 蝴蝶为什么先是毛毛虫
+15. Why Do Ants Walk in a Line?       蚂蚁为什么排着队走
+16. Why Do Sea Turtles Come Ashore?   海龟为什么上岸
+17. Why Do Frogs Jump So Far?         青蛙为什么跳得远
+18. Why Do Octopuses Have Eight Arms? 章鱼为什么有八条腕
+
+==================================================
+B. Space · 太空 · 10 篇
+==================================================
+19. Why Does the Moon Follow Us?      月亮为什么好像跟着走
+20. Why Do Stars Twinkle?             星星为什么会眨眼睛
+21. Why Is the Sun So Bright?         太阳为什么那么亮
+22. Why Is There No Sound in Space?   太空里为什么没有声音
+23. Why Do Rockets Need Fire?         火箭为什么要喷火
+24. Why Do We See Only One Side of the Moon? 为什么只看到月亮一面
+25. Why Are There Craters on the Moon? 月亮上为什么有坑
+26. What Is a Planet?                 行星是什么
+27. Why Does Earth Spin?              地球为什么在转
+28. How Many Planets Are in Our Solar System? 太阳系有几颗行星
+
+==================================================
+D. My Body · 我的身体 · 10 篇
+==================================================
+29. Why Do We Need Sleep?             人为什么要睡觉
+30. Why Do We Yawn?                   人为什么打哈欠
+31. Why Do We Blink?                  人为什么要眨眼
+32. Why Does My Heart Beat?           心脏为什么一直跳
+33. Why Do I Get a Fever?             发烧是怎么回事
+34. Why Do We Wash Hands with Soap?   为什么用肥皂洗手
+35. Why Do Baby Teeth Fall Out?       乳牙为什么会掉
+36. Why Do We Get Goosebumps?         鸡皮疙瘩是怎么来的
+37. Why Do We Sneeze?                 人为什么打喷嚏
+38. Why Do I Have a Belly Button?     肚脐眼是怎么来的
+
+（护眼专讲放安全架 S01–S06，不占百科名额）
+
+==================================================
+E. How Things Work · 身边为什么 · 8 篇
+==================================================
+39. Why Do Shadows Follow Us?         影子为什么跟着走
+40. Why Does Ice Melt?                冰为什么会化
+41. Why Do Soap Bubbles Float?        肥皂泡为什么会飘
+42. Why Do Balloons Float Up?         气球为什么往上飞
+43. Why Do Some Things Float?         有的东西为什么会浮
+44. Why Can We See Ourselves in Mirrors? 镜子里为什么有自己
+45. What Makes a Plane Fly?           飞机为什么能飞
+46. How Does a Simple Wheel Help?     轮子为什么好用
+
+==================================================
+A. Sky & Weather · 天空与天气 · 7 篇
+==================================================
+47. Why Is the Sky Blue?              天为什么是蓝的
+48. Why Is the Sunset Red?            晚霞为什么是红的
+49. Why Does It Rain?                 为什么会下雨
+50. Why Does Thunder Follow Lightning? 打雷为什么在闪电后面
+51. Why Does It Snow?                 为什么会下雪
+52. Why Do Rainbows Appear?           彩虹是怎么来的
+53. Why Does the Wind Blow?           风为什么会吹
+
+==================================================
+F. Earth & Nature · 地球与自然 · 7 篇
+==================================================
+54. Why Do Leaves Change Color?       树叶为什么变黄
+55. Why Do Volcanoes Erupt?           火山为什么会喷（温和讲）
+56. What Makes an Earthquake?         地震是怎么回事（温和讲）
+57. Why Do Oceans Have Tides?         潮汐为什么涨落
+58. Why Do Flowers Smell Nice?        花为什么香
+59. Why Do Trees Need Roots?          树为什么要有根
+60. Why Do We Recycle?                为什么要回收
+
+==================================================
+安全小剧场 · Safety · 24 篇（单独大书架 · 不跟书店比销量）
+==================================================
+【护眼 / 休息 · 6】
+S01. Eyes Get Tired—Time to Rest     眼睛累了，先停一下
+S02. Look Far, Then Near             看远再看近
+S03. Bright Screens Need Soft Light  屏幕亮，旁边也要有光
+S04. Sit Up, Don’t Bend Close        坐好，别凑太近
+S05. Blink and Sip Water             多眨眼，喝口水
+S06. Outdoor Light Helps Eyes        到外面走走对眼睛好
+
+【家里 · 5】
+S07. Hot Stove, Cool Hands           炉子烫，手别碰
+S08. Knives Are for Grown-Ups        刀是大人用的
+S09. Medicine Is Not Candy           药不是糖
+S10. Don’t Climb on Furniture        别爬高柜子
+S11. Smoke Alarm Means Go Outside    烟雾报警要出门
+
+【街上 · 5】
+S12. Stop, Look, Listen at Crossings 过马路：停看听
+S13. Wait for the Green Light        等绿灯再走
+S14. Hold a Grown-Up’s Hand          过马路要牵大人的手
+S15. Bike Helmet On                  骑车戴头盔
+S16. Stay Where a Grown-Up Can See   待在大人能看见的地方
+
+【陌生人 / 网络 · 4】
+S17. Strangers Are Not Instant Friends 陌生人不等于马上是朋友
+S18. Say No and Find a Trusted Adult 说不，去找可信的大人
+S19. Passwords Stay Private          密码不告诉别人
+S20. Ask Before Clicking Links       链接先问大人再点
+
+【日常身体安全 · 4】
+S21. Wash Hands Before Eating        吃饭前先洗手
+S22. Swim Only With a Grown-Up       游泳要有大人陪
+S23. Wear Sunscreen Outside          户外擦防晒
+S24. Tell an Adult If Something Hurts 哪里疼要告诉大人
+
+==================================================
+后期再加（榜上有、首发不做）
+==================================================
+- 岩石矿物、各国地理大全、世界年表、Weird But True 式纯冷知识专架
+
+（完）

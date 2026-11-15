@@ -1,0 +1,17 @@
+中英文资源分离（2026-11-14）
+
+【目录】
+中文：
+- 目录 BedtimeContentCatalog.json
+- 音频 BedtimeAudioBundle/ + BedtimeAudioManifest.json
+- 漫画 BedtimeComics/
+
+英文：
+- 目录 BedtimeContentCatalog.en.json
+- 音频 BedtimeAudioBundle.en/ + BedtimeAudioManifest.en.json
+- 漫画 BedtimeComics.en/
+
+【规则】
+- 故事编号以 E- 开头的只走英文包
+- 禁止把 E- 文件再放回中文 Bundle/Comics
+- 英文配音脚本输出：BedtimeAudioBundle.en

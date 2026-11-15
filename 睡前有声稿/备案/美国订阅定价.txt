@@ -1,0 +1,5 @@
+美国英文版订阅价（定稿本地调试）：
+- 月费 $3.99  com.eyehaven.en.sub.monthly
+- 年费 $24.99 com.eyehaven.en.sub.yearly
+中文版仍是 ¥9.9 / ¥78，两边不要用同一套人民币价。
+本地：EyeHaven/Products.storekit（USA / en_US）

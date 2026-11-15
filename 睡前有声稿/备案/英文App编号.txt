@@ -1,0 +1,6 @@
+美国英文版 App 编号（与中文版分开）：
+- Bundle ID：com.eyehaven.en
+- 显示名：EyeHaven
+- 月费订阅：com.eyehaven.en.sub.monthly  $3.99
+- 年费订阅：com.eyehaven.en.sub.yearly   $24.99
+中文版仍是 com.eyehaven.app + ¥9.9 / ¥78，互不混用。

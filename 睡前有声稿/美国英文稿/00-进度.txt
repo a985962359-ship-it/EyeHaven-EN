@@ -1,0 +1,22 @@
+美国英文内容进度
+日期：2026-11-14 更新
+
+【配音锁定 · 阿里千问本机 · 已整批重录】
+- 光光：Ryan（旁白+对白）
+- 男孩 Max：Aiden
+- 女孩 Mia：Serena
+- 旧腾讯英文录音已清掉
+- 正文+标题：E-A/S/B/H/W/E/Z 共 84 篇 ✅
+- 脚本：美国英文稿/_tts_qwen_en.py
+- App：EyeHaven/BedtimeAudioBundle.en/（与中文 Bundle 分开）
+
+【漫画】
+- 动物 E-A01～18 ✅
+- 太空 E-S01～05 ✅
+- 安全 E-Z01～04 ✅（其余漫画继续）
+
+【资源分离】
+- 英文音频：EyeHaven/BedtimeAudioBundle.en
+- 英文漫画：EyeHaven/BedtimeComics.en
+- 英文清单：BedtimeAudioManifest.en.json
+- 与中文 Bundle/Comics 互不混用

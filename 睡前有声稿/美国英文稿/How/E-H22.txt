@@ -1,0 +1,9 @@
+Why Do Locks Need Keys?
+
+Click. Door opens. “How?”
+
+A key’s jagged edge lifts pins inside the lock to a matching height so the cylinder can turn. Wrong keys leave pins blocking. It’s a tiny 3D puzzle.
+
+Digital locks use codes instead of teeth. Keep spare keys safe.
+
+So keys are portable answers to a pin puzzle in metal.

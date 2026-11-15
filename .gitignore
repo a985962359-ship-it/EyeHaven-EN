@@ -1,0 +1,27 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+xcuserdata/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# macOS
+.DS_Store
+
+# 睡前语音（体积大，已放云端；密钥相关日志勿入库）
+睡前有声稿/_音频/
+睡前有声稿/_试听/
+EyeHaven/BedtimeAudio/
+
+# EN TTS working audio (App uses BedtimeAudioBundle)
+睡前有声稿/美国英文稿/_音频/
+睡前有声稿/美国英文稿/_试听/

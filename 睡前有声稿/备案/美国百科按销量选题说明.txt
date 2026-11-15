@@ -1,0 +1,69 @@
+美国百科选题 · 按书籍销量定优先级
+日期：2026-11-13
+数据来源：Amazon「儿童百科」与「儿童科学自然」畅销榜（近期）、
+         NatGeo Little Kids First Big Book 系列、DK Knowledge Encyclopedia
+
+==================================================
+一、榜上卖得最凶的主题（从重到轻）
+==================================================
+
+【超重 · 动物系】反复占榜
+- NatGeo：Animal Encyclopedia、First Big Book of Animals / Bugs / Birds / Ocean / Dinosaurs
+- DK：The Animal Book、Anthology of Intriguing Animals、Dinosaur Book
+- 另有 Who Would Win、What If You Had Animal Teeth 等动物事实书长销
+→ 恐龙、昆虫、海洋、鲨鱼、鸟，家长最肯买
+
+【很重 · Why 问答格式】
+- NatGeo Kids Why?、Little Kids First Big Book of Why 常年在科学自然榜前排
+- 大量「100,000 Whys」跟风书冲百科榜
+→ 形式要对：一问一答、短、身边能看见；主题仍落在动物/身体/太空/怎么工作
+
+【很重 · 人体】
+- DK Knowledge Encyclopedia Human Body! 评论与排名都极高
+→ 睡觉、心跳、牙齿、肚脐、发烧……家长觉得「有用」
+
+【很重 · 太空】
+- DK Knowledge Encyclopedia Space!、NatGeo Space Encyclopedia、
+  First Big Book of Space、My First Book of Planets
+→ 行星、月亮、火箭、太阳系
+
+【中等 · 身边怎么工作 / How】
+- First Big Book of How、车辆 Ultimate Book of Vehicles
+→ 飞机为何飞、气球、影子、轮子（少而精）
+
+【中等偏轻 · 天气 / 自然奇观】
+- 出现在 Why 书、Almost Everything 百科里，但很少单独冲百科榜第一
+→ 蓝天、雨、彩虹、火山要有，篇数少于动物
+
+【榜上有、首发可少做】
+- 各国地理 Countries of the World、世界年表 History Year by Year
+- 岩石矿物 Rocks and Minerals（收藏向，休息 App 可后期）
+- Weird But True 趣闻（学「哇」的口气，不抄 IP）
+
+==================================================
+二、我们 60 篇百科怎么按销量分（不再每类平均 10）
+==================================================
+
+| 子书架              | 篇数 | 销量理由           |
+|---------------------|------|--------------------|
+| Animals 动物+恐龙+虫+海 | 18 | 榜上最大块         |
+| Space 太空          | 10   | 百科/科学双榜常驻  |
+| My Body 身体        | 10   | DK 人体百科长销    |
+| How Things Work 身边为什么 | 8 | Why/How 书固定栏目 |
+| Sky & Weather 天空天气 | 7  | Why 书常问，单独书略少 |
+| Earth & Nature 地球自然 | 7 | 火山/潮汐/树叶；岩石后期 |
+| 合计                | 60   |                    |
+
+安全 24 篇仍单独（护眼刚需，不跟书店百科比销量）。
+
+==================================================
+三、选题口味（跟畅销书学，不抄书名）
+==================================================
+- 一问一答标题（Why / How / What）
+- 优先：会动的动物、恐龙、鲨鱼、虫子、行星、自己的身体
+- 每篇短、有一个「哇」点（像 Weird But True 的惊喜感，事实自查自写）
+- 不做：长历史年表、理财、大部头国家名录（首发）
+
+完整标题见：美国首发标题名单-百科60安全24.txt
+
+（完）

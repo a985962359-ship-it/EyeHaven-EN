@@ -1,0 +1,1767 @@
+{
+  "version": 20261114,
+  "updatedAt": "2026-11-15",
+  "ages": [
+    {
+      "id": "child",
+      "title": "Ages 3–10",
+      "ageRange": "3–10",
+      "hint": "Short Why stories and safety"
+    },
+    {
+      "id": "youth",
+      "title": "Ages 11–15",
+      "ageRange": "11–15",
+      "hint": "Coming later for US"
+    }
+  ],
+  "shelves": [
+    {
+      "id": "animals",
+      "title": "Animals",
+      "badge": "Animals",
+      "blurb": "Dinosaurs, bugs, ocean life, and pets—short Why stories",
+      "footer": "Original science-for-kids wording.",
+      "coverImage": "ShelfKnowledge",
+      "usesFairyGroups": false,
+      "sort": 1
+    },
+    {
+      "id": "why",
+      "title": "Why?",
+      "badge": "Why",
+      "blurb": "Everyday wonder questions, short and clear",
+      "footer": "Original science-for-kids wording.",
+      "coverImage": "ShelfFairyOriginal",
+      "usesFairyGroups": false,
+      "sort": 2
+    },
+    {
+      "id": "body",
+      "title": "My Body",
+      "badge": "Body",
+      "blurb": "Sleep, heartbeats, teeth, and how you work",
+      "footer": "Original science-for-kids wording.",
+      "coverImage": "ShelfBiography",
+      "usesFairyGroups": false,
+      "sort": 3
+    },
+    {
+      "id": "space",
+      "title": "Space",
+      "badge": "Space",
+      "blurb": "Moon, stars, rockets, and planets",
+      "footer": "Original science-for-kids wording.",
+      "coverImage": "ShelfFairyMyth",
+      "usesFairyGroups": false,
+      "sort": 4
+    },
+    {
+      "id": "how",
+      "title": "How Things Work",
+      "badge": "How",
+      "blurb": "Shadows, bubbles, planes, and wheels",
+      "footer": "Original science-for-kids wording.",
+      "coverImage": "ShelfFairy",
+      "usesFairyGroups": false,
+      "sort": 5
+    },
+    {
+      "id": "weather",
+      "title": "Sky & Weather",
+      "badge": "Sky",
+      "blurb": "Blue sky, rain, thunder, snow, and wind",
+      "footer": "Original science-for-kids wording.",
+      "coverImage": "ShelfFairyForeign",
+      "usesFairyGroups": false,
+      "sort": 6
+    },
+    {
+      "id": "earth",
+      "title": "Earth & Nature",
+      "badge": "Earth",
+      "blurb": "Leaves, volcanoes, tides, flowers, and trees",
+      "footer": "Original science-for-kids wording.",
+      "coverImage": "ShelfGeography",
+      "usesFairyGroups": false,
+      "sort": 7
+    },
+    {
+      "id": "safety",
+      "title": "Safety Theater",
+      "badge": "Safety",
+      "blurb": "Eyes, home, street, and online—clear, not scary",
+      "footer": "Original safety playlets.",
+      "coverImage": "ShelfSafety",
+      "usesFairyGroups": false,
+      "sort": 8
+    }
+  ],
+  "fairyGroups": [],
+  "stories": [
+    {
+      "id": "E-A01",
+      "age": "child",
+      "shelf": "animals",
+      "title": "Why Can Birds Fly?",
+      "text": "Guangguang lifts a tiny paper bird. \"Why can real birds fly?\"\n\nBirds have light, hollow bones—less weight to lift.\n\nStrong chest muscles pull those wings hard.\n\nFeathers catch the air like soft little sails.\n\nA flap pushes air down, and the bird goes up.\n\nGliding rides moving air under the curved wing.\n\nPeople are heavier and have no wing feathers.\n\nAirplanes borrow the same idea with big wings.\n\nWatch how a wing curves when a bird turns.\n\nPush, then coast. Push, then coast again.\n\nBirds aren't magic—they're built for the sky.\n\nNext time you see a bird, count one careful flap.",
+      "group": null
+    },
+    {
+      "id": "E-A02",
+      "age": "child",
+      "shelf": "animals",
+      "title": "Why Do Cats Purr?",
+      "text": "A cat curls up and goes rrr-rrr. Guangguang whispers, “Is that a tiny motor?”\n\nCats often purr when they feel safe and happy—petting, resting, or snuggling. The sound comes from muscles near the voice box vibrating as they breathe. Some cats also purr when they need comfort, like when they’re nervous.\n\nPurring doesn’t mean “leave me alone.” Soft ears and a soft body usually mean the cat likes the moment. Always pet gently and stop if the cat walks away.",
+      "group": null
+    },
+    {
+      "id": "E-A03",
+      "age": "child",
+      "shelf": "animals",
+      "title": "Why Do Dogs Wag Their Tails?",
+      "text": "A dog’s tail goes swish-swish. “Is that always happy?” asks Guangguang.\n\nA wagging tail is a message. A loose, wide wag with a soft body often means friendly excitement. A stiff, high wag can mean the dog is unsure or on alert. The whole body tells the story—ears, mouth, and how close the dog stands.\n\nNever rush a dog you don’t know. Ask a grown-up first. Friendly wags are nice—but calm hands are kinder.",
+      "group": null
+    },
+    {
+      "id": "E-A04",
+      "age": "child",
+      "shelf": "animals",
+      "title": "How Do Fish Breathe Underwater?",
+      "text": "Guangguang peeks at a fish tank. “They don’t come up for air!”\n\nFish pull water in through their mouths and push it out over gills. Gills are thin layers that take oxygen from the water into the fish’s blood—like tiny underwater lungs for water-breathing.\n\nThat’s why clean water matters. If water has little oxygen, fish can struggle. We breathe air; fish breathe the oxygen dissolved in water. Different tools, same need: oxygen.",
+      "group": null
+    },
+    {
+      "id": "E-A05",
+      "age": "child",
+      "shelf": "animals",
+      "title": "Why Do Dogs Pant?",
+      "text": "On a warm day, a dog goes pant-pant with a long tongue. “Hot?” asks Guangguang.\n\nDogs don’t sweat much through skin like people. Panting moves air quickly over the tongue and mouth, helping heat leave the body. After a run or on a sunny day, panting is a dog’s cooler.\n\nIf a dog pants very hard and seems weak, find shade, water, and a grown-up. Never leave a dog in a hot car. Rest and water help everyone cool down.",
+      "group": null
+    },
+    {
+      "id": "E-A06",
+      "age": "child",
+      "shelf": "animals",
+      "title": "Why Do Bees Make Honey?",
+      "text": "Guangguang watches a bee visit a flower. “Snack time?”\n\nBees collect nectar, a sweet liquid from flowers. In the hive, they pass it along and fan their wings so water evaporates. What’s left becomes thick honey—food for the colony, especially in cold months.\n\nWhile bees work, pollen sticks to them and rides to other flowers. That helps plants make seeds and fruit. Honey is bee food first; for us, it’s a treat we share carefully.",
+      "group": null
+    },
+    {
+      "id": "E-A07",
+      "age": "child",
+      "shelf": "animals",
+      "title": "Why Are Some Animals Striped?",
+      "text": "A picture of a zebra makes Guangguang tilt. “Fashion?”\n\nStripes can help animals. For a tiger in tall grass, stripes break up the body’s outline so prey may not notice as quickly. For zebras in a group, many stripes can confuse a hunter trying to pick one animal.\n\nPatterns are tools shaped by where an animal lives. Spots, stripes, and colors aren’t just pretty—they’re survival helpers.",
+      "group": null
+    },
+    {
+      "id": "E-A08",
+      "age": "child",
+      "shelf": "animals",
+      "title": "Why Did Dinosaurs Get So Big?",
+      "text": "Guangguang holds a tiny toy T. rex. “Some were school-bus big!”\n\nLong ago, Earth had different plants, climates, and habitats. Some dinosaurs grew huge over many generations. Big bodies can help with defense, reaching high leaves, or storing heat—but growing big also needs lots of food.\n\nNot every dinosaur was giant. Many were chicken-sized or dog-sized. Fossils show bones, teeth, and footprints so scientists can guess size and diet. Big or small, dinosaurs were real animals of a different time.",
+      "group": null
+    },
+    {
+      "id": "E-A09",
+      "age": "child",
+      "shelf": "animals",
+      "title": "What Did T. rex Eat?",
+      "text": "Guangguang shows long pointed teeth. “Salad?”\n\nTyrannosaurus rex had strong jaws and sharp teeth good for meat. Scientists think it hunted and also ate animals that were already dead—both can be true for a big meat-eater.\n\nTeeth shape is a clue: flat grinders often mean plants; sharp slicers often mean meat. T. rex was built for biting hard. We learn this from fossils, not from movies alone.",
+      "group": null
+    },
+    {
+      "id": "E-A10",
+      "age": "child",
+      "shelf": "animals",
+      "title": "Why Do Whales Spout Water?",
+      "text": "A whale blows a misty fountain. “Water fountain?”\n\nWhales are mammals. They breathe air with lungs, not gills. When a whale comes up, it breathes out through a blowhole on top of its head. Warm breath meets cooler air and can look like a spout of mist—not a mouthful of ocean sprayed for fun.\n\nThen the whale breathes in and can dive again. Different whales make different spout shapes. Watching from a safe boat with grown-ups is the kind way to see them.",
+      "group": null
+    },
+    {
+      "id": "E-A11",
+      "age": "child",
+      "shelf": "animals",
+      "title": "Why Do Sharks Have So Many Teeth?",
+      "text": "Guangguang counts cartoon shark teeth. “A hundred?”\n\nSharks grow many teeth in rows. When a front tooth wears out or falls away, another can move forward. That way a shark keeps a working set for catching slippery food.\n\nDifferent sharks eat different things—some chase fish, some cruise for plankton. Lots of teeth doesn’t mean “mean.” It means “tools that get replaced.” Ocean animals need healthy seas to live.",
+      "group": null
+    },
+    {
+      "id": "E-A12",
+      "age": "child",
+      "shelf": "animals",
+      "title": "Why Do Camels Have Humps?",
+      "text": "A camel’s hump looks like a backpack. “Is it full of water?” asks Guangguang.\n\nA camel’s hump stores fat, not a tank of water. Fat is energy the camel can use when food is scarce in hot, dry places. Camels are also great at saving water with clever bodies and behavior.\n\nPeople once thought humps were water bottles. Science says: energy packs. Deserts are tough; camels are built for the journey.",
+      "group": null
+    },
+    {
+      "id": "E-A13",
+      "age": "child",
+      "shelf": "animals",
+      "title": "Why Do Owls Stay Up at Night?",
+      "text": "An owl’s eyes look round and ready. “Night shift?”\n\nMany owls hunt at night when mice and other small animals move around. Soft feathers help them fly quietly. Big eyes gather dim light, and keen ears help find tiny sounds.\n\nNot every owl is strictly nocturnal, but night hunting fits their tools. Next time you hear a hoot, think of a quiet flyer on the night beat.",
+      "group": null
+    },
+    {
+      "id": "E-A14",
+      "age": "child",
+      "shelf": "animals",
+      "title": "Why Do Butterflies Start as Caterpillars?",
+      "text": "Guangguang peeks at a chrysalis. \"Costume change?\"\n\nA butterfly's life starts as a tiny egg.\n\nThe egg hatches into a hungry little caterpillar.\n\nThe caterpillar eats leaves and grows very fast.\n\nThen it makes a chrysalis—or soft pupa shell.\n\nInside the shell, the body quietly rebuilds.\n\nWings form. Legs change. A new shape waits.\n\nAt last, a butterfly climbs out carefully.\n\nIt waits for soft wings to dry and stiffen.\n\nThis big change is called metamorphosis.\n\nCaterpillars and butterflies need different host plants.\n\nA garden with the right leaves helps them thrive.",
+      "group": null
+    },
+    {
+      "id": "E-A15",
+      "age": "child",
+      "shelf": "animals",
+      "title": "Why Do Ants Walk in a Line?",
+      "text": "Ants march like a tiny parade. “Follow the leader?”\n\nMany ants leave scent trails. When one finds food, it marks the path home. Other ants smell the trail and follow, making a busy line that looks organized.\n\nTeamwork helps a colony carry crumbs much bigger than one ant. If you watch ants outdoors, don’t block their path—just notice the clever chemistry under your feet.",
+      "group": null
+    },
+    {
+      "id": "E-A16",
+      "age": "child",
+      "shelf": "animals",
+      "title": "Why Do Sea Turtles Come Ashore?",
+      "text": "A turtle leaves the ocean for the sand. “Vacation?”\n\nMany female sea turtles come ashore to dig nests and lay eggs in warm sand. Later, hatchlings race toward the sea. The ocean is their home for swimming and feeding; the beach is a nursery stop.\n\nBright lights and trash can confuse turtles. Keeping beaches dark and clean helps babies find the waves. Grown-ups and kids can care for turtle homes together.",
+      "group": null
+    },
+    {
+      "id": "E-A17",
+      "age": "child",
+      "shelf": "animals",
+      "title": "Why Do Frogs Jump So Far?",
+      "text": "A frog pops from lily pad to pad. “Boing!”\n\nFrogs have long, strong back legs and stretchy muscles built for jumping. A sudden push sends them far to catch food or escape danger. Webbed feet help some frogs swim, too.\n\nJumping uses stored energy like a spring. Different frogs jump different distances. Wetlands and clean water keep frog homes healthy.",
+      "group": null
+    },
+    {
+      "id": "E-A18",
+      "age": "child",
+      "shelf": "animals",
+      "title": "Why Do Octopuses Have Eight Arms?",
+      "text": "Guangguang counts: “One, two… eight!”\n\nOctopuses use eight arms to crawl, taste, and grab. Suckers help them hold rocks and food. Soft bodies can squeeze into small dens. Some octopuses can change color to hide.\n\nEight arms mean many tools at once—like having eight helpful hands underwater. Oceans are full of surprising body plans. Octopuses show how flexible life can be.",
+      "group": null
+    },
+    {
+      "id": "E-A19",
+      "age": "child",
+      "shelf": "animals",
+      "title": "Why Do Penguins Huddle Together?",
+      "text": "Guangguang wraps a scarf around a stuffed penguin. “Why do penguins huddle?”\n\nIn icy places, penguins stand close in a big group. Warm bodies share heat, like many little heaters standing shoulder to shoulder. They take turns moving from the cold outside of the huddle to the warmer inside.\n\nHuddling is teamwork, not just cuddling for fun. Each bird helps the others stay warm enough to live.\n\nSo a penguin huddle is a living blanket. Next time you see friends stick together in a cold wind, you’re practicing a tiny bit of penguin wisdom.\n",
+      "group": null
+    },
+    {
+      "id": "E-A20",
+      "age": "child",
+      "shelf": "animals",
+      "title": "Why Do Elephants Have Trunks?",
+      "text": "Guangguang tries to pick up a leaf with two fingers. “Elephants use a trunk—why?”\n\nAn elephant’s trunk is a long nose and upper lip working together. It can smell, breathe, spray water, and grab food. Soft tips act like gentle fingers for tiny things; strong muscles lift heavier branches.\n\nA trunk helps an elephant drink and cool off, too. It is a tool, a nose, and a hand in one.\n\nSo trunks aren’t decoration. They’re Swiss-army noses built for a big, busy life.\n",
+      "group": null
+    },
+    {
+      "id": "E-A21",
+      "age": "child",
+      "shelf": "animals",
+      "title": "Why Do Giraffes Have Long Necks?",
+      "text": "Max looks up at a tall tree. “Why are giraffe necks so long?”\n\nA long neck helps a giraffe reach leaves other animals can’t. It also helps them watch for danger across the grass. Extra-strong hearts pump blood all the way up that tall road.\n\nGiraffes still bend carefully to drink. Long necks are useful, but every body has trade-offs.\n\nSo a giraffe neck is a leafy ladder and a lookout tower—grown for the savanna, not for looking fancy.\n",
+      "group": null
+    },
+    {
+      "id": "E-A22",
+      "age": "child",
+      "shelf": "animals",
+      "title": "Why Do Spiders Spin Webs?",
+      "text": "A dew-bright web shines. “Why spin webs?” asks Guangguang.\n\nMany spiders make silk from their bodies. A web is a trap and a home base. Sticky threads catch flying snacks; the spider feels the shake and hurries over.\n\nNot every spider builds the same web. Some hunt without big nets. Silk can also wrap eggs or help a spider travel on the breeze.\n\nSo a web is engineering with protein thread—quiet, patient, and surprisingly strong.\n",
+      "group": null
+    },
+    {
+      "id": "E-A23",
+      "age": "child",
+      "shelf": "animals",
+      "title": "Why Do Bats Sleep Upside Down?",
+      "text": "Guangguang hangs a sock puppet by its toes. “Bats sleep upside down—why?”\n\nBat feet and legs are great at locking onto a perch. Hanging takes little energy once they’re hooked. From that start, they can drop into flight more easily than jumping up from the ground.\n\nCaves and trees give safe, dark rest spots. Upside-down sleeping fits how their bodies work.\n\nSo bats aren’t being dramatic. They’re resting in the position that makes waking up into flight simplest.\n",
+      "group": null
+    },
+    {
+      "id": "E-A24",
+      "age": "child",
+      "shelf": "animals",
+      "title": "Why Do Zebras Have Stripes?",
+      "text": "Black and white flash by. “Why stripes?” Max asks.\n\nScientists study several helpful ideas: stripes may confuse biting flies, blur motion for predators, or help zebras recognize one another in a herd. One zebra’s pattern is like a fingerprint.\n\nStripes don’t make a zebra invisible in bright sun, but they can still be useful in the wild.\n\nSo zebra fashion is survival science—still being studied, already amazing.\n",
+      "group": null
+    },
+    {
+      "id": "E-A25",
+      "age": "child",
+      "shelf": "animals",
+      "title": "Why Do Kangaroos Hop?",
+      "text": "Guangguang bounce-bounces. “Why hop?”\n\nKangaroos have strong back legs and big feet. Hopping stores and returns energy in tendons, like springy rubber bands. On open ground, hopping can be an efficient way to travel.\n\nA thick tail helps with balance. Joeys ride in a pouch while moms hop along.\n\nSo hopping isn’t just play. It’s a springy highway built into kangaroo legs.\n",
+      "group": null
+    },
+    {
+      "id": "E-A26",
+      "age": "child",
+      "shelf": "animals",
+      "title": "Why Do Dolphins Click and Whistle?",
+      "text": "Clicks echo in Guangguang’s pretend ocean. “Why so noisy?”\n\nDolphins use sound to talk and to “see.” Clicks bounce off fish and the seafloor; returning echoes paint a sound-picture called echolocation. Whistles help friends stay in touch.\n\nWater carries sound well, so voices travel far. A quiet dolphin would miss dinner and friends.\n\nSo dolphin noise is a toolkit: chat plus underwater sonar.\n",
+      "group": null
+    },
+    {
+      "id": "E-A27",
+      "age": "child",
+      "shelf": "animals",
+      "title": "Why Do Fireflies Glow?",
+      "text": "Tiny lights blink in the grass. “Why glow?” asks Max.\n\nFireflies make light with a chemical reaction in their bodies—cold light, not a hot flame. The flashes help them find mates. Different patterns can mean different messages.\n\nKids should watch, not catch too many. Wild lights belong in the night.\n\nSo a firefly glow is living Morse code—soft, safe light with a purpose.\n",
+      "group": null
+    },
+    {
+      "id": "E-A28",
+      "age": "child",
+      "shelf": "animals",
+      "title": "Why Do Crabs Walk Sideways?",
+      "text": "A crab skitters left. “Why sideways?” Guangguang laughs.\n\nMany crabs have joints that swing best to the side. Sideways steps fit their shell and leg design. They can still move forward when they need to, but the sideways shuffle is their specialty.\n\nHard shells protect them; quick side steps help them dart into holes.\n\nSo crab walking matches crab plumbing—legs built for a sideways groove.\n",
+      "group": null
+    },
+    {
+      "id": "E-A29",
+      "age": "child",
+      "shelf": "animals",
+      "title": "Why Do Beavers Build Dams?",
+      "text": "Splash! Sticks pile up. “Why build dams?”\n\nBeavers cut trees and pack mud to slow a stream. The pond that forms gives deep water for safety and a wet entrance to their lodge. Wetlands they create help other animals, too.\n\nBeavers are engineers with teeth. Their work changes the neighborhood on purpose.\n\nSo a dam isn’t a toy fort. It’s a beaver home-improvement project for water and safety.\n",
+      "group": null
+    },
+    {
+      "id": "E-A30",
+      "age": "child",
+      "shelf": "animals",
+      "title": "Why Do Snakes Stick Out Their Tongues?",
+      "text": "A tongue flicks. Max jumps. “Gross—why?”\n\nSnakes smell with their tongues. They pick up tiny scent bits from the air and ground, then read them with a special sense organ. Flicking helps them track prey and stay aware.\n\nIt looks rude to us. For snakes, it’s careful sniffing.\n\nSo a snake tongue is a smell antenna, not a tease.\n",
+      "group": null
+    },
+    {
+      "id": "E-A31",
+      "age": "child",
+      "shelf": "animals",
+      "title": "Why Do Hummingbirds Hover?",
+      "text": "Wings blur. “How do they hang in the air?” Guangguang asks.\n\nHummingbirds beat their wings in a special figure-eight path very, very fast. That motion makes lift on the way forward and back, so they can hover like tiny helicopters while sipping nectar.\n\nThey need lots of sugary fuel. Hovering costs energy.\n\nSo hovering is high-speed wing math—beautiful and hungry.\n",
+      "group": null
+    },
+    {
+      "id": "E-A32",
+      "age": "child",
+      "shelf": "animals",
+      "title": "Why Do Polar Bears Have White Fur?",
+      "text": "White fur against snow. “Camouflage?” Max asks.\n\nPolar bear fur looks white, which helps them blend with ice and snow while hunting. Underneath, their skin is dark, which can soak up warmth from sunlight. Hollow hairs can also trap air for insulation.\n\nThey’re built for cold seas and ice. Climate and sea ice matter for their future.\n\nSo “white” is a hunting cloak and a cold-weather suit in one fluffy package.\n",
+      "group": null
+    },
+    {
+      "id": "E-Y01",
+      "age": "child",
+      "shelf": "why",
+      "group": null,
+      "title": "Why Is Grass Green?",
+      "text": "Guangguang sits on the lawn. “Why is grass green and not purple?”\n\nGrass leaves have a tiny helper called chlorophyll. It catches sunlight—especially the red and blue parts—and uses that energy to make food for the plant. The green light mostly bounces back to our eyes, so grass looks green.\n\nIn fall, some plants stop making chlorophyll, and other colors show. Grass stays busy making food for a long time, so it stays green longer.\n\nSo green isn’t paint. It’s the color of a plant hard at work in the sun."
+    },
+    {
+      "id": "E-Y02",
+      "age": "child",
+      "shelf": "why",
+      "group": null,
+      "title": "Why Is the Ocean Salty?",
+      "text": "Guangguang tastes pretend seawater and makes a funny face. “Why is the ocean salty?”\n\nRain falls on rocks and soil. Water carries tiny bits of salt and minerals into rivers, and rivers carry them to the sea. The sun lifts water into clouds, but most salt stays behind. Over a very long time, the ocean collected more salt.\n\nNot every lake is salty—some have rivers that carry salt out. The ocean is big and mostly keeps what arrives.\n\nSo ocean salt isn’t magic seasoning. It’s rock bits that traveled with water for ages."
+    },
+    {
+      "id": "E-Y03",
+      "age": "child",
+      "shelf": "why",
+      "group": null,
+      "title": "Why Do Onions Make Us Cry?",
+      "text": "Guangguang chops an onion for soup practice—chop chop—then sniffles. “Why do onions make us cry?”\n\nWhen you cut an onion, it releases a sharp gas. The gas floats up to your eyes. Your eyes make tears to wash the sting away. That is a smart shield, not sadness.\n\nChilling the onion or cutting near a little airflow can help. You are not “too soft”—your eyes are doing their job.\n\nSo onion tears are chemistry meeting your eyelids. Next time, blink, step back, and finish the soup with Guangguang."
+    },
+    {
+      "id": "E-Y04",
+      "age": "child",
+      "shelf": "why",
+      "group": null,
+      "title": "Why Does Popcorn Pop?",
+      "text": "A quiet kernel sits still on the counter. Then—POP!\n\nGuangguang jumps. \"Why does popcorn pop like that?\"\n\nInside each hard kernel is a little water.\n\nHeat turns that tiny water into steam.\n\nSteam needs more room than liquid water.\n\nPressure builds inside the tough little shell.\n\nSuddenly the hard shell bursts wide open.\n\nThe soft inside flips out fluffy and white.\n\nThat's the loud pop you hear and see.\n\nIf a kernel is too dry, it may not pop.\n\nHeat and a sip of water work as a team.\n\nNot exploding candy—just a steamy seed surprise."
+    },
+    {
+      "id": "E-Y05",
+      "age": "child",
+      "shelf": "why",
+      "group": null,
+      "title": "Why Do Magnets Stick to Some Things?",
+      "text": "Guangguang holds a fridge magnet. “Why does it stick here, but not to wood?”\n\nMagnets pull on materials with iron, nickel, or cobalt inside—like many fridge doors and some screws. Wood, plastic, and glass usually don’t have that kind of metal, so the magnet shrugs and slides off.\n\nA magnet has two ends, often called north and south. Opposite ends pull together; same ends push apart.\n\nSo magnets aren’t sticky glue. They’re a quiet force that loves certain metals."
+    },
+    {
+      "id": "E-Y06",
+      "age": "child",
+      "shelf": "why",
+      "group": null,
+      "title": "Why Do Bananas Turn Brown?",
+      "text": "A yellow banana gets freckles, then brown. “Why?” asks Guangguang.\n\nBananas keep changing after they’re picked. A natural signal tells them to ripen. Soft enzymes break down the firm parts, and the peel’s color shifts from green to yellow to brown. Bruises brown faster where cells got squished.\n\nCooler air slows ripening; a warm bowl speeds it up. Brown spots can still mean sweet fruit inside—check with a grown-up if it smells okay.\n\nSo browning is ripening chemistry, not a banana “catching a cold.”"
+    },
+    {
+      "id": "E-Y07",
+      "age": "child",
+      "shelf": "why",
+      "group": null,
+      "title": "Why Does Metal Feel Colder Than Wood?",
+      "text": "Guangguang touches a metal spoon and a wooden spoon. “The metal feels colder—but are they different temperatures?”\n\nOften they are nearly the same temperature in the room. Metal moves heat away from your fingers quickly, so your skin cools fast and you feel “cold.” Wood moves heat more slowly, so it feels warmer to the touch.\n\nA winter metal slide can feel icy for the same reason—it steals heat from your hands fast.\n\nSo “feels colder” is about heat leaving your skin, not always about the object being frozen."
+    },
+    {
+      "id": "E-Y08",
+      "age": "child",
+      "shelf": "why",
+      "group": null,
+      "title": "Why Do We Hiccup?",
+      "text": "Hic—! Guangguang blinks. “Why do we hiccup?”\n\nA hiccup is a sudden squeeze of the breathing muscle under your lungs, called the diaphragm. Air pops in, and your voice box makes a tiny “hic.” Spicy food, fizzy drinks, or a big laugh can tickle that muscle.\n\nMost hiccups stop on their own. Slow breaths and a sip of water can help. If hiccups last a long time, tell a grown-up.\n\nSo hiccups aren’t a tiny animal sneezing inside you. They’re a short glitch in a helpful breathing muscle."
+    },
+    {
+      "id": "E-Y09",
+      "age": "child",
+      "shelf": "why",
+      "title": "Why Do We Have Five Fingers?",
+      "text": "Guangguang counts Max’s fingers. “Why five?”\n\nHumans usually grow five digits on each hand. That layout helps us grip, pinch, and use tools. Fossils show our distant relatives also had a five-digit pattern that worked well and stuck around.\n\nSome people are born with more or fewer digits. Bodies can vary and still be wonderful.\n\nSo five fingers aren’t a rule of the universe—they’re a useful design that evolution kept.\n",
+      "group": null
+    },
+    {
+      "id": "E-Y10",
+      "age": "child",
+      "shelf": "why",
+      "title": "Why Does Bread Get Moldy?",
+      "text": "Green fuzz on bread. “Ew—why?”\n\nMold is a tiny living fungus. Spores float in air, land on food, and grow when it’s moist and not too cold. Bread is a cozy buffet for them.\n\nCool, dry, sealed storage slows mold. Fuzzy bread should be thrown away—don’t just scrape the top.\n\nSo mold isn’t magic dirt. It’s life throwing a party on leftovers.\n",
+      "group": null
+    },
+    {
+      "id": "E-Y11",
+      "age": "child",
+      "shelf": "why",
+      "title": "Why Do We Have Eyebrows?",
+      "text": "Guangguang draws brows on a face. “What for?”\n\nEyebrows help keep sweat and rain from running straight into your eyes. They also show feelings—surprise, worry, joy—so friends can read your face.\n\nThey’re small, but busy. Without them, faces look different and eyes get dripper.\n\nSo eyebrows are rain gutters plus emotion signals.\n",
+      "group": null
+    },
+    {
+      "id": "E-Y12",
+      "age": "child",
+      "shelf": "why",
+      "title": "Why Does Ice Cream Melt?",
+      "text": "A scoop sags. “Why so fast?” Max wails.\n\nIce cream is frozen water, fat, and sugar mixed with air. Warm air and your tongue add heat. Heat makes ice crystals turn back into liquid, so the scoop collapses into soup.\n\nShade and a cold bowl slow the melt. Summer sun speeds it up.\n\nSo melting is heat winning against frozen crystals—delicious, temporary art.\n",
+      "group": null
+    },
+    {
+      "id": "E-Y13",
+      "age": "child",
+      "shelf": "why",
+      "title": "Why Do We Get Hiccups After Soda?",
+      "text": "Fizz! Hic! “Why now?”\n\nBubbly drinks can tickle your stomach and the diaphragm—the breathing muscle under your lungs. A sudden squeeze makes that tiny “hic.” Cold fizz and fast gulps make it more likely.\n\nSlow sips help. Most hiccups pass soon.\n\nSo soda hiccups are bubbles plus a jumpy breathing muscle.\n",
+      "group": null
+    },
+    {
+      "id": "E-Y14",
+      "age": "child",
+      "shelf": "why",
+      "title": "Why Is Honey Sticky?",
+      "text": "A spoon stretches a gold thread. “Why sticky?”\n\nHoney is thick sugar syrup made by bees. Very little water remains, so sugar molecules cling and flow slowly. That thickness helps honey last a long time when sealed well.\n\nWarmth makes honey runnier. Cold makes it stiffer.\n\nSo sticky honey is concentrated sweetness with almost no splashy water left.\n",
+      "group": null
+    },
+    {
+      "id": "E-Y15",
+      "age": "child",
+      "shelf": "why",
+      "title": "Why Do We Dream?",
+      "text": "Max yawns. “Why dream?”\n\nWhile you sleep, your brain stays busy. Dreams often happen in a sleep stage with rapid eye movements. Scientists think dreaming may help sort memories, practice feelings, or just be the brain’s nighttime noise.\n\nEveryone’s dreams differ. Scary dreams can fade when you talk them out with a grown-up.\n\nSo dreams are your brain’s night theater—still mysterious, totally normal.\n",
+      "group": null
+    },
+    {
+      "id": "E-Y16",
+      "age": "child",
+      "shelf": "why",
+      "title": "Why Does the Moon Change Shape?",
+      "text": "A crescent hangs. “Is it broken?”\n\nThe Moon doesn’t really change shape. Sunlight lights different parts as the Moon orbits Earth. We see a slice, a half, or a full bright circle depending on where the Moon sits.\n\nIt’s the same rocky ball, different lighting. No cheese missing.\n\nSo moon “phases” are a spotlight show, not the Moon dieting.\n",
+      "group": null
+    },
+    {
+      "id": "E-Y17",
+      "age": "child",
+      "shelf": "why",
+      "title": "Why Do Apples Turn Brown After Cutting?",
+      "text": "A slice browns. “Why?”\n\nCutting lets air touch apple cells. A natural chemical reaction with oxygen turns the cut surface brown. Lemon juice can slow it by changing the chemistry.\n\nBrown isn’t always unsafe, but mushy rotten fruit should be skipped.\n\nSo apple brown is air meeting fruit chemistry—not the apple blushing.\n",
+      "group": null
+    },
+    {
+      "id": "E-Y18",
+      "age": "child",
+      "shelf": "why",
+      "title": "Why Do We Need Two Eyes?",
+      "text": "Guangguang peeks with one eye. “Why two?”\n\nTwo eyes see from slightly different angles. Your brain combines the views to judge distance—handy for catching a ball or pouring milk. If one eye rests, the other still helps you see.\n\nDepth vision is a team sport for eyeballs.\n\nSo two eyes are a built-in 3D measuring kit.\n",
+      "group": null
+    },
+    {
+      "id": "E-Y19",
+      "age": "child",
+      "shelf": "why",
+      "title": "Why Does Salt Melt Ice on Sidewalks?",
+      "text": "White salt on ice. “How does that work?”\n\nSalt lowers the freezing point of water. Ice can melt even when the air is still a bit below the normal freezing temperature. The salty water stays liquid longer.\n\nToo much salt can bother plants and pets’ paws—grown-ups choose carefully.\n\nSo sidewalk salt is chemistry that asks ice to give up sooner.\n",
+      "group": null
+    },
+    {
+      "id": "E-Y20",
+      "age": "child",
+      "shelf": "why",
+      "title": "Why Do We Have Belly Buttons?",
+      "text": "Max pokes his. “What’s this scar for?”\n\nBefore birth, a cord brought food and oxygen from mom. After birth, the cord is clamped and falls away. The belly button is the healed mark that remains.\n\nInnies and outies are both normal. It’s a souvenir of how you grew.\n\nSo a belly button is a tiny life-history badge, not a button for clothes.\n",
+      "group": null
+    },
+    {
+      "id": "E-Y21",
+      "age": "child",
+      "shelf": "why",
+      "title": "Why Do Balloons Stick to Hair After Rubbing?",
+      "text": "Rubber squeaks on hair. Then—stick! “Why?”\n\nRubbing moves tiny electric charges. The balloon and hair get opposite charges, so they pull together. That’s static electricity—not glue and not magic.\n\nDry air makes static stronger. A little moisture weakens it.\n\nSo sticky balloon tricks are invisible charge hugs.\n",
+      "group": null
+    },
+    {
+      "id": "E-Y22",
+      "age": "child",
+      "shelf": "why",
+      "title": "Why Do Leaves Fall in Autumn?",
+      "text": "A red leaf drifts. “Why let go?”\n\nAs days shorten, many trees seal off leaves and stop feeding them green chlorophyll. Colors show, then leaves drop. That helps the tree save water and rest through cold or dry seasons.\n\nNot every tree drops all leaves. Evergreens keep tough needles longer.\n\nSo autumn fall is a planned pause, not the tree giving up forever.\n",
+      "group": null
+    },
+    {
+      "id": "E-Y23",
+      "age": "child",
+      "shelf": "why",
+      "title": "Why Does Pepper Make You Sneeze?",
+      "text": "Achoo! “Pepper!” Max says.\n\nPepper bits can tickle sensitive nerves in your nose. Your body fires a sneeze to blast the tickle out. It’s a defense reflex, not rudeness.\n\nKeep pepper jars away from deep sniffs. Cover sneezes politely.\n\nSo pepper sneezes are your nose’s eject button for tiny irritants.\n",
+      "group": null
+    },
+    {
+      "id": "E-Y24",
+      "age": "child",
+      "shelf": "why",
+      "title": "Why Is Fire Hot?",
+      "text": "Warm glow. Careful distance. “Why hot?”\n\nFire is a chemical reaction that releases energy as heat and light. Fuel and oxygen combine; energy that was stored in the fuel spreads out as warmth you can feel.\n\nNever touch flames. Grown-ups handle candles and stoves.\n\nSo fire’s heat is energy escaping a fast chemical party—respect it.\n",
+      "group": null
+    },
+    {
+      "id": "E-Y25",
+      "age": "child",
+      "shelf": "why",
+      "title": "Why Do We Get Brain Freeze From Cold Drinks?",
+      "text": "Ow—forehead zap! “Brain freeze?”\n\nVery cold drinks can chill nerves in the roof of your mouth. Those nerves send a loud pain message that can feel like it’s in your forehead. It usually fades in under a minute.\n\nWarm your tongue on the roof of your mouth. Sip slower next time.\n\nSo brain freeze is chilly nerves yelling, not your brain turning into ice.\n",
+      "group": null
+    },
+    {
+      "id": "E-Y26",
+      "age": "child",
+      "shelf": "why",
+      "title": "Why Do Cats Knead Soft Blankets?",
+      "text": "Paws press-press. “Why bakery paws?”\n\nKneading is common in cats. Kittens press to help milk flow; grown cats may knead when cozy, claiming a soft spot with scent from their paws, or remembering kitten comfort.\n\nIt’s usually a compliment to the blanket—and to you.\n\nSo kneading is comfort behavior with kitten roots.\n",
+      "group": null
+    },
+    {
+      "id": "E-Y27",
+      "age": "child",
+      "shelf": "why",
+      "title": "Why Does Metal Rust?",
+      "text": "Orange flakes on a nail. “What’s rust?”\n\nRust forms when iron meets water and oxygen over time. The metal changes into a crumbly orange compound. Paint and oil slow the meeting of air, water, and iron.\n\nStainless mixtures resist better. Dry storage helps tools last.\n\nSo rust is iron slowly combining with air and water—not orange dust falling from the sky.\n",
+      "group": null
+    },
+    {
+      "id": "E-Y28",
+      "age": "child",
+      "shelf": "why",
+      "title": "Why Do We Have Different Blood Types?",
+      "text": "Guangguang shows colored stickers. “A, B, O—why?”\n\nPeople’s red blood cells can carry different marker molecules. We group them into types so doctors match transfusions safely. Your type is inherited from family.\n\nKnowing your type is useful in emergencies. Donating blood helps others—when grown-ups say you’re old enough.\n\nSo blood types are name tags on cells, discovered so medicine stays safe.\n",
+      "group": null
+    },
+    {
+      "id": "E-Y29",
+      "age": "child",
+      "shelf": "why",
+      "title": "Why Do Stars Look Pointy in Drawings?",
+      "text": "Max draws spikes. “Real stars are round, right?”\n\nReal stars are giant glowing balls. Twinkling and camera effects can make them look pointy to our eyes and in photos. Artists add points so stars pop on paper.\n\nSpace telescopes show rounder, sharper views above Earth’s blurry air.\n\nSo drawn points are art language; stars themselves are blazing spheres.\n",
+      "group": null
+    },
+    {
+      "id": "E-Y30",
+      "age": "child",
+      "shelf": "why",
+      "title": "Why Do We Yawn When Others Yawn?",
+      "text": "Guangguang yawns. Max yawns. “Contagious?!”\n\nYawning can spread among people and some animals. Scientists think it may relate to empathy, cooling the brain, or syncing alertness in a group. We’re still learning.\n\nYou can’t always stop a contagious yawn. It’s okay—and kind of funny.\n\nSo shared yawns may be social brain echoes, not boredom contests.\n",
+      "group": null
+    },
+    {
+      "id": "E-Y31",
+      "age": "child",
+      "shelf": "why",
+      "title": "Why Does Glue Stick?",
+      "text": "Two papers hug. “How does glue work?”\n\nWet glue flows into tiny roughness on surfaces, then hardens or dries. It grabs both sides like a microscopic handshake. Different glues use different chemistry—school glue isn’t the same as wood glue.\n\nUse the right glue for the job, and keep caps closed.\n\nSo sticking is chemistry plus grip in the tiny hills of a surface.\n",
+      "group": null
+    },
+    {
+      "id": "E-Y32",
+      "age": "child",
+      "shelf": "why",
+      "title": "Why Do We See Our Breath in Winter?",
+      "text": "A steamy puff. “Smoke?!”\n\nYour breath holds water vapor. Cold air cools that vapor into tiny droplets you can see—like a mini cloud. It isn’t smoke or dragons, just warm moist air meeting chill.\n\nCover your mouth with a scarf if wind bites. Puffs mean winter physics.\n\nSo visible breath is a personal weather cloud, gone in a second.\n",
+      "group": null
+    },
+    {
+      "id": "E-B01",
+      "age": "child",
+      "shelf": "body",
+      "title": "Why Do We Need Sleep?",
+      "text": "Guangguang yawns. “Nap attack!”\n\nSleep lets your body and brain recover. While you rest, your brain sorts memories, and your body repairs and grows. Kids need plenty of sleep because they’re growing fast.\n\nA calm bedtime—dim lights, quiet stories—helps. Screens late at night can trick your brain into staying alert. Sleep isn’t wasted time; it’s nightly repair.",
+      "group": null
+    },
+    {
+      "id": "E-B02",
+      "age": "child",
+      "shelf": "body",
+      "title": "Why Do We Yawn?",
+      "text": "A big yawn spreads. “Contagious!”\n\nScientists still study yawning. It may help cool the brain, wake you a little, or signal rest to others. Seeing someone yawn can make you yawn—humans are social that way.\n\nYawning doesn’t always mean you’re bored. It can mean your body wants a reset. Stretch, breathe, and if it’s night, follow the yawn toward bed.",
+      "group": null
+    },
+    {
+      "id": "E-B03",
+      "age": "child",
+      "shelf": "body",
+      "title": "Why Do We Blink?",
+      "text": "Guangguang tries not to blink. Impossible!\n\nBlinking spreads tears like a thin cleaning wipe across your eyes. It washes dust and keeps the surface moist so seeing stays clear and comfortable. Most blinks happen without thinking.\n\nScreens can make us blink less, so eyes feel dry. Soft blinks and looking far away help. Your eyelids are tiny windshield wipers.",
+      "group": null
+    },
+    {
+      "id": "E-B04",
+      "age": "child",
+      "shelf": "body",
+      "title": "Why Does My Heart Beat?",
+      "text": "Hand on chest: thump-thump. “A drum?”\n\nYour heart is a strong muscle pump. It pushes blood through tubes called blood vessels. Blood carries oxygen and nutrients to every part of you, then returns for a refill of oxygen from the lungs.\n\nExercise makes the heart beat faster to meet demand. Rest slows it. A steady heartbeat is your body’s delivery system at work.",
+      "group": null
+    },
+    {
+      "id": "E-B05",
+      "age": "child",
+      "shelf": "body",
+      "title": "Why Do I Get a Fever?",
+      "text": "Cheeks feel warm. “Broken thermostat?”\n\nA fever often means your body is fighting germs. Raising temperature a bit can help immune defenses work. Fevers can also come from other causes, so grown-ups decide what to do.\n\nRest, fluids, and a caregiver’s help matter. Medicine is only from a trusted adult—never grab pills yourself. Fever is a signal, not a game.",
+      "group": null
+    },
+    {
+      "id": "E-B06",
+      "age": "child",
+      "shelf": "body",
+      "title": "Why Do We Wash Hands with Soap?",
+      "text": "Guangguang rubs soapy hands. Bubbles!\n\nSoap loves both water and oils. It loosens dirt and many germs so rinsing can wash them away. Plain water alone misses sticky stuff. Twenty seconds of scrubbing—front, back, between fingers—works well.\n\nWash before eating and after the bathroom or outdoor play. Clean hands are a simple superpower.",
+      "group": null
+    },
+    {
+      "id": "E-B07",
+      "age": "child",
+      "shelf": "body",
+      "title": "Why Do Baby Teeth Fall Out?",
+      "text": "A wiggly tooth! “Is it broken?”\n\nBaby teeth are starters. Under the gums, adult teeth grow and gently push the baby teeth out. Losing them makes room for bigger teeth that fit a growing mouth.\n\nWiggle gently; don’t yank hard. Brush soft and often. The Tooth Fairy can visit—but the real magic is a healthy new smile coming in.",
+      "group": null
+    },
+    {
+      "id": "E-B08",
+      "age": "child",
+      "shelf": "body",
+      "title": "Why Do We Get Goosebumps?",
+      "text": "Arms look bumpy in the cold. “Tiny mountains!”\n\nGoosebumps happen when tiny muscles at hair follicles tighten. Long ago, fluffier hair might have trapped a bit more warmth. Today our hair is short, but the reflex remains—cold, strong feelings, or sudden sounds can trigger it.\n\nA sweater fixes cold better than goosebumps alone. Your skin still remembers an old trick.",
+      "group": null
+    },
+    {
+      "id": "E-B09",
+      "age": "child",
+      "shelf": "body",
+      "title": "Why Do We Sneeze?",
+      "text": "Ah—choo! “Blast off!”\n\nA sneeze is a quick blast of air that clears dust, pollen, or tickles from your nose. Sensors notice an irritant; your body answers with a burst to protect airways.\n\nCover with a tissue or elbow so droplets don’t spray others. Then wash hands. Sneezes are helpful—just aim kindly.",
+      "group": null
+    },
+    {
+      "id": "E-B10",
+      "age": "child",
+      "shelf": "body",
+      "title": "Why Do I Have a Belly Button?",
+      "text": "Guangguang points to a soft circle. “Button?”\n\nBefore birth, a baby gets food and oxygen through the umbilical cord. After birth, the cord isn’t needed. Doctors clamp and cut it; the leftover bit dries and falls away, leaving your belly button—a scar that marks where you were connected.\n\nEveryone’s belly button looks a little different. It’s a quiet reminder you grew from care.",
+      "group": null
+    },
+    {
+      "id": "E-B11",
+      "age": "child",
+      "shelf": "body",
+      "title": "Why Do We Have Skin?",
+      "text": "Guangguang pats his smooth shell. “People have skin—why?”\n\nSkin is your largest organ. It keeps insides in, germs out, and senses touch, heat, and pain. It helps control temperature with sweat and blood flow near the surface.\n\nCuts need gentle cleaning. Sunscreen protects from strong sun.\n\nSo skin is armor, sensor, and climate control wrapped around you.\n",
+      "group": null
+    },
+    {
+      "id": "E-B12",
+      "age": "child",
+      "shelf": "body",
+      "title": "Why Do Muscles Get Sore After Exercise?",
+      "text": "Max’s legs ache after soccer. “Why sore?”\n\nHard work can cause tiny stress in muscle fibers. Your body repairs them a bit stronger. Soreness can peak a day later. Rest, water, and gentle movement help.\n\nSharp pain or swelling needs a grown-up’s check. Soreness isn’t the same as injury.\n\nSo post-workout ouch can be repair day—your muscles remodeling.\n",
+      "group": null
+    },
+    {
+      "id": "E-B13",
+      "age": "child",
+      "shelf": "body",
+      "title": "Why Do We Have Two Kidneys?",
+      "text": "Guangguang holds two bean-shaped toys. “Backup?”\n\nKidneys clean waste from blood and help balance water and salts. Having two gives spare capacity. Many people live well with one if needed, but two is the usual kit.\n\nDrink water. Kidneys like steady care, not magic cleanses.\n\nSo two kidneys are a cleaning pair with room to spare.\n",
+      "group": null
+    },
+    {
+      "id": "E-B14",
+      "age": "child",
+      "shelf": "body",
+      "title": "Why Does My Stomach Growl?",
+      "text": "Grr-owl. Max blushes. “Why so loud?”\n\nYour digestive tube squeezes to move food and gas along. When it’s emptier, the squeezes and air make louder gurgles. Hunger hormones can turn up the activity.\n\nA snack can quiet it. Growls are normal, not rude on purpose.\n\nSo tummy thunder is plumbing plus air—sometimes on speakerphone.\n",
+      "group": null
+    },
+    {
+      "id": "E-B15",
+      "age": "child",
+      "shelf": "body",
+      "title": "Why Do We Get Chickenpox Only Once Usually?",
+      "text": "Dots and itchy memories. “Why once?”\n\nAfter some infections, your immune system remembers the germ. Memory cells help block the same illness later. That’s why one bout can protect you for years—vaccines teach memory safely without the full disease.\n\nFollow doctor advice on vaccines and itchy care.\n\nSo “only once” is often your immune library remembering the culprit.\n",
+      "group": null
+    },
+    {
+      "id": "E-B16",
+      "age": "child",
+      "shelf": "body",
+      "title": "Why Do Babies Have Soft Spots on Their Heads?",
+      "text": "Gently—Guangguang shows a doll. “Soft spot?”\n\nBabies’ skull bones aren’t fully fused. Soft spots (fontanelles) let the head pass through birth and give the brain room to grow. They usually close as bones meet over months and years.\n\nBe gentle. Soft doesn’t mean fragile if handled with care.\n\nSo soft spots are growth panels on a brand-new skull.\n",
+      "group": null
+    },
+    {
+      "id": "E-B17",
+      "age": "child",
+      "shelf": "body",
+      "title": "Why Do We Need Saliva?",
+      "text": "Max chews a cracker. “Why spit in my mouth?”\n\nSaliva wets food so you can taste and swallow. It starts breaking down some starches and washes teeth. Without it, eating feels like sandpaper.\n\nDry mouth needs water—and sometimes a dentist’s tip.\n\nSo saliva is free sauce, cleaner, and first digester in one.\n",
+      "group": null
+    },
+    {
+      "id": "E-B18",
+      "age": "child",
+      "shelf": "body",
+      "title": "Why Does My Heart Beat Faster When I Run?",
+      "text": "Thump-thump faster! “Why race?”\n\nRunning muscles need more oxygen and fuel. Your heart pumps quicker to deliver blood. Breathing speeds up too. After rest, rates calm down.\n\nA very odd heartbeat feeling should be told to a grown-up.\n\nSo a faster beat is express delivery for busy muscles.\n",
+      "group": null
+    },
+    {
+      "id": "E-B19",
+      "age": "child",
+      "shelf": "body",
+      "title": "Why Do We Have Earwax?",
+      "text": "Guangguang pretends to clean tiny ears—gently. “Wax?”\n\nEarwax traps dust and bugs, and it helps keep the canal from getting too dry. It slowly works its way out. Cotton swabs can push wax deeper—ask a grown-up about safe cleaning.\n\nA little wax is healthy armor.\n\nSo earwax is sticky security, not dirt you must dig out every day.\n",
+      "group": null
+    },
+    {
+      "id": "E-B20",
+      "age": "child",
+      "shelf": "body",
+      "title": "Why Do Fingernails Grow?",
+      "text": "Clip clip. “Why keep growing?”\n\nNails protect fingertip bones and help pick up tiny things. New nail material forms under the skin at the base and slowly pushes forward. Toes do the same, usually slower.\n\nTrim carefully. Biting nails can invite germs.\n\nSo nails are living shields on a slow conveyor belt.\n",
+      "group": null
+    },
+    {
+      "id": "E-B21",
+      "age": "child",
+      "shelf": "body",
+      "title": "Why Do We Get Allergies?",
+      "text": "Achoo near pollen. “Allergy?”\n\nAn allergy is the immune system overreacting to something usually harmless, like pollen or certain foods. It releases chemicals that cause sniffles, itch, or worse.\n\nSerious breathing trouble needs emergency help. Mild sniffles still deserve grown-up plans.\n\nSo allergies are false alarms with real symptoms—know your triggers.\n",
+      "group": null
+    },
+    {
+      "id": "E-B22",
+      "age": "child",
+      "shelf": "body",
+      "title": "Why Do We Shiver When Cold?",
+      "text": "Brr—shake shake. “Why shiver?”\n\nShivering is quick muscle jerks that make extra heat. Your brain turns it on when you’re chilled. Goosebumps try to fluff hair for warmth—more useful for furry animals.\n\nWarm clothes beat long shivering. Come inside.\n\nSo shivers are your body’s emergency furnace switch.\n",
+      "group": null
+    },
+    {
+      "id": "E-B23",
+      "age": "child",
+      "shelf": "body",
+      "title": "Why Do Kids Grow So Fast Sometimes?",
+      "text": "Max’s pants shrink. “Growth spurt?”\n\nBones lengthen at growth plates near the ends. Hormones and good food, sleep, and play fuel spurts. Timing differs—friends may shoot up on different calendars.\n\nDoctors track height on charts. Sudden pain needs a check.\n\nSo growing fast is a scheduled construction boom in your skeleton.\n",
+      "group": null
+    },
+    {
+      "id": "E-B24",
+      "age": "child",
+      "shelf": "body",
+      "title": "Why Do We Need Vaccines?",
+      "text": "A tiny poke. “Why?”\n\nVaccines teach your immune system to recognize a germ safely. Later, if the real germ arrives, memory cells respond faster. That protects you and neighbors who can’t get shots.\n\nScientists test vaccines carefully. Ask your doctor what’s right for you.\n\nSo vaccines are practice drills for your body’s defense team.\n",
+      "group": null
+    },
+    {
+      "id": "E-S01",
+      "age": "child",
+      "shelf": "space",
+      "title": "Why Does the Moon Follow Us?",
+      "text": "On a car ride, the Moon seems to tag along. “Is it chasing us?” asks Guangguang.\n\nThe Moon is very far away. Nearby trees zoom past because we’re close to them. Far things seem to move slowly—or look like they follow you—even though the Moon is orbiting Earth on its own path.\n\nIt’s a trick of distance and perspective, not a friendly Moon jog. Still, it’s a cozy feeling: the same Moon watching over many towns at once.",
+      "group": null
+    },
+    {
+      "id": "E-S02",
+      "age": "child",
+      "shelf": "space",
+      "title": "Why Do Stars Twinkle?",
+      "text": "Stars wink in the night. “Are they blinking on purpose?”\n\nStarlight travels a long way, then passes through Earth’s moving air. Air bends the light a little, this way and that, so the star looks like it twinkles. Planets often twinkle less because they look like tiny disks, not sharp points.\n\nOut in space, without our air, stars shine steadier. Twinkling is Earth’s atmosphere saying hello to starlight.",
+      "group": null
+    },
+    {
+      "id": "E-S03",
+      "age": "child",
+      "shelf": "space",
+      "title": "Why Is the Sun So Bright?",
+      "text": "Guangguang shades tiny eyes. “Ow—bright!”\n\nThe Sun is a star—our closest one. Inside, hot gases make enormous energy. Light and warmth travel through space to Earth. That energy grows plants, makes weather, and lights our days.\n\nNever look straight at the Sun. It can hurt your eyes. Sunglasses and shade help outdoors. The Sun is generous—and powerful.",
+      "group": null
+    },
+    {
+      "id": "E-S04",
+      "age": "child",
+      "shelf": "space",
+      "title": "Why Is There No Sound in Space?",
+      "text": "Guangguang claps in an imaginary spacesuit. Silence.\n\nSound needs something to travel through—usually air, water, or solid stuff. Space is a near-vacuum: almost no air between planets. So a big boom on the Moon wouldn’t reach you the way it does on Earth.\n\nAstronauts talk by radio. Vibrations can still move through a spaceship’s walls. Outside, space stays quiet. Movies add sound for fun; real space is hush.",
+      "group": null
+    },
+    {
+      "id": "E-S05",
+      "age": "child",
+      "shelf": "space",
+      "title": "Why Do Rockets Need Fire?",
+      "text": "A toy rocket sits on a table. “Where’s the whoosh?”\n\nRockets push hot gas out the bottom very fast. By Newton’s idea—push one way, go the other—the rocket rises. The bright flame is part of burning fuel to make that fast gas.\n\nRockets work even where there’s little air because they carry their own fuel and oxidizer. Fire isn’t decoration; it’s the engine’s push.",
+      "group": null
+    },
+    {
+      "id": "E-S06",
+      "age": "child",
+      "shelf": "space",
+      "title": "Why Do We See Only One Side of the Moon?",
+      "text": "The Moon’s face looks familiar every night. “Does it spin?”\n\nThe Moon does rotate, but it takes about the same time to spin once as to go once around Earth. That match is why we mostly see the same side from the ground. The far side exists—spacecraft have photographed it.\n\nPhases change how sunlight hits the near side. Same face, different lighting. The Moon keeps a steady hello.",
+      "group": null
+    },
+    {
+      "id": "E-S07",
+      "age": "child",
+      "shelf": "space",
+      "title": "Why Are There Craters on the Moon?",
+      "text": "Guangguang points at round dents. “Potholes?”\n\nLong ago, rocks from space hit the Moon hard and left bowl-shaped craters. The Moon has almost no air or weather to wear those marks away, so many craters stay sharp for ages.\n\nEarth gets hits too, but air, water, plants, and time smooth many scars. The Moon’s face is a history book written in circles.",
+      "group": null
+    },
+    {
+      "id": "E-S08",
+      "age": "child",
+      "shelf": "space",
+      "title": "What Is a Planet?",
+      "text": "Guangguang spins a blue marble. “Planet?”\n\nA planet is a big round world that orbits a star—like Earth around the Sun. Planets are much smaller than stars and don’t make their own blazing starlight the way the Sun does. Our solar system has rocky planets and giant gas planets.\n\nMoons orbit planets. Asteroids are smaller rocky leftovers. Learning the difference helps you map the neighborhood of space.",
+      "group": null
+    },
+    {
+      "id": "E-S09",
+      "age": "child",
+      "shelf": "space",
+      "title": "Why Does Earth Spin?",
+      "text": "Day turns to night. “Who flipped the light switch?”\n\nEarth spins like a top. The side facing the Sun has daytime; the side turned away has nighttime. One full spin is about 24 hours—our day. Earth also travels around the Sun, which helps make seasons with the tilt of Earth’s axis.\n\nWe don’t feel the spin because everything around us spins too, smoothly. Sunrise is Earth turning toward the Sun again.",
+      "group": null
+    },
+    {
+      "id": "E-S10",
+      "age": "child",
+      "shelf": "space",
+      "title": "How Many Planets Are in Our Solar System?",
+      "text": "Guangguang lines up toy worlds. “Count!”\n\nOur solar system has eight planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune. They all orbit the Sun. Dwarf planets like Pluto are smaller worlds with their own stories.\n\nAstronomers update labels as they learn more. Eight big planets orbit our star—and Earth is the one with oceans, air, and you.",
+      "group": null
+    },
+    {
+      "id": "E-S11",
+      "age": "child",
+      "shelf": "space",
+      "title": "What Is a Comet?",
+      "text": "A fuzzy visitor streaks. “Comet?”\n\nA comet is a dirty snowball of ice, dust, and rock. Near the Sun, ice turns to gas and dust streams into a glowing tail that always points away from the Sun’s push.\n\nComets orbit on long paths. They aren’t burning airplanes.\n\nSo a comet is a sunny thaw parade of ancient ice and dust.\n",
+      "group": null
+    },
+    {
+      "id": "E-S12",
+      "age": "child",
+      "shelf": "space",
+      "title": "What Is an Asteroid?",
+      "text": "Rocky dots between planets. “Asteroids?”\n\nAsteroids are rocky leftover pieces from the solar system’s youth, mostly between Mars and Jupiter. Some are small as cars; others are much bigger. Spacecraft have visited a few.\n\nThey’re not stars. They shine by reflecting sunlight.\n\nSo asteroids are leftover building blocks floating in a rocky belt.\n",
+      "group": null
+    },
+    {
+      "id": "E-S13",
+      "age": "child",
+      "shelf": "space",
+      "title": "Why Is Mars Red?",
+      "text": "A rusty marble. “Why red?”\n\nMars soil has lots of iron oxide—rust. Dust in the air can make the whole planet look reddish. It’s cold and dry compared with Earth, with polar ice and giant volcanoes from long ago.\n\nRovers study its rocks for clues about past water.\n\nSo Mars wears a rusty coat, not red paint.\n",
+      "group": null
+    },
+    {
+      "id": "E-S14",
+      "age": "child",
+      "shelf": "space",
+      "title": "What Is the Milky Way?",
+      "text": "A milky band in a dark sky. “Our galaxy?”\n\nThe Milky Way is the huge star city we live in—billions of stars, gas, and dust in a flat spiral. From Earth we see it edge-on as a pale river of light.\n\nOther galaxies shine far beyond. Telescopes are our ships.\n\nSo the Milky Way isn’t spilled milk—it’s home on a cosmic scale.\n",
+      "group": null
+    },
+    {
+      "id": "E-S15",
+      "age": "child",
+      "shelf": "space",
+      "title": "Why Do Astronauts Float in Space?",
+      "text": "Guangguang pretends to float. “Zero gravity?”\n\nIn orbit, astronauts and their ship are both falling around Earth together. Because everything falls at the same rate, they feel weightless—like continuous freefall without hitting the ground.\n\nIt’s not that gravity vanished. Earth still pulls.\n\nSo floating is shared falling in circles—space ballet with science.\n",
+      "group": null
+    },
+    {
+      "id": "E-S16",
+      "age": "child",
+      "shelf": "space",
+      "title": "What Is a Black Hole?",
+      "text": "A dark circle in a diagram. “Scary?”\n\nA black hole is a place where gravity is so strong that light can’t escape from inside a boundary called the event horizon. They form from very massive stars collapsing, among other ways.\n\nThey don’t roam eating everything nearby like monsters. Orbits can be stable far out.\n\nSo black holes are extreme gravity sinks—studied carefully, not bedtime villains.\n",
+      "group": null
+    },
+    {
+      "id": "E-S17",
+      "age": "child",
+      "shelf": "space",
+      "title": "Why Is Venus So Hot?",
+      "text": "A bright morning star. “Hotter than Mercury?”\n\nVenus has a thick carbon-dioxide atmosphere that traps heat—a runaway greenhouse. Surface temperatures are oven-hot, even though Mercury is closer to the Sun.\n\nTelescopes and probes study its clouds from a safe distance.\n\nSo Venus heat is a thick blanket problem, not just “nearness.”\n",
+      "group": null
+    },
+    {
+      "id": "E-S18",
+      "age": "child",
+      "shelf": "space",
+      "title": "What Are Saturn’s Rings Made Of?",
+      "text": "Sparkly rings. “Ice?”\n\nSaturn’s rings are countless chunks of ice and rock—some tiny, some boulder-sized—orbiting in thin sheets. Moonlets and gravity sculpt gaps and waves.\n\nThey look solid from far away. Up close, they’re a glittering traffic jam.\n\nSo rings are icy rubble highways, not solid hoops.\n",
+      "group": null
+    },
+    {
+      "id": "E-S19",
+      "age": "child",
+      "shelf": "space",
+      "title": "Why Do We Have Seasons?",
+      "text": "Summer sweat, winter coats. “Why seasons?”\n\nEarth’s axis tilts. As we orbit the Sun, one hemisphere leans toward sunlight for warmer months while the other leans away. Distance to the Sun changes a little, but tilt drives seasons.\n\nEquator seasons differ from poles. Calendar festivals follow the tilt dance.\n\nSo seasons are a tilted Earth pirouette around the Sun.\n",
+      "group": null
+    },
+    {
+      "id": "E-S20",
+      "age": "child",
+      "shelf": "space",
+      "title": "What Is the International Space Station?",
+      "text": "A metal butterfly in orbit. “ISS?”\n\nThe International Space Station is a lab where astronauts from many countries live and work while circling Earth about every 90 minutes. They study science in microgravity and test life in space.\n\nCargo ships bring food and experiments. It’s a cooperative outpost.\n\nSo the ISS is a shared science home in freefall around our planet.\n",
+      "group": null
+    },
+    {
+      "id": "E-S21",
+      "age": "child",
+      "shelf": "space",
+      "title": "Why Do Meteors Streak?",
+      "text": "A quick scratch of light. “Shooting star?”\n\nA meteor is a space rock heating and glowing as it races through Earth’s air. Most are tiny and burn up. If a piece lands, it’s called a meteorite.\n\nWish if you like—the physics still happens either way.\n\nSo meteor streaks are air friction light shows from visiting pebbles.\n",
+      "group": null
+    },
+    {
+      "id": "E-S22",
+      "age": "child",
+      "shelf": "space",
+      "title": "What Is a Light-Year?",
+      "text": "Guangguang draws a ruler across stars. “Light-year?”\n\nA light-year measures distance: how far light travels in one year—about 9.5 trillion kilometers. Stars are so far that ordinary miles feel silly.\n\nIt isn’t a length of time. It’s a long cosmic measuring stick.\n\nSo light-years turn huge space into numbers we can say out loud.\n",
+      "group": null
+    },
+    {
+      "id": "E-S23",
+      "age": "child",
+      "shelf": "space",
+      "title": "Why Does the Sun Rise in the East?",
+      "text": "Morning gold. “Always east?”\n\nEarth spins west to east. From the ground, the Sun seems to climb in the east and set in the west. The Sun isn’t racing around us each day—we’re the ones turning.\n\nPoles and seasons tweak the path. Compasses still help hikers.\n\nSo sunrise direction is Earth’s spin painted on the sky.\n",
+      "group": null
+    },
+    {
+      "id": "E-S24",
+      "age": "child",
+      "shelf": "space",
+      "title": "What Are Constellations?",
+      "text": "Dot-to-dot bears and hunters. “Real groups?”\n\nConstellations are patterns people imagined by connecting stars as seen from Earth. The stars in a pattern may not be close to each other in space—just lined up from our viewpoint.\n\nCultures drew different sky stories. Astronomers still use the names as maps.\n\nSo constellations are sky storytelling overlays on real distant suns.\n",
+      "group": null
+    },
+    {
+      "id": "E-H01",
+      "age": "child",
+      "shelf": "how",
+      "title": "Why Do Shadows Follow Us?",
+      "text": "Guangguang spins; the shadow spins too.\n\nA shadow appears when something blocks light. The dark shape falls on the ground or wall behind you. As you move, the blocked area moves—so the shadow seems to follow.\n\nMove the lamp, and shadows stretch or shrink. At noon the Sun is high and shadows are short; later they grow long. Shadows are light’s quiet footprints.",
+      "group": null
+    },
+    {
+      "id": "E-H02",
+      "age": "child",
+      "shelf": "how",
+      "title": "Why Does Ice Melt?",
+      "text": "An ice cube drips. “Disappearing act!”\n\nIce is water frozen solid. Heat gives particles energy to slip free of the rigid pattern, turning ice into liquid water. Warm air, warm hands, or sunlight all add heat.\n\nFreeze it again and water can become ice once more. Melting isn’t vanishing—it’s changing form.",
+      "group": null
+    },
+    {
+      "id": "E-H03",
+      "age": "child",
+      "shelf": "how",
+      "title": "Why Do Soap Bubbles Float?",
+      "text": "A bubble drifts up, then pops.\n\nA bubble is a thin soap-water skin filled with air. Soap makes the skin stretchy. Warm air inside and gentle air currents can lift bubbles for a moment before gravity and drying win.\n\nWhen the skin thins too much—pop! Bubbles teach thin films and air, with sparkle included.",
+      "group": null
+    },
+    {
+      "id": "E-H04",
+      "age": "child",
+      "shelf": "how",
+      "title": "Why Do Balloons Float Up?",
+      "text": "A helium balloon tugs the string skyward.\n\nHelium is lighter than the air around us. A balloon full of helium weighs less than the same-sized blob of air, so the denser air pushes up and the balloon rises—like wood floating on water, but in air.\n\nRegular breath balloons usually fall. Hold strings gently outdoors; let balloons go only where it’s safe and allowed.",
+      "group": null
+    },
+    {
+      "id": "E-H05",
+      "age": "child",
+      "shelf": "how",
+      "title": "Why Do Some Things Float?",
+      "text": "A leaf rides a puddle; a pebble sinks.\n\nFloating depends on density—how much stuff is packed in a space—and on shape. If an object pushes aside water weighing more than itself, it can float. Boats use hollow shapes to displace lots of water.\n\nHeavy metal can float as a boat but sink as a ball. Shape and density team up.",
+      "group": null
+    },
+    {
+      "id": "E-H06",
+      "age": "child",
+      "shelf": "how",
+      "title": "Why Can We See Ourselves in Mirrors?",
+      "text": "Guangguang waves; the glass waves back.\n\nA mirror’s smooth surface reflects light in an orderly way. Light from your face bounces to your eyes, so you see an image. Ordinary walls scatter light messily; mirrors bounce it neatly.\n\nLeft and right look swapped in the usual way mirrors work. It’s geometry with shine.",
+      "group": null
+    },
+    {
+      "id": "E-H07",
+      "age": "child",
+      "shelf": "how",
+      "title": "What Makes a Plane Fly?",
+      "text": "A plane lifts off. “How?”\n\nAirplane wings are shaped so air moving over them helps create lift—an upward push. Engines move the plane forward so air flows fast over the wings. Pilots and flaps adjust for takeoff and landing.\n\nBirds use flapping and shape; planes use engines and fixed wings. Same sky, different toolkits.",
+      "group": null
+    },
+    {
+      "id": "E-H08",
+      "age": "child",
+      "shelf": "how",
+      "title": "How Does a Simple Wheel Help?",
+      "text": "Guangguang rolls a toy car. Smooth!\n\nWheels turn sliding friction into rolling motion, which is usually easier. Axles hold wheels so carts and bikes can carry loads with less effort than dragging.\n\nFrom scooters to suitcases, wheels save energy. A round idea that still moves the world.",
+      "group": null
+    },
+    {
+      "id": "E-H09",
+      "age": "child",
+      "shelf": "how",
+      "title": "Why Do Boats Float?",
+      "text": "A toy boat sits high. “Heavy boats float—how?”\n\nFloating happens when water pushes up with a force equal to the weight of the water the boat pushes aside. A boat’s shape spreads weight over enough water. A solid steel cube may sink; a steel boat hull can float.\n\nHoles that flood the hull spoil the trick. Life jackets help people float too.\n\nSo floating is a push-up contest between object and water.\n",
+      "group": null
+    },
+    {
+      "id": "E-H10",
+      "age": "child",
+      "shelf": "how",
+      "title": "Why Do Rubber Bands Snap Back?",
+      "text": "Twang! “Why bounce back?”\n\nRubber’s long molecules can stretch and then pull toward their relaxed shape. That springiness stores energy when you pull and returns it when you let go—until the band breaks.\n\nDon’t aim bands at faces. Physics is cool; safety is cooler.\n\nSo snap-back is molecular springs doing yoga.\n",
+      "group": null
+    },
+    {
+      "id": "E-H11",
+      "age": "child",
+      "shelf": "how",
+      "title": "Why Do Bike Gears Help Hills?",
+      "text": "Pedal grind. “Gears?”\n\nGears change how turning force and speed trade off. A low gear makes pedaling easier uphill but slower. A high gear covers ground faster on flats with more effort per turn.\n\nChains transfer the spin. Oil and care keep rides smooth.\n\nSo gears are mechanical translators between your legs and the hill.\n",
+      "group": null
+    },
+    {
+      "id": "E-H12",
+      "age": "child",
+      "shelf": "how",
+      "title": "Why Do Speakers Make Sound?",
+      "text": "Music shakes air. “How?”\n\nA speaker cone moves back and forth, pushing air into waves your ears hear as sound. Electricity and magnets drive the motion following the music signal.\n\nLouder means bigger pushes. Ears need breaks from blasting volume.\n\nSo speakers are careful air shakers writing sound waves.\n",
+      "group": null
+    },
+    {
+      "id": "E-H13",
+      "age": "child",
+      "shelf": "how",
+      "title": "Why Do Fridges Stay Cold Inside?",
+      "text": "Cold lettuce. Warm kitchen. “How?”\n\nA fridge pumps heat from inside to the coils on the back or bottom using a special fluid cycle. It doesn’t make “coldness”—it moves heat out and keeps the door sealed.\n\nStuffing it full without airflow can weaken cooling. Keep the door shut.\n\nSo a fridge is a heat-moving machine with a chilly closet.\n",
+      "group": null
+    },
+    {
+      "id": "E-H14",
+      "age": "child",
+      "shelf": "how",
+      "title": "Why Do Straws Make Drinking Easier?",
+      "text": "Slurp. “Vacuum?”\n\nWhen you suck, you lower air pressure in the straw. Higher outside pressure pushes the drink up toward your mouth. You’re not magically lifting with pure willpower—air helps.\n\nPinch the straw and flow stops. Physics in a sip.\n\nSo straws hitch a ride on air-pressure differences.\n",
+      "group": null
+    },
+    {
+      "id": "E-H15",
+      "age": "child",
+      "shelf": "how",
+      "title": "Why Do Flashlights Need Batteries?",
+      "text": "Click—beam. “Why batteries?”\n\nBatteries store chemical energy and release it as electric current. The current heats a filament or powers LEDs to make light. Without a power source, the circuit is just dark metal.\n\nRechargeables can be reused many times. Recycle batteries properly.\n\nSo batteries are portable energy snacks for electrons.\n",
+      "group": null
+    },
+    {
+      "id": "E-H16",
+      "age": "child",
+      "shelf": "how",
+      "title": "Why Do Bridges Have Triangles?",
+      "text": "Steel triangles rise. “Why that shape?”\n\nTriangles are strong and stable. Push on a triangle’s corner and the sides share the force without easily collapsing the way a floppy square might. Engineers use trusses of triangles for long spans.\n\nBeauty and strength can team up. Design follows physics.\n\nSo bridge triangles are geometry armor against bending and swaying.\n",
+      "group": null
+    },
+    {
+      "id": "E-H17",
+      "age": "child",
+      "shelf": "how",
+      "title": "Why Do Matches Light When Scratched?",
+      "text": "Scratch—flame. Grown-up only. “How?”\n\nFriction heat starts a chemical reaction in the match head. Special chemicals catch fire more easily than wood alone. Safety matches need the box strip.\n\nKids don’t light matches. Ask a grown-up for campfire rules.\n\nSo a match scratch turns rubbing heat into a tiny controlled fire starter.\n",
+      "group": null
+    },
+    {
+      "id": "E-H18",
+      "age": "child",
+      "shelf": "how",
+      "title": "Why Do Sunglasses Help?",
+      "text": "Bright glare. Dark lenses. “Just fashion?”\n\nGood sunglasses cut harsh light and can block invisible ultraviolet rays that stress eyes over time. Polarized lenses tame bounce glare from water and roads.\n\nCheap dark plastic without UV protection can make pupils open wide—ask for real UV-blocking pairs.\n\nSo sunglasses are eye shade with science, not only cool looks.\n",
+      "group": null
+    },
+    {
+      "id": "E-H19",
+      "age": "child",
+      "shelf": "how",
+      "title": "Why Do Clocks Tick?",
+      "text": "Tick-tock. “Why the sound?”\n\nMany clocks move gears in tiny steps. Escapement parts catch and release, making the tick. Quartz clocks use a vibrating crystal; the tick can be a speaker click copying the rhythm.\n\nTimekeeping is controlled wiggles counted carefully.\n\nSo ticks are audible footsteps of a counting machine.\n",
+      "group": null
+    },
+    {
+      "id": "E-H20",
+      "age": "child",
+      "shelf": "how",
+      "title": "Why Do Microwaves Heat Food Fast?",
+      "text": "Beep. Steam. “How so quick?”\n\nMicrowave ovens make waves that jostle water molecules in food, producing heat inside—not only from the outside in like a regular oven. Metal and some containers are unsafe inside; follow the manual.\n\nStirring helps even heating. Hot spots can burn tongues.\n\nSo microwaves are water-molecule dance floors in a metal box.\n",
+      "group": null
+    },
+    {
+      "id": "E-H21",
+      "age": "child",
+      "shelf": "how",
+      "title": "Why Do Parachutes Slow Falls?",
+      "text": "Silk umbrella blooms. “Why safer?”\n\nA parachute catches air, making a big drag force upward against the fall. More area means more air resistance, so the person descends slower than a free fall.\n\nSkydiving needs training. Toy parachutes show the idea safely indoors.\n\nSo parachutes buy time by hugging a lot of air.\n",
+      "group": null
+    },
+    {
+      "id": "E-H22",
+      "age": "child",
+      "shelf": "how",
+      "title": "Why Do Locks Need Keys?",
+      "text": "Click. Door opens. “How?”\n\nA key’s jagged edge lifts pins inside the lock to a matching height so the cylinder can turn. Wrong keys leave pins blocking. It’s a tiny 3D puzzle.\n\nDigital locks use codes instead of teeth. Keep spare keys safe.\n\nSo keys are portable answers to a pin puzzle in metal.\n",
+      "group": null
+    },
+    {
+      "id": "E-H23",
+      "age": "child",
+      "shelf": "how",
+      "title": "Why Do Fans Cool Us If They Don’t Make Cold Air?",
+      "text": "Whirr. “Air isn’t icy—why cooler?”\n\nFans move air across your skin so sweat evaporates faster, carrying heat away. The air temperature may be the same; you feel cooler because heat leaves your body quicker.\n\nIn a sealed empty room with no people, a fan mostly just stirs air.\n\nSo fan “cool” is evaporating sweat express, not a fridge wind.\n",
+      "group": null
+    },
+    {
+      "id": "E-H24",
+      "age": "child",
+      "shelf": "how",
+      "title": "Why Do Velcro Stick and Peel?",
+      "text": "Rrrrip. “How?”\n\nVelcro pairs tiny hooks with tiny loops. Pressing hooks catch loops; peeling unhooks them with that famous sound. Inspired by burrs stuck on clothes after a walk.\n\nDirt fills loops and weakens grip—clean when fuzzy fails.\n\nSo Velcro is miniature grappling hooks taught by nature’s burrs.\n",
+      "group": null
+    },
+    {
+      "id": "E-W01",
+      "age": "child",
+      "shelf": "weather",
+      "title": "Why Is the Sky Blue?",
+      "text": "Guangguang looks up. Blue forever.\n\nSunlight holds many colors. Air molecules scatter blue light more than red, so when we look away from the Sun, more blue reaches our eyes. That’s why daytime sky looks blue.\n\nSpace is black because there’s no air to scatter light the same way. Earth’s air paints the blue ceiling.",
+      "group": null
+    },
+    {
+      "id": "E-W02",
+      "age": "child",
+      "shelf": "weather",
+      "title": "Why Is the Sunset Red?",
+      "text": "Evening turns peach and red.\n\nAt sunset, sunlight travels through more air. Blue light scatters out of the path; reds and oranges travel farther to your eyes. Dust and clouds can deepen the colors.\n\nSame Sun, longer path, warmer colors. Sunsets are physics wearing a pretty coat.",
+      "group": null
+    },
+    {
+      "id": "E-W03",
+      "age": "child",
+      "shelf": "weather",
+      "title": "Why Does It Rain?",
+      "text": "Drops tap the window.\n\nWarm air lifts water vapor. High up it cools and forms tiny droplets in clouds. When droplets grow heavy enough, gravity pulls them down as rain.\n\nRain waters plants and fills rivers. Too much or too little both matter—weather is Earth’s water on the move.",
+      "group": null
+    },
+    {
+      "id": "E-W04",
+      "age": "child",
+      "shelf": "weather",
+      "title": "Why Does Thunder Follow Lightning?",
+      "text": "Flash! … then boom.\n\nLightning is a giant spark. It heats air so fast the air expands in a shock we hear as thunder. Light races faster than sound, so we see the flash before we hear the rumble.\n\nCount seconds after a flash to guess distance—but the safe rule is: if you hear thunder, head indoors with a grown-up.",
+      "group": null
+    },
+    {
+      "id": "E-W05",
+      "age": "child",
+      "shelf": "weather",
+      "title": "Why Does It Snow?",
+      "text": "Soft flakes fall.\n\nWhen clouds are cold enough, water can freeze into ice crystals. Crystals stick into flakes and drift down as snow if the air below stays cold enough not to melt them all.\n\nEvery flake grows with a pattern, yet no two journeys are identical. Snow is winter’s quiet rain of crystals.",
+      "group": null
+    },
+    {
+      "id": "E-W06",
+      "age": "child",
+      "shelf": "weather",
+      "title": "Why Do Rainbows Appear?",
+      "text": "Colors arc after a shower.\n\nSunlight enters raindrops, bends, reflects inside, and bends again. Different colors bend by different amounts, so we see a spread—red to violet. You need sun behind you and drops in front.\n\nRainbows aren’t a place you can walk to; they’re light’s geometry in water drops.",
+      "group": null
+    },
+    {
+      "id": "E-W07",
+      "age": "child",
+      "shelf": "weather",
+      "title": "Why Does the Wind Blow?",
+      "text": "Leaves skitter. Whoosh.\n\nSun warms some places more than others. Warm air rises; cooler air slides in to take its place. That moving air is wind. Land, sea, and mountains steer the flow.\n\nGentle breezes cool us; strong winds need caution. Wind is air with somewhere to go.",
+      "group": null
+    },
+    {
+      "id": "E-W08",
+      "age": "child",
+      "shelf": "weather",
+      "title": "Why Do Clouds Look Fluffy?",
+      "text": "Cotton castles. “Why fluffy?”\n\nMany fair-weather clouds are heaps of tiny water droplets or ice crystals clustered where rising moist air cools. Sunlight scatters from countless droplets, making bright white puff shapes.\n\nClouds can also look flat or streaky depending on winds aloft. Fluffy is just one style.\n\nSo fluff is light bouncing off a crowd of tiny droplets.\n",
+      "group": null
+    },
+    {
+      "id": "E-W09",
+      "age": "child",
+      "shelf": "weather",
+      "title": "Why Do We See Lightning Before Thunder?",
+      "text": "Flash—then boom. “Why delay?”\n\nLight races far faster than sound. You see the spark almost instantly; thunder’s rumble needs time to travel. Counting seconds between flash and boom estimates distance.\n\nStay indoors in storms. Metal and tall trees are risky shelters.\n\nSo the gap is a race result: light laps sound.\n",
+      "group": null
+    },
+    {
+      "id": "E-W10",
+      "age": "child",
+      "shelf": "weather",
+      "title": "What Is Fog?",
+      "text": "Gray hug on the road. “Ground cloud?”\n\nFog is a cloud touching the ground—tiny water droplets floating in cool, moist air. Drivers slow down because droplets scatter headlights.\n\nFog often fades when sun warms the air. Listen for horns in thick fog.\n\nSo fog is a cloud that decided to visit street level.\n",
+      "group": null
+    },
+    {
+      "id": "E-W11",
+      "age": "child",
+      "shelf": "weather",
+      "title": "Why Do Deserts Get Cold at Night?",
+      "text": "Scorching day, chilly night. “Why swing?”\n\nDry desert air and clear skies let heat escape quickly after sunset. Without thick humidity or clouds to blanket the ground, temperatures can plunge.\n\nPack layers for desert trips. Day and night are different worlds.\n\nSo desert nights cool fast because the sky leaves the door open.\n",
+      "group": null
+    },
+    {
+      "id": "E-W12",
+      "age": "child",
+      "shelf": "weather",
+      "title": "Why Do Hurricanes Spin?",
+      "text": "A swirl on the map. “Why spin?”\n\nBig storms feel Earth’s rotation. That effect helps organize winds into a spin—opposite directions in northern and southern hemispheres. Warm ocean water fuels the engine.\n\nForecasts help people prepare. Never chase storms for fun.\n\nSo hurricane spin is heat plus Earth’s turning, organized into a dangerous wheel.\n",
+      "group": null
+    },
+    {
+      "id": "E-W13",
+      "age": "child",
+      "shelf": "weather",
+      "title": "What Is Hail?",
+      "text": "Ice peas bounce. “Frozen rain?”\n\nHail grows when thunderstorm updrafts loft water drops into very cold air. Layers of ice build until the stone falls. Bigger storms can toss bigger hail.\n\nCars and gardens dislike hail. Sturdy shelter is wise.\n\nSo hail is a thunderstorm’s ice factory, not winter snow.\n",
+      "group": null
+    },
+    {
+      "id": "E-W14",
+      "age": "child",
+      "shelf": "weather",
+      "title": "Why Is the Sky Dark at Night?",
+      "text": "Stars on black. “Where did blue go?”\n\nAt night our side of Earth faces away from the Sun. Without sunlight scattering in the air toward us, the sky looks dark, and distant stars can shine through.\n\nCity lights can wash stars out. Dark parks show more sparkle.\n\nSo night dark is Earth’s shadow side, not the universe turning off.\n",
+      "group": null
+    },
+    {
+      "id": "E-W15",
+      "age": "child",
+      "shelf": "weather",
+      "title": "Why Do Puddles Disappear?",
+      "text": "Morning puddle, noon dry. “Where’d it go?”\n\nWater evaporates into invisible vapor when air and sun provide energy. Wind speeds it up. The puddle didn’t vanish into another dimension—it joined the air.\n\nBigger puddles last longer. Shade slows drying.\n\nSo disappearing puddles are slow-motion steam without the teapot whistle.\n",
+      "group": null
+    },
+    {
+      "id": "E-W16",
+      "age": "child",
+      "shelf": "weather",
+      "title": "What Is Humidity?",
+      "text": "Sticky air. “Humidity?”\n\nHumidity measures how much water vapor the air holds. High humidity makes sweat evaporate slowly, so you feel muggy. Low humidity can dry lips and static-charge hair.\n\nWeather apps report it. Fans help when air is moist and still.\n\nSo humidity is the air’s invisible water load.\n",
+      "group": null
+    },
+    {
+      "id": "E-W17",
+      "age": "child",
+      "shelf": "weather",
+      "title": "Why Do Weather Maps Use Colors?",
+      "text": "Blob of green and red. “What’s that?”\n\nColors show rain strength, temperatures, or radar echoes so your eyes grasp patterns fast. Green might mean lighter rain; yellow and red heavier—keys explain each map.\n\nMaps forecast; windows confirm. Dress for the color story.\n\nSo weather colors are visual shortcuts for busy data.\n",
+      "group": null
+    },
+    {
+      "id": "E-W18",
+      "age": "child",
+      "shelf": "weather",
+      "title": "Why Does Dew Form on Grass?",
+      "text": "Morning sparkles. “Overnight rain?”\n\nClear nights cool the ground. Air near the grass can cool until water vapor condenses into droplets—dew. It isn’t always from clouds raining.\n\nShoes get wet on purpose. Dew dries as day warms.\n\nSo dew is nighttime condensation jewelry on leaves.\n",
+      "group": null
+    },
+    {
+      "id": "E-W19",
+      "age": "child",
+      "shelf": "weather",
+      "title": "What Causes a Drought?",
+      "text": "Cracked earth. “No rain?”\n\nA drought is a long stretch of less water than usual for plants, rivers, and people. Causes include stubborn weather patterns and sometimes human water use. Conservation helps communities cope.\n\nFollow local water rules. Lawns can wait; drinking water matters more.\n\nSo droughts are water budgets gone thin for too long.\n",
+      "group": null
+    },
+    {
+      "id": "E-W20",
+      "age": "child",
+      "shelf": "weather",
+      "title": "Why Do Weather Balloons Go Up?",
+      "text": "A big balloon lifts gadgets. “Why?”\n\nWeather balloons carry sensors that measure temperature, humidity, and pressure as they rise. Radios send data that help forecasts. When balloons burst high up, parachutes bring instruments down.\n\nThey’re science messengers, not party balloons.\n\nSo weather balloons are flying notebooks for the sky’s layers.\n",
+      "group": null
+    },
+    {
+      "id": "E-W21",
+      "age": "child",
+      "shelf": "weather",
+      "title": "Why Is Snow Quiet?",
+      "text": "Soft footsteps. “Why hush?”\n\nFresh snow has lots of air pockets that soak up sound waves. Cities sound muffled after a blizzard. When snow melts or packs hard, the hush fades.\n\nEnjoy the quiet—then shovel with a grown-up’s plan.\n\nSo snow quiet is acoustic foam made of frozen fluff.\n",
+      "group": null
+    },
+    {
+      "id": "E-W22",
+      "age": "child",
+      "shelf": "weather",
+      "title": "What Is the Jet Stream?",
+      "text": "A fast ribbon on the forecast. “Jet stream?”\n\nJet streams are swift air currents high up that steer weather systems. Planes sometimes ride them to save time. They wiggle and shift with seasons.\n\nThey’re invisible rivers of wind, not airplane-only highways.\n\nSo the jet stream is a sky freeway for storms and jets.\n",
+      "group": null
+    },
+    {
+      "id": "E-W23",
+      "age": "child",
+      "shelf": "weather",
+      "title": "Why Do Windows Fog on Cold Days?",
+      "text": "Steamy glass. “Fog inside?”\n\nWarm moist indoor air hits cold glass. Water condenses into tiny droplets—fog on the pane. Wiping helps; a little ventilation can too.\n\nIt’s the same idea as breath on a mirror.\n\nSo foggy windows are indoor clouds starting on cold glass.\n",
+      "group": null
+    },
+    {
+      "id": "E-W24",
+      "age": "child",
+      "shelf": "weather",
+      "title": "Why Do Seasons Feel Different by the Ocean?",
+      "text": "Coast vs inland. “Milder?”\n\nOceans heat and cool slowly, buffering nearby air. Coasts often have milder winters and cooler summers than deep inland places at the same latitude. Breezes carry that influence ashore.\n\nPack layers for beach trips anyway—wind can bite.\n\nSo oceans are giant temperature shock absorbers for coastal weather.\n",
+      "group": null
+    },
+    {
+      "id": "E-E01",
+      "age": "child",
+      "shelf": "earth",
+      "title": "Why Do Leaves Change Color?",
+      "text": "Trees wear red and gold.\n\nGreen in leaves comes from chlorophyll, which helps make food from sunlight. In fall, many trees stop making as much chlorophyll. Other colors that were hidden—yellows, oranges—show up. Some reds form as sugars change.\n\nCooler nights and shorter days cue the shift. Leaves fall; trees rest for winter.",
+      "group": null
+    },
+    {
+      "id": "E-E02",
+      "age": "child",
+      "shelf": "earth",
+      "title": "Why Do Volcanoes Erupt?",
+      "text": "Guangguang draws a mountain with a puff.\n\nDeep Earth can be so hot that rock melts into magma. When magma finds a path up, gas and melted rock may burst or flow from a volcano. Some eruptions are gentle; some are fierce.\n\nWe talk about volcanoes calmly: scientists watch them, and people stay far from danger zones. Earth’s insides sometimes speak in lava.",
+      "group": null
+    },
+    {
+      "id": "E-E03",
+      "age": "child",
+      "shelf": "earth",
+      "title": "What Makes an Earthquake?",
+      "text": "The floor wiggles in a storybook.\n\nEarth’s outer shell has big pieces called plates that slowly move. When stuck edges suddenly slip, energy shakes the ground—an earthquake. Most are small; some are strong.\n\nIf shaking starts, drop, cover, and hold under sturdy furniture with a grown-up’s plan. Knowing the drill keeps fear smaller.",
+      "group": null
+    },
+    {
+      "id": "E-E04",
+      "age": "child",
+      "shelf": "earth",
+      "title": "Why Do Oceans Have Tides?",
+      "text": "Beach water creeps up, then back.\n\nThe Moon’s gravity pulls on Earth’s oceans. As Earth turns, that pull makes water bulge—high tide—and elsewhere fall—low tide. The Sun helps a little too.\n\nTide pools appear when water leaves. Check tide times with grown-ups before exploring shores.",
+      "group": null
+    },
+    {
+      "id": "E-E05",
+      "age": "child",
+      "shelf": "earth",
+      "title": "Why Do Flowers Smell Nice?",
+      "text": "A blossom smells sweet.\n\nMany flowers make scents to attract bees, butterflies, and other helpers that move pollen. Pretty smells are invitations: “Visit me!” Some flowers smell strong at night for night pollinators.\n\nNot every flower is sweet to us—but to the right insect, it’s a neon sign.",
+      "group": null
+    },
+    {
+      "id": "E-E06",
+      "age": "child",
+      "shelf": "earth",
+      "title": "Why Do Trees Need Roots?",
+      "text": "Guangguang tugs a weed gently. Roots cling.\n\nRoots anchor trees so wind doesn’t tip them. They drink water and minerals from soil and can store food. Tiny root hairs increase the drinking surface.\n\nHealthy soil and careful watering help roots. What you see as a trunk is only half the tree’s story.",
+      "group": null
+    },
+    {
+      "id": "E-E07",
+      "age": "child",
+      "shelf": "earth",
+      "title": "Why Do We Recycle?",
+      "text": "Bins for paper, bottles, cans.\n\nRecycling means turning used materials into new things so we dig up and make less from scratch. It can save energy and reduce trash in landfills.\n\nRinse containers, follow local rules, and reuse when you can. Small habits protect the shared home called Earth.",
+      "group": null
+    },
+    {
+      "id": "E-E08",
+      "age": "child",
+      "shelf": "earth",
+      "title": "Why Do Mountains Form?",
+      "text": "Pointy peaks. “Pushed up?”\n\nEarth’s crust is broken into plates that slowly move. When plates collide or lift, rock can fold and rise into mountains over millions of years. Volcanoes can build mountains too.\n\nMountains keep growing and eroding at the same time—very slowly.\n\nSo mountains are slow-motion crumples and piles in Earth’s crust.\n",
+      "group": null
+    },
+    {
+      "id": "E-E09",
+      "age": "child",
+      "shelf": "earth",
+      "title": "What Are Fossils?",
+      "text": "A stone shell print. “Dinosaur phone cases?”\n\nFossils are remains or traces of ancient life preserved in rock—bones, shells, footprints, even leaf prints. They form when buried remains are replaced or cast over long time.\n\nMuseums protect real fossils. Look, don’t pocket, at parks that forbid collecting.\n\nSo fossils are nature’s time capsules pressed into stone.\n",
+      "group": null
+    },
+    {
+      "id": "E-E10",
+      "age": "child",
+      "shelf": "earth",
+      "title": "Why Do Rivers Curve?",
+      "text": "A snake of water. “Why not straight?”\n\nWater erodes outer bends and drops sediment on inner bends, exaggerating curves called meanders. Over ages, loops can even cut off into oxbow lakes.\n\nEngineers sometimes straighten channels—but curves are natural sculpture.\n\nSo river curves are water’s long habit of chewing one bank more than the other.\n",
+      "group": null
+    },
+    {
+      "id": "E-E11",
+      "age": "child",
+      "shelf": "earth",
+      "title": "What Is Soil Made Of?",
+      "text": "Dirt under nails. “Just mud?”\n\nSoil mixes mineral bits from rocks, decaying plants and animals, water, air, and countless tiny organisms. Different soils drain and feed plants differently.\n\nHealthy soil grows food. Composting returns scraps to the cycle.\n\nSo soil is a living recipe, not lifeless dust.\n",
+      "group": null
+    },
+    {
+      "id": "E-E12",
+      "age": "child",
+      "shelf": "earth",
+      "title": "Why Do We Have Day and Night?",
+      "text": "Bright then dark. “Sun switching off?”\n\nEarth rotates. The side facing the Sun has day; the side turned away has night. The Sun stays shining—our planet’s spin creates the rhythm.\n\nA full spin takes about 24 hours. Clocks track that turn.\n\nSo day and night are Earth’s pirouette under steady sunlight.\n",
+      "group": null
+    },
+    {
+      "id": "E-E13",
+      "age": "child",
+      "shelf": "earth",
+      "title": "What Causes Caves?",
+      "text": "Echoey dark. “Hollow hills?”\n\nMany caves form when water slowly dissolves limestone underground, carving rooms and tunnels. Rivers can cut caves too. Stalactites drip minerals from ceilings over ages.\n\nExplore only with guides. Caves are fragile and easy to get lost in.\n\nSo caves are water’s quiet sculpture studios inside rock.\n",
+      "group": null
+    },
+    {
+      "id": "E-E14",
+      "age": "child",
+      "shelf": "earth",
+      "title": "Why Do Glaciers Move?",
+      "text": "Ice that creeps. “Frozen rivers?”\n\nGlaciers are thick snow packed into ice that slowly flows under its own weight. They carve valleys and carry rocks, reshaping land over centuries.\n\nClimate warming makes many glaciers shrink. Scientists track them.\n\nSo glaciers are slow ice conveyors powered by gravity and thickness.\n",
+      "group": null
+    },
+    {
+      "id": "E-E15",
+      "age": "child",
+      "shelf": "earth",
+      "title": "What Is the Water Cycle?",
+      "text": "Puddle → cloud → rain. “Loop?”\n\nWater evaporates, forms clouds, falls as rain or snow, flows in rivers, and soaks into ground—then repeats. You’re drinking ancient traveled water.\n\nSaving water respects the shared loop. Pollution hitchhikes the same paths.\n\nSo the water cycle is Earth’s recycling program for H2O.\n",
+      "group": null
+    },
+    {
+      "id": "E-E16",
+      "age": "child",
+      "shelf": "earth",
+      "title": "Why Do Some Rocks Sparkle?",
+      "text": "Glitter in granite. “Gem dust?”\n\nMany rocks contain crystals like quartz or mica that reflect light. Crystal size depends on how the rock cooled or formed. Sparkle doesn’t always mean precious gems.\n\nLeave park rocks in place. Collections need permission.\n\nSo sparkles are crystal faces saying hello to sunlight.\n",
+      "group": null
+    },
+    {
+      "id": "E-E17",
+      "age": "child",
+      "shelf": "earth",
+      "title": "What Is an Island?",
+      "text": "Land in water. “How born?”\n\nIslands can rise from volcanoes, sit on coral reefs, or be hilltops left when seas rose. Some were connected to continents long ago.\n\nIsland animals often evolve in unique ways. Visiting gently protects them.\n\nSo islands are land with a water moat—and many origin stories.\n",
+      "group": null
+    },
+    {
+      "id": "E-E18",
+      "age": "child",
+      "shelf": "earth",
+      "title": "Why Do Earthquakes Happen?",
+      "text": "Rumble. Soft voice. “Why shake?”\n\nEarth’s plates grind and stick, then slip. The sudden slip releases energy as seismic waves we feel as earthquakes. Most are small; some are strong.\n\nPractice “drop, cover, hold on.” Kits and plans help families.\n\nSo earthquakes are stuck rocks finally sliding—prepare, don’t panic-study only.\n",
+      "group": null
+    },
+    {
+      "id": "E-E19",
+      "age": "child",
+      "shelf": "earth",
+      "title": "What Are Minerals?",
+      "text": "Shiny cubes in a case. “Minerals?”\n\nMinerals are natural solids with ordered crystal structures and definite chemistry—quartz, salt, diamond. Rocks are often mixtures of minerals.\n\nVitamins in food are different from rock minerals, though some elements overlap names.\n\nSo museum minerals are Earth’s crystal building blocks.\n",
+      "group": null
+    },
+    {
+      "id": "E-E20",
+      "age": "child",
+      "shelf": "earth",
+      "title": "Why Do Beaches Have Sand?",
+      "text": "Toes in grit. “Where from?”\n\nWaves and weather break rocks into smaller bits. Rivers carry grains to shores. Shells and coral add pieces too. Wind sorts and piles dunes.\n\nSand colors tell origin stories—black volcanic, white coral, golden quartz.\n\nSo beach sand is mountain and shell confetti tumbled by water.\n",
+      "group": null
+    },
+    {
+      "id": "E-E21",
+      "age": "child",
+      "shelf": "earth",
+      "title": "What Is Compost?",
+      "text": "Brown gold in a bin. “Compost?”\n\nComposting lets microbes break kitchen scraps and yard waste into crumbly soil helper. Air, moisture, and a mix of greens and browns keep the crew happy.\n\nNo meat or oily scraps in many home bins—follow local rules. Wash hands after.\n\nSo compost is a recycling factory run by invisible chefs.\n",
+      "group": null
+    },
+    {
+      "id": "E-E22",
+      "age": "child",
+      "shelf": "earth",
+      "title": "Why Do Trees Help the Air?",
+      "text": "Shade and breath. “Trees = good air?”\n\nLeaves take in carbon dioxide and release oxygen during photosynthesis. Trees also filter some dust and cool cities with shade. Forests are climate helpers when protected.\n\nPlanting the right tree in the right place matters. Forests aren’t infinite.\n\nSo trees are quiet air partners—and homes for countless creatures.\n",
+      "group": null
+    },
+    {
+      "id": "E-E23",
+      "age": "child",
+      "shelf": "earth",
+      "title": "What Is Groundwater?",
+      "text": "A well pump. “Invisible rivers?”\n\nGroundwater is water soaking through soil into spaces in rock underground. Wells tap it. It moves slowly and can stay clean if we protect the land above.\n\nSpills can seep down. Careful farming and disposal protect drinking water.\n\nSo groundwater is a hidden sponge-ocean under our feet.\n",
+      "group": null
+    },
+    {
+      "id": "E-E24",
+      "age": "child",
+      "shelf": "earth",
+      "title": "Why Do We Need National Parks?",
+      "text": "Big wild postcard. “Why parks?”\n\nParks protect landscapes, wildlife, and history so everyone can visit without turning them into parking lots. Rangers and rules keep trails and animals safer.\n\nPack out trash. Stay on paths. Parks are gifts we re-give by caring.\n\nSo national parks are shared treasure chests with hiking instructions.\n",
+      "group": null
+    },
+    {
+      "id": "E-Z01",
+      "age": "child",
+      "shelf": "safety",
+      "title": "Eyes Get Tired—Time to Rest",
+      "text": "Please listen. Guangguang Safety Theater. Episode 1. Eyes Get Tired—Time to Rest.\n\nGuangguang: Max, you're staring at that screen like a statue.\nMax: One more minute! Just one!\nGuangguang: One minute often turns into eleven. Sore eyes and fewer blinks? That's the alarm.\nMax: How do I turn the alarm off?\nGuangguang: Stop. Look far away. Blink. Stand up and walk a little. Eye care isn't winning or losing—it's taking care of you.\nMax: So after this episode I stop?\nGuangguang: After this episode—you stop. Say it, do it. Then you pass Safety Theater.",
+      "group": null
+    },
+    {
+      "id": "E-Z02",
+      "age": "child",
+      "shelf": "safety",
+      "title": "Look Far, Then Near",
+      "text": "Please listen. Guangguang Safety Theater. Episode 2. Look Far, Then Near.\n\nGuangguang: Mia, your nose is almost on the tablet.\nMia: I'm just checking details!\nGuangguang: Close work makes eye muscles squeeze. They need a stretch.\nMia: Stretch how?\nGuangguang: Look far for a little while, then near again. Far, then near—like a tiny workout.\nMia: Far… then near. Got it?\nGuangguang: Got it. Practice with a grown-up. Pass Safety Theater.",
+      "group": null
+    },
+    {
+      "id": "E-Z03",
+      "age": "child",
+      "shelf": "safety",
+      "title": "Bright Screens Need Soft Light",
+      "text": "Please listen. Guangguang Safety Theater. Episode 3. Bright Screens Need Soft Light.\n\nGuangguang: Max, why is the room a cave and the screen a flashlight?\nMax: Night mode feels cool!\nGuangguang: A bright screen in a dark room makes eyes work harder.\nMax: So… turn on a lamp?\nGuangguang: Soft light nearby. Screen can stay; the cave goes away.\nMax: Lamp on. Cave off.\nGuangguang: Good. That's Safety Theater.",
+      "group": null
+    },
+    {
+      "id": "E-Z04",
+      "age": "child",
+      "shelf": "safety",
+      "title": "Sit Up, Don’t Bend Close",
+      "text": "Please listen. Guangguang Safety Theater. Episode 4. Sit Up, Don’t Bend Close.\n\nGuangguang: Mia, you're folding like a pretzel toward the phone.\nMia: It's cozy!\nGuangguang: Cozy now, tired eyes later. Sitting up keeps a healthier distance.\nMia: Sit up… not bend close?\nGuangguang: Sit up. Don't bend close. Your back and eyes both say thanks.\nMia: Pretzel mode off.\nGuangguang: Pass.",
+      "group": null
+    },
+    {
+      "id": "E-Z05",
+      "age": "child",
+      "shelf": "safety",
+      "title": "Blink and Sip Water",
+      "text": "Please listen. Guangguang Safety Theater. Episode 5. Blink and Sip Water.\n\nGuangguang: Max, when did you last blink?\nMax: Uh… I'm busy winning!\nGuangguang: Screens make us forget to blink. Dry eyes complain.\nMax: So I blink on purpose?\nGuangguang: Blink often. Sip water. Tiny breaks help a lot.\nMax: Blink. Sip. Easy.\nGuangguang: Easy—and you pass Safety Theater.",
+      "group": null
+    },
+    {
+      "id": "E-Z06",
+      "age": "child",
+      "shelf": "safety",
+      "title": "Outdoor Light Helps Eyes",
+      "text": "Please listen. Guangguang Safety Theater. Episode 6. Outdoor Light Helps Eyes.\n\nGuangguang: Mia, the outdoors called. It misses you.\nMia: Five more levels!\nGuangguang: Soft outdoor light helps eyes in ways indoor screens don't.\nMia: So go outside a bit?\nGuangguang: With a grown-up plan—play outside, then screens feel better too.\nMia: Outside first. Then play.\nGuangguang: That's the win.",
+      "group": null
+    },
+    {
+      "id": "E-Z07",
+      "age": "child",
+      "shelf": "safety",
+      "title": "Hot Stove, Cool Hands",
+      "text": "Please listen. Guangguang Safety Theater. Episode 7. Hot Stove, Cool Hands.\n\nGuangguang: Max, that stove is not a hand warmer.\nMax: It looks shiny!\nGuangguang: Hot means ouch. Cool hands stay away.\nMax: So I don't touch?\nGuangguang: Don't touch. Ask a grown-up. Kitchen heat is their job.\nMax: Hands off. Ask first.\nGuangguang: Pass Safety Theater.",
+      "group": null
+    },
+    {
+      "id": "E-Z08",
+      "age": "child",
+      "shelf": "safety",
+      "title": "Knives Are for Grown-Ups",
+      "text": "Please listen. Guangguang Safety Theater. Episode 8. Knives Are for Grown-Ups.\n\nGuangguang: Mia, that knife is not a magic wand.\nMia: I just want to help cut!\nGuangguang: Helping is great—with grown-up tools for grown-ups.\nMia: So I wait?\nGuangguang: Wait. Ask. Use kid-safe helpers they give you.\nMia: Knife stays with grown-ups.\nGuangguang: Safe and helpful. Pass.",
+      "group": null
+    },
+    {
+      "id": "E-Z09",
+      "age": "child",
+      "shelf": "safety",
+      "title": "Medicine Is Not Candy",
+      "text": "Please listen. Guangguang Safety Theater. Episode 9. Medicine Is Not Candy.\n\nGuangguang: Max, those pills are not fruit snacks.\nMax: But they're colorful!\nGuangguang: Colorful can still be medicine. Medicine is not candy.\nMax: Only if a grown-up gives it?\nGuangguang: Only a trusted grown-up. Right dose, right time—never a snack raid.\nMax: Not candy. Ask first.\nGuangguang: Pass Safety Theater.",
+      "group": null
+    },
+    {
+      "id": "E-Z10",
+      "age": "child",
+      "shelf": "safety",
+      "title": "Don’t Climb on Furniture",
+      "text": "Please listen. Guangguang Safety Theater. Episode 10. Don’t Climb on Furniture.\n\nGuangguang: Mia, the bookshelf is not a mountain.\nMia: I can reach the top!\nGuangguang: Climbing furniture can mean a hard fall.\nMia: So ask for help instead?\nGuangguang: Ask a grown-up. Feet on the floor beat flying off a chair.\nMia: No furniture mountains.\nGuangguang: Smart. Pass.",
+      "group": null
+    },
+    {
+      "id": "E-Z11",
+      "age": "child",
+      "shelf": "safety",
+      "title": "Smoke Alarm Means Go Outside",
+      "text": "Please listen. Guangguang Safety Theater. Episode 11. Smoke Alarm Means Go Outside.\n\nGuangguang: Max, that loud beep is not a game sound.\nMax: It's noisy! Make it stop!\nGuangguang: Smoke alarm means: get out, stay out, find a grown-up plan.\nMax: Outside—not hide?\nGuangguang: Outside with your grown-up. Practice the path when it's calm.\nMax: Beep means go outside.\nGuangguang: Pass Safety Theater.",
+      "group": null
+    },
+    {
+      "id": "E-Z12",
+      "age": "child",
+      "shelf": "safety",
+      "title": "Stop, Look, Listen at Crossings",
+      "text": "Please listen. Guangguang Safety Theater. Episode 12. Stop, Look, Listen at Crossings.\n\nGuangguang: Mia, the street is not a race track.\nMia: I can dash!\nGuangguang: At crossings: stop, look, listen.\nMia: Stop… look… listen.\nGuangguang: Then go when it's safe, with a grown-up.\nMia: No dashing. Stop look listen.\nGuangguang: Pass.",
+      "group": null
+    },
+    {
+      "id": "E-Z13",
+      "age": "child",
+      "shelf": "safety",
+      "title": "Wait for the Green Light",
+      "text": "Please listen. Guangguang Safety Theater. Episode 13. Wait for the Green Light.\n\nGuangguang: Max, red means what?\nMax: Go faster before it changes?\nGuangguang: Nice try. Red means wait. Green means go—when clear.\nMax: Wait for green.\nGuangguang: Wait for the green light. Patience keeps you safe.\nMax: Green light. Then walk.\nGuangguang: Pass Safety Theater.",
+      "group": null
+    },
+    {
+      "id": "E-Z14",
+      "age": "child",
+      "shelf": "safety",
+      "title": "Hold a Grown-Up’s Hand",
+      "text": "Please listen. Guangguang Safety Theater. Episode 14. Hold a Grown-Up’s Hand.\n\nGuangguang: Mia, crossing alone is not a badge of bravery.\nMia: I'm big now!\nGuangguang: Big kids still hold a grown-up's hand in busy streets.\nMia: Hand hold = safe?\nGuangguang: Hand hold = safe. Together beats lost.\nMia: Hold hand. Cross together.\nGuangguang: Pass.",
+      "group": null
+    },
+    {
+      "id": "E-Z15",
+      "age": "child",
+      "shelf": "safety",
+      "title": "Bike Helmet On",
+      "text": "Please listen. Guangguang Safety Theater. Episode 15. Bike Helmet On.\n\nGuangguang: Max, helmet hair is a hero look.\nMax: Helmets are hot and silly!\nGuangguang: Helmets protect your smart brain if you tip.\nMax: So on before wheels roll?\nGuangguang: Helmet on, then ride. Click it. Fit it.\nMax: Helmet on. Then go.\nGuangguang: Pass Safety Theater.",
+      "group": null
+    },
+    {
+      "id": "E-Z16",
+      "age": "child",
+      "shelf": "safety",
+      "title": "Stay Where a Grown-Up Can See",
+      "text": "Please listen. Guangguang Safety Theater. Episode 16. Stay Where a Grown-Up Can See.\n\nGuangguang: Mia, hide-and-seek in a mall is a bad sequel.\nMia: I'll be right back!\nGuangguang: Stay where a grown-up can see you.\nMia: In sight—not around the corner?\nGuangguang: In sight. If you get separated, find a worker or stay put as you practiced.\nMia: Stay visible.\nGuangguang: Pass.",
+      "group": null
+    },
+    {
+      "id": "E-Z17",
+      "age": "child",
+      "shelf": "safety",
+      "title": "Strangers Are Not Instant Friends",
+      "text": "Please listen. Guangguang Safety Theater. Episode 17. Strangers Are Not Instant Friends.\n\nGuangguang: Max, a smile is nice. Instant best-friend? Not always.\nMax: He offered candy!\nGuangguang: Strangers are not instant friends. Kind can still be unknown.\nMax: So I check with my grown-up?\nGuangguang: Check first. Don't go. Don't take. Tell a trusted adult.\nMax: Not instant friends. Ask first.\nGuangguang: Pass Safety Theater.",
+      "group": null
+    },
+    {
+      "id": "E-Z18",
+      "age": "child",
+      "shelf": "safety",
+      "title": "Say No and Find a Trusted Adult",
+      "text": "Please listen. Guangguang Safety Theater. Episode 18. Say No and Find a Trusted Adult.\n\nGuangguang: Mia, what if a plan feels wrong in your tummy?\nMia: Be polite and stay?\nGuangguang: You can say no. Then find a trusted adult.\nMia: No is allowed?\nGuangguang: No is allowed. Your safety comes first. Practice the words.\nMia: Say no. Find my grown-up.\nGuangguang: Pass.",
+      "group": null
+    },
+    {
+      "id": "E-Z19",
+      "age": "child",
+      "shelf": "safety",
+      "title": "Passwords Stay Private",
+      "text": "Please listen. Guangguang Safety Theater. Episode 19. Passwords Stay Private.\n\nGuangguang: Max, is your password a secret or a billboard?\nMax: I told my classmate so we can share!\nGuangguang: Passwords stay private. Sharing can unlock your stuff for others.\nMax: Even friends?\nGuangguang: Even friends. Grown-ups help if you forget—not the whole class.\nMax: Password private.\nGuangguang: Pass Safety Theater.",
+      "group": null
+    },
+    {
+      "id": "E-Z20",
+      "age": "child",
+      "shelf": "safety",
+      "title": "Ask Before Clicking Links",
+      "text": "Please listen. Guangguang Safety Theater. Episode 20. Ask Before Clicking Links.\n\nGuangguang: Mia, that shiny button says FREE PRIZE.\nMia: Tap tap!\nGuangguang: Ask before clicking links. Some links are tricks.\nMia: Ask a grown-up first?\nGuangguang: Ask first. If it feels rushy or weird, pause.\nMia: No surprise taps. Ask.\nGuangguang: Pass.",
+      "group": null
+    },
+    {
+      "id": "E-Z21",
+      "age": "child",
+      "shelf": "safety",
+      "title": "Wash Hands Before Eating",
+      "text": "Please listen. Guangguang Safety Theater. Episode 21. Wash Hands Before Eating.\n\nGuangguang: Max, your hands visited the playground, then the sandwich?\nMax: I'm starving!\nGuangguang: Wash hands before eating. Soap beats invisible germ hitchhikers.\nMax: Soap, rinse, then food?\nGuangguang: Soap, rinse, then food. Quick and powerful.\nMax: Wash first. Eat second.\nGuangguang: Pass Safety Theater.",
+      "group": null
+    },
+    {
+      "id": "E-Z22",
+      "age": "child",
+      "shelf": "safety",
+      "title": "Swim Only With a Grown-Up",
+      "text": "Please listen. Guangguang Safety Theater. Episode 22. Swim Only With a Grown-Up.\n\nGuangguang: Mia, water is fun—and deep.\nMia: I can doggy-paddle!\nGuangguang: Swim only with a grown-up watching. Water rules are not optional.\nMia: No solo swimming?\nGuangguang: No solo. Grown-up eyes on. Life jackets when they say so.\nMia: Grown-up with me.\nGuangguang: Pass.",
+      "group": null
+    },
+    {
+      "id": "E-Z23",
+      "age": "child",
+      "shelf": "safety",
+      "title": "Wear Sunscreen Outside",
+      "text": "Please listen. Guangguang Safety Theater. Episode 23. Wear Sunscreen Outside.\n\nGuangguang: Max, the sun is strong even when you feel fine.\nMax: Sunscreen is sticky!\nGuangguang: Wear sunscreen outside. Sticky now beats burn later.\nMax: Put it on before play?\nGuangguang: Before play. Grown-ups help with face and ears.\nMax: Sunscreen on. Then run.\nGuangguang: Pass Safety Theater.",
+      "group": null
+    },
+    {
+      "id": "E-Z24",
+      "age": "child",
+      "shelf": "safety",
+      "title": "Tell an Adult If Something Hurts",
+      "text": "Please listen. Guangguang Safety Theater. Episode 24. Tell an Adult If Something Hurts.\n\nGuangguang: Mia, brave is not silent when something hurts.\nMia: I don't want to bother anyone.\nGuangguang: Tell an adult if something hurts—body or feelings.\nMia: Saying it is okay?\nGuangguang: Saying it helps them help you. Early words beat big worries.\nMia: If it hurts, I tell.\nGuangguang: Pass. You're Safety Theater strong.",
+      "group": null
+    }
+  ]
+}

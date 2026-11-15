@@ -1,0 +1,130 @@
+美国英文儿童内容 · 受欢迎 + 合规来源（给主人看）
+日期：2026-11-13
+用途：英文版第一批故事选材；不懂英文也可按中文标题点名
+
+==================================================
+一、怎么用才合规（铁律）
+==================================================
+可以用：
+- 美国公版（public domain）故事的「情节核」
+- 事实科普（天空为什么蓝等），用自己的新句子讲
+- 民间口头传说的常见版本（注意软化吓人处）
+
+必须自己做：
+- 全文新写英文句子（和中文版一样：只借情节，不抄原文）
+- 自己画漫画、自己用 TTS 录音
+- 不出现迪士尼等现代改编的专有造型/台词
+
+不要用（有版权）：
+- 迪士尼电影版灰姑娘/冰雪奇缘等
+- 现代绘本：Eric Carle《好饿的毛毛虫》、Dr. Seuss、Peppa Pig、PAW Patrol
+- 近年畅销新书、有声书平台独家录音
+- 直接整段粘贴 Project Gutenberg 原文当 App 文案（应用自己的新写）
+
+美国公版大致规则：作者去世很久、1928 年以前出版的许多作品在美国已公版。
+可靠入口：Project Gutenberg（标注 Public domain in the USA）
+
+==================================================
+二、美国孩子/家长最熟的类型（受欢迎）
+==================================================
+1) 伊索寓言 Aesop —— 短、有道理、动物主角（最适合休息 3～5 分钟）
+2) 格林童话 Grimm —— 小红帽、三只小猪、糖果屋等（需软化吓人处）
+3) 安徒生 Andersen —— 丑小鸭、皇帝的新衣、夜莺等
+4) 佩罗/英国民间 —— 灰姑娘、穿靴子的猫、杰克与豆茎等（用民间情节核，不碰迪士尼）
+5) Why 科学 —— 天为什么蓝、影子、彩虹（家长觉得「在学习」）
+
+==================================================
+三、合规来源（可打开查）
+==================================================
+【故事 · 公版书】
+- 伊索儿童版 The Aesop for Children
+  https://www.gutenberg.org/ebooks/19994
+  美国公版；可作情节核参考
+- 安徒生童话 Andersen's Fairy Tales
+  https://www.gutenberg.org/ebooks/1597
+- 格林童话 Grimm's Fairy Tales
+  https://www.gutenberg.org/ebooks/52521
+- 说明：Gutenberg 电子书本身可衍生；不要用「Project Gutenberg」商标去卖书名；App 里写「retold / newly written」
+
+【科普 · 可参考事实（再新写）】
+- NASA Space Place：Why is the sky blue?
+  https://spaceplace.nasa.gov/blue-sky/en/
+  美国政府站点材料通常可自由使用事实；仍建议用自己的话重写给孩子听
+- NOAA / UCAR 等科普页：同类 Why 主题
+
+【有声参考 · 仅听风格，不直接上架别人的录音】
+- LibriVox 上有公版伊索朗读（录音人已捐公版的可参考节奏；正式 App 仍用我们自己的 TTS）
+
+==================================================
+四、推荐优先做的英文篇目（受欢迎 + 公版）
+==================================================
+下面中文名方便你点名；英文名给以后写进 App。
+
+【伊索 · 最优先 · 约 12 篇】
+1. The Tortoise and the Hare（兔子和乌龟）
+2. The Lion and the Mouse（狮子和老鼠）
+3. The Fox and the Grapes（狐狸和葡萄）
+4. The Boy Who Cried Wolf（狼来了）
+5. The Ant and the Grasshopper（蚂蚁和蚱蜢）
+6. The Town Mouse and the Country Mouse（城里老鼠和乡下老鼠）
+7. The North Wind and the Sun（北风和太阳）
+8. The Crow and the Pitcher（乌鸦喝水）
+9. The Wolf in Sheep's Clothing（披着羊皮的狼）
+10. The Goose That Laid the Golden Eggs（下金蛋的鹅）
+11. The Fox and the Crow（狐狸和乌鸦）
+12. The Dog and His Reflection（狗和倒影/衔肉过河）
+
+【格林/民间 · 软写 · 约 10 篇】
+13. The Three Little Pigs（三只小猪）
+14. Little Red Riding Hood（小红帽 · 软化）
+15. Jack and the Beanstalk（杰克和豆茎）
+16. Hansel and Gretel（韩塞尔与格雷特 · 软化）
+17. Rumpelstiltskin（侏儒怪/纺线姑娘 · 可选）
+18. The Frog Prince（青蛙王子）
+19. Puss in Boots（穿靴子的猫）
+20. Sleeping Beauty（睡美人 · 软化，非迪士尼）
+21. Snow White（白雪 · 软化，非迪士尼）
+22. Cinderella（灰姑娘 · 佩罗/民间核，非迪士尼）
+
+【安徒生 · 约 6 篇】
+23. The Ugly Duckling（丑小鸭）
+24. The Emperor's New Clothes（皇帝的新衣）
+25. The Nightingale（夜莺）
+26. The Princess and the Pea（豌豆公主）
+27. The Steadfast Tin Soldier（坚定的锡兵 · 软化）
+28. Thumbelina（拇指姑娘）
+
+【Why 科普 · 事实公有 · 新写英文 · 约 12 篇】
+29. Why is the sky blue?
+30. Why is the sunset red?
+31. Why do we yawn?
+32. Why do we need sleep?
+33. Why do we blink?
+34. Why do shadows follow us?
+35. How do rainbows form?
+36. Why does ice melt?
+37. Why wash hands with soap?
+38. Why not rub your eyes?
+39. Why are fire trucks red?（可讲可见度/传统，自己查证后写）
+40. Why wait at traffic lights?
+
+以上约 40 篇，正好对应美国首发规模；与现有中文 G/S/Z 可对照翻译或按英文重写。
+
+==================================================
+五、明确不要碰的「看起来很火但有版权」
+==================================================
+- Disney / Pixar / Frozen / Moana 等
+- Peppa Pig、Bluey（Bluey 有授权限制）、PAW Patrol
+- The Very Hungry Caterpillar、Where the Wild Things Are（现代绘本）
+- Harry Potter、Minecraft 故事等
+- 直接用 Epic!、Audible 上的商业录音
+
+==================================================
+六、和眼睛闹钟怎么配合
+==================================================
+- 休息页：优先伊索短篇（3 格漫画 + 短语音）
+- 书架：Why + Fables + Soft fairy tales
+- 写法：公版情节核 + 全新英文句子 + 光光收一句
+- 漫画：默认 3～5 格；不抄公版书插画（Gutenberg 插画也勿直接当 App 资源，自己画光光版）
+
+（完）

@@ -1,0 +1,95 @@
+{
+  "identifier" : "EyeHavenProducts",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_applicationInternalID" : "0",
+    "_developerTeamID" : "AH6QK8YZL4",
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 0,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "21500001",
+      "localizations" : [
+        {
+          "description" : "Knowledge updates, nicer voices, and a weekly parent note. Eye-care stays free.",
+          "displayName" : "Guangguang Learning Pass",
+          "locale" : "en_US"
+        }
+      ],
+      "name" : "Guangguang Learning Pass",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "3.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "21500011",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Monthly: story updates, voices, and weekly parent note. Eye-care free.",
+              "displayName" : "Learning Pass Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.eyehaven.en.sub.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Learning Pass Monthly",
+          "subscriptionGroupID" : "21500001",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "24.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "21500012",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Yearly: story updates, voices, and weekly parent note. Eye-care free.",
+              "displayName" : "Learning Pass Yearly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.eyehaven.en.sub.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Learning Pass Yearly",
+          "subscriptionGroupID" : "21500001",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

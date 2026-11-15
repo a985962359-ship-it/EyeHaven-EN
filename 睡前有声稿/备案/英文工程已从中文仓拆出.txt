@@ -1,0 +1,7 @@
+本仓库 EyeHaven-EN = 美国英文版独立工程。
+- 音频：EyeHaven/BedtimeAudioBundle（原 Bundle.en，84 篇正文+标题）
+- 漫画：EyeHaven/BedtimeComics（原 Comics.en）
+- 目录：BedtimeContentCatalog.json（英文，E- 编号）
+- 稿件：睡前有声稿/美国英文稿/
+- 界面固定英文（AppL10n.isEnglish = true）
+中文版仍在 /Users/song/EyeHaven，两边互不覆盖。
