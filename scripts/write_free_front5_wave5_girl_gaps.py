@@ -15,7 +15,7 @@ PREFIX_GIRL = (
     "Children's picture book comic panel, soft warm friendly lighting, landscape 4:3. "
     "Cute round-headed white robot Guangguang with green trim, warm glowing chest lamp, "
     "small star on head, honest smile. Gentle girl about 6–7 with soft sweater and kind smile. "
-    "Two small empty white oval speech bubbles sized to fit a short kids phrase, blank inside, no letters. "
+    "Two large empty white oval speech bubbles with space for short kids text, blank inside, no letters. "
     "No scary imagery, no text logos, consistent character design. "
     "Simple readable background, big clear shapes, shallow depth, soft edges, no clutter. "
 )
