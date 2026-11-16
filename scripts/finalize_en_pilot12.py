@@ -35,6 +35,7 @@ PLAN_BACK_W17 = Path("/Users/song/qwen3-tts/comic_batch/comics_plan_en_backcatal
 PLAN_BACK_W18 = Path("/Users/song/qwen3-tts/comic_batch/comics_plan_en_backcatalog_w18.json")
 PLAN_BACK_W19 = Path("/Users/song/qwen3-tts/comic_batch/comics_plan_en_backcatalog_w19.json")
 PLAN_BACK_W20 = Path("/Users/song/qwen3-tts/comic_batch/comics_plan_en_backcatalog_w20.json")
+PLAN_BACK_W21 = Path("/Users/song/qwen3-tts/comic_batch/comics_plan_en_backcatalog_w21.json")
 ASSETS = Path(
     "/Users/song/Library/Application Support/Cursor/AgentStores/"
     "cursor_agent_stores/bc-6341924c-d627-5e70-8277-ff97645af6c8/files/artifacts/assets"
@@ -65,6 +66,7 @@ RAW_BACK_W17 = Path("/Users/song/qwen3-tts/comic_batch/en_work/_raw_backcatalog_
 RAW_BACK_W18 = Path("/Users/song/qwen3-tts/comic_batch/en_work/_raw_backcatalog_w18")
 RAW_BACK_W19 = Path("/Users/song/qwen3-tts/comic_batch/en_work/_raw_backcatalog_w19")
 RAW_BACK_W20 = Path("/Users/song/qwen3-tts/comic_batch/en_work/_raw_backcatalog_w20")
+RAW_BACK_W21 = Path("/Users/song/qwen3-tts/comic_batch/en_work/_raw_backcatalog_w21")
 WORK = Path("/Users/song/qwen3-tts/comic_batch/en_work")
 APP = ROOT / "EyeHaven" / "BedtimeComics"
 # Prefer English-friendly rounded font for bubble text
@@ -78,6 +80,7 @@ if Path(EN_FONT).exists():
 def find_asset(story_id: str, i: int) -> Path | None:
     stem = f"c-{story_id}-{i:02d}"
     bases = [
+        RAW_BACK_W21,
         RAW_BACK_W20,
         RAW_BACK_W19,
         RAW_BACK_W18,
@@ -143,6 +146,7 @@ def load_plan(story_id: str | None = None) -> list:
         PLAN_BACK_W18,
         PLAN_BACK_W19,
         PLAN_BACK_W20,
+        PLAN_BACK_W21,
     ):
         if path.exists():
             plans.extend(json.loads(path.read_text(encoding="utf-8")))
