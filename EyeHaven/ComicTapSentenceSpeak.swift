@@ -1,7 +1,7 @@
 import AVFoundation
 import SwiftUI
 
-/// 点插图对话框（整泡）朗读。先试 E-A01。不改休息/计时。
+/// 点插图对话框朗读。有气泡文案的 12 页绘本都显示角上喇叭。不改休息/计时。
 @MainActor
 final class ComicSentenceSpeaker: NSObject, ObservableObject {
     static let shared = ComicSentenceSpeaker()
@@ -20,7 +20,7 @@ final class ComicSentenceSpeaker: NSObject, ObservableObject {
     }
 
     static func isEnabled(for storyID: String) -> Bool {
-        storyID == "E-A01"
+        ComicBubbleWordsCatalog.hasBubbles(storyID)
     }
 
     func speakPhrase(_ text: String) {
@@ -70,10 +70,32 @@ private final class SentenceSpeechBridge: NSObject, AVSpeechSynthesizerDelegate 
     }
 }
 
-/// E-A01 气泡文案写死在代码里，避免 Bundle JSON 没打进包导致“点了没反应”。
+/// 从 Bundle 的 ComicBubbleWords.en.json 读左右气泡；读不到时用内置 E-A01 兜底。
 enum ComicBubbleWordsCatalog {
-    /// pageIndex 0-based → (left, right)
-    private static let birds: [(String, String)] = [
+    private struct Page: Decodable {
+        let i: Int
+        let left: String
+        let right: String
+    }
+
+    private static let pagesByStory: [String: [(String, String)]] = {
+        if let url = Bundle.main.url(forResource: "ComicBubbleWords.en", withExtension: "json"),
+           let data = try? Data(contentsOf: url),
+           let decoded = try? JSONDecoder().decode([String: [Page]].self, from: data)
+        {
+            var map: [String: [(String, String)]] = [:]
+            for (id, pages) in decoded {
+                let ordered = pages.sorted { $0.i < $1.i }.map { ($0.left, $0.right) }
+                if !ordered.isEmpty {
+                    map[id] = ordered
+                }
+            }
+            if !map.isEmpty { return map }
+        }
+        return ["E-A01": fallbackBirds]
+    }()
+
+    private static let fallbackBirds: [(String, String)] = [
         ("Why can birds fly?", "Paper ones can't!"),
         ("Hollow bones!", "Less to lift."),
         ("Strong chest.", "Wings pull hard."),
@@ -88,14 +110,18 @@ enum ComicBubbleWordsCatalog {
         ("Count one flap.", "Smile."),
     ]
 
+    static func hasBubbles(_ storyID: String) -> Bool {
+        pagesByStory[storyID] != nil
+    }
+
     static func bubbles(storyID: String, pageIndex: Int) -> (left: String, right: String)? {
-        guard storyID == "E-A01", birds.indices.contains(pageIndex) else { return nil }
-        let p = birds[pageIndex]
+        guard let pages = pagesByStory[storyID], pages.indices.contains(pageIndex) else { return nil }
+        let p = pages[pageIndex]
         return (p.0, p.1)
     }
 }
 
-/// 只在左右对话气泡角上放小喇叭；不盖白框、不盖文字。
+/// 只在插图左上角 / 右上角放小喇叭；点一下读对应气泡整句。
 struct ComicBubbleTapOverlay: View {
     let storyID: String
     let pageIndex: Int
@@ -111,7 +137,6 @@ struct ComicBubbleTapOverlay: View {
             GeometryReader { geo in
                 let pad: CGFloat = HavenLayout.isPad ? 10 : 8
                 ZStack {
-                    // 左上角：左气泡
                     VStack {
                         HStack {
                             cornerSpeaker(phrases.left)
@@ -121,7 +146,6 @@ struct ComicBubbleTapOverlay: View {
                     }
                     .padding(pad)
 
-                    // 右上角：右气泡
                     VStack {
                         HStack {
                             Spacer(minLength: 0)

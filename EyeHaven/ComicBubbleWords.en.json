@@ -60,5 +60,997 @@
       "left": "Count one flap.",
       "right": "Smile."
     }
+  ],
+  "E-A14": [
+    {
+      "i": 1,
+      "left": "Costume change?",
+      "right": "What's inside?"
+    },
+    {
+      "i": 2,
+      "left": "Life starts",
+      "right": "as a tiny egg."
+    },
+    {
+      "i": 3,
+      "left": "Hello, caterpillar!",
+      "right": "So hungry."
+    },
+    {
+      "i": 4,
+      "left": "Eat and grow.",
+      "right": "Faster!"
+    },
+    {
+      "i": 5,
+      "left": "Chrysalis time.",
+      "right": "Soft shell."
+    },
+    {
+      "i": 6,
+      "left": "Quiet rebuild",
+      "right": "inside."
+    },
+    {
+      "i": 7,
+      "left": "Wings forming...",
+      "right": "New shape!"
+    },
+    {
+      "i": 8,
+      "left": "Climb out",
+      "right": "carefully."
+    },
+    {
+      "i": 9,
+      "left": "Wings drying.",
+      "right": "Almost ready."
+    },
+    {
+      "i": 10,
+      "left": "Metamorphosis!",
+      "right": "Big change."
+    },
+    {
+      "i": 11,
+      "left": "Different plants",
+      "right": "for each stage."
+    },
+    {
+      "i": 12,
+      "left": "Right leaves",
+      "right": "help them thrive."
+    }
+  ],
+  "E-Y04": [
+    {
+      "i": 1,
+      "left": "Quiet kernel...",
+      "right": "Then POP!"
+    },
+    {
+      "i": 2,
+      "left": "Why does it pop?",
+      "right": "Whoa!"
+    },
+    {
+      "i": 3,
+      "left": "Little water",
+      "right": "inside!"
+    },
+    {
+      "i": 4,
+      "left": "Heat makes",
+      "right": "steam."
+    },
+    {
+      "i": 5,
+      "left": "Steam needs",
+      "right": "more room."
+    },
+    {
+      "i": 6,
+      "left": "Pressure builds...",
+      "right": "Hold on!"
+    },
+    {
+      "i": 7,
+      "left": "Shell bursts!",
+      "right": "Wide open!"
+    },
+    {
+      "i": 8,
+      "left": "Fluffy white",
+      "right": "inside out."
+    },
+    {
+      "i": 9,
+      "left": "That's the pop!",
+      "right": "I heard it."
+    },
+    {
+      "i": 10,
+      "left": "Too dry?",
+      "right": "Won't pop."
+    },
+    {
+      "i": 11,
+      "left": "Heat + water",
+      "right": "teamwork."
+    },
+    {
+      "i": 12,
+      "left": "Steamy seed",
+      "right": "surprise!"
+    }
+  ],
+  "E-B03": [
+    {
+      "i": 1,
+      "left": "Don't blink!",
+      "right": "Impossible!"
+    },
+    {
+      "i": 2,
+      "left": "Close… open.",
+      "right": "Blink blink!"
+    },
+    {
+      "i": 3,
+      "left": "Tiny wipe",
+      "right": "of tears."
+    },
+    {
+      "i": 4,
+      "left": "Wash dust.",
+      "right": "Stay clear."
+    },
+    {
+      "i": 5,
+      "left": "Moist eyes",
+      "right": "feel soft."
+    },
+    {
+      "i": 6,
+      "left": "No thinking.",
+      "right": "Just blink."
+    },
+    {
+      "i": 7,
+      "left": "Screens…",
+      "right": "blink less."
+    },
+    {
+      "i": 8,
+      "left": "Dry eyes?",
+      "right": "Tired!"
+    },
+    {
+      "i": 9,
+      "left": "Soft blinks",
+      "right": "help shine."
+    },
+    {
+      "i": 10,
+      "left": "Look far.",
+      "right": "Eye break."
+    },
+    {
+      "i": 11,
+      "left": "Windshield",
+      "right": "wipers!"
+    },
+    {
+      "i": 12,
+      "left": "Blink kindly.",
+      "right": "Thank you."
+    }
+  ],
+  "E-S01": [
+    {
+      "i": 1,
+      "left": "Moon tags along!",
+      "right": "Wow."
+    },
+    {
+      "i": 2,
+      "left": "Is it chasing",
+      "right": "us?"
+    },
+    {
+      "i": 3,
+      "left": "Trees zoom!",
+      "right": "So fast."
+    },
+    {
+      "i": 4,
+      "left": "Moon is",
+      "right": "far away."
+    },
+    {
+      "i": 5,
+      "left": "Far things",
+      "right": "move slow."
+    },
+    {
+      "i": 6,
+      "left": "Friendly",
+      "right": "follower!"
+    },
+    {
+      "i": 7,
+      "left": "Not jogging!",
+      "right": "Nope."
+    },
+    {
+      "i": 8,
+      "left": "Own path",
+      "right": "around Earth."
+    },
+    {
+      "i": 9,
+      "left": "Cozy trick",
+      "right": "of distance."
+    },
+    {
+      "i": 10,
+      "left": "Same Moon",
+      "right": "many towns."
+    },
+    {
+      "i": 11,
+      "left": "Not a chase.",
+      "right": "Just space."
+    },
+    {
+      "i": 12,
+      "left": "Wave hello!",
+      "right": "Quiet watch."
+    }
+  ],
+  "E-H01": [
+    {
+      "i": 1,
+      "left": "I spin!",
+      "right": "Shadow too!"
+    },
+    {
+      "i": 2,
+      "left": "Block light.",
+      "right": "Shadow!"
+    },
+    {
+      "i": 3,
+      "left": "Light hits.",
+      "right": "Dark behind."
+    },
+    {
+      "i": 4,
+      "left": "Move left—",
+      "right": "shadow left."
+    },
+    {
+      "i": 5,
+      "left": "Seems to",
+      "right": "follow me!"
+    },
+    {
+      "i": 6,
+      "left": "Move lamp.",
+      "right": "Stretch!"
+    },
+    {
+      "i": 7,
+      "left": "Noon sun.",
+      "right": "Short shadow."
+    },
+    {
+      "i": 8,
+      "left": "Later…",
+      "right": "long shadow."
+    },
+    {
+      "i": 9,
+      "left": "Fuzzy or",
+      "right": "sharp edges."
+    },
+    {
+      "i": 10,
+      "left": "Quiet",
+      "right": "footprints."
+    },
+    {
+      "i": 11,
+      "left": "No own feet.",
+      "right": "Just light."
+    },
+    {
+      "i": 12,
+      "left": "Dance!",
+      "right": "Shadow dance!"
+    }
+  ],
+  "E-W06": [
+    {
+      "i": 1,
+      "left": "Colors arc!",
+      "right": "After rain."
+    },
+    {
+      "i": 2,
+      "left": "Where from?",
+      "right": "That bow!"
+    },
+    {
+      "i": 3,
+      "left": "Sunlight in",
+      "right": "raindrops."
+    },
+    {
+      "i": 4,
+      "left": "Bend and",
+      "right": "reflect."
+    },
+    {
+      "i": 5,
+      "left": "Colors bend",
+      "right": "differently."
+    },
+    {
+      "i": 6,
+      "left": "Red to",
+      "right": "violet!"
+    },
+    {
+      "i": 7,
+      "left": "Sun behind.",
+      "right": "Drops ahead."
+    },
+    {
+      "i": 8,
+      "left": "Not a road!",
+      "right": "Can't walk."
+    },
+    {
+      "i": 9,
+      "left": "Light math",
+      "right": "in water."
+    },
+    {
+      "i": 10,
+      "left": "I move—",
+      "right": "bow moves."
+    },
+    {
+      "i": 11,
+      "left": "New spot.",
+      "right": "Same light."
+    },
+    {
+      "i": 12,
+      "left": "Look opposite",
+      "right": "the Sun!"
+    }
+  ],
+  "E-Z01": [
+    {
+      "i": 1,
+      "left": "Safety Theater",
+      "right": "Eyes rest."
+    },
+    {
+      "i": 2,
+      "left": "Screen statue!",
+      "right": "Blink, Max."
+    },
+    {
+      "i": 3,
+      "left": "One more",
+      "right": "minute!"
+    },
+    {
+      "i": 4,
+      "left": "One → eleven.",
+      "right": "Uh-oh."
+    },
+    {
+      "i": 5,
+      "left": "Sore eyes?",
+      "right": "Alarm!"
+    },
+    {
+      "i": 6,
+      "left": "Turn alarm",
+      "right": "off how?"
+    },
+    {
+      "i": 7,
+      "left": "Stop. Look far.",
+      "right": "Soft blink."
+    },
+    {
+      "i": 8,
+      "left": "Stand up.",
+      "right": "Walk a bit."
+    },
+    {
+      "i": 9,
+      "left": "After this,",
+      "right": "I stop?"
+    },
+    {
+      "i": 10,
+      "left": "You stop.",
+      "right": "Say it."
+    },
+    {
+      "i": 11,
+      "left": "I stop!",
+      "right": "I pass!"
+    },
+    {
+      "i": 12,
+      "left": "It's care.",
+      "right": "Rest now."
+    }
+  ],
+  "E-A02": [
+    {
+      "i": 1,
+      "left": "Rrr-rrr!",
+      "right": "Tiny motor?"
+    },
+    {
+      "i": 2,
+      "left": "Safe + happy",
+      "right": "purrs."
+    },
+    {
+      "i": 3,
+      "left": "Pet. Rest.",
+      "right": "Snuggle."
+    },
+    {
+      "i": 4,
+      "left": "Voice box",
+      "right": "vibrates."
+    },
+    {
+      "i": 5,
+      "left": "Air in…",
+      "right": "purr out."
+    },
+    {
+      "i": 6,
+      "left": "Need comfort?",
+      "right": "Purr too."
+    },
+    {
+      "i": 7,
+      "left": "Nervous?",
+      "right": "Quiet purr."
+    },
+    {
+      "i": 8,
+      "left": "Not leave me",
+      "right": "alone."
+    },
+    {
+      "i": 9,
+      "left": "Soft ears,",
+      "right": "soft body."
+    },
+    {
+      "i": 10,
+      "left": "Pet gently.",
+      "right": "Watch all."
+    },
+    {
+      "i": 11,
+      "left": "Walks away?",
+      "right": "Give space."
+    },
+    {
+      "i": 12,
+      "left": "Kind hands.",
+      "right": "Listen."
+    }
+  ],
+  "E-A03": [
+    {
+      "i": 1,
+      "left": "Swish-swish!",
+      "right": "Always happy?"
+    },
+    {
+      "i": 2,
+      "left": "Tail =",
+      "right": "a message."
+    },
+    {
+      "i": 3,
+      "left": "Loose wag,",
+      "right": "friendly joy."
+    },
+    {
+      "i": 4,
+      "left": "Stiff high?",
+      "right": "Unsure."
+    },
+    {
+      "i": 5,
+      "left": "Ears. Mouth.",
+      "right": "Distance."
+    },
+    {
+      "i": 6,
+      "left": "Whole body",
+      "right": "tells it."
+    },
+    {
+      "i": 7,
+      "left": "Bouncy soft",
+      "right": "hello!"
+    },
+    {
+      "i": 8,
+      "left": "Tall tight",
+      "right": "careful."
+    },
+    {
+      "i": 9,
+      "left": "Don't rush",
+      "right": "strange dogs."
+    },
+    {
+      "i": 10,
+      "left": "Ask a",
+      "right": "grown-up."
+    },
+    {
+      "i": 11,
+      "left": "Calm hands",
+      "right": "are kinder."
+    },
+    {
+      "i": 12,
+      "left": "Read dog.",
+      "right": "Gentle hello."
+    }
+  ],
+  "E-A04": [
+    {
+      "i": 1,
+      "left": "No air trip?",
+      "right": "Hmm."
+    },
+    {
+      "i": 2,
+      "left": "Water in",
+      "right": "mouth."
+    },
+    {
+      "i": 3,
+      "left": "Out over",
+      "right": "gills."
+    },
+    {
+      "i": 4,
+      "left": "Thin layers",
+      "right": "grab O2."
+    },
+    {
+      "i": 5,
+      "left": "Into blood",
+      "right": "steady."
+    },
+    {
+      "i": 6,
+      "left": "Underwater",
+      "right": "lungs!"
+    },
+    {
+      "i": 7,
+      "left": "Clean water",
+      "right": "helps."
+    },
+    {
+      "i": 8,
+      "left": "Low oxygen?",
+      "right": "Hard."
+    },
+    {
+      "i": 9,
+      "left": "We use",
+      "right": "lungs."
+    },
+    {
+      "i": 10,
+      "left": "Fish use",
+      "right": "water O2."
+    },
+    {
+      "i": 11,
+      "left": "Same need:",
+      "right": "oxygen."
+    },
+    {
+      "i": 12,
+      "left": "Quiet gills.",
+      "right": "Thanks."
+    }
+  ],
+  "E-A05": [
+    {
+      "i": 1,
+      "left": "Pant-pant!",
+      "right": "Hot?"
+    },
+    {
+      "i": 2,
+      "left": "Not much",
+      "right": "skin sweat."
+    },
+    {
+      "i": 3,
+      "left": "Air over",
+      "right": "tongue."
+    },
+    {
+      "i": 4,
+      "left": "Heat leaves",
+      "right": "body."
+    },
+    {
+      "i": 5,
+      "left": "After a run,",
+      "right": "cooler!"
+    },
+    {
+      "i": 6,
+      "left": "Sunny day",
+      "right": "pant too."
+    },
+    {
+      "i": 7,
+      "left": "Shade + water",
+      "right": "help."
+    },
+    {
+      "i": 8,
+      "left": "Hard pant?",
+      "right": "Get help."
+    },
+    {
+      "i": 9,
+      "left": "Shade. Water.",
+      "right": "Grown-up."
+    },
+    {
+      "i": 10,
+      "left": "Never hot",
+      "right": "car!"
+    },
+    {
+      "i": 11,
+      "left": "Rest + water",
+      "right": "cool down."
+    },
+    {
+      "i": 12,
+      "left": "Care keeps",
+      "right": "dogs safe."
+    }
+  ],
+  "E-W01": [
+    {
+      "i": 1,
+      "left": "Blue forever!",
+      "right": "Wow."
+    },
+    {
+      "i": 2,
+      "left": "Many colors",
+      "right": "in sunlight."
+    },
+    {
+      "i": 3,
+      "left": "Blue scatters",
+      "right": "most."
+    },
+    {
+      "i": 4,
+      "left": "Red scatters",
+      "right": "less."
+    },
+    {
+      "i": 5,
+      "left": "More blue",
+      "right": "to our eyes."
+    },
+    {
+      "i": 6,
+      "left": "Daytime sky",
+      "right": "looks blue."
+    },
+    {
+      "i": 7,
+      "left": "Near Sun:",
+      "right": "bright gold."
+    },
+    {
+      "i": 8,
+      "left": "Space is",
+      "right": "black."
+    },
+    {
+      "i": 9,
+      "left": "No air,",
+      "right": "no scatter."
+    },
+    {
+      "i": 10,
+      "left": "Air paints",
+      "right": "blue ceiling."
+    },
+    {
+      "i": 11,
+      "left": "Same sun,",
+      "right": "sky paint."
+    },
+    {
+      "i": 12,
+      "left": "Thank tiny",
+      "right": "air helpers."
+    }
+  ],
+  "E-W02": [
+    {
+      "i": 1,
+      "left": "Peach and red!",
+      "right": "Pretty."
+    },
+    {
+      "i": 2,
+      "left": "Longer path",
+      "right": "through air."
+    },
+    {
+      "i": 3,
+      "left": "Blue scatters",
+      "right": "away."
+    },
+    {
+      "i": 4,
+      "left": "Red travels",
+      "right": "farther."
+    },
+    {
+      "i": 5,
+      "left": "Dust deepens",
+      "right": "color."
+    },
+    {
+      "i": 6,
+      "left": "Same Sun,",
+      "right": "warmer."
+    },
+    {
+      "i": 7,
+      "left": "Sunrise too",
+      "right": "can glow."
+    },
+    {
+      "i": 8,
+      "left": "Haze makes",
+      "right": "deeper red."
+    },
+    {
+      "i": 9,
+      "left": "Clean air,",
+      "right": "soft peach."
+    },
+    {
+      "i": 10,
+      "left": "Physics in",
+      "right": "pretty coat."
+    },
+    {
+      "i": 11,
+      "left": "Don't stare",
+      "right": "at Sun."
+    },
+    {
+      "i": 12,
+      "left": "Goodnight,",
+      "right": "warm sky."
+    }
+  ],
+  "E-W03": [
+    {
+      "i": 1,
+      "left": "Tap tap!",
+      "right": "Rain."
+    },
+    {
+      "i": 2,
+      "left": "Warm air",
+      "right": "lifts vapor."
+    },
+    {
+      "i": 3,
+      "left": "High up,",
+      "right": "air cools."
+    },
+    {
+      "i": 4,
+      "left": "Tiny drops",
+      "right": "make clouds."
+    },
+    {
+      "i": 5,
+      "left": "Drops grow",
+      "right": "heavier."
+    },
+    {
+      "i": 6,
+      "left": "Gravity =",
+      "right": "rain down."
+    },
+    {
+      "i": 7,
+      "left": "Waters plants",
+      "right": "and soil."
+    },
+    {
+      "i": 8,
+      "left": "Fills rivers",
+      "right": "and lakes."
+    },
+    {
+      "i": 9,
+      "left": "Too much?",
+      "right": "Big puddles."
+    },
+    {
+      "i": 10,
+      "left": "Too little?",
+      "right": "Thirsty."
+    },
+    {
+      "i": 11,
+      "left": "Water on",
+      "right": "the move."
+    },
+    {
+      "i": 12,
+      "left": "Sky shares",
+      "right": "a drink."
+    }
+  ],
+  "E-W04": [
+    {
+      "i": 1,
+      "left": "Flash first,",
+      "right": "then boom."
+    },
+    {
+      "i": 2,
+      "left": "Giant spark",
+      "right": "in sky."
+    },
+    {
+      "i": 3,
+      "left": "Heats air",
+      "right": "so fast."
+    },
+    {
+      "i": 4,
+      "left": "Air expands",
+      "right": "shock!"
+    },
+    {
+      "i": 5,
+      "left": "Shock =",
+      "right": "thunder."
+    },
+    {
+      "i": 6,
+      "left": "Light faster",
+      "right": "than sound."
+    },
+    {
+      "i": 7,
+      "left": "See first,",
+      "right": "hear later."
+    },
+    {
+      "i": 8,
+      "left": "Count seconds",
+      "right": "for distance."
+    },
+    {
+      "i": 9,
+      "left": "Safer rule",
+      "right": "is simple."
+    },
+    {
+      "i": 10,
+      "left": "Hear thunder?",
+      "right": "Go inside."
+    },
+    {
+      "i": 11,
+      "left": "With grown-up.",
+      "right": "Stay dry."
+    },
+    {
+      "i": 12,
+      "left": "Science +",
+      "right": "safety."
+    }
+  ],
+  "E-W05": [
+    {
+      "i": 1,
+      "left": "Soft flakes!",
+      "right": "Quiet white."
+    },
+    {
+      "i": 2,
+      "left": "Cold clouds",
+      "right": "freeze water."
+    },
+    {
+      "i": 3,
+      "left": "Ice crystals",
+      "right": "grow."
+    },
+    {
+      "i": 4,
+      "left": "Crystals stick",
+      "right": "into flakes."
+    },
+    {
+      "i": 5,
+      "left": "Cold air",
+      "right": "lets them fall."
+    },
+    {
+      "i": 6,
+      "left": "Too warm?",
+      "right": "Melts to rain."
+    },
+    {
+      "i": 7,
+      "left": "Each flake",
+      "right": "has pattern."
+    },
+    {
+      "i": 8,
+      "left": "No two",
+      "right": "same journey."
+    },
+    {
+      "i": 9,
+      "left": "Quiet rain",
+      "right": "of crystals."
+    },
+    {
+      "i": 10,
+      "left": "Blankets soil,",
+      "right": "sleeps seeds."
+    },
+    {
+      "i": 11,
+      "left": "Warm boots",
+      "right": "and hats."
+    },
+    {
+      "i": 12,
+      "left": "Catch one.",
+      "right": "Smile."
+    }
   ]
 }
