@@ -1300,5 +1300,253 @@
       "left": "Ask. Rest.",
       "right": "Feel care."
     }
+  ],
+  "E-H02": [
+    {
+      "i": 1,
+      "left": "Drip drip!",
+      "right": "Gone?"
+    },
+    {
+      "i": 2,
+      "left": "Ice = water",
+      "right": "frozen solid."
+    },
+    {
+      "i": 3,
+      "left": "Heat gives",
+      "right": "more energy."
+    },
+    {
+      "i": 4,
+      "left": "Bits slip",
+      "right": "free."
+    },
+    {
+      "i": 5,
+      "left": "Now it's",
+      "right": "liquid."
+    },
+    {
+      "i": 6,
+      "left": "Warm air",
+      "right": "melts it."
+    },
+    {
+      "i": 7,
+      "left": "Warm hands",
+      "right": "faster!"
+    },
+    {
+      "i": 8,
+      "left": "Sunlight",
+      "right": "helps too."
+    },
+    {
+      "i": 9,
+      "left": "Not gone—",
+      "right": "changing."
+    },
+    {
+      "i": 10,
+      "left": "Solid →",
+      "right": "liquid."
+    },
+    {
+      "i": 11,
+      "left": "Freeze again",
+      "right": "→ ice."
+    },
+    {
+      "i": 12,
+      "left": "Same water,",
+      "right": "cool!"
+    }
+  ],
+  "E-H03": [
+    {
+      "i": 1,
+      "left": "Up… then",
+      "right": "pop!"
+    },
+    {
+      "i": 2,
+      "left": "Thin soap",
+      "right": "water skin."
+    },
+    {
+      "i": 3,
+      "left": "Air pocket",
+      "right": "inside."
+    },
+    {
+      "i": 4,
+      "left": "Soap makes",
+      "right": "it stretchy."
+    },
+    {
+      "i": 5,
+      "left": "Warm air",
+      "right": "lifts a bit."
+    },
+    {
+      "i": 6,
+      "left": "Breezes",
+      "right": "carry them."
+    },
+    {
+      "i": 7,
+      "left": "Gravity",
+      "right": "still pulls."
+    },
+    {
+      "i": 8,
+      "left": "Skin dries",
+      "right": "thinner."
+    },
+    {
+      "i": 9,
+      "left": "Too thin—",
+      "right": "pop!"
+    },
+    {
+      "i": 10,
+      "left": "Films + air",
+      "right": "lesson."
+    },
+    {
+      "i": 11,
+      "left": "Rainbow",
+      "right": "sparkle!"
+    },
+    {
+      "i": 12,
+      "left": "Soft blow,",
+      "right": "smile."
+    }
+  ],
+  "E-H04": [
+    {
+      "i": 1,
+      "left": "String tugs",
+      "right": "up!"
+    },
+    {
+      "i": 2,
+      "left": "Helium",
+      "right": "is lighter."
+    },
+    {
+      "i": 3,
+      "left": "Balloon weighs",
+      "right": "less."
+    },
+    {
+      "i": 4,
+      "left": "Less than",
+      "right": "same air."
+    },
+    {
+      "i": 5,
+      "left": "Air pushes",
+      "right": "up."
+    },
+    {
+      "i": 6,
+      "left": "Like float,",
+      "right": "but air."
+    },
+    {
+      "i": 7,
+      "left": "Breath balloon",
+      "right": "falls."
+    },
+    {
+      "i": 8,
+      "left": "Breath ≠",
+      "right": "lighter."
+    },
+    {
+      "i": 9,
+      "left": "Hold string",
+      "right": "gently."
+    },
+    {
+      "i": 10,
+      "left": "Only safe",
+      "right": "places."
+    },
+    {
+      "i": 11,
+      "left": "Ask grown-ups",
+      "right": "first."
+    },
+    {
+      "i": 12,
+      "left": "Light gas,",
+      "right": "yay!"
+    }
+  ],
+  "E-H05": [
+    {
+      "i": 1,
+      "left": "Leaf rides!",
+      "right": "Pebble sinks."
+    },
+    {
+      "i": 2,
+      "left": "Density =",
+      "right": "how packed."
+    },
+    {
+      "i": 3,
+      "left": "Shape",
+      "right": "matters too."
+    },
+    {
+      "i": 4,
+      "left": "Push water",
+      "right": "aside…"
+    },
+    {
+      "i": 5,
+      "left": "…water can",
+      "right": "weigh more."
+    },
+    {
+      "i": 6,
+      "left": "Hollow boats",
+      "right": "displace lots."
+    },
+    {
+      "i": 7,
+      "left": "Empty boat",
+      "right": "can float."
+    },
+    {
+      "i": 8,
+      "left": "Metal boat",
+      "right": "can float."
+    },
+    {
+      "i": 9,
+      "left": "Metal ball",
+      "right": "may sink."
+    },
+    {
+      "i": 10,
+      "left": "Shape +",
+      "right": "density."
+    },
+    {
+      "i": 11,
+      "left": "Try leaf,",
+      "right": "pebble, boat."
+    },
+    {
+      "i": 12,
+      "left": "Who rides?",
+      "right": "Who dives?"
+    }
   ]
 }

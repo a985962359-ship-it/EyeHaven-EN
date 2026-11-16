@@ -3,7 +3,8 @@
 
 E-B03 already remodeled. Background: kid-friendly-backgrounds.md +
 character-background-scale.md. Audio: VoiceDesign locked voices.
-Boy:girl ≈ 7:3 → B01/B02/B04 boy; B05 girl.
+One kid per book (voice-match-art-casting): B01/B02/B04 boy; B05 girl.
+# Later free waves aim ~half girl books.
 """
 from __future__ import annotations
 

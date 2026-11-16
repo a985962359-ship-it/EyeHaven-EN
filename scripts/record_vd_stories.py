@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
-"""Record story IDs with locked VoiceDesign three voices (brand/boy/girl).
+"""Record story IDs with locked VoiceDesign voices matched to art companions.
 
-Default casting: rotate brand→boy→girl across 12 pages; title = brand.
+Casting (2026-11-17 locked — see docs/voice-match-art-casting.md):
+  companion=boy  → brand on odd pages, boy on even; title=brand; NEVER girl
+  companion=girl → brand on odd pages, girl on even; title=brand; NEVER boy
+  companion=brand → brand on all pages (Guangguang-only / object-heavy books)
+
 Usage:
   /Users/song/qwen3-tts/.venv/bin/python scripts/record_vd_stories.py --only E-W01 E-W02
+  /Users/song/qwen3-tts/.venv/bin/python scripts/record_vd_stories.py --only E-H03 --companion girl
 """
 from __future__ import annotations
 
@@ -23,6 +28,7 @@ REPO = Path(__file__).resolve().parents[1]
 CATALOG = REPO / "EyeHaven" / "BedtimeContentCatalog.en.json"
 BUNDLE = REPO / "EyeHaven" / "BedtimeAudioBundle"
 MANIFEST = REPO / "EyeHaven" / "BedtimeAudioManifest.en.json"
+CASTING_FILE = REPO / "scripts" / "vd_story_companions.json"
 MODEL = Path("/Users/song/qwen3-tts/models/Qwen3-TTS-12Hz-1.7B-VoiceDesign")
 MEDIA = Path(
     "/Users/song/Library/Application Support/Cursor/AgentStores/"
@@ -50,7 +56,22 @@ INSTRUCT = {
     ),
 }
 
-ROTATE = ["brand", "boy", "girl"] * 4  # 12 pages
+
+def page_voices(companion: str) -> list[str]:
+    """12 page voices: odd=brand, even=kid; brand-only books stay brand."""
+    c = (companion or "boy").strip().lower()
+    if c == "brand":
+        return ["brand"] * 12
+    kid = "girl" if c == "girl" else "boy"
+    # 1-indexed: pages 1,3,5… brand; 2,4,6… kid
+    return ["brand" if i % 2 == 1 else kid for i in range(1, 13)]
+
+
+def load_casting() -> dict[str, str]:
+    if CASTING_FILE.exists():
+        data = json.loads(CASTING_FILE.read_text(encoding="utf-8"))
+        return {k: str(v).lower() for k, v in data.items() if not str(k).startswith("_")}
+    return {}
 
 
 def wav_to_mp3(wav: np.ndarray, sr: int, path: Path, bitrate: int = 96) -> None:
@@ -88,7 +109,6 @@ def update_manifest(ids: list[str]) -> None:
     if not MANIFEST.exists():
         return
     data = json.loads(MANIFEST.read_text(encoding="utf-8"))
-    # keep structure flexible
     entries = data.get("files") or data.get("stories") or data
     if isinstance(entries, dict):
         for i in ids:
@@ -99,6 +119,12 @@ def update_manifest(ids: list[str]) -> None:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--only", nargs="+", required=True)
+    ap.add_argument(
+        "--companion",
+        choices=("boy", "girl", "brand"),
+        default=None,
+        help="Override companion for all --only ids (else vd_story_companions.json, else boy)",
+    )
     args = ap.parse_args()
 
     stories = {s["id"]: s for s in json.loads(CATALOG.read_text(encoding="utf-8"))["stories"]}
@@ -110,6 +136,7 @@ def main() -> int:
         print("missing model", MODEL, flush=True)
         return 1
 
+    casting = load_casting()
     MEDIA.mkdir(parents=True, exist_ok=True)
     (MEDIA / "segments").mkdir(exist_ok=True)
     (MEDIA / "backup").mkdir(exist_ok=True)
@@ -131,7 +158,11 @@ def main() -> int:
         if len(pages) != 12:
             print(f"SKIP {sid}: need 12 pages, got {len(pages)}", flush=True)
             continue
-        # backup existing once
+
+        companion = args.companion or casting.get(sid, "boy")
+        voices = page_voices(companion)
+        print(f"\n=== {sid} {story['title']} companion={companion} voices={voices} ===", flush=True)
+
         for label, rel in (("body", f"{sid}.mp3"), ("title", f"Titles/{sid}.mp3")):
             src = BUNDLE / rel
             if src.exists():
@@ -139,9 +170,8 @@ def main() -> int:
                 if not dst.exists():
                     shutil.copy2(src, dst)
 
-        print(f"\n=== {sid} {story['title']} ===", flush=True)
         chunks: list[tuple[np.ndarray, int]] = []
-        for i, (text, voice) in enumerate(zip(pages, ROTATE), 1):
+        for i, (text, voice) in enumerate(zip(pages, voices), 1):
             print(f"  p{i:02d} {voice}: {text[:64]}", flush=True)
             wavs, sr = model.generate_voice_design(
                 text=text,
