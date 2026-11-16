@@ -1061,6 +1061,9 @@ struct BedtimeStoryPage: View {
                     .fill(Palette.mist)
             )
 
+            // 试做：第一篇鸟故事可点整句朗读（学单词）；不改计时/休息
+            ComicPageSentenceBar(story: displayedStory, pageIndex: comicPage)
+
             // 进书后：控制框在插图正下方居中，只控本篇；听完不自动下一篇
             MiniPlayerDock(boundStory: displayedStory, queue: Self.playQueue(for: displayedStory))
 
