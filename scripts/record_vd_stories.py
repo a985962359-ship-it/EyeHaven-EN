@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
-"""Record story IDs with locked VoiceDesign voices matched to art companions.
+"""Record story IDs with VoiceDesign voices matched to who/what speaks.
 
-Casting (2026-11-17 locked — see docs/voice-match-art-casting.md):
-  companion=boy  → brand on odd pages, boy on even; title=brand; NEVER girl
-  companion=girl → brand on odd pages, girl on even; title=brand; NEVER boy
-  companion=brand → brand on all pages (Guangguang-only / object-heavy books)
+Rules (2026-11-17 — docs/voice-match-art-casting.md):
+  - No blind brand→boy→girl rotation.
+  - Default: odd pages brand, even pages companion kid (boy|girl).
+  - Optional per-page cast may include mom/dad/animal/sfx when text needs them.
+  - Title always brand.
 
 Usage:
-  /Users/song/qwen3-tts/.venv/bin/python scripts/record_vd_stories.py --only E-W01 E-W02
-  /Users/song/qwen3-tts/.venv/bin/python scripts/record_vd_stories.py --only E-H03 --companion girl
+  .../python scripts/record_vd_stories.py --only E-W01 E-W02
+  .../python scripts/record_vd_stories.py --only E-B05 --companion girl
+  .../python scripts/record_vd_stories.py --only E-A02   # uses vd_page_casting.json if present
 """
 from __future__ import annotations
 
@@ -16,6 +18,7 @@ import argparse
 import json
 import shutil
 import time
+from datetime import datetime
 from pathlib import Path
 
 import lameenc
@@ -29,6 +32,7 @@ CATALOG = REPO / "EyeHaven" / "BedtimeContentCatalog.en.json"
 BUNDLE = REPO / "EyeHaven" / "BedtimeAudioBundle"
 MANIFEST = REPO / "EyeHaven" / "BedtimeAudioManifest.en.json"
 CASTING_FILE = REPO / "scripts" / "vd_story_companions.json"
+PAGE_CAST_FILE = REPO / "scripts" / "vd_page_casting.json"
 MODEL = Path("/Users/song/qwen3-tts/models/Qwen3-TTS-12Hz-1.7B-VoiceDesign")
 MEDIA = Path(
     "/Users/song/Library/Application Support/Cursor/AgentStores/"
@@ -37,6 +41,7 @@ MEDIA = Path(
 
 GAP_SEC = 0.28
 
+# Locked: brand / boy / girl. Soft extras for pages that need other people or sounds.
 INSTRUCT = {
     "brand": (
         "About 18 years old: young American male teen/young-adult children's storyteller. "
@@ -54,24 +59,49 @@ INSTRUCT = {
         "Age clearly around 8—not a toddler, not a teen. Soft higher kid-girl pitch, calm and kind, "
         "cute but soft not sharp. Clear English, no baby lisp, no robot effects."
     ),
+    "mom": (
+        "Speak as a warm kind American mom about 30–35 reading to a child. Soft gentle female adult voice, "
+        "caring and clear, bedtime-friendly. Not a little girl, not teen slang. Natural English. No robot."
+    ),
+    "dad": (
+        "Speak as a warm kind American dad about 30–35. Friendly mid male adult voice, calm and clear, "
+        "bedtime-friendly. Not a child, not deep scary baritone. Natural English. No robot."
+    ),
+    "animal": (
+        "Playful children's storyteller doing a short cute animal sound or animal onomatopoeia in English "
+        "(purr, meow, woof, chirp). Soft, funny, not scary, not realistic horror. Keep it brief and clear."
+    ),
+    "sfx": (
+        "Playful children's storyteller performing a short sound-effect word for kids "
+        "(pop, tap, boom, thump, splash). Soft cartoonish, not loud or scary. Clear and brief."
+    ),
 }
 
 
-def page_voices(companion: str) -> list[str]:
-    """12 page voices: odd=brand, even=kid; brand-only books stay brand."""
+def default_page_voices(companion: str) -> list[str]:
     c = (companion or "boy").strip().lower()
     if c == "brand":
         return ["brand"] * 12
     kid = "girl" if c == "girl" else "boy"
-    # 1-indexed: pages 1,3,5… brand; 2,4,6… kid
     return ["brand" if i % 2 == 1 else kid for i in range(1, 13)]
 
 
-def load_casting() -> dict[str, str]:
-    if CASTING_FILE.exists():
-        data = json.loads(CASTING_FILE.read_text(encoding="utf-8"))
-        return {k: str(v).lower() for k, v in data.items() if not str(k).startswith("_")}
-    return {}
+def load_json_map(path: Path) -> dict:
+    if not path.exists():
+        return {}
+    data = json.loads(path.read_text(encoding="utf-8"))
+    return {k: v for k, v in data.items() if not str(k).startswith("_")}
+
+
+def resolve_voices(sid: str, companion: str, page_casts: dict) -> list[str]:
+    raw = page_casts.get(sid)
+    if isinstance(raw, list) and len(raw) == 12:
+        voices = [str(v).lower() for v in raw]
+        for v in voices:
+            if v not in INSTRUCT:
+                raise SystemExit(f"{sid}: unknown voice {v!r}; allowed {sorted(INSTRUCT)}")
+        return voices
+    return default_page_voices(companion)
 
 
 def wav_to_mp3(wav: np.ndarray, sr: int, path: Path, bitrate: int = 96) -> None:
@@ -116,6 +146,16 @@ def update_manifest(ids: list[str]) -> None:
     MANIFEST.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def backup_existing(sid: str) -> None:
+    stamp = datetime.now().strftime("%Y%m%d-%H%M%S")
+    bak_dir = MEDIA / "backup" / stamp
+    bak_dir.mkdir(parents=True, exist_ok=True)
+    for label, rel in (("body", f"{sid}.mp3"), ("title", f"Titles/{sid}.mp3")):
+        src = BUNDLE / rel
+        if src.exists():
+            shutil.copy2(src, bak_dir / f"{sid}-{label}.mp3")
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--only", nargs="+", required=True)
@@ -136,7 +176,8 @@ def main() -> int:
         print("missing model", MODEL, flush=True)
         return 1
 
-    casting = load_casting()
+    casting = {k: str(v).lower() for k, v in load_json_map(CASTING_FILE).items()}
+    page_casts = load_json_map(PAGE_CAST_FILE)
     MEDIA.mkdir(parents=True, exist_ok=True)
     (MEDIA / "segments").mkdir(exist_ok=True)
     (MEDIA / "backup").mkdir(exist_ok=True)
@@ -160,15 +201,9 @@ def main() -> int:
             continue
 
         companion = args.companion or casting.get(sid, "boy")
-        voices = page_voices(companion)
+        voices = resolve_voices(sid, companion, page_casts)
         print(f"\n=== {sid} {story['title']} companion={companion} voices={voices} ===", flush=True)
-
-        for label, rel in (("body", f"{sid}.mp3"), ("title", f"Titles/{sid}.mp3")):
-            src = BUNDLE / rel
-            if src.exists():
-                dst = MEDIA / "backup" / f"{sid}-{label}.mp3"
-                if not dst.exists():
-                    shutil.copy2(src, dst)
+        backup_existing(sid)
 
         chunks: list[tuple[np.ndarray, int]] = []
         for i, (text, voice) in enumerate(zip(pages, voices), 1):

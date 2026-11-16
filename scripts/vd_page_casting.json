@@ -1,0 +1,4 @@
+{
+  "_comment": "Optional 12-voice lists per story. Voices: brand|boy|girl|mom|dad|animal|sfx. Omit a story to use default odd=brand even=companion kid.",
+  "_example_animal_book": ["sfx", "brand", "brand", "animal", "brand", "boy", "brand", "boy", "brand", "boy", "brand", "boy"]
+}
