@@ -5888,5 +5888,501 @@
       "left": "One spinning",
       "right": "planet."
     }
+  ],
+  "E-W15": [
+    {
+      "i": 1,
+      "left": "Puddle gone!",
+      "right": "Where?"
+    },
+    {
+      "i": 2,
+      "left": "Sun warms",
+      "right": "the water."
+    },
+    {
+      "i": 3,
+      "left": "Liquid turns",
+      "right": "to vapor."
+    },
+    {
+      "i": 4,
+      "left": "Wind whisks",
+      "right": "it away."
+    },
+    {
+      "i": 5,
+      "left": "Joined the",
+      "right": "air."
+    },
+    {
+      "i": 6,
+      "left": "Bigger lasts",
+      "right": "longer."
+    },
+    {
+      "i": 7,
+      "left": "Shade slows",
+      "right": "drying."
+    },
+    {
+      "i": 8,
+      "left": "Dirt rings",
+      "right": "mark edges."
+    },
+    {
+      "i": 9,
+      "left": "May rain",
+      "right": "again later."
+    },
+    {
+      "i": 10,
+      "left": "Slow steam,",
+      "right": "no whistle."
+    },
+    {
+      "i": 11,
+      "left": "Watch with",
+      "right": "grown-up."
+    },
+    {
+      "i": 12,
+      "left": "Puddle vanish",
+      "right": "science."
+    }
+  ],
+  "E-W16": [
+    {
+      "i": 1,
+      "left": "Sticky air!",
+      "right": "Humidity?"
+    },
+    {
+      "i": 2,
+      "left": "Vapor the",
+      "right": "air holds."
+    },
+    {
+      "i": 3,
+      "left": "High means",
+      "right": "lots of water."
+    },
+    {
+      "i": 4,
+      "left": "Sweat dries",
+      "right": "slowly."
+    },
+    {
+      "i": 5,
+      "left": "Low air",
+      "right": "feels dry."
+    },
+    {
+      "i": 6,
+      "left": "Apps show",
+      "right": "percent."
+    },
+    {
+      "i": 7,
+      "left": "Fan moves",
+      "right": "moist air."
+    },
+    {
+      "i": 8,
+      "left": "Bath steam",
+      "right": "adds vapor."
+    },
+    {
+      "i": 9,
+      "left": "Plants add",
+      "right": "water too."
+    },
+    {
+      "i": 10,
+      "left": "Sticky is",
+      "right": "chemistry."
+    },
+    {
+      "i": 11,
+      "left": "Light clothes,",
+      "right": "sip water."
+    },
+    {
+      "i": 12,
+      "left": "Humidity",
+      "right": "science."
+    }
+  ],
+  "E-W17": [
+    {
+      "i": 1,
+      "left": "Green red",
+      "right": "blob?"
+    },
+    {
+      "i": 2,
+      "left": "Colors show",
+      "right": "patterns."
+    },
+    {
+      "i": 3,
+      "left": "Rain heat",
+      "right": "or radar."
+    },
+    {
+      "i": 4,
+      "left": "Green light,",
+      "right": "red heavy."
+    },
+    {
+      "i": 5,
+      "left": "Read the",
+      "right": "map key."
+    },
+    {
+      "i": 6,
+      "left": "Forecast vs",
+      "right": "window."
+    },
+    {
+      "i": 7,
+      "left": "Dress for",
+      "right": "colors."
+    },
+    {
+      "i": 8,
+      "left": "Radar feeds",
+      "right": "pictures."
+    },
+    {
+      "i": 9,
+      "left": "Not magic",
+      "right": "paint."
+    },
+    {
+      "i": 10,
+      "left": "Ask grown-up",
+      "right": "to decode."
+    },
+    {
+      "i": 11,
+      "left": "Numbers become",
+      "right": "pictures."
+    },
+    {
+      "i": 12,
+      "left": "Map color",
+      "right": "science."
+    }
+  ],
+  "E-W18": [
+    {
+      "i": 1,
+      "left": "Sparkles!",
+      "right": "Overnight rain?"
+    },
+    {
+      "i": 2,
+      "left": "Ground cools",
+      "right": "at night."
+    },
+    {
+      "i": 3,
+      "left": "Air near grass",
+      "right": "gets cold."
+    },
+    {
+      "i": 4,
+      "left": "Vapor becomes",
+      "right": "droplets."
+    },
+    {
+      "i": 5,
+      "left": "Dew, not",
+      "right": "always rain."
+    },
+    {
+      "i": 6,
+      "left": "Shoes get",
+      "right": "wet."
+    },
+    {
+      "i": 7,
+      "left": "Day warms,",
+      "right": "dew goes."
+    },
+    {
+      "i": 8,
+      "left": "Frost is",
+      "right": "frozen kin."
+    },
+    {
+      "i": 9,
+      "left": "Webs look",
+      "right": "jeweled."
+    },
+    {
+      "i": 10,
+      "left": "Cool nights",
+      "right": "clue."
+    },
+    {
+      "i": 11,
+      "left": "Notice cold",
+      "right": "grass water."
+    },
+    {
+      "i": 12,
+      "left": "Dew science",
+      "right": "sparkle."
+    }
+  ],
+  "E-W19": [
+    {
+      "i": 1,
+      "left": "Cracked earth!",
+      "right": "No rain?"
+    },
+    {
+      "i": 2,
+      "left": "Long stretch",
+      "right": "too dry."
+    },
+    {
+      "i": 3,
+      "left": "Dry air",
+      "right": "parks here."
+    },
+    {
+      "i": 4,
+      "left": "Rivers and",
+      "right": "soil shrink."
+    },
+    {
+      "i": 5,
+      "left": "Use matters",
+      "right": "too."
+    },
+    {
+      "i": 6,
+      "left": "Conserve and",
+      "right": "fix leaks."
+    },
+    {
+      "i": 7,
+      "left": "Lawns wait;",
+      "right": "drink first."
+    },
+    {
+      "i": 8,
+      "left": "Follow water",
+      "right": "rules."
+    },
+    {
+      "i": 9,
+      "left": "Budget gone",
+      "right": "thin."
+    },
+    {
+      "i": 10,
+      "left": "Scientists",
+      "right": "watch totals."
+    },
+    {
+      "i": 11,
+      "left": "Storms refill",
+      "right": "savings."
+    },
+    {
+      "i": 12,
+      "left": "Drought science",
+      "right": "kindly."
+    }
+  ],
+  "E-W20": [
+    {
+      "i": 1,
+      "left": "Big balloon!",
+      "right": "Why up?"
+    },
+    {
+      "i": 2,
+      "left": "Carries sky",
+      "right": "sensors."
+    },
+    {
+      "i": 3,
+      "left": "Measures temp",
+      "right": "and more."
+    },
+    {
+      "i": 4,
+      "left": "Radios send",
+      "right": "numbers down."
+    },
+    {
+      "i": 5,
+      "left": "Bursts high",
+      "right": "on purpose."
+    },
+    {
+      "i": 6,
+      "left": "Parachute",
+      "right": "brings box."
+    },
+    {
+      "i": 7,
+      "left": "Science, not",
+      "right": "party."
+    },
+    {
+      "i": 8,
+      "left": "Teams launch",
+      "right": "often."
+    },
+    {
+      "i": 9,
+      "left": "Helps planes",
+      "right": "and models."
+    },
+    {
+      "i": 10,
+      "left": "Watch with",
+      "right": "grown-up."
+    },
+    {
+      "i": 11,
+      "left": "Flying sky",
+      "right": "notebook."
+    },
+    {
+      "i": 12,
+      "left": "Balloon",
+      "right": "science."
+    }
+  ],
+  "E-W21": [
+    {
+      "i": 1,
+      "left": "Soft hush!",
+      "right": "Why quiet?"
+    },
+    {
+      "i": 2,
+      "left": "Air pockets",
+      "right": "in snow."
+    },
+    {
+      "i": 3,
+      "left": "Pockets soak",
+      "right": "sound."
+    },
+    {
+      "i": 4,
+      "left": "Cities sound",
+      "right": "muffled."
+    },
+    {
+      "i": 5,
+      "left": "Hard pack",
+      "right": "hush fades."
+    },
+    {
+      "i": 6,
+      "left": "Ice louder",
+      "right": "than powder."
+    },
+    {
+      "i": 7,
+      "left": "Shovel with",
+      "right": "grown-up."
+    },
+    {
+      "i": 8,
+      "left": "Soft animal",
+      "right": "tracks."
+    },
+    {
+      "i": 9,
+      "left": "Wind may",
+      "right": "still whistle."
+    },
+    {
+      "i": 10,
+      "left": "Quiet is",
+      "right": "physics."
+    },
+    {
+      "i": 11,
+      "left": "Listen to",
+      "right": "the blanket."
+    },
+    {
+      "i": 12,
+      "left": "Snow quiet",
+      "right": "science."
+    }
+  ],
+  "E-W22": [
+    {
+      "i": 1,
+      "left": "Fast ribbon!",
+      "right": "Jet stream?"
+    },
+    {
+      "i": 2,
+      "left": "Swift wind",
+      "right": "rivers high."
+    },
+    {
+      "i": 3,
+      "left": "Steer weather",
+      "right": "systems."
+    },
+    {
+      "i": 4,
+      "left": "Planes ride",
+      "right": "to save time."
+    },
+    {
+      "i": 5,
+      "left": "Ribbon wiggles",
+      "right": "by season."
+    },
+    {
+      "i": 6,
+      "left": "Cold meets",
+      "right": "warm air."
+    },
+    {
+      "i": 7,
+      "left": "Storms ride",
+      "right": "too."
+    },
+    {
+      "i": 8,
+      "left": "Forecasts",
+      "right": "watch it."
+    },
+    {
+      "i": 9,
+      "left": "Maps sketch",
+      "right": "the path."
+    },
+    {
+      "i": 10,
+      "left": "Physics, not",
+      "right": "magic."
+    },
+    {
+      "i": 11,
+      "left": "Flights feel",
+      "right": "the river."
+    },
+    {
+      "i": 12,
+      "left": "Jet-stream",
+      "right": "science."
+    }
   ]
 }
