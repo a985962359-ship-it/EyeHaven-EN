@@ -7686,5 +7686,501 @@
       "left": "Velcro",
       "right": "science."
     }
+  ],
+  "E-S06": [
+    {
+      "i": 1,
+      "left": "Same face!",
+      "right": "Does it spin?"
+    },
+    {
+      "i": 2,
+      "left": "Yes, spins",
+      "right": "slowly."
+    },
+    {
+      "i": 3,
+      "left": "Spin matches",
+      "right": "orbit time."
+    },
+    {
+      "i": 4,
+      "left": "Called sync",
+      "right": "rotation."
+    },
+    {
+      "i": 5,
+      "left": "We see one",
+      "right": "familiar face."
+    },
+    {
+      "i": 6,
+      "left": "Far side",
+      "right": "still exists."
+    },
+    {
+      "i": 7,
+      "left": "Crafts photo",
+      "right": "far side."
+    },
+    {
+      "i": 8,
+      "left": "Both sides",
+      "right": "get sun."
+    },
+    {
+      "i": 9,
+      "left": "Far ≠ always",
+      "right": "dark."
+    },
+    {
+      "i": 10,
+      "left": "Spin orbit",
+      "right": "dance."
+    },
+    {
+      "i": 11,
+      "left": "Watch with",
+      "right": "grown-up."
+    },
+    {
+      "i": 12,
+      "left": "One-face Moon",
+      "right": "science."
+    }
+  ],
+  "E-S07": [
+    {
+      "i": 1,
+      "left": "Round dents!",
+      "right": "Potholes?"
+    },
+    {
+      "i": 2,
+      "left": "Space rocks",
+      "right": "hit hard."
+    },
+    {
+      "i": 3,
+      "left": "Left bowl",
+      "right": "craters."
+    },
+    {
+      "i": 4,
+      "left": "Little air",
+      "right": "or weather."
+    },
+    {
+      "i": 5,
+      "left": "Old marks",
+      "right": "stay sharp."
+    },
+    {
+      "i": 6,
+      "left": "Earth hides",
+      "right": "most scars."
+    },
+    {
+      "i": 7,
+      "left": "Bigger hit,",
+      "right": "bigger bowl."
+    },
+    {
+      "i": 8,
+      "left": "Bright dust",
+      "right": "rays."
+    },
+    {
+      "i": 9,
+      "left": "Robots study",
+      "right": "edges."
+    },
+    {
+      "i": 10,
+      "left": "History in",
+      "right": "stone bowls."
+    },
+    {
+      "i": 11,
+      "left": "Telescope with",
+      "right": "grown-up."
+    },
+    {
+      "i": 12,
+      "left": "Crater",
+      "right": "science."
+    }
+  ],
+  "E-S08": [
+    {
+      "i": 1,
+      "left": "Blue marble!",
+      "right": "Planet?"
+    },
+    {
+      "i": 2,
+      "left": "Round world",
+      "right": "orbits star."
+    },
+    {
+      "i": 3,
+      "left": "Earth circles",
+      "right": "the Sun."
+    },
+    {
+      "i": 4,
+      "left": "Smaller than",
+      "right": "stars."
+    },
+    {
+      "i": 5,
+      "left": "Reflects star",
+      "right": "light."
+    },
+    {
+      "i": 6,
+      "left": "Rocky or",
+      "right": "gassy."
+    },
+    {
+      "i": 7,
+      "left": "Moons can",
+      "right": "orbit too."
+    },
+    {
+      "i": 8,
+      "left": "Dwarf planets",
+      "right": "share space."
+    },
+    {
+      "i": 9,
+      "left": "Counting maps",
+      "right": "the family."
+    },
+    {
+      "i": 10,
+      "left": "World on a",
+      "right": "star path."
+    },
+    {
+      "i": 11,
+      "left": "Pretend orbit",
+      "right": "walk."
+    },
+    {
+      "i": 12,
+      "left": "Planet",
+      "right": "science."
+    }
+  ],
+  "E-S09": [
+    {
+      "i": 1,
+      "left": "Day to night!",
+      "right": "Who switched?"
+    },
+    {
+      "i": 2,
+      "left": "Earth spins",
+      "right": "like a top."
+    },
+    {
+      "i": 3,
+      "left": "Sun side",
+      "right": "is day."
+    },
+    {
+      "i": 4,
+      "left": "Away side",
+      "right": "is night."
+    },
+    {
+      "i": 5,
+      "left": "One spin ≈",
+      "right": "one day."
+    },
+    {
+      "i": 6,
+      "left": "Orbit makes",
+      "right": "a year."
+    },
+    {
+      "i": 7,
+      "left": "Spin plus",
+      "right": "orbit."
+    },
+    {
+      "i": 8,
+      "left": "We move",
+      "right": "with Earth."
+    },
+    {
+      "i": 9,
+      "left": "Sunrise is",
+      "right": "turning."
+    },
+    {
+      "i": 10,
+      "left": "Sun not gone",
+      "right": "forever."
+    },
+    {
+      "i": 11,
+      "left": "Watch shadow",
+      "right": "move."
+    },
+    {
+      "i": 12,
+      "left": "Day-night",
+      "right": "science."
+    }
+  ],
+  "E-S10": [
+    {
+      "i": 1,
+      "left": "Toy worlds!",
+      "right": "Count!"
+    },
+    {
+      "i": 2,
+      "left": "Eight planets",
+      "right": "total."
+    },
+    {
+      "i": 3,
+      "left": "Four rocky",
+      "right": "inner."
+    },
+    {
+      "i": 4,
+      "left": "Four giant",
+      "right": "outer."
+    },
+    {
+      "i": 5,
+      "left": "All orbit",
+      "right": "the Sun."
+    },
+    {
+      "i": 6,
+      "left": "Pluto is",
+      "right": "dwarf kin."
+    },
+    {
+      "i": 7,
+      "left": "Moons rocks",
+      "right": "comets too."
+    },
+    {
+      "i": 8,
+      "left": "Name-song",
+      "right": "is fun."
+    },
+    {
+      "i": 9,
+      "left": "Crafts help",
+      "right": "us check."
+    },
+    {
+      "i": 10,
+      "left": "One star",
+      "right": "neighborhood."
+    },
+    {
+      "i": 11,
+      "left": "Line up toys",
+      "right": "and name."
+    },
+    {
+      "i": 12,
+      "left": "Count",
+      "right": "science."
+    }
+  ],
+  "E-S11": [
+    {
+      "i": 1,
+      "left": "Fuzzy streak!",
+      "right": "Comet?"
+    },
+    {
+      "i": 2,
+      "left": "Dirty ice",
+      "right": "snowball."
+    },
+    {
+      "i": 3,
+      "left": "Far away,",
+      "right": "stays cold."
+    },
+    {
+      "i": 4,
+      "left": "Near Sun,",
+      "right": "ice gas."
+    },
+    {
+      "i": 5,
+      "left": "Dust makes",
+      "right": "a tail."
+    },
+    {
+      "i": 6,
+      "left": "Tail points",
+      "right": "from Sun."
+    },
+    {
+      "i": 7,
+      "left": "Long oval",
+      "right": "paths."
+    },
+    {
+      "i": 8,
+      "left": "Icy travelers,",
+      "right": "not omens."
+    },
+    {
+      "i": 9,
+      "left": "Safe looking",
+      "right": "only."
+    },
+    {
+      "i": 10,
+      "left": "Thawing trip",
+      "right": "snowball."
+    },
+    {
+      "i": 11,
+      "left": "Draw a tail",
+      "right": "after."
+    },
+    {
+      "i": 12,
+      "left": "Comet",
+      "right": "science."
+    }
+  ],
+  "E-S12": [
+    {
+      "i": 1,
+      "left": "Rocky dots!",
+      "right": "Asteroids?"
+    },
+    {
+      "i": 2,
+      "left": "Leftover rocky",
+      "right": "pieces."
+    },
+    {
+      "i": 3,
+      "left": "Belt between",
+      "right": "Mars Jupiter."
+    },
+    {
+      "i": 4,
+      "left": "Car-size to",
+      "right": "huge."
+    },
+    {
+      "i": 5,
+      "left": "No comet",
+      "right": "tails."
+    },
+    {
+      "i": 6,
+      "left": "Crafts visit",
+      "right": "up close."
+    },
+    {
+      "i": 7,
+      "left": "Learn how",
+      "right": "planets began."
+    },
+    {
+      "i": 8,
+      "left": "We track",
+      "right": "near ones."
+    },
+    {
+      "i": 9,
+      "left": "Tracking beats",
+      "right": "scary movies."
+    },
+    {
+      "i": 10,
+      "left": "Building-block",
+      "right": "rocks."
+    },
+    {
+      "i": 11,
+      "left": "Pebble belt",
+      "right": "game."
+    },
+    {
+      "i": 12,
+      "left": "Asteroid",
+      "right": "science."
+    }
+  ],
+  "E-S13": [
+    {
+      "i": 1,
+      "left": "Rusty marble!",
+      "right": "Why red?"
+    },
+    {
+      "i": 2,
+      "left": "Iron oxide",
+      "right": "in soil."
+    },
+    {
+      "i": 3,
+      "left": "Dust tints",
+      "right": "the air."
+    },
+    {
+      "i": 4,
+      "left": "Colder drier",
+      "right": "than Earth."
+    },
+    {
+      "i": 5,
+      "left": "Polar ice",
+      "right": "caps shine."
+    },
+    {
+      "i": 6,
+      "left": "Volcanoes and",
+      "right": "canyons."
+    },
+    {
+      "i": 7,
+      "left": "Rovers take",
+      "right": "photos."
+    },
+    {
+      "i": 8,
+      "left": "Nickname: Red",
+      "right": "Planet."
+    },
+    {
+      "i": 9,
+      "left": "Red ≠ always",
+      "right": "hot."
+    },
+    {
+      "i": 10,
+      "left": "Rusty dust",
+      "right": "fashion."
+    },
+    {
+      "i": 11,
+      "left": "Compare chalk",
+      "right": "dust."
+    },
+    {
+      "i": 12,
+      "left": "Mars-red",
+      "right": "science."
+    }
   ]
 }
