@@ -6384,5 +6384,501 @@
       "left": "Jet-stream",
       "right": "science."
     }
+  ],
+  "E-W23": [
+    {
+      "i": 1,
+      "left": "Steamy glass!",
+      "right": "Fog inside?"
+    },
+    {
+      "i": 2,
+      "left": "Warm moist",
+      "right": "air drifts."
+    },
+    {
+      "i": 3,
+      "left": "Hits cold",
+      "right": "glass."
+    },
+    {
+      "i": 4,
+      "left": "Cooler holds",
+      "right": "less vapor."
+    },
+    {
+      "i": 5,
+      "left": "Droplets make",
+      "right": "fog."
+    },
+    {
+      "i": 6,
+      "left": "Wipe or",
+      "right": "air out."
+    },
+    {
+      "i": 7,
+      "left": "Like breath",
+      "right": "on mirror."
+    },
+    {
+      "i": 8,
+      "left": "Frost is",
+      "right": "different."
+    },
+    {
+      "i": 9,
+      "left": "Cooking adds",
+      "right": "moisture."
+    },
+    {
+      "i": 10,
+      "left": "Indoor clouds",
+      "right": "on glass."
+    },
+    {
+      "i": 11,
+      "left": "Crack window",
+      "right": "with help."
+    },
+    {
+      "i": 12,
+      "left": "Window-fog",
+      "right": "science."
+    }
+  ],
+  "E-W24": [
+    {
+      "i": 1,
+      "left": "Coast milder?",
+      "right": "Why?"
+    },
+    {
+      "i": 2,
+      "left": "Oceans heat",
+      "right": "slowly."
+    },
+    {
+      "i": 3,
+      "left": "Water buffers",
+      "right": "nearby air."
+    },
+    {
+      "i": 4,
+      "left": "Milder winter",
+      "right": "by sea."
+    },
+    {
+      "i": 5,
+      "left": "Cooler summer",
+      "right": "often."
+    },
+    {
+      "i": 6,
+      "left": "Breezes carry",
+      "right": "influence."
+    },
+    {
+      "i": 7,
+      "left": "Same latitude,",
+      "right": "different feel."
+    },
+    {
+      "i": 8,
+      "left": "Pack layers;",
+      "right": "wind bites."
+    },
+    {
+      "i": 9,
+      "left": "Marine fog",
+      "right": "personality."
+    },
+    {
+      "i": 10,
+      "left": "Shock absorber",
+      "right": "ocean."
+    },
+    {
+      "i": 11,
+      "left": "Compare coast",
+      "right": "inland."
+    },
+    {
+      "i": 12,
+      "left": "Coastal season",
+      "right": "science."
+    }
+  ],
+  "E-H06": [
+    {
+      "i": 1,
+      "left": "Glass waves",
+      "right": "back!"
+    },
+    {
+      "i": 2,
+      "left": "Smooth glass",
+      "right": "reflects."
+    },
+    {
+      "i": 3,
+      "left": "Light bounces",
+      "right": "to eyes."
+    },
+    {
+      "i": 4,
+      "left": "Walls scatter",
+      "right": "messily."
+    },
+    {
+      "i": 5,
+      "left": "Mirrors bounce",
+      "right": "neatly."
+    },
+    {
+      "i": 6,
+      "left": "Left right",
+      "right": "swap."
+    },
+    {
+      "i": 7,
+      "left": "Geometry with",
+      "right": "shine."
+    },
+    {
+      "i": 8,
+      "left": "Curves stretch",
+      "right": "views."
+    },
+    {
+      "i": 9,
+      "left": "Cars use",
+      "right": "mirrors."
+    },
+    {
+      "i": 10,
+      "left": "Wipe gentle,",
+      "right": "no scratch."
+    },
+    {
+      "i": 11,
+      "left": "Light round",
+      "right": "trip."
+    },
+    {
+      "i": 12,
+      "left": "Mirror",
+      "right": "science."
+    }
+  ],
+  "E-H07": [
+    {
+      "i": 1,
+      "left": "Plane lifts!",
+      "right": "How?"
+    },
+    {
+      "i": 2,
+      "left": "Wings help",
+      "right": "make lift."
+    },
+    {
+      "i": 3,
+      "left": "Engines push",
+      "right": "forward."
+    },
+    {
+      "i": 4,
+      "left": "Fast air",
+      "right": "over wings."
+    },
+    {
+      "i": 5,
+      "left": "Flaps help",
+      "right": "takeoff."
+    },
+    {
+      "i": 6,
+      "left": "Birds flap;",
+      "right": "planes engine."
+    },
+    {
+      "i": 7,
+      "left": "Same sky,",
+      "right": "different tools."
+    },
+    {
+      "i": 8,
+      "left": "Rules share",
+      "right": "the sky."
+    },
+    {
+      "i": 9,
+      "left": "Watch with",
+      "right": "grown-up."
+    },
+    {
+      "i": 10,
+      "left": "Lift is",
+      "right": "moving air."
+    },
+    {
+      "i": 11,
+      "left": "Speed plus",
+      "right": "wing shape."
+    },
+    {
+      "i": 12,
+      "left": "Plane",
+      "right": "science."
+    }
+  ],
+  "E-H08": [
+    {
+      "i": 1,
+      "left": "Toy car",
+      "right": "rolls!"
+    },
+    {
+      "i": 2,
+      "left": "Sliding becomes",
+      "right": "rolling."
+    },
+    {
+      "i": 3,
+      "left": "Rolling easier",
+      "right": "than drag."
+    },
+    {
+      "i": 4,
+      "left": "Axles hold",
+      "right": "wheels."
+    },
+    {
+      "i": 5,
+      "left": "Round keeps",
+      "right": "motion steady."
+    },
+    {
+      "i": 6,
+      "left": "Scooters bags",
+      "right": "borrow it."
+    },
+    {
+      "i": 7,
+      "left": "No wheels,",
+      "right": "more scrape."
+    },
+    {
+      "i": 8,
+      "left": "Tires like",
+      "right": "care."
+    },
+    {
+      "i": 9,
+      "left": "Pebble makes",
+      "right": "bumps."
+    },
+    {
+      "i": 10,
+      "left": "Round idea",
+      "right": "moves world."
+    },
+    {
+      "i": 11,
+      "left": "Try roll vs",
+      "right": "drag."
+    },
+    {
+      "i": 12,
+      "left": "Wheel",
+      "right": "science."
+    }
+  ],
+  "E-H09": [
+    {
+      "i": 1,
+      "left": "Heavy floats?",
+      "right": "How?"
+    },
+    {
+      "i": 2,
+      "left": "Water pushes",
+      "right": "up."
+    },
+    {
+      "i": 3,
+      "left": "Push can match",
+      "right": "weight."
+    },
+    {
+      "i": 4,
+      "left": "Hollow shape",
+      "right": "spreads."
+    },
+    {
+      "i": 5,
+      "left": "Cube sinks;",
+      "right": "hull floats."
+    },
+    {
+      "i": 6,
+      "left": "Flood holes",
+      "right": "spoil it."
+    },
+    {
+      "i": 7,
+      "left": "Jackets add",
+      "right": "float."
+    },
+    {
+      "i": 8,
+      "left": "Shape beats",
+      "right": "only light."
+    },
+    {
+      "i": 9,
+      "left": "Test toys",
+      "right": "safely."
+    },
+    {
+      "i": 10,
+      "left": "Push-up with",
+      "right": "water."
+    },
+    {
+      "i": 11,
+      "left": "Deep water",
+      "right": "needs rules."
+    },
+    {
+      "i": 12,
+      "left": "Boat float",
+      "right": "science."
+    }
+  ],
+  "E-H10": [
+    {
+      "i": 1,
+      "left": "Twang!",
+      "right": "Why back?"
+    },
+    {
+      "i": 2,
+      "left": "Long stretchy",
+      "right": "molecules."
+    },
+    {
+      "i": 3,
+      "left": "Pull stores",
+      "right": "energy."
+    },
+    {
+      "i": 4,
+      "left": "Let go,",
+      "right": "they tug."
+    },
+    {
+      "i": 5,
+      "left": "Returns until",
+      "right": "it breaks."
+    },
+    {
+      "i": 6,
+      "left": "Old rubber",
+      "right": "weakens."
+    },
+    {
+      "i": 7,
+      "left": "Never aim",
+      "right": "at faces."
+    },
+    {
+      "i": 8,
+      "left": "Safety is",
+      "right": "cooler."
+    },
+    {
+      "i": 9,
+      "left": "Other elastics",
+      "right": "similar."
+    },
+    {
+      "i": 10,
+      "left": "Molecular",
+      "right": "yoga."
+    },
+    {
+      "i": 11,
+      "left": "Demo with",
+      "right": "grown-up."
+    },
+    {
+      "i": 12,
+      "left": "Rubber-band",
+      "right": "science."
+    }
+  ],
+  "E-H11": [
+    {
+      "i": 1,
+      "left": "Hill grind!",
+      "right": "Gears?"
+    },
+    {
+      "i": 2,
+      "left": "Trade force",
+      "right": "and speed."
+    },
+    {
+      "i": 3,
+      "left": "Low gear",
+      "right": "easier up."
+    },
+    {
+      "i": 4,
+      "left": "High gear",
+      "right": "faster flat."
+    },
+    {
+      "i": 5,
+      "left": "Chain carries",
+      "right": "spin."
+    },
+    {
+      "i": 6,
+      "left": "Match legs",
+      "right": "to hill."
+    },
+    {
+      "i": 7,
+      "left": "Oil keeps",
+      "right": "smooth."
+    },
+    {
+      "i": 8,
+      "left": "Walk bike",
+      "right": "if needed."
+    },
+    {
+      "i": 9,
+      "left": "Helmet first",
+      "right": "always."
+    },
+    {
+      "i": 10,
+      "left": "Reshape the",
+      "right": "work."
+    },
+    {
+      "i": 11,
+      "left": "Practice with",
+      "right": "grown-up."
+    },
+    {
+      "i": 12,
+      "left": "Bike-gear",
+      "right": "science."
+    }
   ]
 }
