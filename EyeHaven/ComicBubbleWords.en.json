@@ -5206,5 +5206,191 @@
       "left": "Allergy science",
       "right": "kindly."
     }
+  ],
+  "E-B22": [
+    {
+      "i": 1,
+      "left": "Brr shake!",
+      "right": "Why shiver?"
+    },
+    {
+      "i": 2,
+      "left": "Tiny shakes",
+      "right": "make heat."
+    },
+    {
+      "i": 3,
+      "left": "Cold sensors",
+      "right": "alert brain."
+    },
+    {
+      "i": 4,
+      "left": "Brain sends",
+      "right": "shake signal."
+    },
+    {
+      "i": 5,
+      "left": "Shakes use",
+      "right": "energy."
+    },
+    {
+      "i": 6,
+      "left": "Goosebumps",
+      "right": "may join."
+    },
+    {
+      "i": 7,
+      "left": "Sweater helps",
+      "right": "more."
+    },
+    {
+      "i": 8,
+      "left": "Come in from",
+      "right": "wind."
+    },
+    {
+      "i": 9,
+      "left": "After swim,",
+      "right": "warm up."
+    },
+    {
+      "i": 10,
+      "left": "Very sick?",
+      "right": "Tell grown-up."
+    },
+    {
+      "i": 11,
+      "left": "Built-in",
+      "right": "heater mode."
+    },
+    {
+      "i": 12,
+      "left": "Shiver then",
+      "right": "cozy."
+    }
+  ],
+  "E-B23": [
+    {
+      "i": 1,
+      "left": "Pants short!",
+      "right": "Overnight?"
+    },
+    {
+      "i": 2,
+      "left": "Growth spurts",
+      "right": "speed up."
+    },
+    {
+      "i": 3,
+      "left": "Bones lengthen",
+      "right": "at plates."
+    },
+    {
+      "i": 4,
+      "left": "Sleep helps",
+      "right": "growth."
+    },
+    {
+      "i": 5,
+      "left": "Food builds",
+      "right": "new tissue."
+    },
+    {
+      "i": 6,
+      "left": "Charts zig",
+      "right": "and zag."
+    },
+    {
+      "i": 7,
+      "left": "Friends grow",
+      "right": "differently."
+    },
+    {
+      "i": 8,
+      "left": "Clothes get",
+      "right": "upgraded."
+    },
+    {
+      "i": 9,
+      "left": "Play keeps",
+      "right": "bodies happy."
+    },
+    {
+      "i": 10,
+      "left": "Worried?",
+      "right": "Ask grown-up."
+    },
+    {
+      "i": 11,
+      "left": "Growing into",
+      "right": "you."
+    },
+    {
+      "i": 12,
+      "left": "Growth spurts",
+      "right": "science."
+    }
+  ],
+  "E-B24": [
+    {
+      "i": 1,
+      "left": "Tiny shot!",
+      "right": "Why need?"
+    },
+    {
+      "i": 2,
+      "left": "Teach immune",
+      "right": "before germs."
+    },
+    {
+      "i": 3,
+      "left": "Safe lesson",
+      "right": "for memory."
+    },
+    {
+      "i": 4,
+      "left": "Later defense",
+      "right": "is faster."
+    },
+    {
+      "i": 5,
+      "left": "Protect you",
+      "right": "and others."
+    },
+    {
+      "i": 6,
+      "left": "Boosters refresh",
+      "right": "lessons."
+    },
+    {
+      "i": 7,
+      "left": "Hold a hand",
+      "right": "helps."
+    },
+    {
+      "i": 8,
+      "left": "Mild fever",
+      "right": "can mean training."
+    },
+    {
+      "i": 9,
+      "left": "Doctors set",
+      "right": "schedules."
+    },
+    {
+      "i": 10,
+      "left": "Ask questions",
+      "right": "calmly."
+    },
+    {
+      "i": 11,
+      "left": "Science plus",
+      "right": "care."
+    },
+    {
+      "i": 12,
+      "left": "Vaccine shield",
+      "right": "science."
+    }
   ]
 }
