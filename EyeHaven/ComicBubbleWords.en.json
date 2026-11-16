@@ -8864,5 +8864,501 @@
       "left": "Constellation",
       "right": "science."
     }
+  ],
+  "E-Y06": [
+    {
+      "i": 1,
+      "left": "Yellow freckles!",
+      "right": "Why brown?"
+    },
+    {
+      "i": 2,
+      "left": "Keeps changing",
+      "right": "after picking."
+    },
+    {
+      "i": 3,
+      "left": "Signal says",
+      "right": "ripen."
+    },
+    {
+      "i": 4,
+      "left": "Enzymes soften",
+      "right": "inside."
+    },
+    {
+      "i": 5,
+      "left": "Yellow turns",
+      "right": "to spots."
+    },
+    {
+      "i": 6,
+      "left": "Sweeter soft",
+      "right": "fruit."
+    },
+    {
+      "i": 7,
+      "left": "Cool slows;",
+      "right": "warm speeds."
+    },
+    {
+      "i": 8,
+      "left": "Spots can mean",
+      "right": "ready."
+    },
+    {
+      "i": 9,
+      "left": "Weird smell?",
+      "right": "Ask grown-up."
+    },
+    {
+      "i": 10,
+      "left": "Ripening",
+      "right": "chemistry."
+    },
+    {
+      "i": 11,
+      "left": "Banana bread",
+      "right": "time."
+    },
+    {
+      "i": 12,
+      "left": "Banana",
+      "right": "science."
+    }
+  ],
+  "E-Y07": [
+    {
+      "i": 1,
+      "left": "Metal colder?",
+      "right": "Same room?"
+    },
+    {
+      "i": 2,
+      "left": "Temps nearly",
+      "right": "the same."
+    },
+    {
+      "i": 3,
+      "left": "Metal steals",
+      "right": "heat fast."
+    },
+    {
+      "i": 4,
+      "left": "Fast steal",
+      "right": "feels cold."
+    },
+    {
+      "i": 5,
+      "left": "Wood moves",
+      "right": "heat slow."
+    },
+    {
+      "i": 6,
+      "left": "Wood can feel",
+      "right": "warmer."
+    },
+    {
+      "i": 7,
+      "left": "Tiles knobs",
+      "right": "same trick."
+    },
+    {
+      "i": 8,
+      "left": "Skin detects",
+      "right": "heat flow."
+    },
+    {
+      "i": 9,
+      "left": "Called",
+      "right": "conductivity."
+    },
+    {
+      "i": 10,
+      "left": "Cold = heat",
+      "right": "leaving fast."
+    },
+    {
+      "i": 11,
+      "left": "Compare spoons",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Touch",
+      "right": "science."
+    }
+  ],
+  "E-Y08": [
+    {
+      "i": 1,
+      "left": "Hic!",
+      "right": "Why?"
+    },
+    {
+      "i": 2,
+      "left": "Diaphragm",
+      "right": "squeezes."
+    },
+    {
+      "i": 3,
+      "left": "Air pops",
+      "right": "in."
+    },
+    {
+      "i": 4,
+      "left": "Voice box",
+      "right": "says hic."
+    },
+    {
+      "i": 5,
+      "left": "Spice giggles",
+      "right": "gulps."
+    },
+    {
+      "i": 6,
+      "left": "Often stop",
+      "right": "alone."
+    },
+    {
+      "i": 7,
+      "left": "Slow breath,",
+      "right": "sip water."
+    },
+    {
+      "i": 8,
+      "left": "Annoying, not",
+      "right": "usually danger."
+    },
+    {
+      "i": 9,
+      "left": "Lasts long?",
+      "right": "Tell grown-up."
+    },
+    {
+      "i": 10,
+      "left": "Surprise squeeze",
+      "right": "concert."
+    },
+    {
+      "i": 11,
+      "left": "Breathe soft",
+      "right": "after."
+    },
+    {
+      "i": 12,
+      "left": "Hiccup",
+      "right": "science."
+    }
+  ],
+  "E-Y09": [
+    {
+      "i": 1,
+      "left": "Count five!",
+      "right": "Why?"
+    },
+    {
+      "i": 2,
+      "left": "Usually five",
+      "right": "digits."
+    },
+    {
+      "i": 3,
+      "left": "Helps grip",
+      "right": "and pinch."
+    },
+    {
+      "i": 4,
+      "left": "Thumbs do",
+      "right": "fine work."
+    },
+    {
+      "i": 5,
+      "left": "Fossils show",
+      "right": "five too."
+    },
+    {
+      "i": 6,
+      "left": "Animals differ",
+      "right": "in count."
+    },
+    {
+      "i": 7,
+      "left": "Not magic for",
+      "right": "all life."
+    },
+    {
+      "i": 8,
+      "left": "Practice builds",
+      "right": "skills."
+    },
+    {
+      "i": 9,
+      "left": "Keep fingers",
+      "right": "safe."
+    },
+    {
+      "i": 10,
+      "left": "Handy palm",
+      "right": "toolkit."
+    },
+    {
+      "i": 11,
+      "left": "Trace and",
+      "right": "label."
+    },
+    {
+      "i": 12,
+      "left": "Five-finger",
+      "right": "science."
+    }
+  ],
+  "E-Y10": [
+    {
+      "i": 1,
+      "left": "Green fuzz!",
+      "right": "Why?"
+    },
+    {
+      "i": 2,
+      "left": "Tiny living",
+      "right": "fungus."
+    },
+    {
+      "i": 3,
+      "left": "Spores float",
+      "right": "and land."
+    },
+    {
+      "i": 4,
+      "left": "Moist bread",
+      "right": "helps grow."
+    },
+    {
+      "i": 5,
+      "left": "Starch buffet",
+      "right": "for mold."
+    },
+    {
+      "i": 6,
+      "left": "Cool dry seal",
+      "right": "slows it."
+    },
+    {
+      "i": 7,
+      "left": "See mold,",
+      "right": "skip slice."
+    },
+    {
+      "i": 8,
+      "left": "Ask grown-up",
+      "right": "what to do."
+    },
+    {
+      "i": 9,
+      "left": "Cheese differs",
+      "right": "from sandwich."
+    },
+    {
+      "i": 10,
+      "left": "Fungus picnic",
+      "right": "on bread."
+    },
+    {
+      "i": 11,
+      "left": "Close the bag",
+      "right": "tight."
+    },
+    {
+      "i": 12,
+      "left": "Mold",
+      "right": "science."
+    }
+  ],
+  "E-Y11": [
+    {
+      "i": 1,
+      "left": "Draw brows!",
+      "right": "What for?"
+    },
+    {
+      "i": 2,
+      "left": "Keep sweat",
+      "right": "from eyes."
+    },
+    {
+      "i": 3,
+      "left": "Tiny umbrellas",
+      "right": "above."
+    },
+    {
+      "i": 4,
+      "left": "Show feelings",
+      "right": "too."
+    },
+    {
+      "i": 5,
+      "left": "Friends read",
+      "right": "your face."
+    },
+    {
+      "i": 6,
+      "left": "Flat without",
+      "right": "brows."
+    },
+    {
+      "i": 7,
+      "left": "Special shape",
+      "right": "on bone."
+    },
+    {
+      "i": 8,
+      "left": "Pat sweat on",
+      "right": "hot days."
+    },
+    {
+      "i": 9,
+      "left": "No shave games",
+      "right": "alone."
+    },
+    {
+      "i": 10,
+      "left": "Rain guards +",
+      "right": "feeling flags."
+    },
+    {
+      "i": 11,
+      "left": "Silly faces",
+      "right": "in mirror."
+    },
+    {
+      "i": 12,
+      "left": "Eyebrow",
+      "right": "science."
+    }
+  ],
+  "E-Y12": [
+    {
+      "i": 1,
+      "left": "Scoop sags!",
+      "right": "So fast?"
+    },
+    {
+      "i": 2,
+      "left": "Frozen mix",
+      "right": "with air."
+    },
+    {
+      "i": 3,
+      "left": "Warm air adds",
+      "right": "heat."
+    },
+    {
+      "i": 4,
+      "left": "Ice turns to",
+      "right": "liquid."
+    },
+    {
+      "i": 5,
+      "left": "Scoop becomes",
+      "right": "puddle."
+    },
+    {
+      "i": 6,
+      "left": "Shade slows;",
+      "right": "sun speeds."
+    },
+    {
+      "i": 7,
+      "left": "Licking is a",
+      "right": "race."
+    },
+    {
+      "i": 8,
+      "left": "Hot sidewalk",
+      "right": "faster."
+    },
+    {
+      "i": 9,
+      "left": "Freezer keeps",
+      "right": "solid."
+    },
+    {
+      "i": 10,
+      "left": "Heat wins the",
+      "right": "tug."
+    },
+    {
+      "i": 11,
+      "left": "Napkin plan",
+      "right": "ready."
+    },
+    {
+      "i": 12,
+      "left": "Melt",
+      "right": "science."
+    }
+  ],
+  "E-Y13": [
+    {
+      "i": 1,
+      "left": "Fizz! Hic!",
+      "right": "Why now?"
+    },
+    {
+      "i": 2,
+      "left": "Bubbles tickle",
+      "right": "stomach."
+    },
+    {
+      "i": 3,
+      "left": "Can bother",
+      "right": "diaphragm."
+    },
+    {
+      "i": 4,
+      "left": "Squeeze makes",
+      "right": "hic."
+    },
+    {
+      "i": 5,
+      "left": "Fast cold gulps",
+      "right": "more likely."
+    },
+    {
+      "i": 6,
+      "left": "Slow sips",
+      "right": "calmer."
+    },
+    {
+      "i": 7,
+      "left": "Usually fade",
+      "right": "soon."
+    },
+    {
+      "i": 8,
+      "left": "Breath and",
+      "right": "water help."
+    },
+    {
+      "i": 9,
+      "left": "Not your",
+      "right": "fault."
+    },
+    {
+      "i": 10,
+      "left": "Fizz surprise",
+      "right": "concert."
+    },
+    {
+      "i": 11,
+      "left": "Pause between",
+      "right": "gulps."
+    },
+    {
+      "i": 12,
+      "left": "Soda-hiccup",
+      "right": "science."
+    }
   ]
 }
