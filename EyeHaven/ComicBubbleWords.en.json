@@ -11530,5 +11530,191 @@
       "left": "Compost",
       "right": "science."
     }
+  ],
+  "E-E22": [
+    {
+      "i": 1,
+      "left": "Under tree!",
+      "right": "Help air?"
+    },
+    {
+      "i": 2,
+      "left": "Leaves take",
+      "right": "CO2."
+    },
+    {
+      "i": 3,
+      "left": "Sunlight makes",
+      "right": "food."
+    },
+    {
+      "i": 4,
+      "left": "Release oxygen",
+      "right": "we breathe."
+    },
+    {
+      "i": 5,
+      "left": "Shade cools",
+      "right": "sidewalks."
+    },
+    {
+      "i": 6,
+      "left": "Catch dust",
+      "right": "gently."
+    },
+    {
+      "i": 7,
+      "left": "Forests help",
+      "right": "planet."
+    },
+    {
+      "i": 8,
+      "left": "Care for trees",
+      "right": "kindly."
+    },
+    {
+      "i": 9,
+      "left": "Don’t carve",
+      "right": "bark."
+    },
+    {
+      "i": 10,
+      "left": "CO2 in,",
+      "right": "oxygen out."
+    },
+    {
+      "i": 11,
+      "left": "Water a tree",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Tree-air",
+      "right": "science."
+    }
+  ],
+  "E-E23": [
+    {
+      "i": 1,
+      "left": "A well!",
+      "right": "Groundwater?"
+    },
+    {
+      "i": 2,
+      "left": "Rain soaks",
+      "right": "down."
+    },
+    {
+      "i": 3,
+      "left": "Stores like a",
+      "right": "sponge."
+    },
+    {
+      "i": 4,
+      "left": "Hidden water",
+      "right": "below."
+    },
+    {
+      "i": 5,
+      "left": "Wells springs",
+      "right": "bring it up."
+    },
+    {
+      "i": 6,
+      "left": "Moves very",
+      "right": "slowly."
+    },
+    {
+      "i": 7,
+      "left": "Clean soil",
+      "right": "helps."
+    },
+    {
+      "i": 8,
+      "left": "No dumping",
+      "right": "chemicals."
+    },
+    {
+      "i": 9,
+      "left": "Towns drink",
+      "right": "it."
+    },
+    {
+      "i": 10,
+      "left": "Rain store",
+      "right": "use."
+    },
+    {
+      "i": 11,
+      "left": "Well diagram",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Groundwater",
+      "right": "science."
+    }
+  ],
+  "E-E24": [
+    {
+      "i": 1,
+      "left": "Park map!",
+      "right": "Why parks?"
+    },
+    {
+      "i": 2,
+      "left": "Protect wild",
+      "right": "homes."
+    },
+    {
+      "i": 3,
+      "left": "Visit learn",
+      "right": "hike."
+    },
+    {
+      "i": 4,
+      "left": "Rules keep",
+      "right": "safe."
+    },
+    {
+      "i": 5,
+      "left": "Rangers help",
+      "right": "teach."
+    },
+    {
+      "i": 6,
+      "left": "Save rock tree",
+      "right": "stories."
+    },
+    {
+      "i": 7,
+      "left": "Pack out",
+      "right": "trash."
+    },
+    {
+      "i": 8,
+      "left": "Stay on",
+      "right": "paths."
+    },
+    {
+      "i": 9,
+      "left": "Photos not",
+      "right": "taking rocks."
+    },
+    {
+      "i": 10,
+      "left": "Protect and",
+      "right": "share."
+    },
+    {
+      "i": 11,
+      "left": "Plan a day",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Park",
+      "right": "science."
+    }
   ]
 }
