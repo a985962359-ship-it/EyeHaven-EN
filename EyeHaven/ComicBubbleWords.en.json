@@ -8182,5 +8182,501 @@
       "left": "Mars-red",
       "right": "science."
     }
+  ],
+  "E-S14": [
+    {
+      "i": 1,
+      "left": "Milky band!",
+      "right": "Our galaxy?"
+    },
+    {
+      "i": 2,
+      "left": "Huge star",
+      "right": "city."
+    },
+    {
+      "i": 3,
+      "left": "Billions of",
+      "right": "stars."
+    },
+    {
+      "i": 4,
+      "left": "Flat spiral",
+      "right": "shape."
+    },
+    {
+      "i": 5,
+      "left": "Pale river",
+      "right": "of light."
+    },
+    {
+      "i": 6,
+      "left": "Other galaxies",
+      "right": "beyond."
+    },
+    {
+      "i": 7,
+      "left": "Telescopes are",
+      "right": "ships."
+    },
+    {
+      "i": 8,
+      "left": "Dark skies",
+      "right": "show best."
+    },
+    {
+      "i": 9,
+      "left": "We ride",
+      "right": "inside."
+    },
+    {
+      "i": 10,
+      "left": "Home, not",
+      "right": "spilled milk."
+    },
+    {
+      "i": 11,
+      "left": "Ask for dark",
+      "right": "sky night."
+    },
+    {
+      "i": 12,
+      "left": "Milky Way",
+      "right": "science."
+    }
+  ],
+  "E-S15": [
+    {
+      "i": 1,
+      "left": "Pretend float!",
+      "right": "Zero-g?"
+    },
+    {
+      "i": 2,
+      "left": "Ship and crew",
+      "right": "fall together."
+    },
+    {
+      "i": 3,
+      "left": "Same rate",
+      "right": "fall."
+    },
+    {
+      "i": 4,
+      "left": "Feel weightless",
+      "right": "inside."
+    },
+    {
+      "i": 5,
+      "left": "Freefall without",
+      "right": "hitting."
+    },
+    {
+      "i": 6,
+      "left": "Gravity still",
+      "right": "pulls."
+    },
+    {
+      "i": 7,
+      "left": "Sideways speed",
+      "right": "makes orbit."
+    },
+    {
+      "i": 8,
+      "left": "Floating hair",
+      "right": "blobs."
+    },
+    {
+      "i": 9,
+      "left": "Exercise keeps",
+      "right": "strong."
+    },
+    {
+      "i": 10,
+      "left": "Not a magic",
+      "right": "off-switch."
+    },
+    {
+      "i": 11,
+      "left": "Trampoline floaty",
+      "right": "moments."
+    },
+    {
+      "i": 12,
+      "left": "Orbit float",
+      "right": "science."
+    }
+  ],
+  "E-S16": [
+    {
+      "i": 1,
+      "left": "Dark circle!",
+      "right": "Scary?"
+    },
+    {
+      "i": 2,
+      "left": "Gravity very",
+      "right": "strong."
+    },
+    {
+      "i": 3,
+      "left": "Light can't",
+      "right": "escape."
+    },
+    {
+      "i": 4,
+      "left": "Massive stars",
+      "right": "can collapse."
+    },
+    {
+      "i": 5,
+      "left": "Not hungry",
+      "right": "monsters."
+    },
+    {
+      "i": 6,
+      "left": "Far away,",
+      "right": "just gravity."
+    },
+    {
+      "i": 7,
+      "left": "Science studies",
+      "right": "carefully."
+    },
+    {
+      "i": 8,
+      "left": "Glowing ring",
+      "right": "picture."
+    },
+    {
+      "i": 9,
+      "left": "Curiosity, not",
+      "right": "nightmares."
+    },
+    {
+      "i": 10,
+      "left": "Extreme gravity",
+      "right": "neighborhood."
+    },
+    {
+      "i": 11,
+      "left": "Soft diagrams",
+      "right": "with help."
+    },
+    {
+      "i": 12,
+      "left": "Black-hole",
+      "right": "science."
+    }
+  ],
+  "E-S17": [
+    {
+      "i": 1,
+      "left": "Bright Venus!",
+      "right": "Hotter?"
+    },
+    {
+      "i": 2,
+      "left": "Thick CO₂",
+      "right": "blanket."
+    },
+    {
+      "i": 3,
+      "left": "Traps heat",
+      "right": "hard."
+    },
+    {
+      "i": 4,
+      "left": "Oven-hot",
+      "right": "surface."
+    },
+    {
+      "i": 5,
+      "left": "Closer Mercury",
+      "right": "can be cooler."
+    },
+    {
+      "i": 6,
+      "left": "Air drives",
+      "right": "the heat."
+    },
+    {
+      "i": 7,
+      "left": "Clouds hide",
+      "right": "surface."
+    },
+    {
+      "i": 8,
+      "left": "Probes study",
+      "right": "safely."
+    },
+    {
+      "i": 9,
+      "left": "Earth air",
+      "right": "differs."
+    },
+    {
+      "i": 10,
+      "left": "Thick-air trap",
+      "right": "story."
+    },
+    {
+      "i": 11,
+      "left": "Jacket vs",
+      "right": "T-shirt."
+    },
+    {
+      "i": 12,
+      "left": "Venus-hot",
+      "right": "science."
+    }
+  ],
+  "E-S18": [
+    {
+      "i": 1,
+      "left": "Sparkly rings!",
+      "right": "Ice?"
+    },
+    {
+      "i": 2,
+      "left": "Ice and rock",
+      "right": "chunks."
+    },
+    {
+      "i": 3,
+      "left": "Tiny to",
+      "right": "boulder."
+    },
+    {
+      "i": 4,
+      "left": "Thin sheet",
+      "right": "lanes."
+    },
+    {
+      "i": 5,
+      "left": "Gaps and",
+      "right": "waves."
+    },
+    {
+      "i": 6,
+      "left": "Far away look",
+      "right": "solid."
+    },
+    {
+      "i": 7,
+      "left": "Up close,",
+      "right": "rubble."
+    },
+    {
+      "i": 8,
+      "left": "Crafts take",
+      "right": "photos."
+    },
+    {
+      "i": 9,
+      "left": "Other giants",
+      "right": "have rings."
+    },
+    {
+      "i": 10,
+      "left": "Not magic",
+      "right": "hoops."
+    },
+    {
+      "i": 11,
+      "left": "Hula hoop",
+      "right": "imagine."
+    },
+    {
+      "i": 12,
+      "left": "Ring",
+      "right": "science."
+    }
+  ],
+  "E-S19": [
+    {
+      "i": 1,
+      "left": "Sweat or coat!",
+      "right": "Why seasons?"
+    },
+    {
+      "i": 2,
+      "left": "Earth axis",
+      "right": "tilts."
+    },
+    {
+      "i": 3,
+      "left": "One side leans",
+      "right": "toward Sun."
+    },
+    {
+      "i": 4,
+      "left": "Leaning side",
+      "right": "warmer."
+    },
+    {
+      "i": 5,
+      "left": "Other side",
+      "right": "cooler."
+    },
+    {
+      "i": 6,
+      "left": "Tilt drives",
+      "right": "seasons."
+    },
+    {
+      "i": 7,
+      "left": "Equator milder",
+      "right": "shifts."
+    },
+    {
+      "i": 8,
+      "left": "Poles more",
+      "right": "extreme."
+    },
+    {
+      "i": 9,
+      "left": "Festivals mark",
+      "right": "changes."
+    },
+    {
+      "i": 10,
+      "left": "Tilt dance,",
+      "right": "not just distance."
+    },
+    {
+      "i": 11,
+      "left": "Flashlight globe",
+      "right": "demo."
+    },
+    {
+      "i": 12,
+      "left": "Season",
+      "right": "science."
+    }
+  ],
+  "E-S20": [
+    {
+      "i": 1,
+      "left": "Metal butterfly!",
+      "right": "ISS?"
+    },
+    {
+      "i": 2,
+      "left": "Flying science",
+      "right": "lab."
+    },
+    {
+      "i": 3,
+      "left": "Many countries",
+      "right": "crew."
+    },
+    {
+      "i": 4,
+      "left": "Circles every",
+      "right": "90 minutes."
+    },
+    {
+      "i": 5,
+      "left": "Microgravity",
+      "right": "science."
+    },
+    {
+      "i": 6,
+      "left": "Cargo brings",
+      "right": "supplies."
+    },
+    {
+      "i": 7,
+      "left": "Solar panels",
+      "right": "power."
+    },
+    {
+      "i": 8,
+      "left": "Exercise keeps",
+      "right": "strong."
+    },
+    {
+      "i": 9,
+      "left": "Bright moving",
+      "right": "dot."
+    },
+    {
+      "i": 10,
+      "left": "Shared home",
+      "right": "lab."
+    },
+    {
+      "i": 11,
+      "left": "Track a pass",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "ISS",
+      "right": "science."
+    }
+  ],
+  "E-S21": [
+    {
+      "i": 1,
+      "left": "Quick scratch!",
+      "right": "Shooting star?"
+    },
+    {
+      "i": 2,
+      "left": "Space rock in",
+      "right": "air."
+    },
+    {
+      "i": 3,
+      "left": "Friction makes",
+      "right": "glow."
+    },
+    {
+      "i": 4,
+      "left": "Most burn up",
+      "right": "high."
+    },
+    {
+      "i": 5,
+      "left": "Landed piece:",
+      "right": "meteorite."
+    },
+    {
+      "i": 6,
+      "left": "Showers from",
+      "right": "dust trails."
+    },
+    {
+      "i": 7,
+      "left": "Wish optional;",
+      "right": "physics sure."
+    },
+    {
+      "i": 8,
+      "left": "Not airplane",
+      "right": "lights."
+    },
+    {
+      "i": 9,
+      "left": "Eyes up, feet",
+      "right": "down."
+    },
+    {
+      "i": 10,
+      "left": "Air-friction",
+      "right": "fireworks."
+    },
+    {
+      "i": 11,
+      "left": "Blanket night",
+      "right": "watch."
+    },
+    {
+      "i": 12,
+      "left": "Meteor",
+      "right": "science."
+    }
   ]
 }
