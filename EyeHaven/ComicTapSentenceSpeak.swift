@@ -191,7 +191,7 @@ struct ComicBubbleTapHint: View {
 
     var body: some View {
         if ComicSentenceSpeaker.isEnabled(for: storyID) {
-            Text("点左上角/右上角小喇叭可以听 · Tap the corner speakers")
+            Text("Tap the corner speakers to hear a bubble")
                 .font(.caption.weight(.bold))
                 .foregroundStyle(Palette.moss)
                 .frame(maxWidth: .infinity, alignment: .leading)
