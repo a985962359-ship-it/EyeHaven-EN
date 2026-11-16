@@ -5392,5 +5392,501 @@
       "left": "Vaccine shield",
       "right": "science."
     }
+  ],
+  "E-W07": [
+    {
+      "i": 1,
+      "left": "Leaves dance!",
+      "right": "Who pushes?"
+    },
+    {
+      "i": 2,
+      "left": "Sun warms",
+      "right": "unevenly."
+    },
+    {
+      "i": 3,
+      "left": "Warm rises,",
+      "right": "cool slides."
+    },
+    {
+      "i": 4,
+      "left": "Moving air",
+      "right": "is wind."
+    },
+    {
+      "i": 5,
+      "left": "Patterns make",
+      "right": "breezes."
+    },
+    {
+      "i": 6,
+      "left": "Land steers",
+      "right": "the flow."
+    },
+    {
+      "i": 7,
+      "left": "Kite days",
+      "right": "need space."
+    },
+    {
+      "i": 8,
+      "left": "Storms? Stay",
+      "right": "inside."
+    },
+    {
+      "i": 9,
+      "left": "Windmills make",
+      "right": "power."
+    },
+    {
+      "i": 10,
+      "left": "Feel safe—",
+      "right": "don't chase."
+    },
+    {
+      "i": 11,
+      "left": "Invisible air",
+      "right": "stays busy."
+    },
+    {
+      "i": 12,
+      "left": "Wind science",
+      "right": "moves."
+    }
+  ],
+  "E-W08": [
+    {
+      "i": 1,
+      "left": "Cotton sky!",
+      "right": "Pillows?"
+    },
+    {
+      "i": 2,
+      "left": "Tiny drops",
+      "right": "float together."
+    },
+    {
+      "i": 3,
+      "left": "Far away",
+      "right": "looks fluffy."
+    },
+    {
+      "i": 4,
+      "left": "Up close:",
+      "right": "wet mist."
+    },
+    {
+      "i": 5,
+      "left": "Shapes differ",
+      "right": "by layer."
+    },
+    {
+      "i": 6,
+      "left": "Cumulus like",
+      "right": "fair days."
+    },
+    {
+      "i": 7,
+      "left": "Gray sheets",
+      "right": "may rain."
+    },
+    {
+      "i": 8,
+      "left": "Wind draws",
+      "right": "streaks."
+    },
+    {
+      "i": 9,
+      "left": "Planes train",
+      "right": "carefully."
+    },
+    {
+      "i": 10,
+      "left": "Watch from",
+      "right": "ground."
+    },
+    {
+      "i": 11,
+      "left": "Crowd of",
+      "right": "floaters."
+    },
+    {
+      "i": 12,
+      "left": "Cloud science",
+      "right": "soft."
+    }
+  ],
+  "E-W09": [
+    {
+      "i": 1,
+      "left": "Flash then",
+      "right": "boom?"
+    },
+    {
+      "i": 2,
+      "left": "Giant spark",
+      "right": "electricity."
+    },
+    {
+      "i": 3,
+      "left": "Light reaches",
+      "right": "instantly."
+    },
+    {
+      "i": 4,
+      "left": "Thunder is",
+      "right": "hot air jump."
+    },
+    {
+      "i": 5,
+      "left": "Sound is",
+      "right": "slower."
+    },
+    {
+      "i": 6,
+      "left": "Flash first,",
+      "right": "rumble next."
+    },
+    {
+      "i": 7,
+      "left": "Count seconds",
+      "right": "for distance."
+    },
+    {
+      "i": 8,
+      "left": "Stay inside",
+      "right": "storms."
+    },
+    {
+      "i": 9,
+      "left": "No lone tree",
+      "right": "shelter."
+    },
+    {
+      "i": 10,
+      "left": "Admire from",
+      "right": "safety."
+    },
+    {
+      "i": 11,
+      "left": "Light wins",
+      "right": "the race."
+    },
+    {
+      "i": 12,
+      "left": "Storm timing",
+      "right": "science."
+    }
+  ],
+  "E-W10": [
+    {
+      "i": 1,
+      "left": "White air!",
+      "right": "Cloud hug?"
+    },
+    {
+      "i": 2,
+      "left": "Fog is a",
+      "right": "ground cloud."
+    },
+    {
+      "i": 3,
+      "left": "Tiny drops",
+      "right": "hang moist."
+    },
+    {
+      "i": 4,
+      "left": "Cool air makes",
+      "right": "drops show."
+    },
+    {
+      "i": 5,
+      "left": "Lights look",
+      "right": "fuzzy."
+    },
+    {
+      "i": 6,
+      "left": "Drivers go",
+      "right": "slow."
+    },
+    {
+      "i": 7,
+      "left": "Coasts valleys",
+      "right": "get fog."
+    },
+    {
+      "i": 8,
+      "left": "Sun can",
+      "right": "clear it."
+    },
+    {
+      "i": 9,
+      "left": "Walk with",
+      "right": "grown-up."
+    },
+    {
+      "i": 10,
+      "left": "Weather you",
+      "right": "almost touch."
+    },
+    {
+      "i": 11,
+      "left": "White veil",
+      "right": "of drops."
+    },
+    {
+      "i": 12,
+      "left": "Fog science",
+      "right": "soft."
+    }
+  ],
+  "E-W11": [
+    {
+      "i": 1,
+      "left": "Hot then",
+      "right": "cold?"
+    },
+    {
+      "i": 2,
+      "left": "Dry air",
+      "right": "little moisture."
+    },
+    {
+      "i": 3,
+      "left": "Dry air holds",
+      "right": "heat poorly."
+    },
+    {
+      "i": 4,
+      "left": "Few clouds,",
+      "right": "heat escapes."
+    },
+    {
+      "i": 5,
+      "left": "Day bakes,",
+      "right": "night cools."
+    },
+    {
+      "i": 6,
+      "left": "Big day-night",
+      "right": "swing."
+    },
+    {
+      "i": 7,
+      "left": "Layers help",
+      "right": "travelers."
+    },
+    {
+      "i": 8,
+      "left": "Animals move",
+      "right": "at dusk."
+    },
+    {
+      "i": 9,
+      "left": "Plan with",
+      "right": "grown-ups."
+    },
+    {
+      "i": 10,
+      "left": "Stars shine",
+      "right": "clear nights."
+    },
+    {
+      "i": 11,
+      "left": "Hot and cold",
+      "right": "same sand."
+    },
+    {
+      "i": 12,
+      "left": "Desert night",
+      "right": "science."
+    }
+  ],
+  "E-W12": [
+    {
+      "i": 1,
+      "left": "Map swirl!",
+      "right": "Why spin?"
+    },
+    {
+      "i": 2,
+      "left": "Warm ocean",
+      "right": "fuels storms."
+    },
+    {
+      "i": 3,
+      "left": "Moist air",
+      "right": "rises tall."
+    },
+    {
+      "i": 4,
+      "left": "Earth spin",
+      "right": "helps swirl."
+    },
+    {
+      "i": 5,
+      "left": "Coriolis",
+      "right": "effect."
+    },
+    {
+      "i": 6,
+      "left": "Winds circle",
+      "right": "the eye."
+    },
+    {
+      "i": 7,
+      "left": "Prepare on",
+      "right": "watches."
+    },
+    {
+      "i": 8,
+      "left": "Follow safety",
+      "right": "plans."
+    },
+    {
+      "i": 9,
+      "left": "Don't watch",
+      "right": "outside."
+    },
+    {
+      "i": 10,
+      "left": "Warm rise",
+      "right": "spin recipe."
+    },
+    {
+      "i": 11,
+      "left": "Learn from",
+      "right": "safe screens."
+    },
+    {
+      "i": 12,
+      "left": "Curious and",
+      "right": "careful."
+    }
+  ],
+  "E-W13": [
+    {
+      "i": 1,
+      "left": "Ice bounce!",
+      "right": "Frozen rain?"
+    },
+    {
+      "i": 2,
+      "left": "Tall cold",
+      "right": "storm clouds."
+    },
+    {
+      "i": 3,
+      "left": "Ice gets",
+      "right": "coated again."
+    },
+    {
+      "i": 4,
+      "left": "Updrafts toss",
+      "right": "ice balls."
+    },
+    {
+      "i": 5,
+      "left": "Heavy stones",
+      "right": "fall down."
+    },
+    {
+      "i": 6,
+      "left": "Pea-size or",
+      "right": "bigger."
+    },
+    {
+      "i": 7,
+      "left": "Cover cars",
+      "right": "gardens."
+    },
+    {
+      "i": 8,
+      "left": "Stay indoors",
+      "right": "until done."
+    },
+    {
+      "i": 9,
+      "left": "Not soft",
+      "right": "snowflakes."
+    },
+    {
+      "i": 10,
+      "left": "Summer ice",
+      "right": "from storms."
+    },
+    {
+      "i": 11,
+      "left": "Hail factory",
+      "right": "science."
+    },
+    {
+      "i": 12,
+      "left": "Watch from",
+      "right": "window."
+    }
+  ],
+  "E-W14": [
+    {
+      "i": 1,
+      "left": "Blue then",
+      "right": "black?"
+    },
+    {
+      "i": 2,
+      "left": "We turn from",
+      "right": "the Sun."
+    },
+    {
+      "i": 3,
+      "left": "No day sun,",
+      "right": "sky dark."
+    },
+    {
+      "i": 4,
+      "left": "Stars hide",
+      "right": "in daylight."
+    },
+    {
+      "i": 5,
+      "left": "City lights",
+      "right": "hide stars."
+    },
+    {
+      "i": 6,
+      "left": "Moon soft",
+      "right": "glow."
+    },
+    {
+      "i": 7,
+      "left": "Animals keep",
+      "right": "night plans."
+    },
+    {
+      "i": 8,
+      "left": "Humans rest",
+      "right": "and dream."
+    },
+    {
+      "i": 9,
+      "left": "Star-gaze with",
+      "right": "grown-up."
+    },
+    {
+      "i": 10,
+      "left": "Night-side",
+      "right": "of Earth."
+    },
+    {
+      "i": 11,
+      "left": "Stars show",
+      "right": "at night."
+    },
+    {
+      "i": 12,
+      "left": "One spinning",
+      "right": "planet."
+    }
   ]
 }
