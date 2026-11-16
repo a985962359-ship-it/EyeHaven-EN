@@ -11716,5 +11716,501 @@
       "left": "Park",
       "right": "science."
     }
+  ],
+  "E-Z06": [
+    {
+      "i": 1,
+      "left": "Daylight!",
+      "right": "Helps eyes?"
+    },
+    {
+      "i": 2,
+      "left": "Softer than",
+      "right": "one screen."
+    },
+    {
+      "i": 3,
+      "left": "Looking far",
+      "right": "stretches."
+    },
+    {
+      "i": 4,
+      "left": "Short break",
+      "right": "rests eyes."
+    },
+    {
+      "i": 5,
+      "left": "Sunglasses if",
+      "right": "very bright."
+    },
+    {
+      "i": 6,
+      "left": "Shade and hats",
+      "right": "help."
+    },
+    {
+      "i": 7,
+      "left": "Play and walk",
+      "right": "happy eyes."
+    },
+    {
+      "i": 8,
+      "left": "Lamps help",
+      "right": "short days."
+    },
+    {
+      "i": 9,
+      "left": "Balance screens",
+      "right": "outdoors."
+    },
+    {
+      "i": 10,
+      "left": "Far light",
+      "right": "kinder."
+    },
+    {
+      "i": 11,
+      "left": "Ten-minute peek",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Eye-care",
+      "right": "science."
+    }
+  ],
+  "E-Z07": [
+    {
+      "i": 1,
+      "left": "Stove hot!",
+      "right": "Cool hands."
+    },
+    {
+      "i": 2,
+      "left": "Pots stay hot",
+      "right": "after."
+    },
+    {
+      "i": 3,
+      "left": "Step back",
+      "right": "space."
+    },
+    {
+      "i": 4,
+      "left": "Grown-ups turn",
+      "right": "knobs."
+    },
+    {
+      "i": 5,
+      "left": "Handles point",
+      "right": "in."
+    },
+    {
+      "i": 6,
+      "left": "Hot spill? Call",
+      "right": "grown-up."
+    },
+    {
+      "i": 7,
+      "left": "Mitts for",
+      "right": "helpers."
+    },
+    {
+      "i": 8,
+      "left": "Sniff afar,",
+      "right": "don’t touch."
+    },
+    {
+      "i": 9,
+      "left": "Timer helps",
+      "right": "check."
+    },
+    {
+      "i": 10,
+      "left": "Hot = grown-up",
+      "right": "zone."
+    },
+    {
+      "i": 11,
+      "left": "Point safe line",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Kitchen",
+      "right": "safety."
+    }
+  ],
+  "E-Z08": [
+    {
+      "i": 1,
+      "left": "Cutting board!",
+      "right": "Grown-ups."
+    },
+    {
+      "i": 2,
+      "left": "Sharp cuts food",
+      "right": "and skin."
+    },
+    {
+      "i": 3,
+      "left": "Wash fruit,",
+      "right": "tear lettuce."
+    },
+    {
+      "i": 4,
+      "left": "Ask before",
+      "right": "tools."
+    },
+    {
+      "i": 5,
+      "left": "Point knives",
+      "right": "down."
+    },
+    {
+      "i": 6,
+      "left": "Kid cutters?",
+      "right": "Still ask."
+    },
+    {
+      "i": 7,
+      "left": "Falls? Step",
+      "right": "back."
+    },
+    {
+      "i": 8,
+      "left": "Carry plates",
+      "right": "two hands."
+    },
+    {
+      "i": 9,
+      "left": "Careful beats",
+      "right": "fast."
+    },
+    {
+      "i": 10,
+      "left": "Sharp = grown-up",
+      "right": "tool."
+    },
+    {
+      "i": 11,
+      "left": "Pick helper task",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Tool",
+      "right": "safety."
+    }
+  ],
+  "E-Z09": [
+    {
+      "i": 1,
+      "left": "Pretty pills!",
+      "right": "Not candy."
+    },
+    {
+      "i": 2,
+      "left": "Measured for",
+      "right": "bodies."
+    },
+    {
+      "i": 3,
+      "left": "Grown-up gives",
+      "right": "dose."
+    },
+    {
+      "i": 4,
+      "left": "Never share",
+      "right": "medicine."
+    },
+    {
+      "i": 5,
+      "left": "Closed cabinets",
+      "right": "safe."
+    },
+    {
+      "i": 6,
+      "left": "Floor pill? Tell",
+      "right": "adult."
+    },
+    {
+      "i": 7,
+      "left": "Vitamins need",
+      "right": "rules too."
+    },
+    {
+      "i": 8,
+      "left": "Cartoons ≠",
+      "right": "treats."
+    },
+    {
+      "i": 9,
+      "left": "Sick? Describe,",
+      "right": "don’t dose."
+    },
+    {
+      "i": 10,
+      "left": "Medicine =",
+      "right": "grown-up job."
+    },
+    {
+      "i": 11,
+      "left": "Practice tell",
+      "right": "adult."
+    },
+    {
+      "i": 12,
+      "left": "Medicine",
+      "right": "safety."
+    }
+  ],
+  "E-Z10": [
+    {
+      "i": 1,
+      "left": "Bookshelf!",
+      "right": "Don’t climb."
+    },
+    {
+      "i": 2,
+      "left": "Shelves can",
+      "right": "tip."
+    },
+    {
+      "i": 3,
+      "left": "Chairs can",
+      "right": "slip."
+    },
+    {
+      "i": 4,
+      "left": "Ask for high",
+      "right": "toys."
+    },
+    {
+      "i": 5,
+      "left": "Anchors keep",
+      "right": "safer."
+    },
+    {
+      "i": 6,
+      "left": "Sofas for",
+      "right": "sitting."
+    },
+    {
+      "i": 7,
+      "left": "Floor forts",
+      "right": "instead."
+    },
+    {
+      "i": 8,
+      "left": "Wobble? Step",
+      "right": "away."
+    },
+    {
+      "i": 9,
+      "left": "Feet on floor",
+      "right": "or parks."
+    },
+    {
+      "i": 10,
+      "left": "High? Ask,",
+      "right": "don’t climb."
+    },
+    {
+      "i": 11,
+      "left": "Practice ask",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Furniture",
+      "right": "safety."
+    }
+  ],
+  "E-Z11": [
+    {
+      "i": 1,
+      "left": "Beep beep!",
+      "right": "Go outside."
+    },
+    {
+      "i": 2,
+      "left": "Loud helper,",
+      "right": "not monster."
+    },
+    {
+      "i": 3,
+      "left": "Leave toys;",
+      "right": "meeting place."
+    },
+    {
+      "i": 4,
+      "left": "Stay low if",
+      "right": "smoky."
+    },
+    {
+      "i": 5,
+      "left": "Don’t hide;",
+      "right": "go out."
+    },
+    {
+      "i": 6,
+      "left": "Feel doors with",
+      "right": "grown-up."
+    },
+    {
+      "i": 7,
+      "left": "Adults call",
+      "right": "help."
+    },
+    {
+      "i": 8,
+      "left": "Drills make",
+      "right": "calm."
+    },
+    {
+      "i": 9,
+      "left": "Battery checks",
+      "right": "grown-ups."
+    },
+    {
+      "i": 10,
+      "left": "Beep → out →",
+      "right": "together."
+    },
+    {
+      "i": 11,
+      "left": "Walk exit path",
+      "right": "once."
+    },
+    {
+      "i": 12,
+      "left": "Fire-drill",
+      "right": "safety."
+    }
+  ],
+  "E-Z12": [
+    {
+      "i": 1,
+      "left": "Curb edge!",
+      "right": "Stop look listen."
+    },
+    {
+      "i": 2,
+      "left": "Stop before",
+      "right": "going."
+    },
+    {
+      "i": 3,
+      "left": "Left right",
+      "right": "left."
+    },
+    {
+      "i": 4,
+      "left": "Listen for",
+      "right": "cars."
+    },
+    {
+      "i": 5,
+      "left": "Busy? Cross with",
+      "right": "grown-up."
+    },
+    {
+      "i": 6,
+      "left": "Eye contact",
+      "right": "drivers."
+    },
+    {
+      "i": 7,
+      "left": "Phones wait;",
+      "right": "eyes first."
+    },
+    {
+      "i": 8,
+      "left": "Rain dark:",
+      "right": "extra care."
+    },
+    {
+      "i": 9,
+      "left": "Bikes same",
+      "right": "rule."
+    },
+    {
+      "i": 10,
+      "left": "Pause eyes",
+      "right": "ears go."
+    },
+    {
+      "i": 11,
+      "left": "Practice corner",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Crossing",
+      "right": "safety."
+    }
+  ],
+  "E-Z13": [
+    {
+      "i": 1,
+      "left": "Traffic light!",
+      "right": "Wait green."
+    },
+    {
+      "i": 2,
+      "left": "Red stop;",
+      "right": "green check."
+    },
+    {
+      "i": 3,
+      "left": "Yellow: ready",
+      "right": "to stop."
+    },
+    {
+      "i": 4,
+      "left": "Walk signal",
+      "right": "helps."
+    },
+    {
+      "i": 5,
+      "left": "Green still look",
+      "right": "both ways."
+    },
+    {
+      "i": 6,
+      "left": "Watch turning",
+      "right": "cars."
+    },
+    {
+      "i": 7,
+      "left": "Hold hand at",
+      "right": "big lights."
+    },
+    {
+      "i": 8,
+      "left": "No darting",
+      "right": "between cars."
+    },
+    {
+      "i": 9,
+      "left": "Patience beats",
+      "right": "hurry."
+    },
+    {
+      "i": 10,
+      "left": "Colors are",
+      "right": "street talk."
+    },
+    {
+      "i": 11,
+      "left": "Watch one cycle",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Light",
+      "right": "safety."
+    }
   ]
 }
