@@ -2602,5 +2602,501 @@
       "left": "Little care,",
       "right": "big comfort."
     }
+  ],
+  "E-A06": [
+    {
+      "i": 1,
+      "left": "Flower visit!",
+      "right": "Snack time?"
+    },
+    {
+      "i": 2,
+      "left": "Sweet nectar",
+      "right": "from blooms."
+    },
+    {
+      "i": 3,
+      "left": "Belly tanks",
+      "right": "carry home."
+    },
+    {
+      "i": 4,
+      "left": "Pass + fan",
+      "right": "in the hive."
+    },
+    {
+      "i": 5,
+      "left": "Water dries;",
+      "right": "nectar thick."
+    },
+    {
+      "i": 6,
+      "left": "Golden honey",
+      "right": "for bees."
+    },
+    {
+      "i": 7,
+      "left": "Food for",
+      "right": "cold days."
+    },
+    {
+      "i": 8,
+      "left": "Fuzzy bodies",
+      "right": "catch pollen."
+    },
+    {
+      "i": 9,
+      "left": "Pollen helps",
+      "right": "make seeds."
+    },
+    {
+      "i": 10,
+      "left": "Bee food first;",
+      "right": "share kindly."
+    },
+    {
+      "i": 11,
+      "left": "Watch safe",
+      "right": "with grown-ups."
+    },
+    {
+      "i": 12,
+      "left": "Busy bees.",
+      "right": "Flower friends."
+    }
+  ],
+  "E-A07": [
+    {
+      "i": 1,
+      "left": "Zebra pic!",
+      "right": "Fashion?"
+    },
+    {
+      "i": 2,
+      "left": "Stripes do",
+      "right": "more."
+    },
+    {
+      "i": 3,
+      "left": "Tall grass",
+      "right": "hides shape."
+    },
+    {
+      "i": 4,
+      "left": "Outline hard",
+      "right": "to see."
+    },
+    {
+      "i": 5,
+      "left": "Herd blur",
+      "right": "of stripes."
+    },
+    {
+      "i": 6,
+      "left": "Hard to pick",
+      "right": "just one."
+    },
+    {
+      "i": 7,
+      "left": "Patterns fit",
+      "right": "homes."
+    },
+    {
+      "i": 8,
+      "left": "Colors can",
+      "right": "help survive."
+    },
+    {
+      "i": 9,
+      "left": "Not always",
+      "right": "same job."
+    },
+    {
+      "i": 10,
+      "left": "Science keeps",
+      "right": "learning."
+    },
+    {
+      "i": 11,
+      "left": "Help or",
+      "right": "pretty?"
+    },
+    {
+      "i": 12,
+      "left": "Beautiful +",
+      "right": "useful."
+    }
+  ],
+  "E-A08": [
+    {
+      "i": 1,
+      "left": "Tiny toy!",
+      "right": "School-bus big?"
+    },
+    {
+      "i": 2,
+      "left": "Old Earth,",
+      "right": "different world."
+    },
+    {
+      "i": 3,
+      "left": "Grew huge",
+      "right": "over time."
+    },
+    {
+      "i": 4,
+      "left": "High leaves",
+      "right": "for giants."
+    },
+    {
+      "i": 5,
+      "left": "Size can",
+      "right": "help defend."
+    },
+    {
+      "i": 6,
+      "left": "Big needs",
+      "right": "lots of food."
+    },
+    {
+      "i": 7,
+      "left": "Not all",
+      "right": "were giants."
+    },
+    {
+      "i": 8,
+      "left": "Some small",
+      "right": "like chickens."
+    },
+    {
+      "i": 9,
+      "left": "Bones teeth",
+      "right": "footprints."
+    },
+    {
+      "i": 10,
+      "left": "Clues tell",
+      "right": "size + diet."
+    },
+    {
+      "i": 11,
+      "left": "Movies big;",
+      "right": "fossils true."
+    },
+    {
+      "i": 12,
+      "left": "Real animals",
+      "right": "long ago."
+    }
+  ],
+  "E-A09": [
+    {
+      "i": 1,
+      "left": "Pointy teeth!",
+      "right": "Salad?"
+    },
+    {
+      "i": 2,
+      "left": "Strong jaws,",
+      "right": "sharp teeth."
+    },
+    {
+      "i": 3,
+      "left": "Built for",
+      "right": "meat foods."
+    },
+    {
+      "i": 4,
+      "left": "Maybe hunted",
+      "right": "live prey."
+    },
+    {
+      "i": 5,
+      "left": "Maybe ate",
+      "right": "already dead."
+    },
+    {
+      "i": 6,
+      "left": "Both can",
+      "right": "be true."
+    },
+    {
+      "i": 7,
+      "left": "Tooth shape",
+      "right": "is a clue."
+    },
+    {
+      "i": 8,
+      "left": "Flat grinders",
+      "right": "plants."
+    },
+    {
+      "i": 9,
+      "left": "Sharp slicers",
+      "right": "meat."
+    },
+    {
+      "i": 10,
+      "left": "Fossils teach",
+      "right": "better."
+    },
+    {
+      "i": 11,
+      "left": "Powerful bite",
+      "right": "long ago."
+    },
+    {
+      "i": 12,
+      "left": "Teeth tell",
+      "right": "stories."
+    }
+  ],
+  "E-A10": [
+    {
+      "i": 1,
+      "left": "Misty spout!",
+      "right": "Fountain?"
+    },
+    {
+      "i": 2,
+      "left": "Mammals with",
+      "right": "lungs."
+    },
+    {
+      "i": 3,
+      "left": "Need air",
+      "right": "up top."
+    },
+    {
+      "i": 4,
+      "left": "Blowhole on",
+      "right": "the head."
+    },
+    {
+      "i": 5,
+      "left": "Warm breath",
+      "right": "whooshes out."
+    },
+    {
+      "i": 6,
+      "left": "Cool air makes",
+      "right": "mist."
+    },
+    {
+      "i": 7,
+      "left": "Mostly breath",
+      "right": "cloud."
+    },
+    {
+      "i": 8,
+      "left": "Breathe in,",
+      "right": "then dive."
+    },
+    {
+      "i": 9,
+      "left": "Spout shapes",
+      "right": "differ."
+    },
+    {
+      "i": 10,
+      "left": "Safe boat",
+      "right": "with grown-ups."
+    },
+    {
+      "i": 11,
+      "left": "Kind watching",
+      "right": "helps."
+    },
+    {
+      "i": 12,
+      "left": "Misty hellos",
+      "right": "at sea."
+    }
+  ],
+  "E-A11": [
+    {
+      "i": 1,
+      "left": "Count teeth!",
+      "right": "A hundred?"
+    },
+    {
+      "i": 2,
+      "left": "Many teeth",
+      "right": "in rows."
+    },
+    {
+      "i": 3,
+      "left": "New tooth",
+      "right": "moves up."
+    },
+    {
+      "i": 4,
+      "left": "Working set",
+      "right": "stays ready."
+    },
+    {
+      "i": 5,
+      "left": "Replaceable",
+      "right": "tools."
+    },
+    {
+      "i": 6,
+      "left": "Not mean—",
+      "right": "just tools."
+    },
+    {
+      "i": 7,
+      "left": "Sharks eat",
+      "right": "different meals."
+    },
+    {
+      "i": 8,
+      "left": "Fish or",
+      "right": "plankton."
+    },
+    {
+      "i": 9,
+      "left": "Healthy seas",
+      "right": "help all."
+    },
+    {
+      "i": 10,
+      "left": "Watch safe",
+      "right": "from afar."
+    },
+    {
+      "i": 11,
+      "left": "Teeth get",
+      "right": "replaced."
+    },
+    {
+      "i": 12,
+      "left": "Clean oceans",
+      "right": "matter."
+    }
+  ],
+  "E-A12": [
+    {
+      "i": 1,
+      "left": "Backpack hump!",
+      "right": "Water tank?"
+    },
+    {
+      "i": 2,
+      "left": "Fat store,",
+      "right": "not water."
+    },
+    {
+      "i": 3,
+      "left": "Energy when",
+      "right": "food scarce."
+    },
+    {
+      "i": 4,
+      "left": "Deserts are",
+      "right": "tough."
+    },
+    {
+      "i": 5,
+      "left": "Bodies save",
+      "right": "water too."
+    },
+    {
+      "i": 6,
+      "left": "Handle heat",
+      "right": "and thirst."
+    },
+    {
+      "i": 7,
+      "left": "Old guess:",
+      "right": "water bottle."
+    },
+    {
+      "i": 8,
+      "left": "Science: energy",
+      "right": "packs."
+    },
+    {
+      "i": 9,
+      "left": "One hump or",
+      "right": "two."
+    },
+    {
+      "i": 10,
+      "left": "Hard trip,",
+      "right": "leaner hump."
+    },
+    {
+      "i": 11,
+      "left": "Food + rest",
+      "right": "refill."
+    },
+    {
+      "i": 12,
+      "left": "Desert snack",
+      "right": "backpacks."
+    }
+  ],
+  "E-A13": [
+    {
+      "i": 1,
+      "left": "Round eyes!",
+      "right": "Night shift?"
+    },
+    {
+      "i": 2,
+      "left": "Busy nights",
+      "right": "for hunting."
+    },
+    {
+      "i": 3,
+      "left": "Small animals",
+      "right": "move then."
+    },
+    {
+      "i": 4,
+      "left": "Quiet soft",
+      "right": "feathers."
+    },
+    {
+      "i": 5,
+      "left": "Big eyes",
+      "right": "gather light."
+    },
+    {
+      "i": 6,
+      "left": "Ears find",
+      "right": "tiny sounds."
+    },
+    {
+      "i": 7,
+      "left": "Night tools",
+      "right": "fit night."
+    },
+    {
+      "i": 8,
+      "left": "Not always",
+      "right": "only night."
+    },
+    {
+      "i": 9,
+      "left": "Dawn or dusk",
+      "right": "too."
+    },
+    {
+      "i": 10,
+      "left": "A hoot means",
+      "right": "nearby."
+    },
+    {
+      "i": 11,
+      "left": "Listen soft;",
+      "right": "give space."
+    },
+    {
+      "i": 12,
+      "left": "Silent wing",
+      "right": "neighbors."
+    }
   ]
 }

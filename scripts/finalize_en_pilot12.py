@@ -20,6 +20,7 @@ PLAN_FREE_W2 = Path("/Users/song/qwen3-tts/comic_batch/comics_plan_en_free_front
 PLAN_FREE_W3 = Path("/Users/song/qwen3-tts/comic_batch/comics_plan_en_free_front5_w3.json")
 PLAN_FREE_W4 = Path("/Users/song/qwen3-tts/comic_batch/comics_plan_en_free_front5_w4.json")
 PLAN_FREE_W5 = Path("/Users/song/qwen3-tts/comic_batch/comics_plan_en_free_front5_w5.json")
+PLAN_BACK_W6 = Path("/Users/song/qwen3-tts/comic_batch/comics_plan_en_backcatalog_w6.json")
 ASSETS = Path(
     "/Users/song/Library/Application Support/Cursor/AgentStores/"
     "cursor_agent_stores/bc-6341924c-d627-5e70-8277-ff97645af6c8/files/artifacts/assets"
@@ -35,6 +36,7 @@ RAW_FREE_W2 = Path("/Users/song/qwen3-tts/comic_batch/en_work/_raw_free_front5_w
 RAW_FREE_W3 = Path("/Users/song/qwen3-tts/comic_batch/en_work/_raw_free_front5_w3")
 RAW_FREE_W4 = Path("/Users/song/qwen3-tts/comic_batch/en_work/_raw_free_front5_w4")
 RAW_FREE_W5 = Path("/Users/song/qwen3-tts/comic_batch/en_work/_raw_free_front5_w5")
+RAW_BACK_W6 = Path("/Users/song/qwen3-tts/comic_batch/en_work/_raw_backcatalog_w6")
 WORK = Path("/Users/song/qwen3-tts/comic_batch/en_work")
 APP = ROOT / "EyeHaven" / "BedtimeComics"
 # Prefer English-friendly rounded font for bubble text
@@ -47,7 +49,17 @@ if Path(EN_FONT).exists():
 
 def find_asset(story_id: str, i: int) -> Path | None:
     stem = f"c-{story_id}-{i:02d}"
-    bases = [RAW_FREE_W5, RAW_FREE_W4, RAW_FREE_W3, RAW_FREE_W2, RAW_FREE_W1, RAW, ASSETS, ASSETS_PARENT]
+    bases = [
+        RAW_BACK_W6,
+        RAW_FREE_W5,
+        RAW_FREE_W4,
+        RAW_FREE_W3,
+        RAW_FREE_W2,
+        RAW_FREE_W1,
+        RAW,
+        ASSETS,
+        ASSETS_PARENT,
+    ]
     for base in bases:
         if not base.exists():
             continue
@@ -66,7 +78,16 @@ def find_asset(story_id: str, i: int) -> Path | None:
 
 def load_plan(story_id: str | None = None) -> list:
     plans: list = []
-    for path in (PLAN, PLAN_B2, PLAN_FREE_W1, PLAN_FREE_W2, PLAN_FREE_W3, PLAN_FREE_W4, PLAN_FREE_W5):
+    for path in (
+        PLAN,
+        PLAN_B2,
+        PLAN_FREE_W1,
+        PLAN_FREE_W2,
+        PLAN_FREE_W3,
+        PLAN_FREE_W4,
+        PLAN_FREE_W5,
+        PLAN_BACK_W6,
+    ):
         if path.exists():
             plans.extend(json.loads(path.read_text(encoding="utf-8")))
     # de-dupe by id keeping last (b2 overrides)
