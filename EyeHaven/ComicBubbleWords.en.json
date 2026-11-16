@@ -1052,5 +1052,253 @@
       "left": "Catch one.",
       "right": "Smile."
     }
+  ],
+  "E-B01": [
+    {
+      "i": 1,
+      "left": "Nap attack!",
+      "right": "Yaaawn."
+    },
+    {
+      "i": 2,
+      "left": "Body + brain",
+      "right": "recover."
+    },
+    {
+      "i": 3,
+      "left": "Brain sorts",
+      "right": "memories."
+    },
+    {
+      "i": 4,
+      "left": "Body repairs",
+      "right": "and grows."
+    },
+    {
+      "i": 5,
+      "left": "Kids need",
+      "right": "lots of sleep."
+    },
+    {
+      "i": 6,
+      "left": "Dim lights",
+      "right": "say night."
+    },
+    {
+      "i": 7,
+      "left": "Quiet stories",
+      "right": "slow down."
+    },
+    {
+      "i": 8,
+      "left": "Late screens",
+      "right": "keep you up."
+    },
+    {
+      "i": 9,
+      "left": "Calm bedtime",
+      "right": "off-switch."
+    },
+    {
+      "i": 10,
+      "left": "Not wasted—",
+      "right": "night repair."
+    },
+    {
+      "i": 11,
+      "left": "Rest well,",
+      "right": "wake ready."
+    },
+    {
+      "i": 12,
+      "left": "Goodnight,",
+      "right": "repair crew."
+    }
+  ],
+  "E-B02": [
+    {
+      "i": 1,
+      "left": "Big yawn!",
+      "right": "Contagious!"
+    },
+    {
+      "i": 2,
+      "left": "Still studying",
+      "right": "why."
+    },
+    {
+      "i": 3,
+      "left": "Cool the",
+      "right": "busy brain?"
+    },
+    {
+      "i": 4,
+      "left": "Wake you",
+      "right": "a little."
+    },
+    {
+      "i": 5,
+      "left": "Signal rest",
+      "right": "to friends."
+    },
+    {
+      "i": 6,
+      "left": "See a yawn,",
+      "right": "yawn too."
+    },
+    {
+      "i": 7,
+      "left": "We copy",
+      "right": "soft signals."
+    },
+    {
+      "i": 8,
+      "left": "Not always",
+      "right": "bored."
+    },
+    {
+      "i": 9,
+      "left": "Body wants",
+      "right": "a reset."
+    },
+    {
+      "i": 10,
+      "left": "Stretch. Breathe.",
+      "right": "Then bed."
+    },
+    {
+      "i": 11,
+      "left": "Day yawn:",
+      "right": "short break."
+    },
+    {
+      "i": 12,
+      "left": "Tiny reset!",
+      "right": "Smile."
+    }
+  ],
+  "E-B04": [
+    {
+      "i": 1,
+      "left": "Thump-thump!",
+      "right": "A drum?"
+    },
+    {
+      "i": 2,
+      "left": "Strong muscle",
+      "right": "pump."
+    },
+    {
+      "i": 3,
+      "left": "Pushes blood",
+      "right": "through tubes."
+    },
+    {
+      "i": 4,
+      "left": "Blood vessels",
+      "right": "are paths."
+    },
+    {
+      "i": 5,
+      "left": "Oxygen + food",
+      "right": "ride along."
+    },
+    {
+      "i": 6,
+      "left": "Lungs refill",
+      "right": "oxygen."
+    },
+    {
+      "i": 7,
+      "left": "Exercise:",
+      "right": "faster beat."
+    },
+    {
+      "i": 8,
+      "left": "More delivery",
+      "right": "right then."
+    },
+    {
+      "i": 9,
+      "left": "Rest slows",
+      "right": "the rhythm."
+    },
+    {
+      "i": 10,
+      "left": "Steady beat =",
+      "right": "delivery."
+    },
+    {
+      "i": 11,
+      "left": "Feel pulse:",
+      "right": "life drum."
+    },
+    {
+      "i": 12,
+      "left": "Thank you,",
+      "right": "heart."
+    }
+  ],
+  "E-B05": [
+    {
+      "i": 1,
+      "left": "Warm cheeks!",
+      "right": "Thermostat?"
+    },
+    {
+      "i": 2,
+      "left": "Fighting germs",
+      "right": "sometimes."
+    },
+    {
+      "i": 3,
+      "left": "Little heat",
+      "right": "helps defenses."
+    },
+    {
+      "i": 4,
+      "left": "Immune team",
+      "right": "works hard."
+    },
+    {
+      "i": 5,
+      "left": "Other causes",
+      "right": "possible."
+    },
+    {
+      "i": 6,
+      "left": "Grown-ups",
+      "right": "decide care."
+    },
+    {
+      "i": 7,
+      "left": "Rest helps",
+      "right": "your body."
+    },
+    {
+      "i": 8,
+      "left": "Sip water,",
+      "right": "warm drinks."
+    },
+    {
+      "i": 9,
+      "left": "Medicine from",
+      "right": "trusted adult."
+    },
+    {
+      "i": 10,
+      "left": "Never grab",
+      "right": "pills alone."
+    },
+    {
+      "i": 11,
+      "left": "Fever = signal,",
+      "right": "not a game."
+    },
+    {
+      "i": 12,
+      "left": "Ask. Rest.",
+      "right": "Feel care."
+    }
   ]
 }

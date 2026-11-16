@@ -17,6 +17,7 @@ PLAN = Path("/Users/song/qwen3-tts/comic_batch/comics_plan_en_pilot12.json")
 PLAN_B2 = Path("/Users/song/qwen3-tts/comic_batch/comics_plan_en_pilot12_b2.json")
 PLAN_FREE_W1 = Path("/Users/song/qwen3-tts/comic_batch/comics_plan_en_free_front5_w1.json")
 PLAN_FREE_W2 = Path("/Users/song/qwen3-tts/comic_batch/comics_plan_en_free_front5_w2.json")
+PLAN_FREE_W3 = Path("/Users/song/qwen3-tts/comic_batch/comics_plan_en_free_front5_w3.json")
 ASSETS = Path(
     "/Users/song/Library/Application Support/Cursor/AgentStores/"
     "cursor_agent_stores/bc-6341924c-d627-5e70-8277-ff97645af6c8/files/artifacts/assets"
@@ -29,6 +30,7 @@ ASSETS_PARENT = Path(
 RAW = Path("/Users/song/qwen3-tts/comic_batch/en_work/_raw_pilot")
 RAW_FREE_W1 = Path("/Users/song/qwen3-tts/comic_batch/en_work/_raw_free_front5_w1")
 RAW_FREE_W2 = Path("/Users/song/qwen3-tts/comic_batch/en_work/_raw_free_front5_w2")
+RAW_FREE_W3 = Path("/Users/song/qwen3-tts/comic_batch/en_work/_raw_free_front5_w3")
 WORK = Path("/Users/song/qwen3-tts/comic_batch/en_work")
 APP = ROOT / "EyeHaven" / "BedtimeComics"
 # Prefer English-friendly rounded font for bubble text
@@ -41,7 +43,7 @@ if Path(EN_FONT).exists():
 
 def find_asset(story_id: str, i: int) -> Path | None:
     stem = f"c-{story_id}-{i:02d}"
-    bases = [RAW_FREE_W2, RAW_FREE_W1, RAW, ASSETS, ASSETS_PARENT]
+    bases = [RAW_FREE_W3, RAW_FREE_W2, RAW_FREE_W1, RAW, ASSETS, ASSETS_PARENT]
     for base in bases:
         if not base.exists():
             continue
@@ -60,7 +62,7 @@ def find_asset(story_id: str, i: int) -> Path | None:
 
 def load_plan(story_id: str | None = None) -> list:
     plans: list = []
-    for path in (PLAN, PLAN_B2, PLAN_FREE_W1, PLAN_FREE_W2):
+    for path in (PLAN, PLAN_B2, PLAN_FREE_W1, PLAN_FREE_W2, PLAN_FREE_W3):
         if path.exists():
             plans.extend(json.loads(path.read_text(encoding="utf-8")))
     # de-dupe by id keeping last (b2 overrides)

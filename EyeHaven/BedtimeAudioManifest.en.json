@@ -209,5 +209,21 @@
   "E-W05": {
     "body": "E-W05.mp3",
     "title": "Titles/E-W05.mp3"
+  },
+  "E-B01": {
+    "body": "E-B01.mp3",
+    "title": "Titles/E-B01.mp3"
+  },
+  "E-B02": {
+    "body": "E-B02.mp3",
+    "title": "Titles/E-B02.mp3"
+  },
+  "E-B04": {
+    "body": "E-B04.mp3",
+    "title": "Titles/E-B04.mp3"
+  },
+  "E-B05": {
+    "body": "E-B05.mp3",
+    "title": "Titles/E-B05.mp3"
   }
 }
