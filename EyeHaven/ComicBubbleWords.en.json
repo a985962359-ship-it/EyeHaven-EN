@@ -7376,5 +7376,315 @@
       "left": "Clock-tick",
       "right": "science."
     }
+  ],
+  "E-H20": [
+    {
+      "i": 1,
+      "left": "Beep steam!",
+      "right": "So quick?"
+    },
+    {
+      "i": 2,
+      "left": "Waves inside",
+      "right": "metal box."
+    },
+    {
+      "i": 3,
+      "left": "Jostle water",
+      "right": "molecules."
+    },
+    {
+      "i": 4,
+      "left": "Heat from",
+      "right": "inside too."
+    },
+    {
+      "i": 5,
+      "left": "Ovens warm",
+      "right": "outside in."
+    },
+    {
+      "i": 6,
+      "left": "Follow manual",
+      "right": "with help."
+    },
+    {
+      "i": 7,
+      "left": "Stir for",
+      "right": "even heat."
+    },
+    {
+      "i": 8,
+      "left": "Hot spots",
+      "right": "can burn."
+    },
+    {
+      "i": 9,
+      "left": "Covers cut",
+      "right": "splatters."
+    },
+    {
+      "i": 10,
+      "left": "Molecule dance",
+      "right": "floor."
+    },
+    {
+      "i": 11,
+      "left": "Ask grown-up",
+      "right": "first."
+    },
+    {
+      "i": 12,
+      "left": "Microwave",
+      "right": "science."
+    }
+  ],
+  "E-H21": [
+    {
+      "i": 1,
+      "left": "Umbrella blooms!",
+      "right": "Safer?"
+    },
+    {
+      "i": 2,
+      "left": "Catches lots",
+      "right": "of air."
+    },
+    {
+      "i": 3,
+      "left": "Drag pushes",
+      "right": "up."
+    },
+    {
+      "i": 4,
+      "left": "More area,",
+      "right": "slower fall."
+    },
+    {
+      "i": 5,
+      "left": "Free fall",
+      "right": "not a game."
+    },
+    {
+      "i": 6,
+      "left": "Training for",
+      "right": "real jumps."
+    },
+    {
+      "i": 7,
+      "left": "Toy demos",
+      "right": "indoors."
+    },
+    {
+      "i": 8,
+      "left": "Lines keep",
+      "right": "steady."
+    },
+    {
+      "i": 9,
+      "left": "Packed tools",
+      "right": "ready."
+    },
+    {
+      "i": 10,
+      "left": "Hugging air",
+      "right": "buys time."
+    },
+    {
+      "i": 11,
+      "left": "Respect height",
+      "right": "rules."
+    },
+    {
+      "i": 12,
+      "left": "Parachute",
+      "right": "science."
+    }
+  ],
+  "E-H22": [
+    {
+      "i": 1,
+      "left": "Click open!",
+      "right": "How?"
+    },
+    {
+      "i": 2,
+      "left": "Key lifts",
+      "right": "pins."
+    },
+    {
+      "i": 3,
+      "left": "Matching height",
+      "right": "turns."
+    },
+    {
+      "i": 4,
+      "left": "Wrong key",
+      "right": "blocks."
+    },
+    {
+      "i": 5,
+      "left": "Tiny metal",
+      "right": "puzzle."
+    },
+    {
+      "i": 6,
+      "left": "Codes replace",
+      "right": "teeth."
+    },
+    {
+      "i": 7,
+      "left": "Spare keys",
+      "right": "stay safe."
+    },
+    {
+      "i": 8,
+      "left": "No mat",
+      "right": "hiding."
+    },
+    {
+      "i": 9,
+      "left": "Gentle care",
+      "right": "helps."
+    },
+    {
+      "i": 10,
+      "left": "Portable puzzle",
+      "right": "answer."
+    },
+    {
+      "i": 11,
+      "left": "Ask before",
+      "right": "borrow."
+    },
+    {
+      "i": 12,
+      "left": "Lock-key",
+      "right": "science."
+    }
+  ],
+  "E-H23": [
+    {
+      "i": 1,
+      "left": "Whirr!",
+      "right": "Why cooler?"
+    },
+    {
+      "i": 2,
+      "left": "Moves air",
+      "right": "on skin."
+    },
+    {
+      "i": 3,
+      "left": "Sweat dries",
+      "right": "faster."
+    },
+    {
+      "i": 4,
+      "left": "Heat leaves",
+      "right": "with vapor."
+    },
+    {
+      "i": 5,
+      "left": "Room temp",
+      "right": "similar."
+    },
+    {
+      "i": 6,
+      "left": "You feel",
+      "right": "cooler."
+    },
+    {
+      "i": 7,
+      "left": "Empty room,",
+      "right": "just stirs."
+    },
+    {
+      "i": 8,
+      "left": "Windows help",
+      "right": "sticky days."
+    },
+    {
+      "i": 9,
+      "left": "Fingers off",
+      "right": "blades."
+    },
+    {
+      "i": 10,
+      "left": "Not fridge",
+      "right": "wind."
+    },
+    {
+      "i": 11,
+      "left": "Sip water",
+      "right": "too."
+    },
+    {
+      "i": 12,
+      "left": "Fan",
+      "right": "science."
+    }
+  ],
+  "E-H24": [
+    {
+      "i": 1,
+      "left": "Rrrrip!",
+      "right": "How stick?"
+    },
+    {
+      "i": 2,
+      "left": "Hooks meet",
+      "right": "loops."
+    },
+    {
+      "i": 3,
+      "left": "Press to",
+      "right": "catch."
+    },
+    {
+      "i": 4,
+      "left": "Peel makes",
+      "right": "the sound."
+    },
+    {
+      "i": 5,
+      "left": "Burrs gave",
+      "right": "the idea."
+    },
+    {
+      "i": 6,
+      "left": "Nature taught",
+      "right": "fastening."
+    },
+    {
+      "i": 7,
+      "left": "Dirt weakens",
+      "right": "grip."
+    },
+    {
+      "i": 8,
+      "left": "Clean fuzzy",
+      "right": "sides."
+    },
+    {
+      "i": 9,
+      "left": "Shoes bags",
+      "right": "use it."
+    },
+    {
+      "i": 10,
+      "left": "Tiny grappling",
+      "right": "hooks."
+    },
+    {
+      "i": 11,
+      "left": "Press firm,",
+      "right": "peel slow."
+    },
+    {
+      "i": 12,
+      "left": "Velcro",
+      "right": "science."
+    }
   ]
 }
