@@ -4710,5 +4710,501 @@
       "left": "Twin cleanup",
       "right": "crew."
     }
+  ],
+  "E-B14": [
+    {
+      "i": 1,
+      "left": "Rumble!",
+      "right": "Monster?"
+    },
+    {
+      "i": 2,
+      "left": "Soft squeezes",
+      "right": "mix food."
+    },
+    {
+      "i": 3,
+      "left": "Empty slosh",
+      "right": "makes noise."
+    },
+    {
+      "i": 4,
+      "left": "Hunger tells",
+      "right": "the brain."
+    },
+    {
+      "i": 5,
+      "left": "Big snack",
+      "right": "can rumble."
+    },
+    {
+      "i": 6,
+      "left": "Water helps",
+      "right": "settle."
+    },
+    {
+      "i": 7,
+      "left": "Steady meals",
+      "right": "fuel well."
+    },
+    {
+      "i": 8,
+      "left": "Tummies talk",
+      "right": "sometimes."
+    },
+    {
+      "i": 9,
+      "left": "Pain too?",
+      "right": "Tell grown-up."
+    },
+    {
+      "i": 10,
+      "left": "Breathe calm",
+      "right": "if loud."
+    },
+    {
+      "i": 11,
+      "left": "Busy kitchen,",
+      "right": "not scary."
+    },
+    {
+      "i": 12,
+      "left": "Tummy soundtrack",
+      "right": "science."
+    }
+  ],
+  "E-B15": [
+    {
+      "i": 1,
+      "left": "Itchy dots!",
+      "right": "Forever?"
+    },
+    {
+      "i": 2,
+      "left": "Virus called",
+      "right": "varicella."
+    },
+    {
+      "i": 3,
+      "left": "Immune learns",
+      "right": "its face."
+    },
+    {
+      "i": 4,
+      "left": "Memory cells",
+      "right": "keep lesson."
+    },
+    {
+      "i": 5,
+      "left": "Later visits",
+      "right": "get stopped."
+    },
+    {
+      "i": 6,
+      "left": "Usually once",
+      "right": "classic rash."
+    },
+    {
+      "i": 7,
+      "left": "Vaccines teach",
+      "right": "gently."
+    },
+    {
+      "i": 8,
+      "left": "Sometimes later",
+      "right": "shingles."
+    },
+    {
+      "i": 9,
+      "left": "Rest soft",
+      "right": "care."
+    },
+    {
+      "i": 10,
+      "left": "Don't scratch",
+      "right": "hard."
+    },
+    {
+      "i": 11,
+      "left": "Ask grown-up",
+      "right": "or doctor."
+    },
+    {
+      "i": 12,
+      "left": "Immune school",
+      "right": "lesson."
+    }
+  ],
+  "E-B16": [
+    {
+      "i": 1,
+      "left": "Soft spot!",
+      "right": "Unfinished?"
+    },
+    {
+      "i": 2,
+      "left": "Fontanelles",
+      "right": "between bones."
+    },
+    {
+      "i": 3,
+      "left": "Help during",
+      "right": "birth."
+    },
+    {
+      "i": 4,
+      "left": "Room for",
+      "right": "growing brain."
+    },
+    {
+      "i": 5,
+      "left": "Bones meet",
+      "right": "over time."
+    },
+    {
+      "i": 6,
+      "left": "Gentle touch,",
+      "right": "no press game."
+    },
+    {
+      "i": 7,
+      "left": "Doctors check",
+      "right": "visits."
+    },
+    {
+      "i": 8,
+      "left": "Helmets seats",
+      "right": "protect."
+    },
+    {
+      "i": 9,
+      "left": "Close on",
+      "right": "their own."
+    },
+    {
+      "i": 10,
+      "left": "Worry signs?",
+      "right": "Tell grown-up."
+    },
+    {
+      "i": 11,
+      "left": "Building plan",
+      "right": "for skull."
+    },
+    {
+      "i": 12,
+      "left": "Soft-spot",
+      "right": "science."
+    }
+  ],
+  "E-B17": [
+    {
+      "i": 1,
+      "left": "Spit gross?",
+      "right": "Why make?"
+    },
+    {
+      "i": 2,
+      "left": "Water with",
+      "right": "helpers."
+    },
+    {
+      "i": 3,
+      "left": "Moistens food",
+      "right": "to swallow."
+    },
+    {
+      "i": 4,
+      "left": "Enzymes start",
+      "right": "starch work."
+    },
+    {
+      "i": 5,
+      "left": "Helps wash",
+      "right": "teeth."
+    },
+    {
+      "i": 6,
+      "left": "Carries taste",
+      "right": "bits."
+    },
+    {
+      "i": 7,
+      "left": "Dry mouth",
+      "right": "is harder."
+    },
+    {
+      "i": 8,
+      "left": "Water supports",
+      "right": "spit."
+    },
+    {
+      "i": 9,
+      "left": "Brush still",
+      "right": "matters."
+    },
+    {
+      "i": 10,
+      "left": "Don't spit",
+      "right": "at people."
+    },
+    {
+      "i": 11,
+      "left": "Quiet useful",
+      "right": "river."
+    },
+    {
+      "i": 12,
+      "left": "Saliva does",
+      "right": "jobs."
+    }
+  ],
+  "E-B18": [
+    {
+      "i": 1,
+      "left": "Thump fast!",
+      "right": "Why?"
+    },
+    {
+      "i": 2,
+      "left": "Muscles need",
+      "right": "more fuel."
+    },
+    {
+      "i": 3,
+      "left": "Heart pumps",
+      "right": "the supply."
+    },
+    {
+      "i": 4,
+      "left": "Faster beats,",
+      "right": "more blood."
+    },
+    {
+      "i": 5,
+      "left": "Breath gets",
+      "right": "quicker too."
+    },
+    {
+      "i": 6,
+      "left": "Rest slows",
+      "right": "it down."
+    },
+    {
+      "i": 7,
+      "left": "Move sleep",
+      "right": "help heart."
+    },
+    {
+      "i": 8,
+      "left": "Warm cool",
+      "right": "smoother."
+    },
+    {
+      "i": 9,
+      "left": "Pain dizzy?",
+      "right": "Tell grown-up."
+    },
+    {
+      "i": 10,
+      "left": "Feel pulse",
+      "right": "science."
+    },
+    {
+      "i": 11,
+      "left": "Body answers",
+      "right": "the run."
+    },
+    {
+      "i": 12,
+      "left": "Pump then",
+      "right": "settle."
+    }
+  ],
+  "E-B19": [
+    {
+      "i": 1,
+      "left": "Sticky wax?",
+      "right": "Why?"
+    },
+    {
+      "i": 2,
+      "left": "Cleans and",
+      "right": "protects."
+    },
+    {
+      "i": 3,
+      "left": "Traps dust",
+      "right": "bits."
+    },
+    {
+      "i": 4,
+      "left": "Keeps canal",
+      "right": "less dry."
+    },
+    {
+      "i": 5,
+      "left": "Old wax",
+      "right": "moves out."
+    },
+    {
+      "i": 6,
+      "left": "No swab",
+      "right": "digging."
+    },
+    {
+      "i": 7,
+      "left": "Blocked?",
+      "right": "Ask grown-up."
+    },
+    {
+      "i": 8,
+      "left": "No random",
+      "right": "liquids."
+    },
+    {
+      "i": 9,
+      "left": "Ears do",
+      "right": "listening."
+    },
+    {
+      "i": 10,
+      "left": "Clean outer",
+      "right": "flap only."
+    },
+    {
+      "i": 11,
+      "left": "Tiny bodyguard",
+      "right": "wax."
+    },
+    {
+      "i": 12,
+      "left": "Earwax does",
+      "right": "jobs."
+    }
+  ],
+  "E-B20": [
+    {
+      "i": 1,
+      "left": "Nails return!",
+      "right": "Why?"
+    },
+    {
+      "i": 2,
+      "left": "Grow from",
+      "right": "root base."
+    },
+    {
+      "i": 3,
+      "left": "New cells",
+      "right": "push forward."
+    },
+    {
+      "i": 4,
+      "left": "Keratin makes",
+      "right": "hard plate."
+    },
+    {
+      "i": 5,
+      "left": "Protect tips,",
+      "right": "help pick."
+    },
+    {
+      "i": 6,
+      "left": "Slow steady",
+      "right": "growth."
+    },
+    {
+      "i": 7,
+      "left": "Don't bite",
+      "right": "nails."
+    },
+    {
+      "i": 8,
+      "left": "Trim clean",
+      "right": "with help."
+    },
+    {
+      "i": 9,
+      "left": "Food helps",
+      "right": "growing."
+    },
+    {
+      "i": 10,
+      "left": "Pain infect?",
+      "right": "Tell grown-up."
+    },
+    {
+      "i": 11,
+      "left": "Tools that",
+      "right": "renew."
+    },
+    {
+      "i": 12,
+      "left": "Nail science",
+      "right": "push."
+    }
+  ],
+  "E-B21": [
+    {
+      "i": 1,
+      "left": "Achoo cats!",
+      "right": "Overreact?"
+    },
+    {
+      "i": 2,
+      "left": "Immune treats",
+      "right": "harmless threat."
+    },
+    {
+      "i": 3,
+      "left": "Pollen food",
+      "right": "dander."
+    },
+    {
+      "i": 4,
+      "left": "Chemicals cause",
+      "right": "itch sneeze."
+    },
+    {
+      "i": 5,
+      "left": "Triggers differ",
+      "right": "by person."
+    },
+    {
+      "i": 6,
+      "left": "Avoid plus",
+      "right": "doctor plan."
+    },
+    {
+      "i": 7,
+      "left": "Not the same",
+      "right": "as cold."
+    },
+    {
+      "i": 8,
+      "left": "Hard breath?",
+      "right": "Get help."
+    },
+    {
+      "i": 9,
+      "left": "Read food",
+      "right": "labels."
+    },
+    {
+      "i": 10,
+      "left": "Not your",
+      "right": "fault."
+    },
+    {
+      "i": 11,
+      "left": "Know triggers,",
+      "right": "stay calm."
+    },
+    {
+      "i": 12,
+      "left": "Allergy science",
+      "right": "kindly."
+    }
   ]
 }
