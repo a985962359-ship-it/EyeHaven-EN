@@ -9856,5 +9856,687 @@
       "left": "Balloon",
       "right": "science."
     }
+  ],
+  "E-Y22": [
+    {
+      "i": 1,
+      "left": "Leaves fall!",
+      "right": "Why now?"
+    },
+    {
+      "i": 2,
+      "left": "Shorter days,",
+      "right": "cooler air."
+    },
+    {
+      "i": 3,
+      "left": "Seal tiny",
+      "right": "stem doors."
+    },
+    {
+      "i": 4,
+      "left": "Green fades;",
+      "right": "colors show."
+    },
+    {
+      "i": 5,
+      "left": "Trees rest",
+      "right": "for winter."
+    },
+    {
+      "i": 6,
+      "left": "Leaves feed",
+      "right": "the soil."
+    },
+    {
+      "i": 7,
+      "left": "Evergreens keep",
+      "right": "needles."
+    },
+    {
+      "i": 8,
+      "left": "Wind helps,",
+      "right": "not alone."
+    },
+    {
+      "i": 9,
+      "left": "Rake gently",
+      "right": "together."
+    },
+    {
+      "i": 10,
+      "left": "Planned",
+      "right": "goodbye."
+    },
+    {
+      "i": 11,
+      "left": "Catch a leaf",
+      "right": "scar."
+    },
+    {
+      "i": 12,
+      "left": "Leaf",
+      "right": "science."
+    }
+  ],
+  "E-Y23": [
+    {
+      "i": 1,
+      "left": "Achoo!",
+      "right": "Why sneeze?"
+    },
+    {
+      "i": 2,
+      "left": "Pepper tickles",
+      "right": "nose."
+    },
+    {
+      "i": 3,
+      "left": "Nerves say",
+      "right": "clear out!"
+    },
+    {
+      "i": 4,
+      "left": "Sneeze blasts",
+      "right": "air."
+    },
+    {
+      "i": 5,
+      "left": "Eyes may",
+      "right": "water."
+    },
+    {
+      "i": 6,
+      "left": "Not germs—",
+      "right": "dust alarm."
+    },
+    {
+      "i": 7,
+      "left": "Cover sneeze",
+      "right": "kindly."
+    },
+    {
+      "i": 8,
+      "left": "Tissue or",
+      "right": "elbow."
+    },
+    {
+      "i": 9,
+      "left": "Calm pepper",
+      "right": "jars."
+    },
+    {
+      "i": 10,
+      "left": "Tickle signal",
+      "right": "blast."
+    },
+    {
+      "i": 11,
+      "left": "Smell from",
+      "right": "afar."
+    },
+    {
+      "i": 12,
+      "left": "Nose",
+      "right": "science."
+    }
+  ],
+  "E-Y24": [
+    {
+      "i": 1,
+      "left": "Candle glow!",
+      "right": "Why hot?"
+    },
+    {
+      "i": 2,
+      "left": "Fuel meets",
+      "right": "oxygen."
+    },
+    {
+      "i": 3,
+      "left": "Energy = heat",
+      "right": "and light."
+    },
+    {
+      "i": 4,
+      "left": "Fuels burn",
+      "right": "differently."
+    },
+    {
+      "i": 5,
+      "left": "Grown-ups keep",
+      "right": "flames safe."
+    },
+    {
+      "i": 6,
+      "left": "Never touch!",
+      "right": "Ask help."
+    },
+    {
+      "i": 7,
+      "left": "Smoke? Step",
+      "right": "back."
+    },
+    {
+      "i": 8,
+      "left": "Firefighters",
+      "right": "cool fires."
+    },
+    {
+      "i": 9,
+      "left": "Adults cook",
+      "right": "with heat."
+    },
+    {
+      "i": 10,
+      "left": "Hot = energy",
+      "right": "out."
+    },
+    {
+      "i": 11,
+      "left": "Watch candle",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Fire",
+      "right": "science."
+    }
+  ],
+  "E-Y25": [
+    {
+      "i": 1,
+      "left": "Ouch!",
+      "right": "Brain freeze!"
+    },
+    {
+      "i": 2,
+      "left": "Cold hits",
+      "right": "mouth roof."
+    },
+    {
+      "i": 3,
+      "left": "Vessels tighten",
+      "right": "then open."
+    },
+    {
+      "i": 4,
+      "left": "Forehead nerves",
+      "right": "ache."
+    },
+    {
+      "i": 5,
+      "left": "Brain not",
+      "right": "ice."
+    },
+    {
+      "i": 6,
+      "left": "Slow sips",
+      "right": "help."
+    },
+    {
+      "i": 7,
+      "left": "Tongue on roof",
+      "right": "helps."
+    },
+    {
+      "i": 8,
+      "left": "Warmth returns",
+      "right": "fast."
+    },
+    {
+      "i": 9,
+      "left": "Fun treats,",
+      "right": "go slow."
+    },
+    {
+      "i": 10,
+      "left": "Cold shock",
+      "right": "ouch."
+    },
+    {
+      "i": 11,
+      "left": "Share slush",
+      "right": "easy."
+    },
+    {
+      "i": 12,
+      "left": "Cold-drink",
+      "right": "science."
+    }
+  ],
+  "E-Y26": [
+    {
+      "i": 1,
+      "left": "Paw press!",
+      "right": "Why knead?"
+    },
+    {
+      "i": 2,
+      "left": "Kittens helped",
+      "right": "milk flow."
+    },
+    {
+      "i": 3,
+      "left": "Grown cats keep",
+      "right": "habit."
+    },
+    {
+      "i": 4,
+      "left": "Blankets feel",
+      "right": "like nest."
+    },
+    {
+      "i": 5,
+      "left": "Paws leave",
+      "right": "calm scent."
+    },
+    {
+      "i": 6,
+      "left": "Affection,",
+      "right": "not mean."
+    },
+    {
+      "i": 7,
+      "left": "Thick blanket",
+      "right": "helps."
+    },
+    {
+      "i": 8,
+      "left": "Cats differ",
+      "right": "a lot."
+    },
+    {
+      "i": 9,
+      "left": "Pet when",
+      "right": "invited."
+    },
+    {
+      "i": 10,
+      "left": "Comfort",
+      "right": "memory."
+    },
+    {
+      "i": 11,
+      "left": "Watch rhythm",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Cat",
+      "right": "science."
+    }
+  ],
+  "E-Y27": [
+    {
+      "i": 1,
+      "left": "Orange flakes!",
+      "right": "What rust?"
+    },
+    {
+      "i": 2,
+      "left": "Iron meets",
+      "right": "water air."
+    },
+    {
+      "i": 3,
+      "left": "Makes crumbly",
+      "right": "orange."
+    },
+    {
+      "i": 4,
+      "left": "Chemical change,",
+      "right": "not dirt."
+    },
+    {
+      "i": 5,
+      "left": "Paint oil",
+      "right": "slow it."
+    },
+    {
+      "i": 6,
+      "left": "Stainless",
+      "right": "resists."
+    },
+    {
+      "i": 7,
+      "left": "Wet bikes rust",
+      "right": "faster."
+    },
+    {
+      "i": 8,
+      "left": "Dry after",
+      "right": "rain."
+    },
+    {
+      "i": 9,
+      "left": "Ask before",
+      "right": "scrub."
+    },
+    {
+      "i": 10,
+      "left": "Iron water",
+      "right": "air."
+    },
+    {
+      "i": 11,
+      "left": "Wipe chain",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Metal",
+      "right": "science."
+    }
+  ],
+  "E-Y28": [
+    {
+      "i": 1,
+      "left": "Blood type?",
+      "right": "Why kinds?"
+    },
+    {
+      "i": 2,
+      "left": "Tiny markers",
+      "right": "on cells."
+    },
+    {
+      "i": 3,
+      "left": "A B AB O",
+      "right": "names."
+    },
+    {
+      "i": 4,
+      "left": "Inherited from",
+      "right": "family."
+    },
+    {
+      "i": 5,
+      "left": "Doctors match",
+      "right": "carefully."
+    },
+    {
+      "i": 6,
+      "left": "Normal—not a",
+      "right": "contest."
+    },
+    {
+      "i": 7,
+      "left": "Only clinics",
+      "right": "test."
+    },
+    {
+      "i": 8,
+      "left": "Veggies rest",
+      "right": "help."
+    },
+    {
+      "i": 9,
+      "left": "Needles for",
+      "right": "clinics."
+    },
+    {
+      "i": 10,
+      "left": "Markers differ;",
+      "right": "same jobs."
+    },
+    {
+      "i": 11,
+      "left": "Ask family",
+      "right": "gently."
+    },
+    {
+      "i": 12,
+      "left": "Body",
+      "right": "science."
+    }
+  ],
+  "E-Y29": [
+    {
+      "i": 1,
+      "left": "Pointy star!",
+      "right": "Real?"
+    },
+    {
+      "i": 2,
+      "left": "Stars are",
+      "right": "gas balls."
+    },
+    {
+      "i": 3,
+      "left": "From Earth:",
+      "right": "tiny dots."
+    },
+    {
+      "i": 4,
+      "left": "Eyes and air",
+      "right": "sparkle."
+    },
+    {
+      "i": 5,
+      "left": "Art shows",
+      "right": "sparkle."
+    },
+    {
+      "i": 6,
+      "left": "Lenses make",
+      "right": "spikes too."
+    },
+    {
+      "i": 7,
+      "left": "Telescopes see",
+      "right": "rounder."
+    },
+    {
+      "i": 8,
+      "left": "Maps not",
+      "right": "wires."
+    },
+    {
+      "i": 9,
+      "left": "Science plus",
+      "right": "imagination."
+    },
+    {
+      "i": 10,
+      "left": "Pointy means",
+      "right": "twinkle."
+    },
+    {
+      "i": 11,
+      "left": "Compare sky",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Star",
+      "right": "science."
+    }
+  ],
+  "E-Y30": [
+    {
+      "i": 1,
+      "left": "I yawned too!",
+      "right": "Contagious?"
+    },
+    {
+      "i": 2,
+      "left": "Brain wants",
+      "right": "to copy."
+    },
+    {
+      "i": 3,
+      "left": "Empathy and",
+      "right": "group sync."
+    },
+    {
+      "i": 4,
+      "left": "Jaw stretch",
+      "right": "and air."
+    },
+    {
+      "i": 5,
+      "left": "Tired or",
+      "right": "bored."
+    },
+    {
+      "i": 6,
+      "left": "Social echo,",
+      "right": "not rude."
+    },
+    {
+      "i": 7,
+      "left": "Animals yawn",
+      "right": "too."
+    },
+    {
+      "i": 8,
+      "left": "Cover mouth",
+      "right": "kindly."
+    },
+    {
+      "i": 9,
+      "left": "Sleep fresh air",
+      "right": "help."
+    },
+    {
+      "i": 10,
+      "left": "Noticing",
+      "right": "friends."
+    },
+    {
+      "i": 11,
+      "left": "Who yawns",
+      "right": "first?"
+    },
+    {
+      "i": 12,
+      "left": "People",
+      "right": "science."
+    }
+  ],
+  "E-Y31": [
+    {
+      "i": 1,
+      "left": "Paper stuck!",
+      "right": "How sticky?"
+    },
+    {
+      "i": 2,
+      "left": "Glue flows into",
+      "right": "bumps."
+    },
+    {
+      "i": 3,
+      "left": "Dries and",
+      "right": "locks."
+    },
+    {
+      "i": 4,
+      "left": "Some make",
+      "right": "bonds."
+    },
+    {
+      "i": 5,
+      "left": "Right glue,",
+      "right": "right job."
+    },
+    {
+      "i": 6,
+      "left": "Too much stays",
+      "right": "soft."
+    },
+    {
+      "i": 7,
+      "left": "Clean dry",
+      "right": "helps."
+    },
+    {
+      "i": 8,
+      "left": "Follow grown-up",
+      "right": "rules."
+    },
+    {
+      "i": 9,
+      "left": "Soap washes",
+      "right": "fingers."
+    },
+    {
+      "i": 10,
+      "left": "Flow dry",
+      "right": "lock."
+    },
+    {
+      "i": 11,
+      "left": "Paper sandwich",
+      "right": "test."
+    },
+    {
+      "i": 12,
+      "left": "Glue",
+      "right": "science."
+    }
+  ],
+  "E-Y32": [
+    {
+      "i": 1,
+      "left": "Cloud puff!",
+      "right": "Smoke?"
+    },
+    {
+      "i": 2,
+      "left": "Warm vapor",
+      "right": "inside."
+    },
+    {
+      "i": 3,
+      "left": "Cold makes",
+      "right": "droplets."
+    },
+    {
+      "i": 4,
+      "left": "Mini fog,",
+      "right": "not smoke."
+    },
+    {
+      "i": 5,
+      "left": "Warm rooms",
+      "right": "hide it."
+    },
+    {
+      "i": 6,
+      "left": "Frosty days",
+      "right": "show more."
+    },
+    {
+      "i": 7,
+      "left": "Animals puff",
+      "right": "too."
+    },
+    {
+      "i": 8,
+      "left": "Scarves catch",
+      "right": "moisture."
+    },
+    {
+      "i": 9,
+      "left": "Clouds fade",
+      "right": "away."
+    },
+    {
+      "i": 10,
+      "left": "Warm plus cold",
+      "right": "puff."
+    },
+    {
+      "i": 11,
+      "left": "Gentle puffs",
+      "right": "outside."
+    },
+    {
+      "i": 12,
+      "left": "Breath",
+      "right": "science."
+    }
   ]
 }
