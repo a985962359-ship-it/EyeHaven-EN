@@ -3098,5 +3098,501 @@
       "left": "Silent wing",
       "right": "neighbors."
     }
+  ],
+  "E-A15": [
+    {
+      "i": 1,
+      "left": "Neat line!",
+      "right": "Parade?"
+    },
+    {
+      "i": 2,
+      "left": "Scent trails",
+      "right": "guide friends."
+    },
+    {
+      "i": 3,
+      "left": "Food find",
+      "right": "gets shared."
+    },
+    {
+      "i": 4,
+      "left": "Smell path,",
+      "right": "join in."
+    },
+    {
+      "i": 5,
+      "left": "Lines move",
+      "right": "food fast."
+    },
+    {
+      "i": 6,
+      "left": "Teamwork >",
+      "right": "one ant."
+    },
+    {
+      "i": 7,
+      "left": "Cold trail?",
+      "right": "New search."
+    },
+    {
+      "i": 8,
+      "left": "Busy nest",
+      "right": "city."
+    },
+    {
+      "i": 9,
+      "left": "Watch soft",
+      "right": "from afar."
+    },
+    {
+      "i": 10,
+      "left": "Don't poke",
+      "right": "nests."
+    },
+    {
+      "i": 11,
+      "left": "Tiny bugs,",
+      "right": "big teams."
+    },
+    {
+      "i": 12,
+      "left": "Scent road",
+      "right": "science."
+    }
+  ],
+  "E-A16": [
+    {
+      "i": 1,
+      "left": "On sand!",
+      "right": "Beach day?"
+    },
+    {
+      "i": 2,
+      "left": "Eggs need",
+      "right": "sandy nests."
+    },
+    {
+      "i": 3,
+      "left": "Ocean life,",
+      "right": "land nests."
+    },
+    {
+      "i": 4,
+      "left": "Dig a pit",
+      "right": "above tide."
+    },
+    {
+      "i": 5,
+      "left": "Lay, cover,",
+      "right": "back to sea."
+    },
+    {
+      "i": 6,
+      "left": "Warm sand",
+      "right": "helps eggs."
+    },
+    {
+      "i": 7,
+      "left": "Hatchlings",
+      "right": "race ocean."
+    },
+    {
+      "i": 8,
+      "left": "Lights/trash",
+      "right": "confuse."
+    },
+    {
+      "i": 9,
+      "left": "Dark clean",
+      "right": "beaches."
+    },
+    {
+      "i": 10,
+      "left": "Leave wild",
+      "right": "babies."
+    },
+    {
+      "i": 11,
+      "left": "Ocean + sand",
+      "right": "care."
+    },
+    {
+      "i": 12,
+      "left": "Long swim",
+      "right": "ahead."
+    }
+  ],
+  "E-A17": [
+    {
+      "i": 1,
+      "left": "Boing leap!",
+      "right": "Super legs?"
+    },
+    {
+      "i": 2,
+      "left": "Long strong",
+      "right": "back legs."
+    },
+    {
+      "i": 3,
+      "left": "Springy push",
+      "right": "takeoff."
+    },
+    {
+      "i": 4,
+      "left": "Webbed feet",
+      "right": "help too."
+    },
+    {
+      "i": 5,
+      "left": "Catch food,",
+      "right": "escape."
+    },
+    {
+      "i": 6,
+      "left": "Hops vary",
+      "right": "in length."
+    },
+    {
+      "i": 7,
+      "left": "Some climb",
+      "right": "or swim."
+    },
+    {
+      "i": 8,
+      "left": "Whole frog",
+      "right": "matters."
+    },
+    {
+      "i": 9,
+      "left": "Moist skin",
+      "right": "needs damp."
+    },
+    {
+      "i": 10,
+      "left": "Clean ponds",
+      "right": "help."
+    },
+    {
+      "i": 11,
+      "left": "Strong legs,",
+      "right": "soft homes."
+    },
+    {
+      "i": 12,
+      "left": "Push, fly,",
+      "right": "splash."
+    }
+  ],
+  "E-A18": [
+    {
+      "i": 1,
+      "left": "Many arms!",
+      "right": "Why eight?"
+    },
+    {
+      "i": 2,
+      "left": "Grab taste",
+      "right": "explore."
+    },
+    {
+      "i": 3,
+      "left": "Suckers hold",
+      "right": "stuff."
+    },
+    {
+      "i": 4,
+      "left": "Open shells",
+      "right": "cleverly."
+    },
+    {
+      "i": 5,
+      "left": "Crawl the",
+      "right": "seafloor."
+    },
+    {
+      "i": 6,
+      "left": "Squeeze small",
+      "right": "gaps."
+    },
+    {
+      "i": 7,
+      "left": "Soft body",
+      "right": "explorer."
+    },
+    {
+      "i": 8,
+      "left": "Ink + color",
+      "right": "safety."
+    },
+    {
+      "i": 9,
+      "left": "Rocks reefs",
+      "right": "homes."
+    },
+    {
+      "i": 10,
+      "left": "Aquarium with",
+      "right": "grown-ups."
+    },
+    {
+      "i": 11,
+      "left": "Eight helper",
+      "right": "arms."
+    },
+    {
+      "i": 12,
+      "left": "Grab, hide,",
+      "right": "explore."
+    }
+  ],
+  "E-A19": [
+    {
+      "i": 1,
+      "left": "Fluffy crowd!",
+      "right": "Group hug?"
+    },
+    {
+      "i": 2,
+      "left": "Cold winds",
+      "right": "steal heat."
+    },
+    {
+      "i": 3,
+      "left": "Huddle shares",
+      "right": "warmth."
+    },
+    {
+      "i": 4,
+      "left": "Turns on the",
+      "right": "cold edge."
+    },
+    {
+      "i": 5,
+      "left": "Middle gets",
+      "right": "warmer."
+    },
+    {
+      "i": 6,
+      "left": "Eggs chicks",
+      "right": "safer."
+    },
+    {
+      "i": 7,
+      "left": "Teamwork =",
+      "right": "survival."
+    },
+    {
+      "i": 8,
+      "left": "Species differ",
+      "right": "a bit."
+    },
+    {
+      "i": 9,
+      "left": "Watch from",
+      "right": "afar."
+    },
+    {
+      "i": 10,
+      "left": "Warmth +",
+      "right": "turns."
+    },
+    {
+      "i": 11,
+      "left": "Good neighbors",
+      "right": "help."
+    },
+    {
+      "i": 12,
+      "left": "Share the",
+      "right": "heat."
+    }
+  ],
+  "E-A20": [
+    {
+      "i": 1,
+      "left": "Swing trunk!",
+      "right": "Super nose?"
+    },
+    {
+      "i": 2,
+      "left": "Nose + hand",
+      "right": "together."
+    },
+    {
+      "i": 3,
+      "left": "Smell breathe",
+      "right": "drink."
+    },
+    {
+      "i": 4,
+      "left": "Grab leaves,",
+      "right": "lift light."
+    },
+    {
+      "i": 5,
+      "left": "Spray cool",
+      "right": "water baths."
+    },
+    {
+      "i": 6,
+      "left": "Soft tip",
+      "right": "picks gently."
+    },
+    {
+      "i": 7,
+      "left": "Babies practice",
+      "right": "skills."
+    },
+    {
+      "i": 8,
+      "left": "Gentle herd",
+      "right": "hellos."
+    },
+    {
+      "i": 9,
+      "left": "Wide space",
+      "right": "for wild."
+    },
+    {
+      "i": 10,
+      "left": "Quiet watching",
+      "right": "respect."
+    },
+    {
+      "i": 11,
+      "left": "Trunk power",
+      "right": "tools."
+    },
+    {
+      "i": 12,
+      "left": "Smell sip",
+      "right": "hello."
+    }
+  ],
+  "E-A21": [
+    {
+      "i": 1,
+      "left": "So tall!",
+      "right": "Why?"
+    },
+    {
+      "i": 2,
+      "left": "Reach high",
+      "right": "leaves."
+    },
+    {
+      "i": 3,
+      "left": "Extra food",
+      "right": "options."
+    },
+    {
+      "i": 4,
+      "left": "See danger",
+      "right": "far."
+    },
+    {
+      "i": 5,
+      "left": "Strong heart",
+      "right": "pumps up."
+    },
+    {
+      "i": 6,
+      "left": "Valves help",
+      "right": "blood flow."
+    },
+    {
+      "i": 7,
+      "left": "Calves grow",
+      "right": "taller."
+    },
+    {
+      "i": 8,
+      "left": "Tall uses",
+      "right": "differ."
+    },
+    {
+      "i": 9,
+      "left": "Trees +",
+      "right": "giraffes."
+    },
+    {
+      "i": 10,
+      "left": "Watch calm",
+      "right": "quietly."
+    },
+    {
+      "i": 11,
+      "left": "High snacks,",
+      "right": "far views."
+    },
+    {
+      "i": 12,
+      "left": "Tall science",
+      "right": "sun."
+    }
+  ],
+  "E-A22": [
+    {
+      "i": 1,
+      "left": "Shiny web!",
+      "right": "Art project?"
+    },
+    {
+      "i": 2,
+      "left": "Silk from",
+      "right": "their bodies."
+    },
+    {
+      "i": 3,
+      "left": "Catch flying",
+      "right": "insects."
+    },
+    {
+      "i": 4,
+      "left": "Shapes fit",
+      "right": "hunting."
+    },
+    {
+      "i": 5,
+      "left": "Thin but",
+      "right": "strong."
+    },
+    {
+      "i": 6,
+      "left": "Rebuild after",
+      "right": "tears."
+    },
+    {
+      "i": 7,
+      "left": "Not all use",
+      "right": "orb webs."
+    },
+    {
+      "i": 8,
+      "left": "Some chase",
+      "right": "or hide."
+    },
+    {
+      "i": 9,
+      "left": "Garden helpers",
+      "right": "often."
+    },
+    {
+      "i": 10,
+      "left": "Watch, don’t",
+      "right": "touch."
+    },
+    {
+      "i": 11,
+      "left": "Tiny silk",
+      "right": "engineers."
+    },
+    {
+      "i": 12,
+      "left": "Sparkle",
+      "right": "science."
+    }
   ]
 }
