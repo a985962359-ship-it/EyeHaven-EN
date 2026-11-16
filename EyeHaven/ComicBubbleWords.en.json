@@ -11034,5 +11034,501 @@
       "left": "Cave",
       "right": "science."
     }
+  ],
+  "E-E14": [
+    {
+      "i": 1,
+      "left": "Ice river!",
+      "right": "It moves?"
+    },
+    {
+      "i": 2,
+      "left": "Thick ice flows",
+      "right": "slowly."
+    },
+    {
+      "i": 3,
+      "left": "Weight makes",
+      "right": "ice slide."
+    },
+    {
+      "i": 4,
+      "left": "Meltwater helps",
+      "right": "slip."
+    },
+    {
+      "i": 5,
+      "left": "Scrapes rock,",
+      "right": "carries stones."
+    },
+    {
+      "i": 6,
+      "left": "Leaves valleys",
+      "right": "lakes."
+    },
+    {
+      "i": 7,
+      "left": "Warmth speeds",
+      "right": "melt."
+    },
+    {
+      "i": 8,
+      "left": "Scientists",
+      "right": "measure."
+    },
+    {
+      "i": 9,
+      "left": "Go with trained",
+      "right": "adults."
+    },
+    {
+      "i": 10,
+      "left": "Heavy ice",
+      "right": "slow motion."
+    },
+    {
+      "i": 11,
+      "left": "Watch video",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Glacier",
+      "right": "science."
+    }
+  ],
+  "E-E15": [
+    {
+      "i": 1,
+      "left": "Puddle gone!",
+      "right": "Where water?"
+    },
+    {
+      "i": 2,
+      "left": "Sun makes",
+      "right": "vapor."
+    },
+    {
+      "i": 3,
+      "left": "Vapor cools",
+      "right": "to clouds."
+    },
+    {
+      "i": 4,
+      "left": "Rain or snow",
+      "right": "falls."
+    },
+    {
+      "i": 5,
+      "left": "Flows to lakes",
+      "right": "oceans."
+    },
+    {
+      "i": 6,
+      "left": "Some becomes",
+      "right": "groundwater."
+    },
+    {
+      "i": 7,
+      "left": "Plants breathe",
+      "right": "vapor too."
+    },
+    {
+      "i": 8,
+      "left": "Same water",
+      "right": "loops."
+    },
+    {
+      "i": 9,
+      "left": "Use water",
+      "right": "kindly."
+    },
+    {
+      "i": 10,
+      "left": "Evaporate cloud",
+      "right": "fall."
+    },
+    {
+      "i": 11,
+      "left": "Draw the loop",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Cycle",
+      "right": "science."
+    }
+  ],
+  "E-E16": [
+    {
+      "i": 1,
+      "left": "Twinkle rock!",
+      "right": "Why?"
+    },
+    {
+      "i": 2,
+      "left": "Shiny mineral",
+      "right": "crystals."
+    },
+    {
+      "i": 3,
+      "left": "Faces bounce",
+      "right": "light."
+    },
+    {
+      "i": 4,
+      "left": "Mica can",
+      "right": "glitter."
+    },
+    {
+      "i": 5,
+      "left": "Quartz can",
+      "right": "flash."
+    },
+    {
+      "i": 6,
+      "left": "Light play,",
+      "right": "not always gem."
+    },
+    {
+      "i": 7,
+      "left": "No tasting;",
+      "right": "wash hands."
+    },
+    {
+      "i": 8,
+      "left": "Ask before",
+      "right": "taking."
+    },
+    {
+      "i": 9,
+      "left": "Hand lens",
+      "right": "helps."
+    },
+    {
+      "i": 10,
+      "left": "Minerals plus",
+      "right": "light."
+    },
+    {
+      "i": 11,
+      "left": "Compare rocks",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Mineral",
+      "right": "science."
+    }
+  ],
+  "E-E17": [
+    {
+      "i": 1,
+      "left": "Land in water!",
+      "right": "Island?"
+    },
+    {
+      "i": 2,
+      "left": "Land surrounded",
+      "right": "by water."
+    },
+    {
+      "i": 3,
+      "left": "Some from",
+      "right": "volcanoes."
+    },
+    {
+      "i": 4,
+      "left": "Tips of undersea",
+      "right": "mountains."
+    },
+    {
+      "i": 5,
+      "left": "River channels",
+      "right": "make some."
+    },
+    {
+      "i": 6,
+      "left": "Life can live",
+      "right": "there."
+    },
+    {
+      "i": 7,
+      "left": "Boats bridges",
+      "right": "connect."
+    },
+    {
+      "i": 8,
+      "left": "Tides change",
+      "right": "edges."
+    },
+    {
+      "i": 9,
+      "left": "Protect shore",
+      "right": "homes."
+    },
+    {
+      "i": 10,
+      "left": "Land plus",
+      "right": "water around."
+    },
+    {
+      "i": 11,
+      "left": "Find on map",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Island",
+      "right": "science."
+    }
+  ],
+  "E-E18": [
+    {
+      "i": 1,
+      "left": "Floor wiggle!",
+      "right": "Why quakes?"
+    },
+    {
+      "i": 2,
+      "left": "Plates push pull",
+      "right": "slide."
+    },
+    {
+      "i": 3,
+      "left": "Stress slips on",
+      "right": "a fault."
+    },
+    {
+      "i": 4,
+      "left": "Slip sends",
+      "right": "shake waves."
+    },
+    {
+      "i": 5,
+      "left": "Many small;",
+      "right": "some stronger."
+    },
+    {
+      "i": 6,
+      "left": "Safer buildings",
+      "right": "sway."
+    },
+    {
+      "i": 7,
+      "left": "Drop cover",
+      "right": "hold on."
+    },
+    {
+      "i": 8,
+      "left": "Family safety",
+      "right": "plans."
+    },
+    {
+      "i": 9,
+      "left": "Aftershocks",
+      "right": "follow."
+    },
+    {
+      "i": 10,
+      "left": "Plate slip",
+      "right": "waves."
+    },
+    {
+      "i": 11,
+      "left": "Practice drill",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Quake",
+      "right": "science."
+    }
+  ],
+  "E-E19": [
+    {
+      "i": 1,
+      "left": "Salt pebble!",
+      "right": "Minerals?"
+    },
+    {
+      "i": 2,
+      "left": "Natural solids",
+      "right": "with recipes."
+    },
+    {
+      "i": 3,
+      "left": "Crystals ordered",
+      "right": "inside."
+    },
+    {
+      "i": 4,
+      "left": "Rocks mix",
+      "right": "minerals."
+    },
+    {
+      "i": 5,
+      "left": "Salt quartz",
+      "right": "gold."
+    },
+    {
+      "i": 6,
+      "left": "Used in phones",
+      "right": "bikes."
+    },
+    {
+      "i": 7,
+      "left": "Hardness color",
+      "right": "clues."
+    },
+    {
+      "i": 8,
+      "left": "Ask before",
+      "right": "collecting."
+    },
+    {
+      "i": 9,
+      "left": "Wash hands",
+      "right": "after."
+    },
+    {
+      "i": 10,
+      "left": "Recipe plus",
+      "right": "crystal."
+    },
+    {
+      "i": 11,
+      "left": "Sort pebbles",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Mineral",
+      "right": "science."
+    }
+  ],
+  "E-E20": [
+    {
+      "i": 1,
+      "left": "Warm sand!",
+      "right": "From where?"
+    },
+    {
+      "i": 2,
+      "left": "Waves break",
+      "right": "rocks."
+    },
+    {
+      "i": 3,
+      "left": "Rivers carry",
+      "right": "grains."
+    },
+    {
+      "i": 4,
+      "left": "Shells can make",
+      "right": "pale sand."
+    },
+    {
+      "i": 5,
+      "left": "Wind water",
+      "right": "sort beaches."
+    },
+    {
+      "i": 6,
+      "left": "Colors from",
+      "right": "rocks."
+    },
+    {
+      "i": 7,
+      "left": "Wind piles",
+      "right": "dunes."
+    },
+    {
+      "i": 8,
+      "left": "Leave shells",
+      "right": "if asked."
+    },
+    {
+      "i": 9,
+      "left": "Rinse sandy",
+      "right": "feet."
+    },
+    {
+      "i": 10,
+      "left": "Break carry",
+      "right": "sort."
+    },
+    {
+      "i": 11,
+      "left": "Magnify grains",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Sand",
+      "right": "science."
+    }
+  ],
+  "E-E21": [
+    {
+      "i": 1,
+      "left": "Leaves peels!",
+      "right": "Compost?"
+    },
+    {
+      "i": 2,
+      "left": "Scraps break",
+      "right": "down."
+    },
+    {
+      "i": 3,
+      "left": "Bugs fungi",
+      "right": "microbes."
+    },
+    {
+      "i": 4,
+      "left": "Air moisture",
+      "right": "help."
+    },
+    {
+      "i": 5,
+      "left": "Becomes soil",
+      "right": "food."
+    },
+    {
+      "i": 6,
+      "left": "Peels yes;",
+      "right": "meat often no."
+    },
+    {
+      "i": 7,
+      "left": "Feeds gardens",
+      "right": "gently."
+    },
+    {
+      "i": 8,
+      "left": "Less landfill",
+      "right": "trash."
+    },
+    {
+      "i": 9,
+      "left": "Wash hands",
+      "right": "after."
+    },
+    {
+      "i": 10,
+      "left": "Scraps helpers",
+      "right": "gold."
+    },
+    {
+      "i": 11,
+      "left": "Add peel",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Compost",
+      "right": "science."
+    }
   ]
 }
