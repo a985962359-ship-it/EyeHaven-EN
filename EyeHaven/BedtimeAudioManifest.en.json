@@ -233,5 +233,21 @@
   "E-Y04": {
     "body": "E-Y04.mp3",
     "title": "Titles/E-Y04.mp3"
+  },
+  "E-H02": {
+    "body": "E-H02.mp3",
+    "title": "Titles/E-H02.mp3"
+  },
+  "E-H03": {
+    "body": "E-H03.mp3",
+    "title": "Titles/E-H03.mp3"
+  },
+  "E-H05": {
+    "body": "E-H05.mp3",
+    "title": "Titles/E-H05.mp3"
+  },
+  "E-H04": {
+    "body": "E-H04.mp3",
+    "title": "Titles/E-H04.mp3"
   }
 }
