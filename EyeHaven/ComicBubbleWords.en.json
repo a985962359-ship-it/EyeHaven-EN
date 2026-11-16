@@ -12212,5 +12212,687 @@
       "left": "Light",
       "right": "safety."
     }
+  ],
+  "E-Z14": [
+    {
+      "i": 1,
+      "left": "Busy walk!",
+      "right": "Hold hand."
+    },
+    {
+      "i": 2,
+      "left": "Hands keep",
+      "right": "you close."
+    },
+    {
+      "i": 3,
+      "left": "Parking lots",
+      "right": "too."
+    },
+    {
+      "i": 4,
+      "left": "Let go? Freeze,",
+      "right": "call name."
+    },
+    {
+      "i": 5,
+      "left": "Meeting spots",
+      "right": "help."
+    },
+    {
+      "i": 6,
+      "left": "No climbing",
+      "right": "carts."
+    },
+    {
+      "i": 7,
+      "left": "Squeeze means",
+      "right": "I’m here."
+    },
+    {
+      "i": 8,
+      "left": "Watch the",
+      "right": "hand."
+    },
+    {
+      "i": 9,
+      "left": "Ask before",
+      "right": "wandering."
+    },
+    {
+      "i": 10,
+      "left": "Together feet",
+      "right": "safer."
+    },
+    {
+      "i": 11,
+      "left": "Practice plan",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Outing",
+      "right": "safety."
+    }
+  ],
+  "E-Z15": [
+    {
+      "i": 1,
+      "left": "Helmet clip!",
+      "right": "Before wheels."
+    },
+    {
+      "i": 2,
+      "left": "Protects your",
+      "right": "head."
+    },
+    {
+      "i": 3,
+      "left": "Snug chin",
+      "right": "strap."
+    },
+    {
+      "i": 4,
+      "left": "Level, not",
+      "right": "tipped."
+    },
+    {
+      "i": 5,
+      "left": "Scooters need",
+      "right": "helmets too."
+    },
+    {
+      "i": 6,
+      "left": "Crack? Get",
+      "right": "new one."
+    },
+    {
+      "i": 7,
+      "left": "Friends wait",
+      "right": "kindly."
+    },
+    {
+      "i": 8,
+      "left": "Bright helps",
+      "right": "drivers see."
+    },
+    {
+      "i": 9,
+      "left": "Park rules",
+      "right": "often."
+    },
+    {
+      "i": 10,
+      "left": "Buckle first,",
+      "right": "then ride."
+    },
+    {
+      "i": 11,
+      "left": "Check strap",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Bike",
+      "right": "safety."
+    }
+  ],
+  "E-Z16": [
+    {
+      "i": 1,
+      "left": "Playground!",
+      "right": "Stay in sight."
+    },
+    {
+      "i": 2,
+      "left": "Seen means",
+      "right": "faster help."
+    },
+    {
+      "i": 3,
+      "left": "Agree on a",
+      "right": "play zone."
+    },
+    {
+      "i": 4,
+      "left": "No parking",
+      "right": "rows."
+    },
+    {
+      "i": 5,
+      "left": "Wave if you",
+      "right": "move."
+    },
+    {
+      "i": 6,
+      "left": "Bathroom with",
+      "right": "a plan."
+    },
+    {
+      "i": 7,
+      "left": "Hide-seek needs",
+      "right": "home base."
+    },
+    {
+      "i": 8,
+      "left": "Darker? Stay",
+      "right": "closer."
+    },
+    {
+      "i": 9,
+      "left": "Checking in is",
+      "right": "brave."
+    },
+    {
+      "i": 10,
+      "left": "Seen =",
+      "right": "safer."
+    },
+    {
+      "i": 11,
+      "left": "Pick home base",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Play",
+      "right": "safety."
+    }
+  ],
+  "E-Z17": [
+    {
+      "i": 1,
+      "left": "Park chat!",
+      "right": "Not instant friends."
+    },
+    {
+      "i": 2,
+      "left": "Kind ≠",
+      "right": "known."
+    },
+    {
+      "i": 3,
+      "left": "Don’t leave",
+      "right": "unplanned."
+    },
+    {
+      "i": 4,
+      "left": "Gifts aren’t",
+      "right": "tickets."
+    },
+    {
+      "i": 5,
+      "left": "Trusted have",
+      "right": "plans."
+    },
+    {
+      "i": 6,
+      "left": "Unsure? Find",
+      "right": "grown-up."
+    },
+    {
+      "i": 7,
+      "left": "Wait with",
+      "right": "helpers."
+    },
+    {
+      "i": 8,
+      "left": "Your body,",
+      "right": "your space."
+    },
+    {
+      "i": 9,
+      "left": "Family code",
+      "right": "words."
+    },
+    {
+      "i": 10,
+      "left": "Known plan",
+      "right": "wins."
+    },
+    {
+      "i": 11,
+      "left": "Practice polite",
+      "right": "no."
+    },
+    {
+      "i": 12,
+      "left": "People",
+      "right": "safety."
+    }
+  ],
+  "E-Z18": [
+    {
+      "i": 1,
+      "left": "Stand tall!",
+      "right": "Say no."
+    },
+    {
+      "i": 2,
+      "left": "No is",
+      "right": "enough."
+    },
+    {
+      "i": 3,
+      "left": "Yell move",
+      "right": "find help."
+    },
+    {
+      "i": 4,
+      "left": "Trusted adults",
+      "right": "help."
+    },
+    {
+      "i": 5,
+      "left": "Polite not for",
+      "right": "danger."
+    },
+    {
+      "i": 6,
+      "left": "Tell what",
+      "right": "happened."
+    },
+    {
+      "i": 7,
+      "left": "Friends go with",
+      "right": "you."
+    },
+    {
+      "i": 8,
+      "left": "Scary secrets",
+      "right": "tell."
+    },
+    {
+      "i": 9,
+      "left": "Practice loud",
+      "right": "No."
+    },
+    {
+      "i": 10,
+      "left": "Voice feet",
+      "right": "adult."
+    },
+    {
+      "i": 11,
+      "left": "Name three",
+      "right": "adults."
+    },
+    {
+      "i": 12,
+      "left": "Personal",
+      "right": "safety."
+    }
+  ],
+  "E-Z19": [
+    {
+      "i": 1,
+      "left": "Tablet login!",
+      "right": "Private."
+    },
+    {
+      "i": 2,
+      "left": "Password is a",
+      "right": "secret key."
+    },
+    {
+      "i": 3,
+      "left": "Share only with",
+      "right": "parent."
+    },
+    {
+      "i": 4,
+      "left": "Friends don’t",
+      "right": "need it."
+    },
+    {
+      "i": 5,
+      "left": "No watching",
+      "right": "while typing."
+    },
+    {
+      "i": 6,
+      "left": "Grown-ups help",
+      "right": "choose."
+    },
+    {
+      "i": 7,
+      "left": "Someone asks?",
+      "right": "Tell parent."
+    },
+    {
+      "i": 8,
+      "left": "Lock screen",
+      "right": "when leave."
+    },
+    {
+      "i": 9,
+      "left": "Games need",
+      "right": "private keys."
+    },
+    {
+      "i": 10,
+      "left": "Private key",
+      "right": "stays private."
+    },
+    {
+      "i": 11,
+      "left": "Practice lock",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Password",
+      "right": "safety."
+    }
+  ],
+  "E-Z20": [
+    {
+      "i": 1,
+      "left": "Bright button!",
+      "right": "Ask first."
+    },
+    {
+      "i": 2,
+      "left": "Links can go",
+      "right": "unknown."
+    },
+    {
+      "i": 3,
+      "left": "Prize pop-ups?",
+      "right": "Check adult."
+    },
+    {
+      "i": 4,
+      "left": "Downloads need",
+      "right": "yes."
+    },
+    {
+      "i": 5,
+      "left": "Weird message?",
+      "right": "Show adult."
+    },
+    {
+      "i": 6,
+      "left": "Copied accounts",
+      "right": "still ask."
+    },
+    {
+      "i": 7,
+      "left": "Unsure? Close",
+      "right": "with help."
+    },
+    {
+      "i": 8,
+      "left": "Family chooses",
+      "right": "safe sites."
+    },
+    {
+      "i": 9,
+      "left": "Curiosity plus",
+      "right": "pause."
+    },
+    {
+      "i": 10,
+      "left": "Pause ask",
+      "right": "maybe click."
+    },
+    {
+      "i": 11,
+      "left": "Show pop-up",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Online",
+      "right": "safety."
+    }
+  ],
+  "E-Z21": [
+    {
+      "i": 1,
+      "left": "Sink time!",
+      "right": "Wash first."
+    },
+    {
+      "i": 2,
+      "left": "Soap lifts",
+      "right": "germs."
+    },
+    {
+      "i": 3,
+      "left": "Sing while you",
+      "right": "scrub."
+    },
+    {
+      "i": 4,
+      "left": "Rinse and",
+      "right": "dry."
+    },
+    {
+      "i": 5,
+      "left": "After bathroom",
+      "right": "pets too."
+    },
+    {
+      "i": 6,
+      "left": "Gel if sink",
+      "right": "far."
+    },
+    {
+      "i": 7,
+      "left": "Nails thumbs",
+      "right": "too."
+    },
+    {
+      "i": 8,
+      "left": "Clean hands,",
+      "right": "share snacks."
+    },
+    {
+      "i": 9,
+      "left": "Elbow cough,",
+      "right": "then wash."
+    },
+    {
+      "i": 10,
+      "left": "Clean hands,",
+      "right": "ready plate."
+    },
+    {
+      "i": 11,
+      "left": "Twenty seconds",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Hand",
+      "right": "safety."
+    }
+  ],
+  "E-Z22": [
+    {
+      "i": 1,
+      "left": "Pool edge!",
+      "right": "With grown-up."
+    },
+    {
+      "i": 2,
+      "left": "Fun needs",
+      "right": "watching eyes."
+    },
+    {
+      "i": 3,
+      "left": "Floaties ≠",
+      "right": "alone."
+    },
+    {
+      "i": 4,
+      "left": "No running",
+      "right": "wet decks."
+    },
+    {
+      "i": 5,
+      "left": "Ask before",
+      "right": "deeper."
+    },
+    {
+      "i": 6,
+      "left": "Tired? Rest",
+      "right": "on wall."
+    },
+    {
+      "i": 7,
+      "left": "Buddy plus",
+      "right": "adult eyes."
+    },
+    {
+      "i": 8,
+      "left": "Currents: stay",
+      "right": "close."
+    },
+    {
+      "i": 9,
+      "left": "Shout brings",
+      "right": "help."
+    },
+    {
+      "i": 10,
+      "left": "Water + adult",
+      "right": "yes."
+    },
+    {
+      "i": 11,
+      "left": "Agree shallow",
+      "right": "zone."
+    },
+    {
+      "i": 12,
+      "left": "Water",
+      "right": "safety."
+    }
+  ],
+  "E-Z23": [
+    {
+      "i": 1,
+      "left": "Sunny yard!",
+      "right": "Sunscreen."
+    },
+    {
+      "i": 2,
+      "left": "Can pink skin",
+      "right": "even cool."
+    },
+    {
+      "i": 3,
+      "left": "Ears nose need",
+      "right": "cream."
+    },
+    {
+      "i": 4,
+      "left": "Hats shade",
+      "right": "help."
+    },
+    {
+      "i": 5,
+      "left": "Reapply after",
+      "right": "swim."
+    },
+    {
+      "i": 6,
+      "left": "Clouds still",
+      "right": "bright."
+    },
+    {
+      "i": 7,
+      "left": "Sunglasses for",
+      "right": "eyes."
+    },
+    {
+      "i": 8,
+      "left": "Clothes add",
+      "right": "cover."
+    },
+    {
+      "i": 9,
+      "left": "Hot skin? Shade",
+      "right": "water."
+    },
+    {
+      "i": 10,
+      "left": "Cover plus",
+      "right": "cream."
+    },
+    {
+      "i": 11,
+      "left": "Checklist before",
+      "right": "out."
+    },
+    {
+      "i": 12,
+      "left": "Sun",
+      "right": "safety."
+    }
+  ],
+  "E-Z24": [
+    {
+      "i": 1,
+      "left": "Scraped knee!",
+      "right": "Tell adult."
+    },
+    {
+      "i": 2,
+      "left": "Pain is a",
+      "right": "message."
+    },
+    {
+      "i": 3,
+      "left": "Small scrapes",
+      "right": "need care."
+    },
+    {
+      "i": 4,
+      "left": "Big hurts need",
+      "right": "fast help."
+    },
+    {
+      "i": 5,
+      "left": "Truth is",
+      "right": "okay."
+    },
+    {
+      "i": 6,
+      "left": "Point and use",
+      "right": "words."
+    },
+    {
+      "i": 7,
+      "left": "Ice bandage",
+      "right": "adults."
+    },
+    {
+      "i": 8,
+      "left": "Feelings can",
+      "right": "hurt too."
+    },
+    {
+      "i": 9,
+      "left": "Teachers help",
+      "right": "also."
+    },
+    {
+      "i": 10,
+      "left": "Early tell,",
+      "right": "faster care."
+    },
+    {
+      "i": 11,
+      "left": "Practice sentences",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Body",
+      "right": "safety."
+    }
   ]
 }
