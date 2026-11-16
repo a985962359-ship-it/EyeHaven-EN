@@ -648,6 +648,7 @@ private struct CatalogStoryBrowser: View {
                     )
 
                     if onComicPage, let story = previewStory {
+                        ComicBubbleTapHint(storyID: story.id)
                         MiniPlayerDock(boundStory: story, queue: stories)
                             .padding(.top, 4)
                     }
@@ -687,12 +688,19 @@ private struct CatalogStoryBrowser: View {
     ) -> some View {
         LoopingPageTabView(pageCount: pageCount, selection: $comicPage) { index in
             if urls.indices.contains(index) {
-                ComicZoomableImage(
-                    urls: urls,
-                    displayIndex: index,
-                    pageIndex: $comicPage,
-                    cornerRadius: 16
-                )
+                ZStack {
+                    ComicZoomableImage(
+                        urls: urls,
+                        displayIndex: index,
+                        pageIndex: $comicPage,
+                        cornerRadius: 16
+                    )
+                    ComicBubbleTapOverlay(
+                        storyID: story.id,
+                        pageIndex: index
+                    )
+                    .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+                }
                 .padding(8)
             } else {
                 ScrollView {
@@ -1054,15 +1062,12 @@ struct BedtimeStoryPage: View {
                             pageIndex: $comicPage,
                             cornerRadius: 14
                         )
-                        // 试做 E-A01：点对话框里的单词朗读（盖在气泡上，好点）
-                        if ComicSentenceSpeaker.isEnabled(for: displayedStory.id) {
-                            ComicBubbleWordOverlay(
-                                storyID: displayedStory.id,
-                                pageIndex: index,
-                                imageURL: comicURLs[index]
-                            )
-                            .clipShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
-                        }
+                        // 试做 E-A01：点左/右整块对话框朗读整句
+                        ComicBubbleTapOverlay(
+                            storyID: displayedStory.id,
+                            pageIndex: index
+                        )
+                        .clipShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
                     }
                 }
             }
