@@ -3594,5 +3594,501 @@
       "left": "Sparkle",
       "right": "science."
     }
+  ],
+  "E-A23": [
+    {
+      "i": 1,
+      "left": "Upside down?",
+      "right": "Why hang?"
+    },
+    {
+      "i": 2,
+      "left": "Feet lock",
+      "right": "easy rest."
+    },
+    {
+      "i": 3,
+      "left": "Built to",
+      "right": "dangle."
+    },
+    {
+      "i": 4,
+      "left": "Drop then",
+      "right": "open wings."
+    },
+    {
+      "i": 5,
+      "left": "Ground takeoff",
+      "right": "is hard."
+    },
+    {
+      "i": 6,
+      "left": "Quiet roosts",
+      "right": "are beds."
+    },
+    {
+      "i": 7,
+      "left": "High hang,",
+      "right": "safer."
+    },
+    {
+      "i": 8,
+      "left": "Day rest,",
+      "right": "night hunt."
+    },
+    {
+      "i": 9,
+      "left": "Clicks find",
+      "right": "food."
+    },
+    {
+      "i": 10,
+      "left": "Bat helpers",
+      "right": "eat pests."
+    },
+    {
+      "i": 11,
+      "left": "Watch soft—",
+      "right": "don't poke."
+    },
+    {
+      "i": 12,
+      "left": "Lock, drop,",
+      "right": "fly."
+    }
+  ],
+  "E-A24": [
+    {
+      "i": 1,
+      "left": "Flash stripes!",
+      "right": "Why?"
+    },
+    {
+      "i": 2,
+      "left": "Many helpful",
+      "right": "ideas."
+    },
+    {
+      "i": 3,
+      "left": "Confuse",
+      "right": "biting flies."
+    },
+    {
+      "i": 4,
+      "left": "Harder to",
+      "right": "land."
+    },
+    {
+      "i": 5,
+      "left": "Herd blur",
+      "right": "edges."
+    },
+    {
+      "i": 6,
+      "left": "Hunter may",
+      "right": "pause."
+    },
+    {
+      "i": 7,
+      "left": "Family stripe",
+      "right": "maps."
+    },
+    {
+      "i": 8,
+      "left": "Each pattern",
+      "right": "unique."
+    },
+    {
+      "i": 9,
+      "left": "Grassland",
+      "right": "motion."
+    },
+    {
+      "i": 10,
+      "left": "Space water",
+      "right": "calm."
+    },
+    {
+      "i": 11,
+      "left": "Don't chase—",
+      "right": "learn soft."
+    },
+    {
+      "i": 12,
+      "left": "Stripes still",
+      "right": "puzzle."
+    }
+  ],
+  "E-A25": [
+    {
+      "i": 1,
+      "left": "Bounce!",
+      "right": "Why hop?"
+    },
+    {
+      "i": 2,
+      "left": "Strong legs,",
+      "right": "big feet."
+    },
+    {
+      "i": 3,
+      "left": "Energy like",
+      "right": "a pogo."
+    },
+    {
+      "i": 4,
+      "left": "Tendons snap",
+      "right": "back."
+    },
+    {
+      "i": 5,
+      "left": "Saves energy",
+      "right": "traveling."
+    },
+    {
+      "i": 6,
+      "left": "Tail helps",
+      "right": "balance."
+    },
+    {
+      "i": 7,
+      "left": "Paws free",
+      "right": "for tasks."
+    },
+    {
+      "i": 8,
+      "left": "Joey rides",
+      "right": "in pouch."
+    },
+    {
+      "i": 9,
+      "left": "Sizes hop",
+      "right": "differently."
+    },
+    {
+      "i": 10,
+      "left": "Wide space—",
+      "right": "no chase."
+    },
+    {
+      "i": 11,
+      "left": "Cheer from",
+      "right": "afar."
+    },
+    {
+      "i": 12,
+      "left": "Legs spring",
+      "right": "tail."
+    }
+  ],
+  "E-A26": [
+    {
+      "i": 1,
+      "left": "Clicks?",
+      "right": "Why noisy?"
+    },
+    {
+      "i": 2,
+      "left": "Sound talks",
+      "right": "to friends."
+    },
+    {
+      "i": 3,
+      "left": "Whistles like",
+      "right": "names."
+    },
+    {
+      "i": 4,
+      "left": "Clicks bounce",
+      "right": "echo maps."
+    },
+    {
+      "i": 5,
+      "left": "See with",
+      "right": "sound."
+    },
+    {
+      "i": 6,
+      "left": "Murky water?",
+      "right": "Ears lead."
+    },
+    {
+      "i": 7,
+      "left": "Pods chat",
+      "right": "nearby."
+    },
+    {
+      "i": 8,
+      "left": "Play leaps,",
+      "right": "happy sounds."
+    },
+    {
+      "i": 9,
+      "left": "Listen soft,",
+      "right": "don't chase."
+    },
+    {
+      "i": 10,
+      "left": "Calm seas,",
+      "right": "space."
+    },
+    {
+      "i": 11,
+      "left": "Learn with",
+      "right": "grown-ups."
+    },
+    {
+      "i": 12,
+      "left": "Ocean friends",
+      "right": "speak."
+    }
+  ],
+  "E-A27": [
+    {
+      "i": 1,
+      "left": "Tiny lights!",
+      "right": "Why glow?"
+    },
+    {
+      "i": 2,
+      "left": "Chemical soft",
+      "right": "reaction."
+    },
+    {
+      "i": 3,
+      "left": "Cold light,",
+      "right": "little heat."
+    },
+    {
+      "i": 4,
+      "left": "Blink codes",
+      "right": "find friends."
+    },
+    {
+      "i": 5,
+      "left": "Hello or",
+      "right": "my spot."
+    },
+    {
+      "i": 6,
+      "left": "Larvae may",
+      "right": "glow too."
+    },
+    {
+      "i": 7,
+      "left": "Warm damp",
+      "right": "evenings."
+    },
+    {
+      "i": 8,
+      "left": "Dark helps",
+      "right": "messages."
+    },
+    {
+      "i": 9,
+      "left": "Cup gently,",
+      "right": "let go."
+    },
+    {
+      "i": 10,
+      "left": "No spray",
+      "right": "near them."
+    },
+    {
+      "i": 11,
+      "left": "Count flashes",
+      "right": "science."
+    },
+    {
+      "i": 12,
+      "left": "Backyard",
+      "right": "star bugs."
+    }
+  ],
+  "E-A28": [
+    {
+      "i": 1,
+      "left": "Sideways?",
+      "right": "Why?"
+    },
+    {
+      "i": 2,
+      "left": "Joints swing",
+      "right": "sideways."
+    },
+    {
+      "i": 3,
+      "left": "Wide body,",
+      "right": "side steps."
+    },
+    {
+      "i": 4,
+      "left": "Dash into",
+      "right": "shelters."
+    },
+    {
+      "i": 5,
+      "left": "Forward ok,",
+      "right": "side smoother."
+    },
+    {
+      "i": 6,
+      "left": "Claws busy,",
+      "right": "legs travel."
+    },
+    {
+      "i": 7,
+      "left": "Tide pool",
+      "right": "traffic."
+    },
+    {
+      "i": 8,
+      "left": "Sand tracks",
+      "right": "side-dash."
+    },
+    {
+      "i": 9,
+      "left": "Give room—",
+      "right": "claws work."
+    },
+    {
+      "i": 10,
+      "left": "Don't yank",
+      "right": "homes."
+    },
+    {
+      "i": 11,
+      "left": "Look learn",
+      "right": "leave."
+    },
+    {
+      "i": 12,
+      "left": "Sideways =",
+      "right": "design."
+    }
+  ],
+  "E-A29": [
+    {
+      "i": 1,
+      "left": "Stick pile!",
+      "right": "Why dams?"
+    },
+    {
+      "i": 2,
+      "left": "Trees mud",
+      "right": "slow stream."
+    },
+    {
+      "i": 3,
+      "left": "Pond makes",
+      "right": "safe home."
+    },
+    {
+      "i": 4,
+      "left": "Deep water",
+      "right": "hides door."
+    },
+    {
+      "i": 5,
+      "left": "Underwater",
+      "right": "snack shelf."
+    },
+    {
+      "i": 6,
+      "left": "Other animals",
+      "right": "benefit."
+    },
+    {
+      "i": 7,
+      "left": "Orange-tooth",
+      "right": "engineers."
+    },
+    {
+      "i": 8,
+      "left": "Slap warns",
+      "right": "softly."
+    },
+    {
+      "i": 9,
+      "left": "Leave dams",
+      "right": "alone."
+    },
+    {
+      "i": 10,
+      "left": "Watch with",
+      "right": "grown-ups."
+    },
+    {
+      "i": 11,
+      "left": "Builders teach",
+      "right": "plans."
+    },
+    {
+      "i": 12,
+      "left": "Beaver town",
+      "right": "planning."
+    }
+  ],
+  "E-A30": [
+    {
+      "i": 1,
+      "left": "Tongue flick?",
+      "right": "Why?"
+    },
+    {
+      "i": 2,
+      "left": "Smelling,",
+      "right": "not rude."
+    },
+    {
+      "i": 3,
+      "left": "Scent bits",
+      "right": "stick."
+    },
+    {
+      "i": 4,
+      "left": "Sensor reads",
+      "right": "smells."
+    },
+    {
+      "i": 5,
+      "left": "Maps prey",
+      "right": "and paths."
+    },
+    {
+      "i": 6,
+      "left": "Flick again",
+      "right": "for samples."
+    },
+    {
+      "i": 7,
+      "left": "Fork compares",
+      "right": "left right."
+    },
+    {
+      "i": 8,
+      "left": "Shy neighbors",
+      "right": "need space."
+    },
+    {
+      "i": 9,
+      "left": "Don't grab—",
+      "right": "tell grown-up."
+    },
+    {
+      "i": 10,
+      "left": "Learn from",
+      "right": "rangers."
+    },
+    {
+      "i": 11,
+      "left": "Curious ok,",
+      "right": "no touch."
+    },
+    {
+      "i": 12,
+      "left": "Tongues that",
+      "right": "smell."
+    }
   ]
 }
