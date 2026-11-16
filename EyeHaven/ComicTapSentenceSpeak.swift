@@ -95,7 +95,7 @@ enum ComicBubbleWordsCatalog {
     }
 }
 
-/// 点左/右整块对话框区域 → 朗读该泡整句。大热区，不依赖气泡检测。
+/// 只在左右对话气泡角上放小喇叭；不盖白框、不盖文字。
 struct ComicBubbleTapOverlay: View {
     let storyID: String
     let pageIndex: Int
@@ -111,50 +111,71 @@ struct ComicBubbleTapOverlay: View {
             GeometryReader { geo in
                 let w = geo.size.width
                 let h = geo.size.height
-                // 覆盖插图上半左右（对话框常见位置），热区够大孩子好点
-                let bubbleH = max(72, h * 0.34)
-                HStack(spacing: 8) {
-                    bubbleButton(phrases.left, width: (w - 8) / 2, height: bubbleH)
-                    bubbleButton(phrases.right, width: (w - 8) / 2, height: bubbleH)
+                // 热区对齐常见气泡位置：上半左右；视觉只有角落小喇叭
+                let zoneW = w * 0.42
+                let zoneH = max(64, h * 0.30)
+                let topPad = h * 0.04
+                let sidePad = w * 0.04
+
+                ZStack(alignment: .topLeading) {
+                    speakerHotspot(
+                        text: phrases.left,
+                        width: zoneW,
+                        height: zoneH,
+                        iconCorner: .topTrailing
+                    )
+                    .offset(x: sidePad, y: topPad)
+
+                    speakerHotspot(
+                        text: phrases.right,
+                        width: zoneW,
+                        height: zoneH,
+                        iconCorner: .topLeading
+                    )
+                    .offset(x: w - sidePad - zoneW, y: topPad)
                 }
-                .padding(.horizontal, 6)
-                .padding(.top, 6)
-                .frame(width: w, height: h, alignment: .top)
+                .frame(width: w, height: h, alignment: .topLeading)
             }
             .allowsHitTesting(true)
         }
     }
 
-    private func bubbleButton(_ text: String, width: CGFloat, height: CGFloat) -> some View {
+    private enum IconCorner {
+        case topLeading, topTrailing
+    }
+
+    private func speakerHotspot(
+        text: String,
+        width: CGFloat,
+        height: CGFloat,
+        iconCorner: IconCorner
+    ) -> some View {
         let active = speaker.speakingText == text
         return Button {
             speaker.speakPhrase(text)
         } label: {
-            VStack(spacing: 6) {
-                Image(systemName: active ? "speaker.wave.2.fill" : "speaker.wave.2")
-                    .font(.title2.weight(.bold))
-                Text(text)
-                    .font(HavenLayout.isPad ? .title3.weight(.bold) : .subheadline.weight(.bold))
-                    .multilineTextAlignment(.center)
-                    .lineLimit(3)
-                    .minimumScaleFactor(0.7)
+            ZStack(alignment: iconCorner == .topLeading ? .topLeading : .topTrailing) {
+                Color.clear
+                    .frame(width: width, height: height)
+                    .contentShape(Rectangle())
+
+                Image(systemName: active ? "speaker.wave.2.fill" : "speaker.wave.2.fill")
+                    .font(.system(size: HavenLayout.isPad ? 18 : 15, weight: .bold))
+                    .foregroundStyle(active ? Palette.moss : Palette.pine.opacity(0.85))
+                    .padding(6)
+                    .background(
+                        Circle()
+                            .fill(Color.white.opacity(active ? 0.92 : 0.78))
+                    )
+                    .shadow(color: Palette.pine.opacity(0.18), radius: 2, y: 1)
+                    .padding(8)
+                    .scaleEffect(active ? 1.12 : 1.0)
+                    .animation(.easeInOut(duration: 0.15), value: active)
             }
-            .foregroundStyle(Palette.pine)
-            .padding(10)
-            .frame(width: width, height: height)
-            .background(
-                RoundedRectangle(cornerRadius: 20, style: .continuous)
-                    .fill(active ? Palette.sage.opacity(0.92) : Color.white.opacity(0.88))
-            )
-            .overlay(
-                RoundedRectangle(cornerRadius: 20, style: .continuous)
-                    .strokeBorder(active ? Palette.moss : Palette.moss.opacity(0.55), lineWidth: active ? 3 : 2)
-            )
-            .shadow(color: Palette.pine.opacity(0.12), radius: 4, y: 2)
         }
         .buttonStyle(.plain)
-        .accessibilityLabel("Speech bubble: \(text)")
-        .accessibilityHint("Tap to hear this bubble")
+        .accessibilityLabel("Hear: \(text)")
+        .accessibilityHint("Tap the speaker in the speech bubble")
     }
 }
 
@@ -163,7 +184,7 @@ struct ComicBubbleTapHint: View {
 
     var body: some View {
         if ComicSentenceSpeaker.isEnabled(for: storyID) {
-            Text("点上面白色对话框可以听 · Tap a speech bubble to hear it")
+            Text("点气泡里小喇叭可以听 · Tap the speaker in a bubble")
                 .font(.caption.weight(.bold))
                 .foregroundStyle(Palette.moss)
                 .frame(maxWidth: .infinity, alignment: .leading)
