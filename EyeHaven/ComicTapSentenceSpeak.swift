@@ -109,73 +109,56 @@ struct ComicBubbleTapOverlay: View {
     var body: some View {
         if ComicSentenceSpeaker.isEnabled(for: storyID), let phrases {
             GeometryReader { geo in
-                let w = geo.size.width
-                let h = geo.size.height
-                // 热区对齐常见气泡位置：上半左右；视觉只有角落小喇叭
-                let zoneW = w * 0.42
-                let zoneH = max(64, h * 0.30)
-                let topPad = h * 0.04
-                let sidePad = w * 0.04
+                let pad: CGFloat = HavenLayout.isPad ? 10 : 8
+                ZStack {
+                    // 左上角：左气泡
+                    VStack {
+                        HStack {
+                            cornerSpeaker(phrases.left)
+                            Spacer(minLength: 0)
+                        }
+                        Spacer(minLength: 0)
+                    }
+                    .padding(pad)
 
-                ZStack(alignment: .topLeading) {
-                    speakerHotspot(
-                        text: phrases.left,
-                        width: zoneW,
-                        height: zoneH,
-                        iconCorner: .topTrailing
-                    )
-                    .offset(x: sidePad, y: topPad)
-
-                    speakerHotspot(
-                        text: phrases.right,
-                        width: zoneW,
-                        height: zoneH,
-                        iconCorner: .topLeading
-                    )
-                    .offset(x: w - sidePad - zoneW, y: topPad)
+                    // 右上角：右气泡
+                    VStack {
+                        HStack {
+                            Spacer(minLength: 0)
+                            cornerSpeaker(phrases.right)
+                        }
+                        Spacer(minLength: 0)
+                    }
+                    .padding(pad)
                 }
-                .frame(width: w, height: h, alignment: .topLeading)
+                .frame(width: geo.size.width, height: geo.size.height)
             }
             .allowsHitTesting(true)
         }
     }
 
-    private enum IconCorner {
-        case topLeading, topTrailing
-    }
-
-    private func speakerHotspot(
-        text: String,
-        width: CGFloat,
-        height: CGFloat,
-        iconCorner: IconCorner
-    ) -> some View {
+    private func cornerSpeaker(_ text: String) -> some View {
         let active = speaker.speakingText == text
+        let size: CGFloat = HavenLayout.isPad ? 44 : 38
         return Button {
             speaker.speakPhrase(text)
         } label: {
-            ZStack(alignment: iconCorner == .topLeading ? .topLeading : .topTrailing) {
-                Color.clear
-                    .frame(width: width, height: height)
-                    .contentShape(Rectangle())
-
-                Image(systemName: active ? "speaker.wave.2.fill" : "speaker.wave.2.fill")
-                    .font(.system(size: HavenLayout.isPad ? 18 : 15, weight: .bold))
-                    .foregroundStyle(active ? Palette.moss : Palette.pine.opacity(0.85))
-                    .padding(6)
-                    .background(
-                        Circle()
-                            .fill(Color.white.opacity(active ? 0.92 : 0.78))
-                    )
-                    .shadow(color: Palette.pine.opacity(0.18), radius: 2, y: 1)
-                    .padding(8)
-                    .scaleEffect(active ? 1.12 : 1.0)
-                    .animation(.easeInOut(duration: 0.15), value: active)
-            }
+            Image(systemName: "speaker.wave.2.fill")
+                .font(.system(size: HavenLayout.isPad ? 18 : 15, weight: .bold))
+                .foregroundStyle(active ? Palette.moss : Palette.pine.opacity(0.9))
+                .frame(width: size, height: size)
+                .background(
+                    Circle()
+                        .fill(Color.white.opacity(active ? 0.95 : 0.82))
+                )
+                .shadow(color: Palette.pine.opacity(0.2), radius: 2, y: 1)
+                .scaleEffect(active ? 1.1 : 1.0)
+                .animation(.easeInOut(duration: 0.15), value: active)
+                .contentShape(Circle())
         }
         .buttonStyle(.plain)
         .accessibilityLabel("Hear: \(text)")
-        .accessibilityHint("Tap the speaker in the speech bubble")
+        .accessibilityHint("Tap the speaker")
     }
 }
 
@@ -184,7 +167,7 @@ struct ComicBubbleTapHint: View {
 
     var body: some View {
         if ComicSentenceSpeaker.isEnabled(for: storyID) {
-            Text("点气泡里小喇叭可以听 · Tap the speaker in a bubble")
+            Text("点左上角/右上角小喇叭可以听 · Tap the corner speakers")
                 .font(.caption.weight(.bold))
                 .foregroundStyle(Palette.moss)
                 .frame(maxWidth: .infinity, alignment: .leading)
