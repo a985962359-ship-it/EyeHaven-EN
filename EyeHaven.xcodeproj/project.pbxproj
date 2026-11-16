@@ -45,6 +45,7 @@
 		A10000000000000000000094 /* ParentalGateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000095 /* ParentalGateView.swift */; };
 		A10000000000000000000096 /* BedtimeContentCatalog.en.json in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000097 /* BedtimeContentCatalog.en.json */; };
 		A10000000000000000000099 /* ComicTapSentenceSpeak.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000098 /* ComicTapSentenceSpeak.swift */; };
+		A1000000000000000000009B /* ComicBubbleWords.en.json in Resources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000009A /* ComicBubbleWords.en.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +89,7 @@
 		A10000000000000000000095 /* ParentalGateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentalGateView.swift; sourceTree = "<group>"; };
 		A10000000000000000000097 /* BedtimeContentCatalog.en.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = BedtimeContentCatalog.en.json; sourceTree = "<group>"; };
 		A10000000000000000000098 /* ComicTapSentenceSpeak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicTapSentenceSpeak.swift; sourceTree = "<group>"; };
+		A1000000000000000000009A /* ComicBubbleWords.en.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ComicBubbleWords.en.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 				A10000000000000000000095 /* ParentalGateView.swift */,
 				A10000000000000000000091 /* ComicImageCache.swift */,
 				A10000000000000000000098 /* ComicTapSentenceSpeak.swift */,
+				A1000000000000000000009A /* ComicBubbleWords.en.json */,
 				A1000000000000000000006E /* Products.storekit */,
 				A10000000000000000000047 /* BedtimeAudioBundle */,
 				A10000000000000000000049 /* BedtimeComics */,
@@ -225,6 +228,7 @@
 				A10000000000000000000017 /* Assets.xcassets in Resources */,
 				A1000000000000000000005A /* BedtimeContentCatalog.json in Resources */,
 				A10000000000000000000096 /* BedtimeContentCatalog.en.json in Resources */,
+				A1000000000000000000009B /* ComicBubbleWords.en.json in Resources */,
 				A1000000000000000000004A /* BedtimeAudioManifest.json in Resources */,
 				A100000000000000000000A6 /* BedtimeAudioManifest.en.json in Resources */,
 				A10000000000000000000046 /* BedtimeAudioBundle in Resources */,
