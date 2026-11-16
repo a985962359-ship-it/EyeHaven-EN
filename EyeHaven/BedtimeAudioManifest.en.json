@@ -249,5 +249,29 @@
   "E-H04": {
     "body": "E-H04.mp3",
     "title": "Titles/E-H04.mp3"
+  },
+  "E-S02": {
+    "body": "E-S02.mp3",
+    "title": "Titles/E-S02.mp3"
+  },
+  "E-S03": {
+    "body": "E-S03.mp3",
+    "title": "Titles/E-S03.mp3"
+  },
+  "E-S04": {
+    "body": "E-S04.mp3",
+    "title": "Titles/E-S04.mp3"
+  },
+  "E-S05": {
+    "body": "E-S05.mp3",
+    "title": "Titles/E-S05.mp3"
+  },
+  "E-Y03": {
+    "body": "E-Y03.mp3",
+    "title": "Titles/E-Y03.mp3"
+  },
+  "E-Y05": {
+    "body": "E-Y05.mp3",
+    "title": "Titles/E-Y05.mp3"
   }
 }
