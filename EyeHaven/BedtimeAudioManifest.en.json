@@ -273,5 +273,49 @@
   "E-Y05": {
     "body": "E-Y05.mp3",
     "title": "Titles/E-Y05.mp3"
+  },
+  "E-Y01": {
+    "body": "E-Y01.mp3",
+    "title": "Titles/E-Y01.mp3"
+  },
+  "E-Y02": {
+    "body": "E-Y02.mp3",
+    "title": "Titles/E-Y02.mp3"
+  },
+  "E-E03": {
+    "body": "E-E03.mp3",
+    "title": "Titles/E-E03.mp3"
+  },
+  "E-E04": {
+    "body": "E-E04.mp3",
+    "title": "Titles/E-E04.mp3"
+  },
+  "E-E05": {
+    "body": "E-E05.mp3",
+    "title": "Titles/E-E05.mp3"
+  },
+  "E-Z02": {
+    "body": "E-Z02.mp3",
+    "title": "Titles/E-Z02.mp3"
+  },
+  "E-Z03": {
+    "body": "E-Z03.mp3",
+    "title": "Titles/E-Z03.mp3"
+  },
+  "E-Z04": {
+    "body": "E-Z04.mp3",
+    "title": "Titles/E-Z04.mp3"
+  },
+  "E-Z05": {
+    "body": "E-Z05.mp3",
+    "title": "Titles/E-Z05.mp3"
+  },
+  "E-E01": {
+    "body": "E-E01.mp3",
+    "title": "Titles/E-E01.mp3"
+  },
+  "E-E02": {
+    "body": "E-E02.mp3",
+    "title": "Titles/E-E02.mp3"
   }
 }
