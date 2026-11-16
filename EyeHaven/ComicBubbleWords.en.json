@@ -10538,5 +10538,501 @@
       "left": "Breath",
       "right": "science."
     }
+  ],
+  "E-E06": [
+    {
+      "i": 1,
+      "left": "Weed tug!",
+      "right": "Need roots?"
+    },
+    {
+      "i": 2,
+      "left": "Roots drink",
+      "right": "from soil."
+    },
+    {
+      "i": 3,
+      "left": "They anchor",
+      "right": "in wind."
+    },
+    {
+      "i": 4,
+      "left": "Tiny hairs",
+      "right": "help drink."
+    },
+    {
+      "i": 5,
+      "left": "Some store",
+      "right": "food."
+    },
+    {
+      "i": 6,
+      "left": "Fungi can",
+      "right": "partner."
+    },
+    {
+      "i": 7,
+      "left": "Deep and wide",
+      "right": "roots."
+    },
+    {
+      "i": 8,
+      "left": "Ask before",
+      "right": "cutting."
+    },
+    {
+      "i": 9,
+      "left": "Leaves feed",
+      "right": "soil."
+    },
+    {
+      "i": 10,
+      "left": "Quiet underground",
+      "right": "helpers."
+    },
+    {
+      "i": 11,
+      "left": "Feel soil",
+      "right": "gently."
+    },
+    {
+      "i": 12,
+      "left": "Root",
+      "right": "science."
+    }
+  ],
+  "E-E07": [
+    {
+      "i": 1,
+      "left": "Two bins!",
+      "right": "Why recycle?"
+    },
+    {
+      "i": 2,
+      "left": "Used stuff gets",
+      "right": "new jobs."
+    },
+    {
+      "i": 3,
+      "left": "Can save",
+      "right": "energy."
+    },
+    {
+      "i": 4,
+      "left": "Less landfill",
+      "right": "trash."
+    },
+    {
+      "i": 5,
+      "left": "Clean dry",
+      "right": "helps."
+    },
+    {
+      "i": 6,
+      "left": "Check labels",
+      "right": "first."
+    },
+    {
+      "i": 7,
+      "left": "Reuse jars",
+      "right": "bags."
+    },
+    {
+      "i": 8,
+      "left": "Reduce waste",
+      "right": "too."
+    },
+    {
+      "i": 9,
+      "left": "Teamwork",
+      "right": "everywhere."
+    },
+    {
+      "i": 10,
+      "left": "Old to new",
+      "right": "less waste."
+    },
+    {
+      "i": 11,
+      "left": "Sort a pile",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Earth care",
+      "right": "science."
+    }
+  ],
+  "E-E08": [
+    {
+      "i": 1,
+      "left": "Tall peaks!",
+      "right": "How grow?"
+    },
+    {
+      "i": 2,
+      "left": "Crust has",
+      "right": "moving plates."
+    },
+    {
+      "i": 3,
+      "left": "Plates push;",
+      "right": "rock folds up."
+    },
+    {
+      "i": 4,
+      "left": "Magma can",
+      "right": "lift land."
+    },
+    {
+      "i": 5,
+      "left": "Blocks tilt",
+      "right": "and lift."
+    },
+    {
+      "i": 6,
+      "left": "Rain ice",
+      "right": "carve."
+    },
+    {
+      "i": 7,
+      "left": "Takes quiet",
+      "right": "years."
+    },
+    {
+      "i": 8,
+      "left": "Trails show",
+      "right": "rock layers."
+    },
+    {
+      "i": 9,
+      "left": "Hike with",
+      "right": "grown-ups."
+    },
+    {
+      "i": 10,
+      "left": "Push lift",
+      "right": "carve."
+    },
+    {
+      "i": 11,
+      "left": "Trace ridges",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Mountain",
+      "right": "science."
+    }
+  ],
+  "E-E09": [
+    {
+      "i": 1,
+      "left": "Stone leaf!",
+      "right": "A fossil?"
+    },
+    {
+      "i": 2,
+      "left": "Traces of",
+      "right": "ancient life."
+    },
+    {
+      "i": 3,
+      "left": "Bones shells",
+      "right": "footprints."
+    },
+    {
+      "i": 4,
+      "left": "Mud can bury",
+      "right": "remains."
+    },
+    {
+      "i": 5,
+      "left": "Minerals replace",
+      "right": "slowly."
+    },
+    {
+      "i": 6,
+      "left": "Teach who lived",
+      "right": "before."
+    },
+    {
+      "i": 7,
+      "left": "Museums help",
+      "right": "tell."
+    },
+    {
+      "i": 8,
+      "left": "No protected",
+      "right": "digs."
+    },
+    {
+      "i": 9,
+      "left": "Draw finds",
+      "right": "kindly."
+    },
+    {
+      "i": 10,
+      "left": "Life stories",
+      "right": "in stone."
+    },
+    {
+      "i": 11,
+      "left": "Visit exhibit",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Fossil",
+      "right": "science."
+    }
+  ],
+  "E-E10": [
+    {
+      "i": 1,
+      "left": "Winding river!",
+      "right": "Why curves?"
+    },
+    {
+      "i": 2,
+      "left": "Water seeks",
+      "right": "easy paths."
+    },
+    {
+      "i": 3,
+      "left": "Outer bend",
+      "right": "digs more."
+    },
+    {
+      "i": 4,
+      "left": "Inner bend",
+      "right": "gets sand."
+    },
+    {
+      "i": 5,
+      "left": "Loops grow",
+      "right": "over time."
+    },
+    {
+      "i": 6,
+      "left": "Called",
+      "right": "meanders."
+    },
+    {
+      "i": 7,
+      "left": "Floods reshape",
+      "right": "bends."
+    },
+    {
+      "i": 8,
+      "left": "Stay back from",
+      "right": "banks."
+    },
+    {
+      "i": 9,
+      "left": "Boats respect",
+      "right": "the path."
+    },
+    {
+      "i": 10,
+      "left": "Flow dig",
+      "right": "drop."
+    },
+    {
+      "i": 11,
+      "left": "Trace loops",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "River",
+      "right": "science."
+    }
+  ],
+  "E-E11": [
+    {
+      "i": 1,
+      "left": "Garden dig!",
+      "right": "What soil?"
+    },
+    {
+      "i": 2,
+      "left": "Rock air water",
+      "right": "living bits."
+    },
+    {
+      "i": 3,
+      "left": "Creatures keep",
+      "right": "it lively."
+    },
+    {
+      "i": 4,
+      "left": "Leaves become",
+      "right": "humus."
+    },
+    {
+      "i": 5,
+      "left": "Sand drains;",
+      "right": "clay holds."
+    },
+    {
+      "i": 6,
+      "left": "Healthy soil",
+      "right": "grows food."
+    },
+    {
+      "i": 7,
+      "left": "Heavy steps",
+      "right": "hurt roots."
+    },
+    {
+      "i": 8,
+      "left": "Mulch compost",
+      "right": "feed."
+    },
+    {
+      "i": 9,
+      "left": "Wash hands",
+      "right": "after."
+    },
+    {
+      "i": 10,
+      "left": "Rock life",
+      "right": "water."
+    },
+    {
+      "i": 11,
+      "left": "Feel sand clay",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Soil",
+      "right": "science."
+    }
+  ],
+  "E-E12": [
+    {
+      "i": 1,
+      "left": "Sun then dark!",
+      "right": "Why?"
+    },
+    {
+      "i": 2,
+      "left": "Earth spins",
+      "right": "once a day."
+    },
+    {
+      "i": 3,
+      "left": "Facing Sun =",
+      "right": "daylight."
+    },
+    {
+      "i": 4,
+      "left": "Turned away =",
+      "right": "night."
+    },
+    {
+      "i": 5,
+      "left": "Sunrise sunset",
+      "right": "edges."
+    },
+    {
+      "i": 6,
+      "left": "We spin",
+      "right": "too."
+    },
+    {
+      "i": 7,
+      "left": "Globe lamp",
+      "right": "shows it."
+    },
+    {
+      "i": 8,
+      "left": "Clocks help",
+      "right": "meet day."
+    },
+    {
+      "i": 9,
+      "left": "Sleep fits",
+      "right": "night."
+    },
+    {
+      "i": 10,
+      "left": "Spin light",
+      "right": "dark."
+    },
+    {
+      "i": 11,
+      "left": "Lamp demo",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Day-night",
+      "right": "science."
+    }
+  ],
+  "E-E13": [
+    {
+      "i": 1,
+      "left": "Cave picture!",
+      "right": "How form?"
+    },
+    {
+      "i": 2,
+      "left": "Water dissolves",
+      "right": "rock slowly."
+    },
+    {
+      "i": 3,
+      "left": "Limestone gets",
+      "right": "nibbled."
+    },
+    {
+      "i": 4,
+      "left": "Cracks become",
+      "right": "rooms."
+    },
+    {
+      "i": 5,
+      "left": "Drips build",
+      "right": "stone icicles."
+    },
+    {
+      "i": 6,
+      "left": "Lava tubes",
+      "right": "too."
+    },
+    {
+      "i": 7,
+      "left": "Waves carve",
+      "right": "sea caves."
+    },
+    {
+      "i": 8,
+      "left": "Explore with",
+      "right": "trained adults."
+    },
+    {
+      "i": 9,
+      "left": "Helmet light",
+      "right": "buddy."
+    },
+    {
+      "i": 10,
+      "left": "Water time",
+      "right": "rock."
+    },
+    {
+      "i": 11,
+      "left": "Cave photos",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Cave",
+      "right": "science."
+    }
   ]
 }
