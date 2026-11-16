@@ -1548,5 +1548,1059 @@
       "left": "Who rides?",
       "right": "Who dives?"
     }
+  ],
+  "E-S02": [
+    {
+      "i": 1,
+      "left": "Stars wink!",
+      "right": "On purpose?"
+    },
+    {
+      "i": 2,
+      "left": "Light travels",
+      "right": "so far."
+    },
+    {
+      "i": 3,
+      "left": "Through moving",
+      "right": "air layers."
+    },
+    {
+      "i": 4,
+      "left": "Air bends",
+      "right": "light a bit."
+    },
+    {
+      "i": 5,
+      "left": "Looks like",
+      "right": "a wink."
+    },
+    {
+      "i": 6,
+      "left": "Planets look",
+      "right": "steadier."
+    },
+    {
+      "i": 7,
+      "left": "Air does it—",
+      "right": "not a switch."
+    },
+    {
+      "i": 8,
+      "left": "Still night,",
+      "right": "softer wink."
+    },
+    {
+      "i": 9,
+      "left": "City haze,",
+      "right": "busier."
+    },
+    {
+      "i": 10,
+      "left": "Above air,",
+      "right": "steady."
+    },
+    {
+      "i": 11,
+      "left": "Light + sky",
+      "right": "twinkle."
+    },
+    {
+      "i": 12,
+      "left": "Watch one",
+      "right": "gentle wink."
+    }
+  ],
+  "E-S03": [
+    {
+      "i": 1,
+      "left": "So bright!",
+      "right": "Ow!"
+    },
+    {
+      "i": 2,
+      "left": "Closest star",
+      "right": "to us."
+    },
+    {
+      "i": 3,
+      "left": "Hot gases,",
+      "right": "huge energy."
+    },
+    {
+      "i": 4,
+      "left": "Light races",
+      "right": "outward."
+    },
+    {
+      "i": 5,
+      "left": "Earth catches",
+      "right": "a tiny share."
+    },
+    {
+      "i": 6,
+      "left": "Still lights",
+      "right": "our day."
+    },
+    {
+      "i": 7,
+      "left": "Never stare",
+      "right": "at the Sun."
+    },
+    {
+      "i": 8,
+      "left": "Shade, hat,",
+      "right": "side glances."
+    },
+    {
+      "i": 9,
+      "left": "Long path,",
+      "right": "sunset glow."
+    },
+    {
+      "i": 10,
+      "left": "We turn away—",
+      "right": "night."
+    },
+    {
+      "i": 11,
+      "left": "Huge star,",
+      "right": "not small."
+    },
+    {
+      "i": 12,
+      "left": "Safe soft",
+      "right": "light—yay!"
+    }
+  ],
+  "E-S04": [
+    {
+      "i": 1,
+      "left": "Clap…",
+      "right": "Silence!"
+    },
+    {
+      "i": 2,
+      "left": "Sound needs",
+      "right": "a path."
+    },
+    {
+      "i": 3,
+      "left": "Air, water,",
+      "right": "or solids."
+    },
+    {
+      "i": 4,
+      "left": "Pushes make",
+      "right": "a wave."
+    },
+    {
+      "i": 5,
+      "left": "Space is",
+      "right": "mostly empty."
+    },
+    {
+      "i": 6,
+      "left": "No air,",
+      "right": "no wave path."
+    },
+    {
+      "i": 7,
+      "left": "Stories feel",
+      "right": "so quiet."
+    },
+    {
+      "i": 8,
+      "left": "Ship air =",
+      "right": "voices work."
+    },
+    {
+      "i": 9,
+      "left": "Earth air =",
+      "right": "sound highway."
+    },
+    {
+      "i": 10,
+      "left": "Less air,",
+      "right": "quieter bell."
+    },
+    {
+      "i": 11,
+      "left": "No highway,",
+      "right": "no clap-sound."
+    },
+    {
+      "i": 12,
+      "left": "Quiet space,",
+      "right": "noisy Earth."
+    }
+  ],
+  "E-S05": [
+    {
+      "i": 1,
+      "left": "Toy rocket.",
+      "right": "Where's whoosh?"
+    },
+    {
+      "i": 2,
+      "left": "Hot gas",
+      "right": "blasts down."
+    },
+    {
+      "i": 3,
+      "left": "Push one way,",
+      "right": "go the other."
+    },
+    {
+      "i": 4,
+      "left": "That's how",
+      "right": "rockets climb."
+    },
+    {
+      "i": 5,
+      "left": "Flame makes",
+      "right": "fast gas."
+    },
+    {
+      "i": 6,
+      "left": "Energy →",
+      "right": "strong push."
+    },
+    {
+      "i": 7,
+      "left": "No road",
+      "right": "in space."
+    },
+    {
+      "i": 8,
+      "left": "Rockets don't",
+      "right": "need wings."
+    },
+    {
+      "i": 9,
+      "left": "Real launch =",
+      "right": "grown-ups."
+    },
+    {
+      "i": 10,
+      "left": "No real fire",
+      "right": "for play!"
+    },
+    {
+      "i": 11,
+      "left": "Gas back,",
+      "right": "rocket up."
+    },
+    {
+      "i": 12,
+      "left": "Push down,",
+      "right": "rise up!"
+    }
+  ],
+  "E-Y01": [
+    {
+      "i": 1,
+      "left": "Why green,",
+      "right": "not purple?"
+    },
+    {
+      "i": 2,
+      "left": "Meet helper:",
+      "right": "chlorophyll."
+    },
+    {
+      "i": 3,
+      "left": "Catches sun",
+      "right": "to make food."
+    },
+    {
+      "i": 4,
+      "left": "Reflects green",
+      "right": "to our eyes."
+    },
+    {
+      "i": 5,
+      "left": "Looks green",
+      "right": "while working."
+    },
+    {
+      "i": 6,
+      "left": "Other colors",
+      "right": "hide under."
+    },
+    {
+      "i": 7,
+      "left": "Fall greens",
+      "right": "fade—reds show."
+    },
+    {
+      "i": 8,
+      "left": "Needs water",
+      "right": "and light."
+    },
+    {
+      "i": 9,
+      "left": "Little sun,",
+      "right": "pale grass."
+    },
+    {
+      "i": 10,
+      "left": "Working color,",
+      "right": "not just pretty."
+    },
+    {
+      "i": 11,
+      "left": "Tiny solar",
+      "right": "kitchens!"
+    },
+    {
+      "i": 12,
+      "left": "Helpers busy—",
+      "right": "green yay!"
+    }
+  ],
+  "E-Y02": [
+    {
+      "i": 1,
+      "left": "Blech—salty!",
+      "right": "Why?"
+    },
+    {
+      "i": 2,
+      "left": "Rain hits",
+      "right": "rocks and soil."
+    },
+    {
+      "i": 3,
+      "left": "Picks up",
+      "right": "tiny minerals."
+    },
+    {
+      "i": 4,
+      "left": "Rivers carry",
+      "right": "bits to sea."
+    },
+    {
+      "i": 5,
+      "left": "Ocean collects",
+      "right": "minerals."
+    },
+    {
+      "i": 6,
+      "left": "Water leaves;",
+      "right": "salt stays."
+    },
+    {
+      "i": 7,
+      "left": "Long time →",
+      "right": "salty seas."
+    },
+    {
+      "i": 8,
+      "left": "Not every lake",
+      "right": "is that salty."
+    },
+    {
+      "i": 9,
+      "left": "Some seas",
+      "right": "even saltier."
+    },
+    {
+      "i": 10,
+      "left": "Salt traveled",
+      "right": "to the blue."
+    },
+    {
+      "i": 11,
+      "left": "Waves =",
+      "right": "science splash."
+    },
+    {
+      "i": 12,
+      "left": "Rinse hands",
+      "right": "after beach!"
+    }
+  ],
+  "E-Y03": [
+    {
+      "i": 1,
+      "left": "Chop—sniff!",
+      "right": "Onion tears!"
+    },
+    {
+      "i": 2,
+      "left": "Cutting breaks",
+      "right": "tiny cells."
+    },
+    {
+      "i": 3,
+      "left": "Sharp gases",
+      "right": "come out."
+    },
+    {
+      "i": 4,
+      "left": "Gases tickle",
+      "right": "your eyes."
+    },
+    {
+      "i": 5,
+      "left": "Tears wash",
+      "right": "the tickle."
+    },
+    {
+      "i": 6,
+      "left": "Helpful rinse,",
+      "right": "not only sad."
+    },
+    {
+      "i": 7,
+      "left": "Chill onion,",
+      "right": "slower gas."
+    },
+    {
+      "i": 8,
+      "left": "Fan blows",
+      "right": "gases away."
+    },
+    {
+      "i": 9,
+      "left": "Grown-ups cry",
+      "right": "too!"
+    },
+    {
+      "i": 10,
+      "left": "Soup still",
+      "right": "tastes great."
+    },
+    {
+      "i": 11,
+      "left": "Smell meets",
+      "right": "eyes."
+    },
+    {
+      "i": 12,
+      "left": "Blink, smile,",
+      "right": "cook kindly."
+    }
+  ],
+  "E-Y05": [
+    {
+      "i": 1,
+      "left": "Sticks here!",
+      "right": "Not wood?"
+    },
+    {
+      "i": 2,
+      "left": "Pulls iron",
+      "right": "and some steels."
+    },
+    {
+      "i": 3,
+      "left": "Tiny regions",
+      "right": "inside metals."
+    },
+    {
+      "i": 4,
+      "left": "Magnet lines",
+      "right": "them up."
+    },
+    {
+      "i": 5,
+      "left": "Wood/plastic",
+      "right": "usually no."
+    },
+    {
+      "i": 6,
+      "left": "No magnetic",
+      "right": "partners."
+    },
+    {
+      "i": 7,
+      "left": "Poles attract",
+      "right": "or push."
+    },
+    {
+      "i": 8,
+      "left": "Opposite pull;",
+      "right": "same push."
+    },
+    {
+      "i": 9,
+      "left": "Farther =",
+      "right": "weaker."
+    },
+    {
+      "i": 10,
+      "left": "Compass uses",
+      "right": "Earth field."
+    },
+    {
+      "i": 11,
+      "left": "Selective—",
+      "right": "not magic."
+    },
+    {
+      "i": 12,
+      "left": "Compare spoon",
+      "right": "and keys!"
+    }
+  ],
+  "E-E01": [
+    {
+      "i": 1,
+      "left": "Red and gold",
+      "right": "coats!"
+    },
+    {
+      "i": 2,
+      "left": "Green =",
+      "right": "chlorophyll food."
+    },
+    {
+      "i": 3,
+      "left": "Fall slows",
+      "right": "green work."
+    },
+    {
+      "i": 4,
+      "left": "Green fades;",
+      "right": "colors show."
+    },
+    {
+      "i": 5,
+      "left": "Yellows were",
+      "right": "hiding."
+    },
+    {
+      "i": 6,
+      "left": "Some reds",
+      "right": "form cool."
+    },
+    {
+      "i": 7,
+      "left": "Shorter days",
+      "right": "signal."
+    },
+    {
+      "i": 8,
+      "left": "Leaf lets go",
+      "right": "gently."
+    },
+    {
+      "i": 9,
+      "left": "Fallen leaves",
+      "right": "feed soil."
+    },
+    {
+      "i": 10,
+      "left": "Not one",
+      "right": "same rainbow."
+    },
+    {
+      "i": 11,
+      "left": "Chemistry",
+      "right": "costume!"
+    },
+    {
+      "i": 12,
+      "left": "Catch a leaf,",
+      "right": "smile."
+    }
+  ],
+  "E-E02": [
+    {
+      "i": 1,
+      "left": "Puff mountain",
+      "right": "drawing!"
+    },
+    {
+      "i": 2,
+      "left": "Deep Earth",
+      "right": "can melt rock."
+    },
+    {
+      "i": 3,
+      "left": "Melted rock =",
+      "right": "magma."
+    },
+    {
+      "i": 4,
+      "left": "Magma climbs",
+      "right": "through cracks."
+    },
+    {
+      "i": 5,
+      "left": "At surface =",
+      "right": "lava."
+    },
+    {
+      "i": 6,
+      "left": "Gas helps",
+      "right": "push up."
+    },
+    {
+      "i": 7,
+      "left": "Pressure",
+      "right": "lets out."
+    },
+    {
+      "i": 8,
+      "left": "Gentle or",
+      "right": "stronger."
+    },
+    {
+      "i": 9,
+      "left": "Scientists",
+      "right": "watch safely."
+    },
+    {
+      "i": 10,
+      "left": "Only with",
+      "right": "grown-ups!"
+    },
+    {
+      "i": 11,
+      "left": "New land",
+      "right": "over time."
+    },
+    {
+      "i": 12,
+      "left": "Respect the",
+      "right": "hot rock."
+    }
+  ],
+  "E-E03": [
+    {
+      "i": 1,
+      "left": "Floor soft-",
+      "right": "wiggles!"
+    },
+    {
+      "i": 2,
+      "left": "Big plates",
+      "right": "make the shell."
+    },
+    {
+      "i": 3,
+      "left": "Plates move",
+      "right": "slowly."
+    },
+    {
+      "i": 4,
+      "left": "Stuck edges",
+      "right": "can slip."
+    },
+    {
+      "i": 5,
+      "left": "Slip sends",
+      "right": "shake waves."
+    },
+    {
+      "i": 6,
+      "left": "We call that",
+      "right": "earthquake."
+    },
+    {
+      "i": 7,
+      "left": "Many small;",
+      "right": "some stronger."
+    },
+    {
+      "i": 8,
+      "left": "Special",
+      "right": "building designs."
+    },
+    {
+      "i": 9,
+      "left": "Drop, cover,",
+      "right": "hold on."
+    },
+    {
+      "i": 10,
+      "left": "Not monsters—",
+      "right": "plate motion."
+    },
+    {
+      "i": 11,
+      "left": "Prepare,",
+      "right": "stay calmer."
+    },
+    {
+      "i": 12,
+      "left": "Ready plan,",
+      "right": "soft courage."
+    }
+  ],
+  "E-E04": [
+    {
+      "i": 1,
+      "left": "Water up,",
+      "right": "then back."
+    },
+    {
+      "i": 2,
+      "left": "Moon pulls",
+      "right": "the oceans."
+    },
+    {
+      "i": 3,
+      "left": "Water bulges",
+      "right": "toward Moon."
+    },
+    {
+      "i": 4,
+      "left": "Opposite side",
+      "right": "bulges too."
+    },
+    {
+      "i": 5,
+      "left": "Earth turns—",
+      "right": "bulges sweep."
+    },
+    {
+      "i": 6,
+      "left": "High tide,",
+      "right": "low tide."
+    },
+    {
+      "i": 7,
+      "left": "Sun adds",
+      "right": "a smaller pull."
+    },
+    {
+      "i": 8,
+      "left": "Lined up =",
+      "right": "bigger tides."
+    },
+    {
+      "i": 9,
+      "left": "Tide pools",
+      "right": "appear."
+    },
+    {
+      "i": 10,
+      "left": "Ask grown-ups",
+      "right": "tide times."
+    },
+    {
+      "i": 11,
+      "left": "Gravity +",
+      "right": "spin dance."
+    },
+    {
+      "i": 12,
+      "left": "Hello, Moon",
+      "right": "tug!"
+    }
+  ],
+  "E-E05": [
+    {
+      "i": 1,
+      "left": "Sweet",
+      "right": "blossom!"
+    },
+    {
+      "i": 2,
+      "left": "Scents invite",
+      "right": "helpers."
+    },
+    {
+      "i": 3,
+      "left": "Bees follow",
+      "right": "smell + color."
+    },
+    {
+      "i": 4,
+      "left": "Helpers move",
+      "right": "pollen."
+    },
+    {
+      "i": 5,
+      "left": "Pollen helps",
+      "right": "make seeds."
+    },
+    {
+      "i": 6,
+      "left": "Smell =",
+      "right": "invitation."
+    },
+    {
+      "i": 7,
+      "left": "Not all smell",
+      "right": "sweet to us."
+    },
+    {
+      "i": 8,
+      "left": "Some fit night",
+      "right": "moths."
+    },
+    {
+      "i": 9,
+      "left": "Sniff gently—",
+      "right": "don't crush."
+    },
+    {
+      "i": 10,
+      "left": "Science +",
+      "right": "kindness."
+    },
+    {
+      "i": 11,
+      "left": "Thank the",
+      "right": "helpers."
+    },
+    {
+      "i": 12,
+      "left": "Soft breath,",
+      "right": "leave it be."
+    }
+  ],
+  "E-Z02": [
+    {
+      "i": 1,
+      "left": "Too close!",
+      "right": "Scoot back."
+    },
+    {
+      "i": 2,
+      "left": "Near-only",
+      "right": "tires eyes."
+    },
+    {
+      "i": 3,
+      "left": "Far focus",
+      "right": "stretches."
+    },
+    {
+      "i": 4,
+      "left": "Short near",
+      "right": "turns OK."
+    },
+    {
+      "i": 5,
+      "left": "Glance out",
+      "right": "the window."
+    },
+    {
+      "i": 6,
+      "left": "Trees/clouds",
+      "right": "help."
+    },
+    {
+      "i": 7,
+      "left": "Far, then",
+      "right": "near stretch."
+    },
+    {
+      "i": 8,
+      "left": "Chin up,",
+      "right": "soft blinks."
+    },
+    {
+      "i": 9,
+      "left": "Sticky-close?",
+      "right": "Scoot."
+    },
+    {
+      "i": 10,
+      "left": "Rest =",
+      "right": "comfort."
+    },
+    {
+      "i": 11,
+      "left": "Far tree,",
+      "right": "then tablet."
+    },
+    {
+      "i": 12,
+      "left": "Far → near,",
+      "right": "happy eyes."
+    }
+  ],
+  "E-Z03": [
+    {
+      "i": 1,
+      "left": "Dark room,",
+      "right": "spotlight screen."
+    },
+    {
+      "i": 2,
+      "left": "Tires eyes",
+      "right": "faster."
+    },
+    {
+      "i": 3,
+      "left": "Add a soft",
+      "right": "lamp."
+    },
+    {
+      "i": 4,
+      "left": "Gentle room",
+      "right": "light."
+    },
+    {
+      "i": 5,
+      "left": "Turn brightness",
+      "right": "down."
+    },
+    {
+      "i": 6,
+      "left": "Lamp on,",
+      "right": "feels better."
+    },
+    {
+      "i": 7,
+      "left": "No pitch-black",
+      "right": "cave."
+    },
+    {
+      "i": 8,
+      "left": "Window day",
+      "right": "balance."
+    },
+    {
+      "i": 9,
+      "left": "Squinting?",
+      "right": "Tweak light."
+    },
+    {
+      "i": 10,
+      "left": "Soft + fair",
+      "right": "screen."
+    },
+    {
+      "i": 11,
+      "left": "Dim glow,",
+      "right": "smile."
+    },
+    {
+      "i": 12,
+      "left": "Soft room,",
+      "right": "enjoy!"
+    }
+  ],
+  "E-Z04": [
+    {
+      "i": 1,
+      "left": "Pretzel fold!",
+      "right": "Ouch posture."
+    },
+    {
+      "i": 2,
+      "left": "Bend close =",
+      "right": "harder work."
+    },
+    {
+      "i": 3,
+      "left": "Sit tall,",
+      "right": "soft shoulders."
+    },
+    {
+      "i": 4,
+      "left": "Lift the book,",
+      "right": "not nose down."
+    },
+    {
+      "i": 5,
+      "left": "Pillow/stand",
+      "right": "helps."
+    },
+    {
+      "i": 6,
+      "left": "Feet on",
+      "right": "the floor."
+    },
+    {
+      "i": 7,
+      "left": "Wiggle break",
+      "right": "time."
+    },
+    {
+      "i": 8,
+      "left": "Proud sit",
+      "right": "pose!"
+    },
+    {
+      "i": 9,
+      "left": "Slump? Soft",
+      "right": "reset."
+    },
+    {
+      "i": 10,
+      "left": "Comfort now,",
+      "right": "easier later."
+    },
+    {
+      "i": 11,
+      "left": "Tall sit,",
+      "right": "kind distance."
+    },
+    {
+      "i": 12,
+      "left": "Pretzel =",
+      "right": "snacks only!"
+    }
+  ],
+  "E-Z05": [
+    {
+      "i": 1,
+      "left": "Last blink?",
+      "right": "Hmm…"
+    },
+    {
+      "i": 2,
+      "left": "Screens steal",
+      "right": "blinks."
+    },
+    {
+      "i": 3,
+      "left": "Blink = tiny",
+      "right": "eye wipe."
+    },
+    {
+      "i": 4,
+      "left": "Scratchy?",
+      "right": "Blink more."
+    },
+    {
+      "i": 5,
+      "left": "Sip water",
+      "right": "kindly."
+    },
+    {
+      "i": 6,
+      "left": "Blink+sip",
+      "right": "habit."
+    },
+    {
+      "i": 7,
+      "left": "Look away,",
+      "right": "blink three."
+    },
+    {
+      "i": 8,
+      "left": "Blink game",
+      "right": "count!"
+    },
+    {
+      "i": 9,
+      "left": "Sandy eyes?",
+      "right": "Tell adult."
+    },
+    {
+      "i": 10,
+      "left": "Kindness for",
+      "right": "eyes."
+    },
+    {
+      "i": 11,
+      "left": "Blink, sip,",
+      "right": "softer screen."
+    },
+    {
+      "i": 12,
+      "left": "Little care,",
+      "right": "big comfort."
+    }
   ]
 }
