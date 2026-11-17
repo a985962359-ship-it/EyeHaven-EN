@@ -12894,5 +12894,1555 @@
       "left": "Body",
       "right": "safety."
     }
+  ],
+  "E-Z25": [
+    {
+      "i": 1,
+      "left": "Knock knock!",
+      "right": "Who’s there?"
+    },
+    {
+      "i": 2,
+      "left": "Doors need",
+      "right": "grown-up plan."
+    },
+    {
+      "i": 3,
+      "left": "Almost unlocked—",
+      "right": "freeze!"
+    },
+    {
+      "i": 4,
+      "left": "Who answers",
+      "right": "the door?"
+    },
+    {
+      "i": 5,
+      "left": "Call grown-up",
+      "right": "first."
+    },
+    {
+      "i": 6,
+      "left": "Don’t open if",
+      "right": "unexpected."
+    },
+    {
+      "i": 7,
+      "left": "Peephole is",
+      "right": "grown-up job."
+    },
+    {
+      "i": 8,
+      "left": "Don’t say you’re",
+      "right": "home alone."
+    },
+    {
+      "i": 9,
+      "left": "Knock, call,",
+      "right": "wait."
+    },
+    {
+      "i": 10,
+      "left": "Listen okay;",
+      "right": "unlock alone? No."
+    },
+    {
+      "i": 11,
+      "left": "I shout before",
+      "right": "I open!"
+    },
+    {
+      "i": 12,
+      "left": "Door rule:",
+      "right": "call first."
+    }
+  ],
+  "E-Z26": [
+    {
+      "i": 1,
+      "left": "See farther!",
+      "right": "Climb chair?"
+    },
+    {
+      "i": 2,
+      "left": "Windows are for",
+      "right": "looking."
+    },
+    {
+      "i": 3,
+      "left": "Screens aren’t",
+      "right": "strong walls."
+    },
+    {
+      "i": 4,
+      "left": "Chairs can be",
+      "right": "ladders."
+    },
+    {
+      "i": 5,
+      "left": "Stops need",
+      "right": "grown-ups."
+    },
+    {
+      "i": 6,
+      "left": "Balconies are",
+      "right": "grown-up zones."
+    },
+    {
+      "i": 7,
+      "left": "Feet on floor,",
+      "right": "step back."
+    },
+    {
+      "i": 8,
+      "left": "Ask before moving",
+      "right": "chairs."
+    },
+    {
+      "i": 9,
+      "left": "Look out,",
+      "right": "stay safe."
+    },
+    {
+      "i": 10,
+      "left": "Feet down,",
+      "right": "grown-up near."
+    },
+    {
+      "i": 11,
+      "left": "Eyes look—",
+      "right": "I don’t climb!"
+    },
+    {
+      "i": 12,
+      "left": "Windows: look,",
+      "right": "don’t climb."
+    }
+  ],
+  "E-Z27": [
+    {
+      "i": 1,
+      "left": "Tiny holes!",
+      "right": "Curious?"
+    },
+    {
+      "i": 2,
+      "left": "Hot hot—",
+      "right": "not for play."
+    },
+    {
+      "i": 3,
+      "left": "Plugs are",
+      "right": "grown-up tools."
+    },
+    {
+      "i": 4,
+      "left": "No fingers in",
+      "right": "holes."
+    },
+    {
+      "i": 5,
+      "left": "Covers help;",
+      "right": "tell grown-up."
+    },
+    {
+      "i": 6,
+      "left": "Broken cord?",
+      "right": "Call help."
+    },
+    {
+      "i": 7,
+      "left": "Three steps",
+      "right": "away."
+    },
+    {
+      "i": 8,
+      "left": "Unplugging is",
+      "right": "grown-up work."
+    },
+    {
+      "i": 9,
+      "left": "Ask questions,",
+      "right": "don’t touch."
+    },
+    {
+      "i": 10,
+      "left": "Look, don’t poke,",
+      "right": "tell."
+    },
+    {
+      "i": 11,
+      "left": "I ask—",
+      "right": "no poking!"
+    },
+    {
+      "i": 12,
+      "left": "Outlet:",
+      "right": "grown-up zone."
+    }
+  ],
+  "E-Z28": [
+    {
+      "i": 1,
+      "left": "Short errand!",
+      "right": "I’ve got this!"
+    },
+    {
+      "i": 2,
+      "left": "Alone time needs",
+      "right": "a plan."
+    },
+    {
+      "i": 3,
+      "left": "Know a nearby",
+      "right": "helper."
+    },
+    {
+      "i": 4,
+      "left": "Call when you",
+      "right": "get home."
+    },
+    {
+      "i": 5,
+      "left": "No guests unless",
+      "right": "grown-up yes."
+    },
+    {
+      "i": 6,
+      "left": "Don’t say you’re",
+      "right": "alone."
+    },
+    {
+      "i": 7,
+      "left": "Post emergency",
+      "right": "numbers."
+    },
+    {
+      "i": 8,
+      "left": "Flashlights ready",
+      "right": "if dark."
+    },
+    {
+      "i": 9,
+      "left": "Practice plan",
+      "right": "first."
+    },
+    {
+      "i": 10,
+      "left": "Prepared,",
+      "right": "not secret."
+    },
+    {
+      "i": 11,
+      "left": "I know my",
+      "right": "helper list!"
+    },
+    {
+      "i": 12,
+      "left": "Plan, call,",
+      "right": "no surprise guests."
+    }
+  ],
+  "E-Z29": [
+    {
+      "i": 1,
+      "left": "Friendly pet?",
+      "right": "Reach bowl?"
+    },
+    {
+      "i": 2,
+      "left": "Soft hands start",
+      "right": "with asking."
+    },
+    {
+      "i": 3,
+      "left": "Ask owner or",
+      "right": "grown-up."
+    },
+    {
+      "i": 4,
+      "left": "Don’t bother eating",
+      "right": "or sleeping."
+    },
+    {
+      "i": 5,
+      "left": "Scared dog?",
+      "right": "Give space."
+    },
+    {
+      "i": 6,
+      "left": "Strange dogs aren’t",
+      "right": "instant friends."
+    },
+    {
+      "i": 7,
+      "left": "Don’t run or",
+      "right": "scream."
+    },
+    {
+      "i": 8,
+      "left": "Fall? Curl and",
+      "right": "cover head."
+    },
+    {
+      "i": 9,
+      "left": "Grown-up watches",
+      "right": "pet time."
+    },
+    {
+      "i": 10,
+      "left": "Calm slow",
+      "right": "petting."
+    },
+    {
+      "i": 11,
+      "left": "I ask first!",
+      "right": "Soft hands."
+    },
+    {
+      "i": 12,
+      "left": "Ask, soft hands,",
+      "right": "space."
+    }
+  ],
+  "E-Z30": [
+    {
+      "i": 1,
+      "left": "Sip peek!",
+      "right": "Tug mug?"
+    },
+    {
+      "i": 2,
+      "left": "Hot drinks can",
+      "right": "splash."
+    },
+    {
+      "i": 3,
+      "left": "Keep cups from",
+      "right": "the edge."
+    },
+    {
+      "i": 4,
+      "left": "Two hands feel",
+      "right": "steadier."
+    },
+    {
+      "i": 5,
+      "left": "Grown-ups pour;",
+      "right": "kids wait."
+    },
+    {
+      "i": 6,
+      "left": "Hot spill? Call",
+      "right": "grown-up."
+    },
+    {
+      "i": 7,
+      "left": "Steam means",
+      "right": "still hot."
+    },
+    {
+      "i": 8,
+      "left": "Sit to sip,",
+      "right": "don’t walk."
+    },
+    {
+      "i": 9,
+      "left": "Ask before carrying",
+      "right": "hot cups."
+    },
+    {
+      "i": 10,
+      "left": "Edge back, two",
+      "right": "hands, ask."
+    },
+    {
+      "i": 11,
+      "left": "Edge back—",
+      "right": "I got it!"
+    },
+    {
+      "i": 12,
+      "left": "Hot drinks:",
+      "right": "careful hands."
+    }
+  ],
+  "E-Z31": [
+    {
+      "i": 1,
+      "left": "First seat",
+      "right": "race!"
+    },
+    {
+      "i": 2,
+      "left": "Bus lines have",
+      "right": "superpower."
+    },
+    {
+      "i": 3,
+      "left": "Wait until bus",
+      "right": "stops."
+    },
+    {
+      "i": 4,
+      "left": "Sit down, face",
+      "right": "forward."
+    },
+    {
+      "i": 5,
+      "left": "Hands and head",
+      "right": "stay in."
+    },
+    {
+      "i": 6,
+      "left": "Aisle waits for",
+      "right": "full stop."
+    },
+    {
+      "i": 7,
+      "left": "Driver is the",
+      "right": "captain."
+    },
+    {
+      "i": 8,
+      "left": "Backpacks won’t",
+      "right": "trip friends."
+    },
+    {
+      "i": 9,
+      "left": "Cross with extra",
+      "right": "looking."
+    },
+    {
+      "i": 10,
+      "left": "Wait, sit, hands",
+      "right": "in, listen."
+    },
+    {
+      "i": 11,
+      "left": "I’m a seat",
+      "right": "superhero!"
+    },
+    {
+      "i": 12,
+      "left": "Bus: wait, sit,",
+      "right": "stay inside."
+    }
+  ],
+  "E-Z32": [
+    {
+      "i": 1,
+      "left": "Far fence!",
+      "right": "Zoom alone?"
+    },
+    {
+      "i": 2,
+      "left": "Recess needs",
+      "right": "buddy check."
+    },
+    {
+      "i": 3,
+      "left": "Pick a friend",
+      "right": "you can see."
+    },
+    {
+      "i": 4,
+      "left": "Stay where teachers",
+      "right": "see too."
+    },
+    {
+      "i": 5,
+      "left": "Far corners hide",
+      "right": "helpers."
+    },
+    {
+      "i": 6,
+      "left": "Tell buddy if",
+      "right": "plans change."
+    },
+    {
+      "i": 7,
+      "left": "Mean moments like",
+      "right": "no grown-ups."
+    },
+    {
+      "i": 8,
+      "left": "Buddy walks to",
+      "right": "ask help."
+    },
+    {
+      "i": 9,
+      "left": "Line-up means",
+      "right": "regroup."
+    },
+    {
+      "i": 10,
+      "left": "See me, see you,",
+      "right": "see grown-up."
+    },
+    {
+      "i": 11,
+      "left": "Buddy check—",
+      "right": "let’s play!"
+    },
+    {
+      "i": 12,
+      "left": "Recess: buddy up,",
+      "right": "be seen."
+    }
+  ],
+  "E-Z33": [
+    {
+      "i": 1,
+      "left": "Knock first?",
+      "right": "Pause."
+    },
+    {
+      "i": 2,
+      "left": "Privacy power",
+      "right": "starts here."
+    },
+    {
+      "i": 3,
+      "left": "Knock, wait,",
+      "right": "give space."
+    },
+    {
+      "i": 4,
+      "left": "Your body is",
+      "right": "yours."
+    },
+    {
+      "i": 5,
+      "left": "Feels wrong?",
+      "right": "Leave now."
+    },
+    {
+      "i": 6,
+      "left": "No long polite",
+      "right": "speech needed."
+    },
+    {
+      "i": 7,
+      "left": "Find a teacher",
+      "right": "fast."
+    },
+    {
+      "i": 8,
+      "left": "Friend can walk",
+      "right": "with you."
+    },
+    {
+      "i": 9,
+      "left": "Scary secrets",
+      "right": "don’t stay."
+    },
+    {
+      "i": 10,
+      "left": "Knock, space,",
+      "right": "leave, tell."
+    },
+    {
+      "i": 11,
+      "left": "I can leave",
+      "right": "and tell!"
+    },
+    {
+      "i": 12,
+      "left": "Respect, leave,",
+      "right": "tell grown-up."
+    }
+  ],
+  "E-Z34": [
+    {
+      "i": 1,
+      "left": "Class is gone!",
+      "right": "Uh-oh."
+    },
+    {
+      "i": 2,
+      "left": "Hall lost has",
+      "right": "a fix."
+    },
+    {
+      "i": 3,
+      "left": "Stop walking",
+      "right": "farther."
+    },
+    {
+      "i": 4,
+      "left": "Find teacher or",
+      "right": "office."
+    },
+    {
+      "i": 5,
+      "left": "Don’t leave with",
+      "right": "strangers."
+    },
+    {
+      "i": 6,
+      "left": "Office helps find",
+      "right": "your class."
+    },
+    {
+      "i": 7,
+      "left": "Shortcut offer?",
+      "right": "You can say no."
+    },
+    {
+      "i": 8,
+      "left": "Stay in busy",
+      "right": "bright spots."
+    },
+    {
+      "i": 9,
+      "left": "Full name helps",
+      "right": "grown-ups."
+    },
+    {
+      "i": 10,
+      "left": "Stop, find teacher,",
+      "right": "stay put."
+    },
+    {
+      "i": 11,
+      "left": "I asked for",
+      "right": "help!"
+    },
+    {
+      "i": 12,
+      "left": "Lost at school:",
+      "right": "find teacher."
+    }
+  ],
+  "E-Z35": [
+    {
+      "i": 1,
+      "left": "Forced smile…",
+      "right": "ouch."
+    },
+    {
+      "i": 2,
+      "left": "If it feels bad,",
+      "right": "it matters."
+    },
+    {
+      "i": 3,
+      "left": "Say stop calm",
+      "right": "and clear."
+    },
+    {
+      "i": 4,
+      "left": "Walking away can",
+      "right": "be brave."
+    },
+    {
+      "i": 5,
+      "left": "You don’t have to",
+      "right": "laugh along."
+    },
+    {
+      "i": 6,
+      "left": "Tell a trusted",
+      "right": "grown-up."
+    },
+    {
+      "i": 7,
+      "left": "Help-seeking isn’t",
+      "right": "snitching."
+    },
+    {
+      "i": 8,
+      "left": "A friend can go",
+      "right": "with you."
+    },
+    {
+      "i": 9,
+      "left": "Their mean choice",
+      "right": "isn’t your fault."
+    },
+    {
+      "i": 10,
+      "left": "Stop, walk,",
+      "right": "tell."
+    },
+    {
+      "i": 11,
+      "left": "Stop. That didn’t",
+      "right": "feel okay."
+    },
+    {
+      "i": 12,
+      "left": "Feelings still",
+      "right": "count."
+    }
+  ],
+  "E-Z36": [
+    {
+      "i": 1,
+      "left": "Snack swap?",
+      "right": "Almost."
+    },
+    {
+      "i": 2,
+      "left": "Sharing needs a",
+      "right": "yes first."
+    },
+    {
+      "i": 3,
+      "left": "Hidden ingredients",
+      "right": "can hurt."
+    },
+    {
+      "i": 4,
+      "left": "Lunch rules still",
+      "right": "matter."
+    },
+    {
+      "i": 5,
+      "left": "Ask before you",
+      "right": "trade."
+    },
+    {
+      "i": 6,
+      "left": "Confused label?",
+      "right": "Ask teacher."
+    },
+    {
+      "i": 7,
+      "left": "No can be kind",
+      "right": "and safe."
+    },
+    {
+      "i": 8,
+      "left": "Play without",
+      "right": "swapping bites."
+    },
+    {
+      "i": 9,
+      "left": "Allergies equal",
+      "right": "safety."
+    },
+    {
+      "i": 10,
+      "left": "Ask, check,",
+      "right": "yes or no."
+    },
+    {
+      "i": 11,
+      "left": "Ask first—",
+      "right": "stay safe!"
+    },
+    {
+      "i": 12,
+      "left": "Food: ask before",
+      "right": "you trade."
+    }
+  ],
+  "E-Z37": [
+    {
+      "i": 1,
+      "left": "Alarm! Hide?",
+      "right": "Desk?"
+    },
+    {
+      "i": 2,
+      "left": "Drills are practice",
+      "right": "games."
+    },
+    {
+      "i": 3,
+      "left": "Stop and listen",
+      "right": "for directions."
+    },
+    {
+      "i": 4,
+      "left": "Walk quick and",
+      "right": "quiet."
+    },
+    {
+      "i": 5,
+      "left": "Don’t hide in",
+      "right": "closets."
+    },
+    {
+      "i": 6,
+      "left": "Leave stuff;",
+      "right": "get out."
+    },
+    {
+      "i": 7,
+      "left": "Know the outside",
+      "right": "meeting place."
+    },
+    {
+      "i": 8,
+      "left": "Alone? Follow kids,",
+      "right": "tell teacher."
+    },
+    {
+      "i": 9,
+      "left": "Stay out until",
+      "right": "safe word."
+    },
+    {
+      "i": 10,
+      "left": "Listen, walk, meet,",
+      "right": "stay out."
+    },
+    {
+      "i": 11,
+      "left": "I’m a drill",
+      "right": "champion!"
+    },
+    {
+      "i": 12,
+      "left": "Drill: practice",
+      "right": "calm exits."
+    }
+  ],
+  "E-Z38": [
+    {
+      "i": 1,
+      "left": "Hard problem…",
+      "right": "pencil freezes."
+    },
+    {
+      "i": 2,
+      "left": "Stuck is a signal,",
+      "right": "not a fail."
+    },
+    {
+      "i": 3,
+      "left": "Teachers expect",
+      "right": "questions."
+    },
+    {
+      "i": 4,
+      "left": "Raise a quiet",
+      "right": "hand."
+    },
+    {
+      "i": 5,
+      "left": "Ask after class if",
+      "right": "needed."
+    },
+    {
+      "i": 6,
+      "left": "Friends cheer—",
+      "right": "no shame."
+    },
+    {
+      "i": 7,
+      "left": "Needing help is",
+      "right": "brave learning."
+    },
+    {
+      "i": 8,
+      "left": "Write the question",
+      "right": "first."
+    },
+    {
+      "i": 9,
+      "left": "Grown-ups prefer",
+      "right": "honest stuck."
+    },
+    {
+      "i": 10,
+      "left": "Pause, hand up,",
+      "right": "ask help."
+    },
+    {
+      "i": 11,
+      "left": "I need a hint,",
+      "right": "please!"
+    },
+    {
+      "i": 12,
+      "left": "Stuck? Ask—",
+      "right": "brave and smart."
+    }
+  ],
+  "E-Z39": [
+    {
+      "i": 1,
+      "left": "Mean words…",
+      "right": "shoulders up."
+    },
+    {
+      "i": 2,
+      "left": "Mean stuff has",
+      "right": "a plan."
+    },
+    {
+      "i": 3,
+      "left": "Say stop calm",
+      "right": "and clear."
+    },
+    {
+      "i": 4,
+      "left": "Unsafe to talk?",
+      "right": "Walk away."
+    },
+    {
+      "i": 5,
+      "left": "Don’t fight back—",
+      "right": "hurt grows."
+    },
+    {
+      "i": 6,
+      "left": "Tell a trusted",
+      "right": "adult."
+    },
+    {
+      "i": 7,
+      "left": "Help-seeking isn’t",
+      "right": "tattling."
+    },
+    {
+      "i": 8,
+      "left": "Stay near adults",
+      "right": "and kids."
+    },
+    {
+      "i": 9,
+      "left": "Buddy walks to",
+      "right": "report."
+    },
+    {
+      "i": 10,
+      "left": "Stop, walk, tell,",
+      "right": "buddy up."
+    },
+    {
+      "i": 11,
+      "left": "We need help",
+      "right": "together."
+    },
+    {
+      "i": 12,
+      "left": "Stop, walk,",
+      "right": "tell grown-up."
+    }
+  ],
+  "E-Z40": [
+    {
+      "i": 1,
+      "left": "Tips up like",
+      "right": "a sword?"
+    },
+    {
+      "i": 2,
+      "left": "Points down when",
+      "right": "we walk!"
+    },
+    {
+      "i": 3,
+      "left": "Tools, not",
+      "right": "swords."
+    },
+    {
+      "i": 4,
+      "left": "Tips toward the",
+      "right": "floor."
+    },
+    {
+      "i": 5,
+      "left": "Pass handle-first",
+      "right": "to friends."
+    },
+    {
+      "i": 6,
+      "left": "Cut only what",
+      "right": "teacher said."
+    },
+    {
+      "i": 7,
+      "left": "Closed scissors",
+      "right": "rest flat."
+    },
+    {
+      "i": 8,
+      "left": "No running with",
+      "right": "scissors."
+    },
+    {
+      "i": 9,
+      "left": "Drop? Don’t grab",
+      "right": "blades."
+    },
+    {
+      "i": 10,
+      "left": "Tips down, walk,",
+      "right": "handle first."
+    },
+    {
+      "i": 11,
+      "left": "Tool mode",
+      "right": "on!"
+    },
+    {
+      "i": 12,
+      "left": "Tips down,",
+      "right": "walk slow."
+    }
+  ],
+  "E-Z41": [
+    {
+      "i": 1,
+      "left": "Grown-up gone!",
+      "right": "Busy store."
+    },
+    {
+      "i": 2,
+      "left": "Separated has a",
+      "right": "calm plan."
+    },
+    {
+      "i": 3,
+      "left": "Stop in a bright",
+      "right": "spot."
+    },
+    {
+      "i": 4,
+      "left": "Find uniform or",
+      "right": "name tag."
+    },
+    {
+      "i": 5,
+      "left": "Say your full",
+      "right": "name."
+    },
+    {
+      "i": 6,
+      "left": "Share grown-up’s",
+      "right": "phone if asked."
+    },
+    {
+      "i": 7,
+      "left": "Address for the",
+      "right": "helper too."
+    },
+    {
+      "i": 8,
+      "left": "No stranger",
+      "right": "rides."
+    },
+    {
+      "i": 9,
+      "left": "Stay until your",
+      "right": "grown-up comes."
+    },
+    {
+      "i": 10,
+      "left": "Stop, find staff,",
+      "right": "say name."
+    },
+    {
+      "i": 11,
+      "left": "I’m Max—please",
+      "right": "help find Dad."
+    },
+    {
+      "i": 12,
+      "left": "Stop, staff,",
+      "right": "use your info."
+    }
+  ],
+  "E-Z42": [
+    {
+      "i": 1,
+      "left": "Loose dog!",
+      "right": "Want to run."
+    },
+    {
+      "i": 2,
+      "left": "Soft freeze beats",
+      "right": "a chase."
+    },
+    {
+      "i": 3,
+      "left": "Don’t run or",
+      "right": "scream."
+    },
+    {
+      "i": 4,
+      "left": "Stand still like",
+      "right": "a tree."
+    },
+    {
+      "i": 5,
+      "left": "Don’t pet dogs",
+      "right": "you don’t know."
+    },
+    {
+      "i": 6,
+      "left": "Call a grown-up",
+      "right": "steadily."
+    },
+    {
+      "i": 7,
+      "left": "Fall? Curl and",
+      "right": "cover."
+    },
+    {
+      "i": 8,
+      "left": "Space for eating",
+      "right": "dogs."
+    },
+    {
+      "i": 9,
+      "left": "Cute can still",
+      "right": "startle."
+    },
+    {
+      "i": 10,
+      "left": "Freeze, no pet,",
+      "right": "call."
+    },
+    {
+      "i": 11,
+      "left": "Dad—dog",
+      "right": "help!"
+    },
+    {
+      "i": 12,
+      "left": "Freeze, don’t chase,",
+      "right": "get help."
+    }
+  ],
+  "E-Z43": [
+    {
+      "i": 1,
+      "left": "Rumble!",
+      "right": "One more climb?"
+    },
+    {
+      "i": 2,
+      "left": "Thunder roars,",
+      "right": "go indoors."
+    },
+    {
+      "i": 3,
+      "left": "Thunder means",
+      "right": "lightning near."
+    },
+    {
+      "i": 4,
+      "left": "Sturdy building or",
+      "right": "hard-top car."
+    },
+    {
+      "i": 5,
+      "left": "Not under a lone",
+      "right": "tall tree."
+    },
+    {
+      "i": 6,
+      "left": "Leave fields and",
+      "right": "water edges."
+    },
+    {
+      "i": 7,
+      "left": "Sheds aren’t",
+      "right": "enough."
+    },
+    {
+      "i": 8,
+      "left": "Wait after last",
+      "right": "thunder."
+    },
+    {
+      "i": 9,
+      "left": "Tell a grown-up",
+      "right": "fast."
+    },
+    {
+      "i": 10,
+      "left": "Hear it, head in,",
+      "right": "wait."
+    },
+    {
+      "i": 11,
+      "left": "Thunder—inside",
+      "right": "time!"
+    },
+    {
+      "i": 12,
+      "left": "Thunder: go",
+      "right": "indoors."
+    }
+  ],
+  "E-Z44": [
+    {
+      "i": 1,
+      "left": "Wet slides!",
+      "right": "Sprint?"
+    },
+    {
+      "i": 2,
+      "left": "Check first—",
+      "right": "then fun."
+    },
+    {
+      "i": 3,
+      "left": "Look for broken",
+      "right": "parts."
+    },
+    {
+      "i": 4,
+      "left": "Wet means extra",
+      "right": "slippery."
+    },
+    {
+      "i": 5,
+      "left": "Tell a grown-up",
+      "right": "what’s wrong."
+    },
+    {
+      "i": 6,
+      "left": "Take turns,",
+      "right": "no mid-air bumps."
+    },
+    {
+      "i": 7,
+      "left": "Shoes on for",
+      "right": "climbing."
+    },
+    {
+      "i": 8,
+      "left": "Worn chain?",
+      "right": "Skip it."
+    },
+    {
+      "i": 9,
+      "left": "Eyes open before",
+      "right": "speed."
+    },
+    {
+      "i": 10,
+      "left": "Look, tell,",
+      "right": "then play."
+    },
+    {
+      "i": 11,
+      "left": "Check first—",
+      "right": "then we go!"
+    },
+    {
+      "i": 12,
+      "left": "Check, tell,",
+      "right": "then play."
+    }
+  ],
+  "E-Z45": [
+    {
+      "i": 1,
+      "left": "Lake edge!",
+      "right": "Toss pebble?"
+    },
+    {
+      "i": 2,
+      "left": "Water’s edge needs",
+      "right": "a pause."
+    },
+    {
+      "i": 3,
+      "left": "Stop one step",
+      "right": "before."
+    },
+    {
+      "i": 4,
+      "left": "Grown-up watches—",
+      "right": "no phone fog."
+    },
+    {
+      "i": 5,
+      "left": "Drowning can be",
+      "right": "quiet."
+    },
+    {
+      "i": 6,
+      "left": "Life jackets help",
+      "right": "on water."
+    },
+    {
+      "i": 7,
+      "left": "Float toys aren’t",
+      "right": "safety gear."
+    },
+    {
+      "i": 8,
+      "left": "Ask before stepping",
+      "right": "closer."
+    },
+    {
+      "i": 9,
+      "left": "Buddies still need",
+      "right": "grown-up eyes."
+    },
+    {
+      "i": 10,
+      "left": "Pause, grown-up eyes,",
+      "right": "then closer."
+    },
+    {
+      "i": 11,
+      "left": "Pause at the",
+      "right": "edge!"
+    },
+    {
+      "i": 12,
+      "left": "Edge: pause for",
+      "right": "grown-up eyes."
+    }
+  ],
+  "E-Z46": [
+    {
+      "i": 1,
+      "left": "Dark clothes…",
+      "right": "blend in."
+    },
+    {
+      "i": 2,
+      "left": "Night walks need",
+      "right": "glow rules."
+    },
+    {
+      "i": 3,
+      "left": "Bright bits help",
+      "right": "drivers see."
+    },
+    {
+      "i": 4,
+      "left": "Light or street",
+      "right": "lamps."
+    },
+    {
+      "i": 5,
+      "left": "Sidewalks and",
+      "right": "corner looking."
+    },
+    {
+      "i": 6,
+      "left": "Devices down,",
+      "right": "eyes up."
+    },
+    {
+      "i": 7,
+      "left": "Hold hands on",
+      "right": "busy nights."
+    },
+    {
+      "i": 8,
+      "left": "Light colors help",
+      "right": "too."
+    },
+    {
+      "i": 9,
+      "left": "Too dark? Pick",
+      "right": "brighter path."
+    },
+    {
+      "i": 10,
+      "left": "Bright, light, look,",
+      "right": "hold on."
+    },
+    {
+      "i": 11,
+      "left": "Glow mode",
+      "right": "on!"
+    },
+    {
+      "i": 12,
+      "left": "Night: be seen,",
+      "right": "stay with grown-up."
+    }
+  ],
+  "E-Z47": [
+    {
+      "i": 1,
+      "left": "Restroom alone?",
+      "right": "Park path."
+    },
+    {
+      "i": 2,
+      "left": "Needs a tiny",
+      "right": "plan."
+    },
+    {
+      "i": 3,
+      "left": "Tell your grown-up",
+      "right": "first."
+    },
+    {
+      "i": 4,
+      "left": "Grown-up can wait",
+      "right": "outside."
+    },
+    {
+      "i": 5,
+      "left": "Buddy up if",
+      "right": "allowed."
+    },
+    {
+      "i": 6,
+      "left": "Don’t say you’re",
+      "right": "alone."
+    },
+    {
+      "i": 7,
+      "left": "Uneasy? Leave and",
+      "right": "find grown-up."
+    },
+    {
+      "i": 8,
+      "left": "Busy lit rooms",
+      "right": "are better."
+    },
+    {
+      "i": 9,
+      "left": "Grown-up knows",
+      "right": "which building."
+    },
+    {
+      "i": 10,
+      "left": "Tell, buddy or wait,",
+      "right": "come back."
+    },
+    {
+      "i": 11,
+      "left": "I’ll be quick—",
+      "right": "Mom’s outside!"
+    },
+    {
+      "i": 12,
+      "left": "Tell, plan,",
+      "right": "come back."
+    }
+  ],
+  "E-Z48": [
+    {
+      "i": 1,
+      "left": "Zoom ahead!",
+      "right": "Around bend."
+    },
+    {
+      "i": 2,
+      "left": "Trails need stick",
+      "right": "together."
+    },
+    {
+      "i": 3,
+      "left": "See the leader",
+      "right": "always."
+    },
+    {
+      "i": 4,
+      "left": "Agree on a call-back",
+      "right": "word."
+    },
+    {
+      "i": 5,
+      "left": "Can’t see them?",
+      "right": "Stop and call."
+    },
+    {
+      "i": 6,
+      "left": "No solo secret",
+      "right": "shortcuts."
+    },
+    {
+      "i": 7,
+      "left": "Grown-ups set",
+      "right": "the pace."
+    },
+    {
+      "i": 8,
+      "left": "Rests happen as",
+      "right": "a team."
+    },
+    {
+      "i": 9,
+      "left": "Buddy pairs help",
+      "right": "count."
+    },
+    {
+      "i": 10,
+      "left": "See group, call back,",
+      "right": "no shortcuts."
+    },
+    {
+      "i": 11,
+      "left": "Stick together—",
+      "right": "I’m here!"
+    },
+    {
+      "i": 12,
+      "left": "Trail: stay where",
+      "right": "people see you."
+    }
+  ],
+  "E-Z49": [
+    {
+      "i": 1,
+      "left": "Street… number…",
+      "right": "practice."
+    },
+    {
+      "i": 2,
+      "left": "Knowing info is",
+      "right": "a superpower!"
+    },
+    {
+      "i": 3,
+      "left": "Full name,",
+      "right": "clear way."
+    },
+    {
+      "i": 4,
+      "left": "Address like a",
+      "right": "little song."
+    },
+    {
+      "i": 5,
+      "left": "Grown-up phone",
+      "right": "you can say."
+    },
+    {
+      "i": 6,
+      "left": "Share with trusted",
+      "right": "helpers."
+    },
+    {
+      "i": 7,
+      "left": "Don’t announce to",
+      "right": "random strangers."
+    },
+    {
+      "i": 8,
+      "left": "Practice at home",
+      "right": "until easy."
+    },
+    {
+      "i": 9,
+      "left": "Pocket card can",
+      "right": "help."
+    },
+    {
+      "i": 10,
+      "left": "Name, address, phone",
+      "right": "for helpers."
+    },
+    {
+      "i": 11,
+      "left": "I know my",
+      "right": "safety words!"
+    },
+    {
+      "i": 12,
+      "left": "Ready for trusted",
+      "right": "helpers."
+    }
   ]
 }
